@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captain Tommy Molenhouse | Coming Soon</title>
+    <meta name="description" content="Professional yacht captain website coming soon. 200T Master licensed, Bahamas and Caribbean specialist.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy-dark: #0f172a;
+            --navy: #1e3a5f;
+            --coral: #e94560;
+            --coral-light: #ff6b6b;
+            --white: #ffffff;
+            --gray: #94a3b8;
+            --gray-dark: #475569;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%);
+            color: var(--white);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 600px;
+        }
+        
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: var(--coral);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+        
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: var(--coral);
+            margin: 2rem auto;
+            border-radius: 2px;
+        }
+        
+        .coming-soon {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            color: var(--gray);
+        }
+        
+        .description {
+            color: var(--gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+        }
+        
+        .credentials {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+        
+        .credential {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(233, 69, 96, 0.2);
+        }
+        
+        .credential-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .credential-label {
+            font-size: 0.85rem;
+            color: var(--gray);
+        }
+        
+        .credential-value {
+            font-weight: 600;
+            color: var(--white);
+        }
+        
+        .contact {
+            margin-bottom: 3rem;
+        }
+        
+        .contact p {
+            color: var(--gray);
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact a {
+            color: var(--coral);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .contact a:hover {
+            color: var(--coral-light);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--coral);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .btn:hover {
+            background: var(--coral-light);
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            margin-top: 4rem;
+            color: var(--gray-dark);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .credentials {
+                gap: 1rem;
+            }
+            
+            .credential {
+                padding: 0.75rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">⚓</div>
+        <h1>Captain Tommy Molenhouse</h1>
+        <p class="subtitle">Professional Yacht Captain</p>
+        
+        <div class="divider"></div>
+        
+        <p class="coming-soon">Coming Soon</p>
+        
+        <p class="description">
+            A new website showcasing years of experience commanding vessels throughout 
+            the Bahamas, Caribbean, and beyond. Check back soon for the full experience.
+        </p>
+        
+        <div class="credentials">
+            <div class="credential">
+                <div class="credential-icon">🛥️</div>
+                <div class="credential-label">License</div>
+                <div class="credential-value">MCA Master 200T</div>
+            </div>
+            <div class="credential">
+                <div class="credential-icon">🎓</div>
+                <div class="credential-label">Certified</div>
+                <div class="credential-value">STCW 2010</div>
+            </div>
+            <div class="credential">
+                <div class="credential-icon">🏝️</div>
+                <div class="credential-label">Specialty</div>
+                <div class="credential-value">Bahamas Expert</div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <p>Available for new positions</p>
+            <a href="mailto:tom@captain-tommy.com">tom@captain-tommy.com</a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 Tommy Molenhouse. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
