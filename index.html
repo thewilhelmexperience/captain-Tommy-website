@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --navy-dark: #0f172a;
+            --navy-dark: #0a1628;
             --navy: #1e3a5f;
-            --coral: #e94560;
-            --coral-light: #ff6b6b;
+            --accent-blue: #00d4ff;
+            --accent-green: #7ee787;
+            --accent-gradient: linear-gradient(135deg, #00d4ff 0%, #7ee787 100%);
             --white: #ffffff;
             --gray: #94a3b8;
             --gray-dark: #475569;
@@ -42,9 +43,11 @@
         }
         
         .logo {
-            font-size: 4rem;
-            margin-bottom: 1rem;
+            width: 200px;
+            height: auto;
+            margin-bottom: 2rem;
             animation: float 3s ease-in-out infinite;
+            filter: drop-shadow(0 10px 30px rgba(0, 212, 255, 0.2));
         }
         
         @keyframes float {
@@ -59,7 +62,10 @@
         }
         
         .subtitle {
-            color: var(--coral);
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             font-size: 1.2rem;
             font-weight: 600;
             margin-bottom: 2rem;
@@ -68,7 +74,7 @@
         .divider {
             width: 60px;
             height: 3px;
-            background: var(--coral);
+            background: var(--accent-gradient);
             margin: 2rem auto;
             border-radius: 2px;
         }
@@ -79,7 +85,7 @@
             letter-spacing: 3px;
             text-transform: uppercase;
             margin-bottom: 2rem;
-            color: var(--gray);
+            color: var(--accent-blue);
         }
         
         .description {
@@ -98,10 +104,10 @@
         }
         
         .credential {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(0, 212, 255, 0.05);
             padding: 1rem 1.5rem;
             border-radius: 8px;
-            border: 1px solid rgba(233, 69, 96, 0.2);
+            border: 1px solid rgba(0, 212, 255, 0.2);
         }
         
         .credential-icon {
@@ -116,7 +122,7 @@
         
         .credential-value {
             font-weight: 600;
-            color: var(--white);
+            color: var(--accent-blue);
         }
         
         .contact {
@@ -129,31 +135,34 @@
         }
         
         .contact a {
-            color: var(--coral);
+            color: var(--accent-blue);
             text-decoration: none;
             font-weight: 600;
             font-size: 1.1rem;
+            transition: color 0.3s ease;
         }
         
         .contact a:hover {
-            color: var(--coral-light);
+            color: var(--accent-green);
         }
         
         .btn {
             display: inline-block;
             padding: 1rem 2.5rem;
-            background: var(--coral);
-            color: var(--white);
+            background: var(--accent-gradient);
+            color: var(--navy-dark);
             text-decoration: none;
             border-radius: 50px;
             font-weight: 600;
             transition: all 0.3s ease;
             margin-top: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
         }
         
         .btn:hover {
-            background: var(--coral-light);
             transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 212, 255, 0.4);
+            filter: brightness(1.1);
         }
         
         footer {
@@ -163,6 +172,10 @@
         }
         
         @media (max-width: 600px) {
+            .logo {
+                width: 150px;
+            }
+            
             h1 {
                 font-size: 2rem;
             }
@@ -179,7 +192,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">⚓</div>
+        <img src="logo.png" alt="Captain Tommy Logo" class="logo">
         <h1>Captain Tommy Molenhouse</h1>
         <p class="subtitle">Professional Yacht Captain</p>
         
