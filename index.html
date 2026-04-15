@@ -33,11 +33,12 @@
             --radius: 18px;
             --max: 1140px;
             --gap: 5rem;
+            --sunrise: radial-gradient(circle at top, rgba(200, 168, 107, 0.18), transparent 28%);
         }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--bg);
+            background: var(--sunrise), var(--bg);
             color: var(--text);
             line-height: 1.65;
             overflow-x: hidden;
@@ -355,6 +356,125 @@
             height: 2.5rem;
             background: linear-gradient(180deg, var(--muted-soft), transparent);
             animation: cue-line 2s ease-in-out infinite;
+        }
+
+        .hero-glass-grid {
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.9rem;
+            max-width: 860px;
+        }
+
+        .glass-card {
+            position: relative;
+            overflow: hidden;
+            padding: 1rem 1rem 1.05rem;
+            border-radius: 16px;
+            background: rgba(9, 20, 36, 0.48);
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            box-shadow: 0 14px 34px rgba(0,0,0,0.22);
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            inset: 0 0 auto 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+            opacity: 0.5;
+        }
+
+        .glass-kicker {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--accent);
+            font-weight: 700;
+            margin-bottom: 0.35rem;
+        }
+
+        .glass-card strong {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .glass-card span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        .section-band {
+            position: relative;
+            margin: 0 -1rem;
+            padding: 0 1rem;
+        }
+
+        .section-band::before {
+            content: '';
+            position: absolute;
+            inset: 4rem 0 auto 0;
+            height: 420px;
+            background: radial-gradient(circle at 20% 15%, rgba(79, 195, 247, 0.08), transparent 40%),
+                        radial-gradient(circle at 80% 20%, rgba(200, 168, 107, 0.08), transparent 32%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .quote-banner {
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1.3fr 0.7fr;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .quote-banner blockquote {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            line-height: 1.35;
+            font-style: italic;
+            color: var(--text);
+        }
+
+        .quote-banner p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .signal-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .signal-card {
+            padding: 1.4rem;
+        }
+
+        .signal-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0.9rem;
+            background: rgba(79, 195, 247, 0.1);
+            border: 1px solid rgba(79, 195, 247, 0.22);
+            color: var(--accent);
+            font-weight: 800;
+        }
+
+        .signal-card p {
+            color: var(--muted);
+            font-size: 0.92rem;
+            line-height: 1.62;
         }
 
         @keyframes cue-line {
@@ -1028,6 +1148,9 @@
             .hero-content { padding: 2.5rem 0 4rem; }
             .hero-actions { flex-direction: column; }
             .btn { justify-content: center; }
+            .hero-glass-grid,
+            .signal-grid,
+            .quote-banner { grid-template-columns: 1fr; }
 
             .value-grid { grid-template-columns: 1fr; }
 
@@ -1074,6 +1197,24 @@
             <div class="hero-actions">
                 <a class="btn btn-primary" href="#contact">Get in touch</a>
                 <a class="btn btn-secondary" href="cv.html">View CV</a>
+            </div>
+
+            <div class="hero-glass-grid" aria-label="Quick highlights">
+                <div class="glass-card">
+                    <div class="glass-kicker">Owner confidence</div>
+                    <strong>Calm, technical command</strong>
+                    <span>Experienced owner-facing captain with real maintenance depth and no appetite for chaos.</span>
+                </div>
+                <div class="glass-card">
+                    <div class="glass-kicker">Current status</div>
+                    <strong>Underway, not between stories</strong>
+                    <span>Currently running a delivery from West Palm Beach to Northern New Jersey, available on arrival.</span>
+                </div>
+                <div class="glass-card">
+                    <div class="glass-kicker">Hiring path</div>
+                    <strong>CV, contact, and QR ready</strong>
+                    <span>Built for introductions, recruiter handoffs, dockside conversations, and immediate follow-up.</span>
+                </div>
             </div>
         </div>
 
@@ -1332,6 +1473,41 @@
                         <p>Five weeks in the Bahamas with M/Y Lady B &mdash; Man-O-War Cay, then south to Staniel Cay and the Exumas. By the end of the trip, the owner wanted to buy land there. That&rsquo;s the program you build when the systems are right and the captain has done the preparation.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="section section-band" aria-labelledby="quote-heading">
+            <div class="card quote-banner">
+                <div>
+                    <div class="eyebrow">The difference</div>
+                    <blockquote id="quote-heading">"I like boats that work, trips that run clean, and owners who never have to wonder what’s being handled."</blockquote>
+                </div>
+                <p>This site is designed to become photo-rich, but even before the imagery lands, the message is clear: seasoned command, strong technical judgment, and a program that feels composed from the dock to open water.</p>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="signals-heading">
+            <div class="section-head">
+                <div class="eyebrow">Why this works</div>
+                <h2 id="signals-heading">Signals that matter to owners.</h2>
+            </div>
+
+            <div class="signal-grid">
+                <article class="signal-card card">
+                    <div class="signal-icon">01</div>
+                    <h3>Presentation without fluff</h3>
+                    <p>The site now sells confidence, range, and professionalism before anyone ever opens the PDF. That matters.</p>
+                </article>
+                <article class="signal-card card">
+                    <div class="signal-icon">02</div>
+                    <h3>Photo-ready structure</h3>
+                    <p>When your real shots arrive, the hero and cruising sections can jump from polished to genuinely jaw-dropping without rebuilding the whole thing.</p>
+                </article>
+                <article class="signal-card card">
+                    <div class="signal-icon">03</div>
+                    <h3>Built for real-world hiring</h3>
+                    <p>Fast CV access, QR handoff, and a mobile-friendly recruiting page make it practical, not just pretty.</p>
+                </article>
             </div>
         </section>
 
