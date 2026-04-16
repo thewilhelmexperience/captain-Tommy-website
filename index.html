@@ -473,7 +473,9 @@
         .contact-grid,
         .quote-banner,
         .feature-grid,
-        .vessel-showcase {
+        .vessel-showcase,
+        .journal-grid,
+        .gallery-strip {
             display: grid;
             gap: 1.25rem;
         }
@@ -649,6 +651,89 @@
             grid-template-columns: 1.15fr 0.85fr 0.85fr;
         }
 
+        .gallery-strip {
+            grid-template-columns: 1.2fr 0.8fr 0.8fr;
+        }
+
+        .gallery-card {
+            min-height: 260px;
+            position: relative;
+            overflow: hidden;
+            padding: 1.4rem;
+        }
+
+        .gallery-card::before {
+            content: 'PHOTO SLOT';
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.66rem;
+            letter-spacing: 0.18em;
+            color: rgba(255,255,255,0.25);
+        }
+
+        .gallery-card strong {
+            position: relative;
+            z-index: 2;
+            display: block;
+            margin-bottom: 0.35rem;
+            font-size: 1rem;
+        }
+
+        .gallery-card span {
+            position: relative;
+            z-index: 2;
+            display: block;
+            max-width: 20rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+            line-height: 1.55;
+        }
+
+        .gallery-hero {
+            background:
+                linear-gradient(to top, rgba(3,11,22,0.82), rgba(3,11,22,0.15)),
+                radial-gradient(circle at 25% 30%, rgba(87,200,255,0.22), transparent 34%),
+                linear-gradient(150deg, #0b3154 0%, #0c2440 52%, #081725 100%);
+        }
+
+        .gallery-secondary {
+            background:
+                linear-gradient(to top, rgba(3,11,22,0.88), rgba(3,11,22,0.18)),
+                radial-gradient(circle at 60% 25%, rgba(212,177,118,0.18), transparent 32%),
+                linear-gradient(150deg, #1c160d 0%, #0f1821 55%, #07111d 100%);
+        }
+
+        .gallery-water {
+            background:
+                linear-gradient(to top, rgba(3,11,22,0.88), rgba(3,11,22,0.18)),
+                radial-gradient(circle at 30% 20%, rgba(129,225,178,0.14), transparent 28%),
+                linear-gradient(150deg, #062338 0%, #0a1d30 52%, #06101b 100%);
+        }
+
+        .journal-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .journal-card {
+            padding: 1.5rem;
+        }
+
+        .journal-date {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--gold);
+            font-weight: 700;
+            margin-bottom: 0.7rem;
+        }
+
+        .journal-card p {
+            color: var(--muted);
+            font-size: 0.92rem;
+            line-height: 1.62;
+        }
+
         .vessel-meta {
             font-size: 0.74rem;
             text-transform: uppercase;
@@ -787,7 +872,9 @@
             .hero-glass,
             .route-grid,
             .feature-grid,
-            .grounds-grid { grid-template-columns: 1fr 1fr; }
+            .grounds-grid,
+            .journal-grid,
+            .gallery-strip { grid-template-columns: 1fr 1fr; }
             .stats-grid { grid-template-columns: 1fr 1fr; }
             .stat-item:nth-child(2) { border-right: none; }
             .stat-item:nth-child(3),
@@ -818,7 +905,9 @@
             .hero-glass,
             .route-grid,
             .feature-grid,
-            .grounds-grid { grid-template-columns: 1fr; }
+            .grounds-grid,
+            .journal-grid,
+            .gallery-strip { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: 1fr; }
             .stat-item { border-right: none; border-top: 1px solid var(--line); }
             .stat-item:first-child { border-top: none; }
@@ -1072,6 +1161,29 @@
             </div>
         </section>
 
+        <section class="section" aria-labelledby="gallery-heading">
+            <div class="section-head">
+                <div class="eyebrow">Photo-driven future</div>
+                <h2 id="gallery-heading">Built to become cinematic.</h2>
+                <p class="section-lede">Once your real images arrive, this should stop feeling like a strong draft and start feeling like a genuine adventure brand.</p>
+            </div>
+
+            <div class="gallery-strip">
+                <article class="gallery-card gallery-hero card">
+                    <strong>Hero image slot</strong>
+                    <span>A killer helm shot, delivery portrait, or underway image turns the homepage from polished into unmistakably yours.</span>
+                </article>
+                <article class="gallery-card gallery-secondary card">
+                    <strong>Golden hour coast</strong>
+                    <span>Perfect for East Coast runs, dockside atmosphere, and the quieter side of the story.</span>
+                </article>
+                <article class="gallery-card gallery-water card">
+                    <strong>Bahamas or bluewater</strong>
+                    <span>Clean water, open horizon, and the sort of image that instantly says this is not a generic captain site.</span>
+                </article>
+            </div>
+        </section>
+
         <section class="section" id="log" aria-labelledby="log-heading">
             <div class="section-head">
                 <div class="eyebrow">Captain’s Log</div>
@@ -1092,6 +1204,32 @@
                     <div class="mini-label">Another future entry</div>
                     <p>Five weeks in the Bahamas with an owner aboard, a favorite anchorage, a delivery that turned into a memory, a dock conversation that changed the next chapter. This is the lane the site should keep growing into.</p>
                 </aside>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="journal-heading">
+            <div class="section-head">
+                <div class="eyebrow">Future journal lanes</div>
+                <h2 id="journal-heading">Easy ways to keep this growing.</h2>
+                <p class="section-lede">The right homepage structure should make it easy to add a little at a time instead of waiting for a total redesign every time life moves.</p>
+            </div>
+
+            <div class="journal-grid">
+                <article class="journal-card card">
+                    <div class="journal-date">Captain's Notes</div>
+                    <h3>Short log entries</h3>
+                    <p>Quick updates from deliveries, route decisions, favorite stops, weather windows, or the moments that stick with you after a passage.</p>
+                </article>
+                <article class="journal-card card">
+                    <div class="journal-date">Boat Chapters</div>
+                    <h3>Featured vessel stories</h3>
+                    <p>A deeper page or occasional feature about a memorable boat, what made her special, and what that chapter was actually like.</p>
+                </article>
+                <article class="journal-card card">
+                    <div class="journal-date">Travel Energy</div>
+                    <h3>Places worth remembering</h3>
+                    <p>Not full-blown travel blogging, just enough location flavor and visual memory to make the site feel alive and worth revisiting.</p>
+                </article>
             </div>
         </section>
 
