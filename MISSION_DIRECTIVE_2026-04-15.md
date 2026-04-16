@@ -32,6 +32,7 @@ Target tone:
 The site should communicate:
 - Tommy has actually lived an unusual and interesting life
 - Tommy knows what he is doing
+- Tommy steps outside the comfort zone, but not blindly
 - Tommy is not trying to look famous
 - Tommy is not trying to sell a fantasy
 - Tommy is simply leaving the trail visible
@@ -55,6 +56,8 @@ If there is tension between “slick” and “human,” choose **human**.
 Best current framing:
 - People call it luck, but luck tends to appear in places where uncertainty is real.
 - Tommy tends to walk through doors that open rather than obsess over what might be on the other side.
+- That openness is not random drifting. It is calculated risk, intentional movement, and a willingness to leave the comfort zone.
+- He is not surrendering to chaos or “wherever the tide decides.” He is choosing motion over stagnation while staying credible and capable.
 - His life is not “better than normal,” just less standard issue.
 - He is exposing the trail, not pushing a story.
 
@@ -65,6 +68,8 @@ Useful thematic language:
 - doors that opened
 - places where luck matters
 - hard-earned calm
+- calculated openness
+- motion over stagnation
 - not a blueprint, just the path taken
 
 ## Homepage job

@@ -64,6 +64,7 @@ Tommy’s self-description and framing are essential and should guide future cop
 - People tell him he is lucky.
 - His view is that he often ends up in places where luck is necessary to move forward.
 - He tends to walk through doors that open rather than obsessing over what lies beyond them.
+- That does not mean random drifting or "wherever the tide decides." The right framing is calculated openness, intentional movement, and stepping beyond the comfort zone without abandoning judgment.
 - He does not see himself as superior or trying to sell a fantasy.
 - He is simply living a less-standard life and exposing the trail rather than pushing a story.
 
@@ -156,6 +157,7 @@ Always preserve:
 - humanity
 - wryness
 - grounded adventure
+- calculated risk, not chaos
 - credibility first
 
 ## Practical next actions on resume
