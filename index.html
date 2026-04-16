@@ -141,9 +141,9 @@
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse 85% 60% at 65% 38%, rgba(87, 200, 255, 0.11) 0%, transparent 60%),
-                radial-gradient(ellipse 45% 35% at 22% 62%, rgba(129, 225, 178, 0.08) 0%, transparent 60%),
-                radial-gradient(ellipse 38% 22% at 72% 18%, rgba(212, 177, 118, 0.08) 0%, transparent 60%),
+                linear-gradient(to bottom, rgba(2, 11, 22, 0.22), rgba(2, 11, 22, 0.62)),
+                radial-gradient(ellipse 85% 60% at 65% 38%, rgba(87, 200, 255, 0.10) 0%, transparent 60%),
+                url('assets/site-photos-web/dji_fly_20230225_070818_27_1677326928895_photo.webp') center/cover no-repeat,
                 linear-gradient(170deg, #020b16 0%, #08213c 22%, #0c3157 45%, #07233f 68%, #03111f 100%);
         }
 
@@ -363,21 +363,11 @@
             border-radius: 22px;
             overflow: hidden;
             background:
-                linear-gradient(to top, rgba(3, 11, 22, 0.76), rgba(3, 11, 22, 0.1)),
-                radial-gradient(circle at 30% 25%, rgba(87, 200, 255, 0.2), transparent 34%),
+                linear-gradient(to top, rgba(3, 11, 22, 0.66), rgba(3, 11, 22, 0.08)),
+                url('assets/site-photos-web/IMG_0497.webp') center/cover no-repeat,
                 linear-gradient(160deg, #0d3258 0%, #0a1f38 50%, #071624 100%);
             border: 1px solid rgba(255,255,255,0.08);
             position: relative;
-        }
-
-        .postcard-photo::before {
-            content: 'PHOTO PLACEHOLDER';
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            font-size: 0.68rem;
-            letter-spacing: 0.18em;
-            color: rgba(255,255,255,0.35);
         }
 
         .postcard-caption {
@@ -558,26 +548,29 @@
 
         .ground-bahamas {
             background:
-                radial-gradient(ellipse 80% 50% at 60% 28%, rgba(0, 196, 196, 0.3) 0%, transparent 60%),
+                linear-gradient(to top, rgba(3, 10, 20, 0.72), rgba(3, 10, 20, 0.18)),
+                url('assets/site-photos-web/IMG_0598.webp') center/cover no-repeat,
                 linear-gradient(160deg, #042d36 0%, #041b22 55%, #031218 100%);
         }
 
         .ground-eastcoast {
             background:
-                radial-gradient(ellipse 80% 50% at 38% 28%, rgba(42, 82, 152, 0.34) 0%, transparent 60%),
+                linear-gradient(to top, rgba(3, 10, 20, 0.76), rgba(3, 10, 20, 0.16)),
+                url('assets/site-photos-web/IMG_2952.webp') center/cover no-repeat,
                 linear-gradient(160deg, #0a1d36 0%, #061525 55%, #030d1a 100%);
         }
 
         .ground-sfla {
             background:
-                radial-gradient(ellipse 80% 50% at 58% 20%, rgba(200, 140, 40, 0.2) 0%, transparent 55%),
-                radial-gradient(ellipse 60% 40% at 30% 50%, rgba(87, 200, 255, 0.14) 0%, transparent 60%),
+                linear-gradient(to top, rgba(3, 10, 20, 0.74), rgba(3, 10, 20, 0.16)),
+                url('assets/site-photos-web/1306.webp') center/cover no-repeat,
                 linear-gradient(160deg, #1a1408 0%, #0f1510 55%, #060d14 100%);
         }
 
         .ground-lakes {
             background:
-                radial-gradient(ellipse 80% 50% at 45% 32%, rgba(32, 64, 96, 0.38) 0%, transparent 60%),
+                linear-gradient(to top, rgba(3, 10, 20, 0.74), rgba(3, 10, 20, 0.16)),
+                url('assets/site-photos-web/5007.webp') center/cover no-repeat,
                 linear-gradient(160deg, #071422 0%, #050f1c 55%, #030a14 100%);
         }
 
@@ -842,21 +835,30 @@
             aspect-ratio: 4 / 4.6;
             background:
                 linear-gradient(to top, rgba(3,11,22,0.45), rgba(3,11,22,0.06)),
-                radial-gradient(circle at 35% 25%, rgba(87,200,255,0.2), transparent 26%),
                 linear-gradient(150deg, #0e355a 0%, #0b223b 55%, #0a1624 100%);
             margin-bottom: 0.85rem;
             position: relative;
             overflow: hidden;
+            background-size: cover;
+            background-position: center;
         }
 
-        .polaroid-photo::after {
-            content: 'DROP PHOTO HERE';
-            position: absolute;
-            bottom: 0.75rem;
-            right: 0.75rem;
-            font-size: 0.62rem;
-            letter-spacing: 0.16em;
-            color: rgba(255,255,255,0.45);
+        .polaroid:nth-child(1) .polaroid-photo {
+            background-image:
+                linear-gradient(to top, rgba(3,11,22,0.45), rgba(3,11,22,0.06)),
+                url('assets/site-photos-web/18145.webp');
+        }
+
+        .polaroid:nth-child(2) .polaroid-photo {
+            background-image:
+                linear-gradient(to top, rgba(3,11,22,0.45), rgba(3,11,22,0.06)),
+                url('assets/site-photos-web/IMG_5719.webp');
+        }
+
+        .polaroid:nth-child(3) .polaroid-photo {
+            background-image:
+                linear-gradient(to top, rgba(3,11,22,0.45), rgba(3,11,22,0.06)),
+                url('assets/site-photos-web/IMG_4613.webp');
         }
 
         .polaroid strong {

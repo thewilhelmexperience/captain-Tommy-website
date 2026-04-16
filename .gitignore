@@ -1,0 +1,9 @@
+# Local-only photo source and review working files
+photo-ingest/
+photo-review/
+assets/site-photos/
+
+# Keep deployable web assets tracked
+!assets/
+!assets/site-photos-web/
+!assets/site-photos-web/**
