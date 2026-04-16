@@ -475,7 +475,9 @@
         .feature-grid,
         .vessel-showcase,
         .journal-grid,
-        .gallery-strip {
+        .gallery-strip,
+        .map-layout,
+        .polaroid-grid {
             display: grid;
             gap: 1.25rem;
         }
@@ -719,6 +721,182 @@
             padding: 1.5rem;
         }
 
+        .map-layout {
+            grid-template-columns: 1.15fr 0.85fr;
+            align-items: start;
+        }
+
+        .map-board,
+        .map-notes,
+        .polaroid,
+        .log-prompt {
+            padding: 1.6rem;
+        }
+
+        .route-map {
+            position: relative;
+            min-height: 420px;
+            border-radius: 18px;
+            overflow: hidden;
+            background:
+                linear-gradient(to top, rgba(3,11,22,0.88), rgba(3,11,22,0.12)),
+                radial-gradient(circle at 30% 25%, rgba(87,200,255,0.16), transparent 24%),
+                radial-gradient(circle at 68% 58%, rgba(129,225,178,0.10), transparent 20%),
+                linear-gradient(165deg, #08233d 0%, #0b2f50 35%, #0b2440 70%, #061321 100%);
+            border: 1px solid var(--line-strong);
+        }
+
+        .route-map::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 46px 46px;
+            opacity: 0.5;
+        }
+
+        .route-line {
+            position: absolute;
+            inset: 0;
+        }
+
+        .route-line svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .route-stop {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 2px solid rgba(4, 16, 29, 0.9);
+            box-shadow: 0 0 0 8px rgba(87,200,255,0.08);
+        }
+
+        .route-stop span {
+            position: absolute;
+            top: 1.1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: rgba(255,255,255,0.78);
+            font-weight: 700;
+        }
+
+        .stop-fl { top: 68%; left: 20%; }
+        .stop-abacos { top: 58%; left: 34%; }
+        .stop-ny { top: 28%; left: 64%; }
+        .stop-lakes { top: 16%; left: 44%; }
+
+        .map-notes {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .note-chip {
+            padding: 0.8rem 0.95rem;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .note-chip strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            font-size: 0.92rem;
+        }
+
+        .note-chip span {
+            display: block;
+            color: var(--muted);
+            font-size: 0.86rem;
+            line-height: 1.5;
+        }
+
+        .polaroid-grid {
+            grid-template-columns: repeat(3, 1fr);
+            align-items: start;
+        }
+
+        .polaroid {
+            background: #f5f1ea;
+            color: #1f2b33;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.22);
+            padding: 0.95rem 0.95rem 1.25rem;
+            transform-origin: center;
+        }
+
+        .polaroid:nth-child(1) { transform: rotate(-3deg); }
+        .polaroid:nth-child(2) { transform: rotate(2deg); }
+        .polaroid:nth-child(3) { transform: rotate(-1.5deg); }
+
+        .polaroid-photo {
+            aspect-ratio: 4 / 4.6;
+            background:
+                linear-gradient(to top, rgba(3,11,22,0.45), rgba(3,11,22,0.06)),
+                radial-gradient(circle at 35% 25%, rgba(87,200,255,0.2), transparent 26%),
+                linear-gradient(150deg, #0e355a 0%, #0b223b 55%, #0a1624 100%);
+            margin-bottom: 0.85rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .polaroid-photo::after {
+            content: 'DROP PHOTO HERE';
+            position: absolute;
+            bottom: 0.75rem;
+            right: 0.75rem;
+            font-size: 0.62rem;
+            letter-spacing: 0.16em;
+            color: rgba(255,255,255,0.45);
+        }
+
+        .polaroid strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+        }
+
+        .polaroid span {
+            display: block;
+            color: #52616d;
+            font-size: 0.9rem;
+            line-height: 1.45;
+        }
+
+        .log-prompt h3 {
+            margin-bottom: 0.7rem;
+        }
+
+        .prompt-list {
+            margin-top: 1rem;
+            list-style: none;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .prompt-list li {
+            padding-left: 1rem;
+            position: relative;
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .prompt-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
         .journal-date {
             font-size: 0.72rem;
             text-transform: uppercase;
@@ -874,7 +1052,9 @@
             .feature-grid,
             .grounds-grid,
             .journal-grid,
-            .gallery-strip { grid-template-columns: 1fr 1fr; }
+            .gallery-strip,
+            .polaroid-grid { grid-template-columns: 1fr 1fr; }
+            .map-layout { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: 1fr 1fr; }
             .stat-item:nth-child(2) { border-right: none; }
             .stat-item:nth-child(3),
@@ -907,7 +1087,9 @@
             .feature-grid,
             .grounds-grid,
             .journal-grid,
-            .gallery-strip { grid-template-columns: 1fr; }
+            .gallery-strip,
+            .polaroid-grid { grid-template-columns: 1fr; }
+            .map-layout { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: 1fr; }
             .stat-item { border-right: none; border-top: 1px solid var(--line); }
             .stat-item:first-child { border-top: none; }
@@ -1161,6 +1343,44 @@
             </div>
         </section>
 
+        <section class="section" aria-labelledby="map-heading">
+            <div class="section-head">
+                <div class="eyebrow">Travel trail</div>
+                <h2 id="map-heading">Start the route-map framework now.</h2>
+                <p class="section-lede">Once the photo library lands and EXIF location data survives, this section can evolve into a real visual trail of trips, deliveries, and favorite waters.</p>
+            </div>
+
+            <div class="map-layout">
+                <div class="map-board card">
+                    <div class="route-map">
+                        <div class="route-line" aria-hidden="true">
+                            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <path d="M20,68 C24,60 28,58 34,58 S50,48 64,28 S40,18 44,16" fill="none" stroke="rgba(87,200,255,0.7)" stroke-width="0.8" stroke-dasharray="2.5 2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="route-stop stop-fl"><span>Florida</span></div>
+                        <div class="route-stop stop-abacos"><span>Abacos</span></div>
+                        <div class="route-stop stop-ny"><span>New York</span></div>
+                        <div class="route-stop stop-lakes"><span>Great Lakes</span></div>
+                    </div>
+                </div>
+                <div class="map-notes">
+                    <div class="note-chip card">
+                        <strong>EXIF-aware later</strong>
+                        <span>When the images arrive, this can be upgraded from a visual mock route into a real geo-backed travel story.</span>
+                    </div>
+                    <div class="note-chip card">
+                        <strong>Click a stop, open a memory</strong>
+                        <span>Each stop can eventually lead to photos, a short log entry, a boat, a season, or a passage worth remembering.</span>
+                    </div>
+                    <div class="note-chip card">
+                        <strong>Not cheesy, just alive</strong>
+                        <span>The goal is chart-table energy and narrative motion, not a gimmicky map widget pasted onto a static site.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section" aria-labelledby="gallery-heading">
             <div class="section-head">
                 <div class="eyebrow">Photo-driven future</div>
@@ -1204,6 +1424,46 @@
                     <div class="mini-label">Another future entry</div>
                     <p>Five weeks in the Bahamas with an owner aboard, a favorite anchorage, a delivery that turned into a memory, a dock conversation that changed the next chapter. This is the lane the site should keep growing into.</p>
                 </aside>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="polaroid-heading">
+            <div class="section-head">
+                <div class="eyebrow">Photo story stack</div>
+                <h2 id="polaroid-heading">A more playful browsing layer.</h2>
+                <p class="section-lede">This gives people something memorable to poke through, and it fits the travel-adventure vibe much better than a plain gallery grid.</p>
+            </div>
+
+            <div class="polaroid-grid">
+                <article class="polaroid">
+                    <div class="polaroid-photo"></div>
+                    <strong>Bahamas run</strong>
+                    <span>Photo, place, boat, one sharp memory. Simple and sticky.</span>
+                </article>
+                <article class="polaroid">
+                    <div class="polaroid-photo"></div>
+                    <strong>Underway on delivery</strong>
+                    <span>A little caption and a little context go a long way when the imagery is good.</span>
+                </article>
+                <article class="polaroid">
+                    <div class="polaroid-photo"></div>
+                    <strong>Dockside chapter</strong>
+                    <span>Marina moments, yard periods, and the atmosphere around the trips, not just the destinations.</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="prompts-heading">
+            <div class="log-prompt card">
+                <div class="eyebrow">Log entry prompts</div>
+                <h2 id="prompts-heading">Easy prompts for rounding this out together.</h2>
+                <p>When you are ready to flesh out stories, we do not need polished essays. A few good raw details from you will be enough to turn each trip into something worth reading.</p>
+                <ul class="prompt-list">
+                    <li>Where were you going, and what made that run memorable?</li>
+                    <li>What boat was it, and what was the feel of that chapter?</li>
+                    <li>Was there a moment, anchorage, weather call, or stop that stuck with you?</li>
+                    <li>What would a stranger find interesting or unexpectedly human about that trip?</li>
+                </ul>
             </div>
         </section>
 
