@@ -36,6 +36,9 @@ The site should communicate:
 - Tommy is not trying to look famous
 - Tommy is not trying to sell a fantasy
 - Tommy is simply leaving the trail visible
+- Tommy is calm under pressure and quietly funny without becoming performative
+- Tommy notices the human character of places, not just the scenery
+- Tommy is deeply responsible for the people, vessel, and experience under his care
 
 ## Critical guardrails
 
@@ -71,6 +74,10 @@ Useful thematic language:
 - calculated openness
 - motion over stagnation
 - not a blueprint, just the path taken
+- every port has a character
+- a good run looks easy from the outside
+- more than driving the boat
+- built in engine rooms, wheelhouses, marinas, anchorages, and shipyards
 
 ## Homepage job
 
@@ -108,6 +115,9 @@ Preferred recurring content lanes:
 - Views worth earning
 - Lessons from the wheelhouse
 - The current chapter
+- Places worth returning to
+- Boats brought into shape
+- Human moments tied to place
 
 ## Photo strategy
 
@@ -143,6 +153,7 @@ Strong directions:
 - polaroid/photo-stack browsing
 - seasonal chapter browsing
 - story cards tied to places or boats
+- place + chapter + image/story hook cards that can grow over time
 
 Avoid novelty for novelty’s sake.
 
@@ -156,3 +167,7 @@ When making design or copy choices, ask:
 5. Would this still feel good if viewed by friends/family, a random dockside contact, or a serious employer?
 
 If the answer to several of those is “no,” don’t ship it.
+
+## Working tone source of truth
+
+For future sessions, `CHARACTER_BIBLE.md` should be read alongside this directive whenever new homepage copy, log entries, place descriptions, or story sections are being shaped.
