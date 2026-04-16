@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Route Map Prototype · Captain Tommy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    :root {
+      --bg: #04101d;
+      --bg-2: #071a2e;
+      --panel: rgba(9, 20, 36, 0.86);
+      --line: rgba(110, 170, 255, 0.12);
+      --line-strong: rgba(110, 170, 255, 0.24);
+      --text: #ecf4ff;
+      --muted: #92a9bf;
+      --soft: #5a738d;
+      --accent: #57c8ff;
+      --accent-2: #81e1b2;
+      --gold: #d4b176;
+      --grad: linear-gradient(135deg, #57c8ff 0%, #81e1b2 100%);
+      --shadow: 0 24px 60px rgba(0,0,0,0.45);
+      --radius: 20px;
+      --max: 1180px;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(180deg, #061220 0%, #04101d 100%);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .page { width: min(100% - 2rem, var(--max)); margin: 0 auto; }
+
+    /* ── Prototype header ── */
+    .proto-bar {
+      padding: 0.9rem 0;
+      background: rgba(4,16,29,0.92);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .proto-bar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .proto-back {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.88rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: color 0.15s;
+    }
+    .proto-back:hover { color: var(--text); }
+    .proto-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.3rem 0.75rem;
+      background: rgba(212,177,118,0.1);
+      border: 1px solid rgba(212,177,118,0.28);
+      border-radius: 999px;
+      color: var(--gold);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+    .proto-note {
+      color: var(--soft);
+      font-size: 0.78rem;
+    }
+
+    /* ── Section intro ── */
+    .intro {
+      padding: 3rem 0 2rem;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--accent);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .eyebrow::before {
+      content: '';
+      width: 1.8rem;
+      height: 1px;
+      background: var(--accent);
+      opacity: 0.5;
+      flex-shrink: 0;
+    }
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2rem, 4vw, 2.9rem);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.7rem;
+    }
+    .lede {
+      color: var(--muted);
+      max-width: 52rem;
+      font-size: 1rem;
+    }
+
+    /* ── Main layout ── */
+    .map-proto {
+      display: grid;
+      grid-template-columns: 1.45fr 1fr;
+      gap: 1.25rem;
+      align-items: start;
+      padding-bottom: 2rem;
+    }
+
+    /* ── Map panel ── */
+    .map-wrap {
+      background: rgba(5,14,24,0.9);
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      overflow: hidden;
+      position: relative;
+    }
+    .map-wrap svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* ── Info panel ── */
+    .info-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+      min-height: 440px;
+    }
+
+    .info-empty {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 0.9rem;
+      color: var(--soft);
+    }
+    .info-empty-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 1px solid var(--line-strong);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      opacity: 0.7;
+    }
+    .info-empty p {
+      font-size: 0.92rem;
+      max-width: 17rem;
+      line-height: 1.6;
+    }
+
+    .info-body { display: none; flex-direction: column; gap: 1rem; }
+    .info-body.active { display: flex; }
+
+    .info-tag {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .info-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.75rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    .info-sub {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: -0.5rem;
+    }
+    .info-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.68;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .chip {
+      display: inline-flex;
+      flex-direction: column;
+      padding: 0.5rem 0.85rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+    }
+    .chip-label {
+      font-size: 0.64rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--soft);
+      font-weight: 700;
+      margin-bottom: 0.18rem;
+    }
+    .chip-value {
+      font-size: 0.86rem;
+      font-weight: 600;
+    }
+
+    .info-nav {
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      display: flex;
+      gap: 0.6rem;
+    }
+    .nav-btn {
+      flex: 1;
+      padding: 0.65rem 0.9rem;
+      border-radius: 10px;
+      border: 1px solid var(--line-strong);
+      background: transparent;
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+      text-align: center;
+    }
+    .nav-btn:hover {
+      border-color: rgba(87,200,255,0.4);
+      color: var(--accent);
+    }
+    .nav-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+    .nav-btn:disabled:hover {
+      border-color: var(--line-strong);
+      color: var(--muted);
+    }
+
+    /* ── Stop cards ── */
+    .stop-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      padding-bottom: 4rem;
+    }
+    .stop-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+      user-select: none;
+    }
+    .stop-card:hover {
+      border-color: var(--line-strong);
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.28);
+    }
+    .stop-card.active {
+      border-color: rgba(87,200,255,0.38);
+      background: rgba(87,200,255,0.05);
+    }
+    .card-tag {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+    .stop-card h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.01em;
+    }
+    .stop-card p {
+      font-size: 0.84rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* ── SVG map styles ── */
+    .stop-marker { cursor: pointer; }
+    .stop-marker:focus { outline: none; }
+    .stop-marker:focus .stop-ring {
+      stroke: var(--accent);
+      stroke-width: 1;
+      stroke-opacity: 0.8;
+    }
+
+    @keyframes pulse-ring {
+      0%, 100% { r: 18; opacity: 0.3; }
+      50% { r: 28; opacity: 0.08; }
+    }
+    .pulse { animation: pulse-ring 2.8s ease-in-out infinite; }
+    .pulse-b { animation: pulse-ring 2.8s 0.6s ease-in-out infinite; }
+    .pulse-c { animation: pulse-ring 2.8s 1.1s ease-in-out infinite; }
+    .pulse-d { animation: pulse-ring 2.8s 1.7s ease-in-out infinite; }
+
+    @keyframes reveal-path {
+      from { stroke-dashoffset: 900; opacity: 0; }
+      to   { stroke-dashoffset: 0; opacity: 1; }
+    }
+    .rpath-1 { animation: reveal-path 1.4s 0.4s ease-out both; }
+    .rpath-2 { animation: reveal-path 1.8s 0.9s ease-out both; }
+    .rpath-3 { animation: reveal-path 1.8s 1.5s ease-out both; }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .map-proto { grid-template-columns: 1fr; }
+      .info-panel { min-height: 320px; }
+      .stop-cards { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 560px) {
+      .stop-cards { grid-template-columns: 1fr; }
+      .proto-note { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Prototype header bar -->
+  <div class="proto-bar">
+    <div class="page">
+      <div class="proto-bar-inner">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <a class="proto-back" href="index.html">← Back to site</a>
+          <span class="proto-badge">⚓ Prototype</span>
+        </div>
+        <span class="proto-note">route-map-prototype.html · not linked from main nav</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="page">
+
+    <!-- Section intro -->
+    <div class="intro">
+      <div class="eyebrow">Travel trail</div>
+      <h1>The waters that made the captain.</h1>
+      <p class="lede">Click any stop on the map to open the story from that water. Some places feel like home, some feel like relief, some are best enjoyed in passing, and some are woven so deeply into the story they never really leave.</p>
+    </div>
+
+    <!-- Map + Info panel -->
+    <div class="map-proto">
+
+      <!-- SVG MAP -->
+      <div class="map-wrap">
+        <svg id="route-map" viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg"
+             role="img" aria-label="Interactive route map showing Captain Tommy's cruising grounds">
+
+          <!-- Ocean background -->
+          <rect width="700" height="520" fill="#040f1c"/>
+
+          <!-- Nautical grid (subtle) -->
+          <g opacity="1">
+            <line x1="0" y1="104" x2="700" y2="104" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="0" y1="208" x2="700" y2="208" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="0" y1="312" x2="700" y2="312" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="0" y1="416" x2="700" y2="416" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="140" y1="0" x2="140" y2="520" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="280" y1="0" x2="280" y2="520" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="420" y1="0" x2="420" y2="520" stroke="#0e2238" stroke-width="0.8"/>
+            <line x1="560" y1="0" x2="560" y2="520" stroke="#0e2238" stroke-width="0.8"/>
+          </g>
+
+          <!-- Lat labels (decorative) -->
+          <g fill="#1a3a5c" font-family="Inter,sans-serif" font-size="8" font-weight="600" letter-spacing="0.05em">
+            <text x="8" y="100">46°N</text>
+            <text x="8" y="204">40°N</text>
+            <text x="8" y="308">35°N</text>
+            <text x="8" y="412">29°N</text>
+            <text x="8" y="514">24°N</text>
+          </g>
+
+          <!--
+            Land mass: simplified Eastern US + Florida.
+            Coordinate system: x = (lon+92)/30*700, y = (48-lat)/26*520
+            Key landmarks encoded in path comments.
+          -->
+          <path d="
+            M 0,0 L 700,0
+            L 700,50
+            L 572,66
+            L 528,90
+            L 502,110
+            L 484,132
+            L 460,148
+            L 440,156
+            L 418,148
+            L 400,182
+            L 372,222
+            L 352,252
+            L 330,288
+            L 290,318
+            L 272,360
+            L 274,408
+            L 280,435
+            L 272,452
+            L 258,470
+            L 248,482
+            L 225,468
+            L 200,445
+            L 178,418
+            L 148,400
+            L 108,393
+            L 60,390
+            L 0,390
+            Z
+          " fill="#0b1e30" stroke="rgba(87,200,255,0.18)" stroke-width="1" stroke-linejoin="round"/>
+
+          <!-- Lake Michigan (water cutout in land) -->
+          <path d="
+            M 94,76 L 110,82 L 116,102 L 114,124
+            L 104,136 L 92,130 L 86,112 L 88,88 Z
+          " fill="#040f1c" stroke="rgba(87,200,255,0.28)" stroke-width="0.8"/>
+
+          <!-- Lake Erie (smaller, east of Michigan) -->
+          <path d="M 215,120 L 250,113 L 263,122 L 250,130 L 218,132 L 210,125 Z"
+                fill="#040f1c" stroke="rgba(87,200,255,0.22)" stroke-width="0.6"/>
+
+          <!-- Chesapeake Bay indentation -->
+          <path d="M 363,222 L 372,218 L 378,226 L 376,242 L 368,250 L 360,244 L 360,228 Z"
+                fill="#040f1c" stroke="rgba(87,200,255,0.18)" stroke-width="0.6"/>
+
+          <!-- Long Island -->
+          <path d="M 418,152 L 460,147 L 476,153 L 464,162 L 426,164 Z"
+                fill="#0b1e30" stroke="rgba(87,200,255,0.18)" stroke-width="0.7"/>
+
+          <!-- Bahamas: Great Abaco Island -->
+          <path d="M 320,440 L 338,434 L 348,442 L 342,452 L 325,450 Z"
+                fill="#0b1e30" stroke="rgba(87,200,255,0.22)" stroke-width="0.7"/>
+          <!-- Nassau / New Providence -->
+          <ellipse cx="308" cy="462" rx="9" ry="4" transform="rotate(-15 308 462)"
+                   fill="#0b1e30" stroke="rgba(87,200,255,0.2)" stroke-width="0.6"/>
+          <!-- Eleuthera -->
+          <path d="M 345,454 L 356,447 L 362,453 L 356,462 L 346,460 Z"
+                fill="#0b1e30" stroke="rgba(87,200,255,0.18)" stroke-width="0.6"/>
+          <!-- Exuma chain (dots) -->
+          <circle cx="322" cy="472" r="3" fill="#0b1e30" stroke="rgba(87,200,255,0.18)" stroke-width="0.6"/>
+          <circle cx="330" cy="479" r="2.2" fill="#0b1e30" stroke="rgba(87,200,255,0.15)" stroke-width="0.5"/>
+          <circle cx="315" cy="480" r="2.5" fill="#0b1e30" stroke="rgba(87,200,255,0.15)" stroke-width="0.5"/>
+
+          <!--
+            ROUTE LINES
+            Three segments: FL→Abacos, FL→NY (coast run), NY→Great Lakes (Erie Canal)
+            stroke-dasharray="900" lets us animate reveal via dashoffset
+          -->
+
+          <!-- FL to Abacos (island hop southeast) -->
+          <path d="M 280,435 Q 300,434 335,444"
+                fill="none"
+                stroke="rgba(87,200,255,0.65)"
+                stroke-width="1.8"
+                stroke-dasharray="900"
+                stroke-linecap="round"
+                class="rpath-1"/>
+
+          <!-- FL to NY (ICW / offshore delivery run up the coast) -->
+          <path d="M 280,435 C 282,415 290,385 304,350 C 322,305 352,268 380,232 C 400,205 414,178 418,150"
+                fill="none"
+                stroke="rgba(87,200,255,0.65)"
+                stroke-width="1.8"
+                stroke-dasharray="900"
+                stroke-linecap="round"
+                class="rpath-2"/>
+
+          <!-- NY to Great Lakes (Hudson River / Erie Canal) -->
+          <path d="M 418,150 C 385,145 340,132 290,124 C 248,118 185,115 105,122"
+                fill="none"
+                stroke="rgba(87,200,255,0.45)"
+                stroke-width="1.8"
+                stroke-dasharray="900"
+                stroke-linecap="round"
+                class="rpath-3"/>
+
+          <!--
+            STOP MARKERS
+            Four stops. Each: pulse circle + inner glow + dot + text
+            data-stop links to JS stop data
+          -->
+
+          <!-- South Florida -->
+          <g class="stop-marker" id="sm-florida" data-stop="florida"
+             tabindex="0" role="button" aria-label="South Florida — click to view">
+            <circle cx="280" cy="435" class="pulse" fill="rgba(87,200,255,0.12)" r="18"/>
+            <circle cx="280" cy="435" r="13" fill="rgba(87,200,255,0.10)" class="stop-ring"/>
+            <circle cx="280" cy="435" r="7" fill="#57c8ff" stroke="#040f1c" stroke-width="2.5" class="stop-dot"/>
+            <text x="280" y="456" text-anchor="middle"
+                  font-family="Inter,sans-serif" font-size="10" font-weight="700"
+                  text-transform="uppercase" letter-spacing="0.12em"
+                  fill="rgba(255,255,255,0.85)" pointer-events="none">South Florida</text>
+            <text x="280" y="468" text-anchor="middle"
+                  font-family="Inter,sans-serif" font-size="8.5"
+                  fill="rgba(87,200,255,0.7)" pointer-events="none">Home Waters</text>
+          </g>
+
+          <!-- Abacos / Bahamas -->
+          <g class="stop-marker" id="sm-abacos" data-stop="abacos"
+             tabindex="0" role="button" aria-label="Abacos Bahamas — click to view">
+            <circle cx="335" cy="444" class="pulse-b" fill="rgba(87,200,255,0.12)" r="18"/>
+            <circle cx="335" cy="444" r="13" fill="rgba(87,200,255,0.10)" class="stop-ring"/>
+            <circle cx="335" cy="444" r="7" fill="#57c8ff" stroke="#040f1c" stroke-width="2.5" class="stop-dot"/>
+            <text x="375" y="440" text-anchor="start"
+                  font-family="Inter,sans-serif" font-size="10" font-weight="700"
+                  letter-spacing="0.12em" fill="rgba(255,255,255,0.85)" pointer-events="none">Abacos</text>
+            <text x="375" y="452" text-anchor="start"
+                  font-family="Inter,sans-serif" font-size="8.5"
+                  fill="rgba(87,200,255,0.7)" pointer-events="none">Bahamas</text>
+          </g>
+
+          <!-- New York / East Coast -->
+          <g class="stop-marker" id="sm-newyork" data-stop="newyork"
+             tabindex="0" role="button" aria-label="New York East Coast — click to view">
+            <circle cx="418" cy="150" class="pulse-c" fill="rgba(87,200,255,0.12)" r="18"/>
+            <circle cx="418" cy="150" r="13" fill="rgba(87,200,255,0.10)" class="stop-ring"/>
+            <circle cx="418" cy="150" r="7" fill="#57c8ff" stroke="#040f1c" stroke-width="2.5" class="stop-dot"/>
+            <text x="440" y="146" text-anchor="start"
+                  font-family="Inter,sans-serif" font-size="10" font-weight="700"
+                  letter-spacing="0.12em" fill="rgba(255,255,255,0.85)" pointer-events="none">New York</text>
+            <text x="440" y="158" text-anchor="start"
+                  font-family="Inter,sans-serif" font-size="8.5"
+                  fill="rgba(87,200,255,0.7)" pointer-events="none">East Coast Run</text>
+          </g>
+
+          <!-- Great Lakes -->
+          <g class="stop-marker" id="sm-greatlakes" data-stop="greatlakes"
+             tabindex="0" role="button" aria-label="Great Lakes — click to view">
+            <circle cx="105" cy="122" class="pulse-d" fill="rgba(87,200,255,0.12)" r="18"/>
+            <circle cx="105" cy="122" r="13" fill="rgba(87,200,255,0.10)" class="stop-ring"/>
+            <circle cx="105" cy="122" r="7" fill="#57c8ff" stroke="#040f1c" stroke-width="2.5" class="stop-dot"/>
+            <text x="105" y="103" text-anchor="middle"
+                  font-family="Inter,sans-serif" font-size="10" font-weight="700"
+                  letter-spacing="0.12em" fill="rgba(255,255,255,0.85)" pointer-events="none">Great Lakes</text>
+            <text x="105" y="92" text-anchor="middle"
+                  font-family="Inter,sans-serif" font-size="8.5"
+                  fill="rgba(87,200,255,0.7)" pointer-events="none">Lake Michigan</text>
+          </g>
+
+          <!-- Compass rose (decorative, bottom-right) -->
+          <g transform="translate(662,468)" opacity="0.2">
+            <circle cx="0" cy="0" r="26" fill="none" stroke="#57c8ff" stroke-width="0.8"/>
+            <circle cx="0" cy="0" r="16" fill="none" stroke="#57c8ff" stroke-width="0.5"/>
+            <line x1="0" y1="-26" x2="0" y2="-16" stroke="#57c8ff" stroke-width="1.8"/>
+            <line x1="0" y1="16"  x2="0"  y2="26"  stroke="#57c8ff" stroke-width="1"/>
+            <line x1="-26" y1="0" x2="-16" y2="0"   stroke="#57c8ff" stroke-width="1"/>
+            <line x1="16" y1="0"  x2="26"  y2="0"   stroke="#57c8ff" stroke-width="1"/>
+            <polygon points="0,-26 -4,-14 0,-18 4,-14" fill="#57c8ff"/>
+            <text x="0" y="-30" text-anchor="middle" fill="#57c8ff"
+                  font-family="Inter,sans-serif" font-size="7" font-weight="700" letter-spacing="0.06em">N</text>
+          </g>
+
+          <!-- Scale bar (decorative) -->
+          <g transform="translate(22,498)" fill="none" stroke="rgba(90,115,141,0.5)" stroke-width="1">
+            <line x1="0" y1="0" x2="80" y2="0"/>
+            <line x1="0" y1="-4" x2="0" y2="4"/>
+            <line x1="80" y1="-4" x2="80" y2="4"/>
+            <text x="40" y="-7" text-anchor="middle" fill="rgba(90,115,141,0.6)"
+                  font-family="Inter,sans-serif" font-size="7.5" stroke="none">~500 nm</text>
+          </g>
+
+        </svg>
+      </div><!-- /map-wrap -->
+
+      <!-- INFO PANEL -->
+      <div class="info-panel" id="info-panel">
+
+        <!-- Empty state -->
+        <div class="info-empty" id="info-empty">
+          <div class="info-empty-icon">⚓</div>
+          <p>Select a stop on the map or a card below to open the story from those waters.</p>
+        </div>
+
+        <!-- Stop detail (shown on selection) -->
+        <div class="info-body" id="info-detail">
+          <div id="d-tag" class="info-tag"></div>
+          <div id="d-title" class="info-title"></div>
+          <div id="d-sub"   class="info-sub"></div>
+          <div id="d-desc"  class="info-desc"></div>
+          <div id="d-chips" class="chips"></div>
+          <div class="info-nav">
+            <button class="nav-btn" id="btn-prev" onclick="navStop(-1)">← Prev</button>
+            <button class="nav-btn" id="btn-next" onclick="navStop(+1)">Next →</button>
+          </div>
+        </div>
+
+      </div><!-- /info-panel -->
+    </div><!-- /map-proto -->
+
+    <!-- Stop cards (bottom row) -->
+    <div class="stop-cards" id="stop-cards"></div>
+
+  </main>
+
+  <script>
+    const STOPS = [
+      {
+        id: 'florida',
+        svgId: 'sm-florida',
+        tag: 'Home Base',
+        title: 'South Florida',
+        sub: 'Fort Lauderdale & the home waters',
+        desc: 'South Florida has been part of Tommy\'s life since childhood, and for the last several years it has been home base in the most practical sense. It is the yachting capital for a reason, the work, the network, the resources, and the constant movement all run through here. Fort Lauderdale and Pompano are where relationships turn into real help, and where people once known only by phone become part of everyday life on the dock.',
+        chips: [
+          { label: 'Season',  value: 'Year-round' },
+          { label: 'Base', value: 'Pompano / Fort Lauderdale' },
+          { label: 'Feel',    value: 'Connected, capable' },
+        ],
+        blurb: 'Home base, deep network, and where the yachting world actually functions.'
+      },
+      {
+        id: 'abacos',
+        svgId: 'sm-abacos',
+        tag: 'Island Waters',
+        title: 'Exumas & Bahamas',
+        sub: 'Where the stress starts to rinse off',
+        desc: 'The Bahamas, and especially the Exumas, have a way of changing the weight of things. The work is still real and the operating challenges are still there, but somehow even the hard parts feel easier to carry. The pace is more relaxed, the water seems to wash off the stress of the States, and problems that would feel heavy somewhere else become almost enjoyable to solve there.',
+        chips: [
+          { label: 'Season',   value: 'Winter / Spring' },
+          { label: 'Crossing', value: '~50 nm from FL' },
+          { label: 'Feel',     value: 'Relaxed, capable, clear' },
+        ],
+        blurb: 'Close to Florida in miles, a different world in feel.'
+      },
+      {
+        id: 'newyork',
+        svgId: 'sm-newyork',
+        tag: 'Coastal Delivery',
+        title: 'New York & East Coast',
+        sub: 'ICW north — the delivery run',
+        desc: 'The East Coast is best understood as a chain of completely different worlds stitched together by the same waterway. One night might be a major city, the next might be a quiet stop where the local crowd is still talking about the mud bog over cocktails. That variety is the best part. New York itself is another story, useful, interesting, and full of opportunity, but not somewhere Tommy would choose to sit long term on a liveaboard boat with ferry wakes and supply headaches. As a transit stop, fine. As a chapter, less appealing.',
+        chips: [
+          { label: 'Route',    value: 'ICW + offshore mix' },
+          { label: 'Distance', value: '~1,250 nm from FL' },
+          { label: 'Feel',     value: 'Varied, adaptive, never dull' },
+        ],
+        blurb: 'A coastline of wildly different ports, with New York best taken in small doses.'
+      },
+      {
+        id: 'greatlakes',
+        svgId: 'sm-greatlakes',
+        tag: 'Summer Season',
+        title: 'Great Lakes',
+        sub: 'Lake Michigan & beyond',
+        desc: 'Lake Michigan is Tommy\'s true home water, and the Great Lakes still feel like home in a deeper sense than anywhere else. The scale surprises people who have never seen them, and the natural beauty catches them off guard. There is also something deeply satisfying about bringing a yacht up from Florida and feeling her finally get the best freshwater flush of her life. Add in the lake-town marine culture, the strong network across ports, and the fun of showing newcomers what the lakes really are, and it becomes a chapter worth repeating.',
+        chips: [
+          { label: 'Season', value: 'Summer' },
+          { label: 'Home water', value: 'Lake Michigan' },
+          { label: 'Feel',    value: 'Home, fresh, expansive' },
+        ],
+        blurb: 'Home waters, real scale, and a world most first-timers underestimate.'
+      }
+    ];
+
+    let activeIdx = -1;
+
+    function selectStop(id) {
+      const idx = STOPS.findIndex(s => s.id === id);
+      if (idx === -1) return;
+      activeIdx = idx;
+      const s = STOPS[idx];
+
+      // Update SVG markers
+      STOPS.forEach(stop => {
+        const el = document.getElementById(stop.svgId);
+        if (!el) return;
+        const dot  = el.querySelector('.stop-dot');
+        const ring = el.querySelector('.stop-ring');
+        if (stop.id === id) {
+          dot && dot.setAttribute('fill', '#81e1b2');
+          dot && dot.setAttribute('r', '9');
+          ring && ring.setAttribute('r', '15');
+          ring && ring.setAttribute('fill', 'rgba(129,225,178,0.12)');
+        } else {
+          dot && dot.setAttribute('fill', '#57c8ff');
+          dot && dot.setAttribute('r', '7');
+          ring && ring.setAttribute('r', '13');
+          ring && ring.setAttribute('fill', 'rgba(87,200,255,0.10)');
+        }
+      });
+
+      // Update stop cards
+      document.querySelectorAll('.stop-card').forEach(c => {
+        c.classList.toggle('active', c.dataset.stop === id);
+      });
+
+      // Fill info panel
+      document.getElementById('info-empty').style.display = 'none';
+      const detail = document.getElementById('info-detail');
+      detail.classList.add('active');
+
+      document.getElementById('d-tag').textContent   = s.tag;
+      document.getElementById('d-title').textContent = s.title;
+      document.getElementById('d-sub').textContent   = s.sub;
+      document.getElementById('d-desc').textContent  = s.desc;
+
+      document.getElementById('d-chips').innerHTML = s.chips.map(c => `
+        <div class="chip">
+          <span class="chip-label">${c.label}</span>
+          <span class="chip-value">${c.value}</span>
+        </div>
+      `).join('');
+
+      document.getElementById('btn-prev').disabled = (idx === 0);
+      document.getElementById('btn-next').disabled = (idx === STOPS.length - 1);
+      document.getElementById('btn-prev').textContent = idx > 0
+        ? `← ${STOPS[idx-1].title}` : '← Prev';
+      document.getElementById('btn-next').textContent = idx < STOPS.length - 1
+        ? `${STOPS[idx+1].title} →` : 'Next →';
+    }
+
+    function navStop(dir) {
+      const next = activeIdx + dir;
+      if (next >= 0 && next < STOPS.length) selectStop(STOPS[next].id);
+    }
+
+    // Wire SVG markers
+    STOPS.forEach(stop => {
+      const el = document.getElementById(stop.svgId);
+      if (!el) return;
+      el.addEventListener('click', () => selectStop(stop.id));
+      el.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectStop(stop.id); }
+      });
+    });
+
+    // Build stop cards
+    const cardsEl = document.getElementById('stop-cards');
+    STOPS.forEach(stop => {
+      const card = document.createElement('div');
+      card.className = 'stop-card';
+      card.dataset.stop = stop.id;
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `View ${stop.title}`);
+      card.innerHTML = `
+        <div class="card-tag">${stop.tag}</div>
+        <h3>${stop.title}</h3>
+        <p>${stop.blurb}</p>
+      `;
+      card.addEventListener('click', () => selectStop(stop.id));
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectStop(stop.id); }
+      });
+      cardsEl.appendChild(card);
+    });
+
+    // Auto-select first stop after a beat so the map finishes animating first
+    setTimeout(() => selectStop('florida'), 2200);
+  </script>
+
+</body>
+</html>
