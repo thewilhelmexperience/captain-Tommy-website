@@ -3,82 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Captain Tommy Molenhouse | Motor Yacht Captain</title>
-    <meta name="description" content="Private motor yacht captain with 20+ years of experience. USCG 200T Near Coastal. East Coast, Bahamas, Great Lakes. Fort Lauderdale, FL.">
+    <title>Captain Tommy | Adventures Underway</title>
+    <meta name="description" content="Captain Tommy's home on the web, stories from the water, voyages, adventure, and a life built around private motor yachts and the places they lead.">
+    <meta property="og:title" content="Captain Tommy | Adventures Underway">
+    <meta property="og:description" content="Voyages, captain's log entries, cruising grounds, and the ongoing story of life underway.">
+    <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-        html {
-            scroll-behavior: smooth;
-            scroll-padding-top: 68px;
-        }
+        html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 
         :root {
-            --bg: #05101e;
-            --panel: rgba(11, 22, 40, 0.84);
-            --line: rgba(110, 170, 255, 0.13);
-            --line-bright: rgba(110, 170, 255, 0.28);
+            --bg: #04101d;
+            --bg-2: #071a2e;
+            --panel: rgba(9, 20, 36, 0.86);
+            --panel-strong: rgba(6, 14, 26, 0.92);
+            --line: rgba(110, 170, 255, 0.12);
+            --line-strong: rgba(110, 170, 255, 0.24);
             --text: #ecf4ff;
-            --muted: #8ba4bb;
-            --muted-soft: #5a7590;
-            --accent: #4fc3f7;
-            --accent-2: #7dd9a8;
-            --gold: #c8a86b;
-            --gold-soft: rgba(200, 168, 107, 0.12);
-            --accent-gradient: linear-gradient(135deg, #4fc3f7 0%, #7dd9a8 100%);
-            --shadow: 0 20px 52px rgba(0,0,0,0.4);
-            --radius: 18px;
-            --max: 1140px;
-            --gap: 5rem;
-            --sunrise: radial-gradient(circle at top, rgba(200, 168, 107, 0.18), transparent 28%);
+            --muted: #92a9bf;
+            --soft: #5a738d;
+            --accent: #57c8ff;
+            --accent-2: #81e1b2;
+            --gold: #d4b176;
+            --grad: linear-gradient(135deg, #57c8ff 0%, #81e1b2 100%);
+            --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+            --radius: 20px;
+            --max: 1180px;
         }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--sunrise), var(--bg);
+            background:
+                radial-gradient(circle at top, rgba(87, 200, 255, 0.08), transparent 28%),
+                linear-gradient(180deg, #061220 0%, #04101d 100%);
             color: var(--text);
             line-height: 1.65;
             overflow-x: hidden;
         }
 
         a { color: inherit; }
-
-        .page {
-            width: min(100% - 2rem, var(--max));
-            margin: 0 auto;
+        img { max-width: 100%; display: block; }
+        .page { width: min(100% - 2rem, var(--max)); margin: 0 auto; }
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
         }
 
-        /* ── TOPBAR ── */
         .topbar {
             position: fixed;
             inset: 0 0 auto 0;
             z-index: 100;
-            backdrop-filter: blur(14px) saturate(180%);
-            -webkit-backdrop-filter: blur(14px) saturate(180%);
-            background: rgba(5, 16, 30, 0.84);
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background: rgba(4, 16, 29, 0.84);
             border-bottom: 1px solid rgba(255,255,255,0.05);
         }
 
         .topbar-inner {
             width: min(100% - 2rem, var(--max));
             margin: 0 auto;
+            height: 72px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
-            height: 68px;
         }
 
         .brand {
             display: flex;
             align-items: center;
-            gap: 0.85rem;
+            gap: 0.8rem;
             text-decoration: none;
             font-weight: 700;
-            font-size: 1rem;
             letter-spacing: -0.01em;
             flex-shrink: 0;
         }
@@ -87,14 +88,14 @@
             width: 38px;
             height: 38px;
             object-fit: contain;
-            filter: drop-shadow(0 4px 14px rgba(79, 195, 247, 0.3));
+            filter: drop-shadow(0 4px 14px rgba(87, 200, 255, 0.28));
         }
 
         .nav-links {
-            display: flex;
-            gap: 1.75rem;
-            align-items: center;
             list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
         }
 
         .nav-links a {
@@ -102,109 +103,85 @@
             color: var(--muted);
             font-size: 0.9rem;
             font-weight: 500;
-            transition: color 0.15s;
+            transition: color 0.15s ease;
         }
 
         .nav-links a:hover { color: var(--text); }
 
         .nav-cta {
-            color: #030d1c !important;
-            background: var(--accent-gradient);
-            padding: 0.55rem 1.1rem;
+            color: #04101d !important;
+            background: var(--grad);
+            padding: 0.55rem 1.05rem;
             border-radius: 999px;
-            font-weight: 700 !important;
-            font-size: 0.88rem !important;
+            font-weight: 800 !important;
+            font-size: 0.84rem !important;
             white-space: nowrap;
         }
 
         .nav-toggle {
             display: none;
             background: none;
-            border: 1px solid rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.14);
             color: var(--text);
+            border-radius: 10px;
+            padding: 0.45rem 0.7rem;
+            font-size: 1rem;
             cursor: pointer;
-            padding: 0.45rem 0.75rem;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            line-height: 1;
         }
 
-        /* ── HERO ── */
-        .hero-section {
+        .hero {
             position: relative;
             min-height: 100svh;
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            padding-top: 68px;
+            padding-top: 72px;
             overflow: hidden;
         }
 
-        /* CSS ocean backdrop — swap for a real photo with background-image when available */
-        .hero-ocean {
+        .hero-bg {
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse 130% 55% at 50% 44%, rgba(79, 195, 247, 0.08) 0%, transparent 65%),
-                radial-gradient(ellipse 60% 40% at 72% 28%, rgba(200, 168, 107, 0.05) 0%, transparent 55%),
-                linear-gradient(
-                    175deg,
-                    #020c1a 0%,
-                    #071e38 22%,
-                    #0c2d50 44%,
-                    #082540 65%,
-                    #031320 85%,
-                    #020b17 100%
-                );
+                radial-gradient(ellipse 85% 60% at 65% 38%, rgba(87, 200, 255, 0.11) 0%, transparent 60%),
+                radial-gradient(ellipse 45% 35% at 22% 62%, rgba(129, 225, 178, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse 38% 22% at 72% 18%, rgba(212, 177, 118, 0.08) 0%, transparent 60%),
+                linear-gradient(170deg, #020b16 0%, #08213c 22%, #0c3157 45%, #07233f 68%, #03111f 100%);
         }
 
-        /* Subtle animated shimmer — light playing on still water */
-        .hero-shimmer {
+        .hero-bg::after {
+            content: '';
             position: absolute;
             inset: 0;
-            background:
-                radial-gradient(ellipse 70% 35% at 55% 38%, rgba(79, 195, 247, 0.07) 0%, transparent 70%),
-                radial-gradient(ellipse 40% 20% at 28% 58%, rgba(79, 195, 247, 0.04) 0%, transparent 60%);
-            animation: ocean-shimmer 14s ease-in-out infinite;
+            background: linear-gradient(to bottom, rgba(3,11,22,0.08), rgba(3,11,22,0.5));
         }
 
-        @keyframes ocean-shimmer {
-            0%, 100% { opacity: 0.5; transform: translateX(0) scaleX(1); }
-            40%  { opacity: 1;   transform: translateX(2%)  scaleX(1.06); }
-            70%  { opacity: 0.7; transform: translateX(-2%) scaleX(0.97); }
-        }
-
-        /*
-         * PHOTO PLACEHOLDER — hero
-         * When a hero photo is ready, add to .hero-ocean:
-         *   background-image: url('photos/hero.jpg');
-         *   background-size: cover;
-         *   background-position: center 40%;
-         * And add a dark overlay element or adjust the gradient above.
-         */
-
-        .hero-content {
+        .hero-layout {
             position: relative;
             z-index: 2;
+            width: min(100% - 2rem, var(--max));
+            margin: 0 auto;
+            min-height: calc(100vh - 72px);
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            align-items: center;
+            gap: 2.5rem;
             padding: 4rem 0 5rem;
-            max-width: 680px;
         }
 
         .eyebrow {
             display: inline-flex;
             align-items: center;
-            gap: 0.65rem;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.2em;
+            gap: 0.6rem;
             color: var(--accent);
-            margin-bottom: 1.25rem;
-            font-weight: 600;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
         }
 
         .eyebrow::before {
             content: '';
-            width: 2rem;
+            width: 1.8rem;
             height: 1px;
             background: var(--accent);
             opacity: 0.5;
@@ -213,53 +190,54 @@
 
         h1 {
             font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(3rem, 7vw, 5.5rem);
-            line-height: 1.03;
-            letter-spacing: -0.03em;
-            margin-bottom: 0.65rem;
+            font-size: clamp(3.2rem, 7vw, 6rem);
+            line-height: 0.97;
+            letter-spacing: -0.04em;
+            margin-bottom: 1rem;
         }
 
         h1 em {
             font-style: italic;
-            color: var(--accent);
+            background: var(--grad);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         h2 {
             font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(2rem, 4vw, 2.9rem);
-            line-height: 1.06;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.05;
             letter-spacing: -0.03em;
-            margin-bottom: 0.65rem;
+            margin-bottom: 0.75rem;
         }
 
         h3 {
-            font-size: 1.05rem;
+            font-size: 1.08rem;
             font-weight: 700;
             letter-spacing: -0.01em;
         }
 
         .hero-sub {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(1rem, 2.2vw, 1.3rem);
+            max-width: 42rem;
             color: var(--muted);
-            font-weight: 600;
-            margin-bottom: 1.75rem;
-            letter-spacing: -0.01em;
-            line-height: 1.4;
+            font-size: clamp(1.02rem, 2vw, 1.25rem);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
         }
 
-        .avail-badge {
+        .hero-note {
             display: inline-flex;
             align-items: center;
             gap: 0.7rem;
-            padding: 0.65rem 1.1rem;
+            padding: 0.65rem 1rem;
             border-radius: 999px;
-            background: rgba(125, 217, 168, 0.09);
-            border: 1px solid rgba(125, 217, 168, 0.24);
-            color: #b8f5d4;
+            background: rgba(129, 225, 178, 0.08);
+            border: 1px solid rgba(129, 225, 178, 0.24);
+            color: #bff5d7;
             font-size: 0.88rem;
             font-weight: 600;
-            margin-bottom: 2rem;
+            margin-bottom: 1.8rem;
         }
 
         .pulse {
@@ -276,7 +254,7 @@
             position: absolute;
             inset: -4px;
             border-radius: 50%;
-            background: rgba(125, 217, 168, 0.25);
+            background: rgba(129, 225, 178, 0.24);
             animation: pulse-ring 2.2s ease-out infinite;
         }
 
@@ -288,7 +266,8 @@
         .hero-actions {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.9rem;
+            gap: 0.85rem;
+            margin-bottom: 2rem;
         }
 
         .btn {
@@ -296,95 +275,48 @@
             align-items: center;
             justify-content: center;
             gap: 0.5rem;
-            padding: 0.95rem 1.6rem;
+            padding: 0.95rem 1.45rem;
             border-radius: 999px;
             text-decoration: none;
             font-weight: 700;
-            font-size: 1rem;
+            font-size: 0.95rem;
             transition: transform 0.18s ease, box-shadow 0.18s ease;
-            cursor: pointer;
             white-space: nowrap;
         }
 
         .btn:hover { transform: translateY(-2px); }
-
         .btn-primary {
-            background: var(--accent-gradient);
-            color: #030d1c;
-            box-shadow: 0 14px 36px rgba(79, 195, 247, 0.2);
+            background: var(--grad);
+            color: #04101d;
+            box-shadow: 0 14px 36px rgba(87, 200, 255, 0.22);
         }
-
-        .btn-primary:hover { box-shadow: 0 20px 48px rgba(79, 195, 247, 0.32); }
-
         .btn-secondary {
             color: var(--text);
             background: rgba(255,255,255,0.06);
             border: 1px solid rgba(255,255,255,0.12);
         }
-
         .btn-ghost {
             color: var(--accent);
             background: transparent;
-            border: 1px solid rgba(79, 195, 247, 0.28);
-            padding: 0.75rem 1.3rem;
-            font-size: 0.92rem;
+            border: 1px solid rgba(87, 200, 255, 0.28);
+            padding: 0.78rem 1.2rem;
+            font-size: 0.9rem;
         }
 
-        .scroll-cue {
-            position: absolute;
-            bottom: 2.5rem;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--muted-soft);
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.2em;
-            text-decoration: none;
-            transition: color 0.15s;
-        }
-
-        .scroll-cue:hover { color: var(--accent); }
-
-        .scroll-cue::after {
-            content: '';
-            width: 1px;
-            height: 2.5rem;
-            background: linear-gradient(180deg, var(--muted-soft), transparent);
-            animation: cue-line 2s ease-in-out infinite;
-        }
-
-        .hero-glass-grid {
-            margin-top: 2rem;
+        .hero-glass {
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 0.9rem;
-            max-width: 860px;
+            max-width: 900px;
         }
 
         .glass-card {
-            position: relative;
-            overflow: hidden;
-            padding: 1rem 1rem 1.05rem;
+            padding: 1rem;
             border-radius: 16px;
-            background: rgba(9, 20, 36, 0.48);
+            background: rgba(8, 18, 34, 0.5);
             border: 1px solid rgba(255,255,255,0.1);
-            backdrop-filter: blur(14px);
-            -webkit-backdrop-filter: blur(14px);
-            box-shadow: 0 14px 34px rgba(0,0,0,0.22);
-        }
-
-        .glass-card::before {
-            content: '';
-            position: absolute;
-            inset: 0 0 auto 0;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
-            opacity: 0.5;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
 
         .glass-kicker {
@@ -398,8 +330,8 @@
 
         .glass-card strong {
             display: block;
+            margin-bottom: 0.35rem;
             font-size: 1rem;
-            margin-bottom: 0.3rem;
         }
 
         .glass-card span {
@@ -409,83 +341,88 @@
             line-height: 1.55;
         }
 
-        .section-band {
-            position: relative;
-            margin: 0 -1rem;
-            padding: 0 1rem;
-        }
-
-        .section-band::before {
-            content: '';
-            position: absolute;
-            inset: 4rem 0 auto 0;
-            height: 420px;
-            background: radial-gradient(circle at 20% 15%, rgba(79, 195, 247, 0.08), transparent 40%),
-                        radial-gradient(circle at 80% 20%, rgba(200, 168, 107, 0.08), transparent 32%);
-            pointer-events: none;
-            z-index: -1;
-        }
-
-        .quote-banner {
-            padding: 2rem;
-            display: grid;
-            grid-template-columns: 1.3fr 0.7fr;
-            gap: 1.5rem;
-            align-items: center;
-        }
-
-        .quote-banner blockquote {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(1.5rem, 3vw, 2.25rem);
-            line-height: 1.35;
-            font-style: italic;
-            color: var(--text);
-        }
-
-        .quote-banner p {
-            color: var(--muted);
-            font-size: 0.95rem;
-        }
-
-        .signal-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
-        }
-
-        .signal-card {
-            padding: 1.4rem;
-        }
-
-        .signal-icon {
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 999px;
-            display: inline-flex;
-            align-items: center;
+        .hero-visual {
+            display: flex;
             justify-content: center;
-            margin-bottom: 0.9rem;
-            background: rgba(79, 195, 247, 0.1);
-            border: 1px solid rgba(79, 195, 247, 0.22);
-            color: var(--accent);
-            font-weight: 800;
         }
 
-        .signal-card p {
+        .postcard {
+            width: min(380px, 100%);
+            padding: 1.2rem;
+            border-radius: 28px;
+            background: rgba(7, 16, 30, 0.68);
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            box-shadow: 0 30px 70px rgba(0,0,0,0.45);
+            transform: rotate(3deg);
+        }
+
+        .postcard-photo {
+            aspect-ratio: 4 / 5;
+            border-radius: 22px;
+            overflow: hidden;
+            background:
+                linear-gradient(to top, rgba(3, 11, 22, 0.76), rgba(3, 11, 22, 0.1)),
+                radial-gradient(circle at 30% 25%, rgba(87, 200, 255, 0.2), transparent 34%),
+                linear-gradient(160deg, #0d3258 0%, #0a1f38 50%, #071624 100%);
+            border: 1px solid rgba(255,255,255,0.08);
+            position: relative;
+        }
+
+        .postcard-photo::before {
+            content: 'PHOTO PLACEHOLDER';
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.68rem;
+            letter-spacing: 0.18em;
+            color: rgba(255,255,255,0.35);
+        }
+
+        .postcard-caption {
+            padding: 1rem 0.25rem 0.1rem;
+        }
+
+        .postcard-caption strong {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .postcard-caption span {
             color: var(--muted);
-            font-size: 0.92rem;
-            line-height: 1.62;
+            font-size: 0.9rem;
         }
 
-        @keyframes cue-line {
-            0%, 100% { opacity: 0.4; transform: translateY(0); }
-            50% { opacity: 1; transform: translateY(4px); }
+        .scroll-cue {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.45rem;
+            color: var(--soft);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            text-decoration: none;
         }
 
-        /* ── STATS STRIP ── */
+        .scroll-cue::after {
+            content: '';
+            width: 1px;
+            height: 2.4rem;
+            background: linear-gradient(180deg, var(--soft), transparent);
+        }
+
         .stats-strip {
             border-top: 1px solid var(--line);
             border-bottom: 1px solid var(--line);
+            background: rgba(7, 24, 40, 0.58);
         }
 
         .stats-grid {
@@ -494,9 +431,9 @@
         }
 
         .stat-item {
-            padding: 2rem 1.75rem;
-            border-right: 1px solid var(--line);
             text-align: center;
+            padding: 2rem 1.5rem;
+            border-right: 1px solid var(--line);
         }
 
         .stat-item:last-child { border-right: none; }
@@ -504,46 +441,95 @@
         .stat-value {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: clamp(2rem, 4vw, 3rem);
-            font-weight: 700;
             line-height: 1;
-            background: var(--accent-gradient);
+            background: var(--grad);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.35rem;
         }
 
         .stat-label {
             color: var(--muted);
-            font-size: 0.85rem;
+            font-size: 0.84rem;
             line-height: 1.45;
         }
 
-        /* ── SECTIONS ── */
         .section {
-            padding: var(--gap) 0;
+            padding: 5rem 0;
             border-top: 1px solid var(--line);
         }
 
-        .section-head {
-            margin-bottom: 2.5rem;
-        }
-
+        .section-head { margin-bottom: 2.4rem; }
         .section-lede {
             color: var(--muted);
             max-width: 54rem;
-            font-size: 1.02rem;
+            font-size: 1rem;
             margin-top: 0.5rem;
         }
 
-        .card {
-            background: var(--panel);
-            border: 1px solid var(--line);
-            border-radius: var(--radius);
-            box-shadow: var(--shadow);
+        .story-grid,
+        .log-grid,
+        .contact-grid,
+        .quote-banner,
+        .feature-grid,
+        .vessel-showcase {
+            display: grid;
+            gap: 1.25rem;
         }
 
-        /* ── CRUISING GROUNDS ── */
+        .story-grid {
+            grid-template-columns: 1.15fr 0.85fr;
+            align-items: start;
+        }
+
+        .story-main,
+        .story-side,
+        .log-entry,
+        .log-side,
+        .contact-main,
+        .contact-side,
+        .feature-card,
+        .route-card,
+        .vessel-card,
+        .quote-panel {
+            padding: 1.8rem;
+        }
+
+        .story-main p,
+        .story-side p,
+        .log-entry p,
+        .log-side p,
+        .route-card p,
+        .feature-card p,
+        .vessel-card p,
+        .quote-panel p,
+        .section p {
+            color: var(--muted);
+        }
+
+        .story-main p + p,
+        .log-entry p + p,
+        .story-side p + p { margin-top: 0.95rem; }
+
+        .pull-quote {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.4rem;
+            font-style: italic;
+            line-height: 1.5;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+
+        .mini-label {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--soft);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
         .grounds-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -551,77 +537,50 @@
         }
 
         .ground-card {
+            position: relative;
+            min-height: 290px;
             border-radius: var(--radius);
             overflow: hidden;
-            position: relative;
-            min-height: 270px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
             border: 1px solid var(--line);
-            transition: transform 0.22s ease, box-shadow 0.22s ease;
+            display: flex;
+            align-items: flex-end;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
         .ground-card:hover {
             transform: translateY(-3px);
-            box-shadow: 0 28px 64px rgba(0,0,0,0.55);
+            box-shadow: 0 30px 70px rgba(0,0,0,0.5);
         }
-
-        /*
-         * PHOTO PLACEHOLDER — ground cards
-         * For each card, add background-image: url('photos/bahamas.jpg') etc.
-         * The .ground-overlay on top will darken appropriately.
-         * Suggested shots: aerial turquoise / coastal moody / golden hour marina / Great Lakes open water
-         */
 
         .ground-bahamas {
             background:
-                radial-gradient(ellipse 80% 50% at 60% 30%, rgba(0, 196, 196, 0.28) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 50% at 60% 28%, rgba(0, 196, 196, 0.3) 0%, transparent 60%),
                 linear-gradient(160deg, #042d36 0%, #041b22 55%, #031218 100%);
         }
 
         .ground-eastcoast {
             background:
-                radial-gradient(ellipse 80% 50% at 40% 30%, rgba(42, 82, 152, 0.32) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 50% at 38% 28%, rgba(42, 82, 152, 0.34) 0%, transparent 60%),
                 linear-gradient(160deg, #0a1d36 0%, #061525 55%, #030d1a 100%);
         }
 
         .ground-sfla {
             background:
-                radial-gradient(ellipse 80% 50% at 55% 25%, rgba(200, 140, 40, 0.18) 0%, transparent 55%),
-                radial-gradient(ellipse 60% 40% at 30% 50%, rgba(79, 195, 247, 0.12) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 50% at 58% 20%, rgba(200, 140, 40, 0.2) 0%, transparent 55%),
+                radial-gradient(ellipse 60% 40% at 30% 50%, rgba(87, 200, 255, 0.14) 0%, transparent 60%),
                 linear-gradient(160deg, #1a1408 0%, #0f1510 55%, #060d14 100%);
         }
 
         .ground-lakes {
             background:
-                radial-gradient(ellipse 80% 50% at 45% 35%, rgba(32, 64, 96, 0.38) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 50% at 45% 32%, rgba(32, 64, 96, 0.38) 0%, transparent 60%),
                 linear-gradient(160deg, #071422 0%, #050f1c 55%, #030a14 100%);
         }
 
         .ground-overlay {
             position: absolute;
             inset: 0;
-            background: linear-gradient(
-                to top,
-                rgba(3, 10, 20, 0.94) 0%,
-                rgba(3, 10, 20, 0.4) 50%,
-                rgba(3, 10, 20, 0.1) 100%
-            );
-        }
-
-        .ground-coords {
-            position: absolute;
-            top: 1.2rem;
-            right: 1.2rem;
-            z-index: 2;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            color: rgba(255,255,255,0.22);
-            text-align: right;
-            line-height: 1.7;
-            font-variant-numeric: tabular-nums;
+            background: linear-gradient(to top, rgba(3, 10, 20, 0.95) 0%, rgba(3, 10, 20, 0.4) 50%, rgba(3, 10, 20, 0.08) 100%);
         }
 
         .ground-body {
@@ -637,359 +596,106 @@
             letter-spacing: 0.16em;
             font-weight: 700;
             color: var(--accent);
-            margin-bottom: 0.45rem;
+            margin-bottom: 0.4rem;
         }
 
         .ground-card h3 {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 1.45rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 0.5rem;
-            line-height: 1.2;
+            margin-bottom: 0.45rem;
         }
 
         .ground-card p {
-            color: var(--muted);
             font-size: 0.9rem;
             line-height: 1.6;
         }
 
-        /* ── VESSELS ── */
-        .vessels-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-        }
-
-        .vessel-card {
-            padding: 1.5rem;
-        }
-
-        .vessel-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-bottom: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid var(--line);
-        }
-
-        .vessel-name {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.25rem;
-            font-weight: 700;
-            letter-spacing: -0.01em;
-            margin-bottom: 0.2rem;
-        }
-
-        .vessel-type {
-            color: var(--muted);
-            font-size: 0.85rem;
-        }
-
-        .vessel-badge {
-            font-size: 0.72rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            padding: 0.3rem 0.75rem;
-            border-radius: 999px;
-            white-space: nowrap;
-            background: rgba(79, 195, 247, 0.09);
-            color: var(--accent);
-            border: 1px solid rgba(79, 195, 247, 0.2);
-            flex-shrink: 0;
-        }
-
-        .vessel-specs {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.8rem;
-            margin-bottom: 1rem;
-        }
-
-        .spec-label {
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
-            color: var(--muted-soft);
-            font-weight: 600;
-            margin-bottom: 0.15rem;
-        }
-
-        .spec-value {
-            font-size: 0.92rem;
-            font-weight: 600;
-        }
-
-        .vessel-note {
-            font-size: 0.9rem;
-            color: var(--muted);
-            line-height: 1.58;
-        }
-
-        /* ── CAPTAIN'S LOG ── */
-        .log-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
-            align-items: start;
-        }
-
-        .log-entry {
-            padding: 2rem;
-        }
-
-        .log-date {
-            font-size: 0.78rem;
-            text-transform: uppercase;
-            letter-spacing: 0.18em;
-            color: var(--gold);
-            font-weight: 700;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        .log-date::before {
-            content: '';
-            width: 1.5rem;
-            height: 1px;
-            background: var(--gold);
-            opacity: 0.5;
-            flex-shrink: 0;
-        }
-
-        .log-entry h3 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.45rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 1rem;
-            line-height: 1.25;
-        }
-
-        .log-entry p {
-            color: var(--muted);
-            line-height: 1.75;
-            margin-bottom: 1rem;
-        }
-
-        .log-entry p:last-child { margin-bottom: 0; }
-
-        .log-aside {
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            border-left: 2px solid var(--gold);
-        }
-
-        .log-pull-quote {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.4rem;
-            font-style: italic;
-            line-height: 1.5;
-            color: var(--text);
-        }
-
-        .log-meta-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            padding-top: 1.25rem;
-            border-top: 1px solid var(--line);
-        }
-
-        .log-meta-label {
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.14em;
-            color: var(--muted-soft);
-            font-weight: 600;
-            margin-bottom: 0.2rem;
-        }
-
-        .log-meta-value {
-            font-size: 0.92rem;
-            font-weight: 600;
-        }
-
-        .log-secondary {
-            padding-top: 1.25rem;
-            border-top: 1px solid var(--line);
-        }
-
-        .log-secondary p {
-            color: var(--muted);
-            font-size: 0.9rem;
-            line-height: 1.65;
-        }
-
-        /* ── VALUE PROP ── */
-        .value-grid {
+        .route-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
         }
 
-        .value-card {
-            padding: 1.75rem;
+        .route-card h3,
+        .feature-card h3,
+        .vessel-card h3 { margin-bottom: 0.6rem; }
+
+        .feature-grid {
+            grid-template-columns: repeat(3, 1fr);
         }
 
-        .value-num {
+        .feature-num {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2rem;
-            font-weight: 700;
-            color: rgba(79, 195, 247, 0.2);
+            color: rgba(87, 200, 255, 0.24);
             line-height: 1;
-            margin-bottom: 1rem;
-            letter-spacing: -0.04em;
+            margin-bottom: 0.9rem;
         }
 
-        .value-card h3 {
-            margin-bottom: 0.65rem;
+        .quote-banner {
+            grid-template-columns: 1.2fr 0.8fr;
+            align-items: center;
         }
 
-        .value-card p {
-            color: var(--muted);
-            font-size: 0.93rem;
-            line-height: 1.62;
+        .quote-panel blockquote {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.6rem, 3vw, 2.3rem);
+            line-height: 1.35;
+            font-style: italic;
+            color: var(--text);
         }
 
-        /* ── TIMELINE ── */
-        .timeline-card {
-            overflow: hidden;
+        .vessel-showcase {
+            grid-template-columns: 1.15fr 0.85fr 0.85fr;
         }
 
-        .tl-item {
-            padding: 1.5rem;
-            border-bottom: 1px solid var(--line);
-        }
-
-        .tl-item:last-child { border-bottom: none; }
-
-        .tl-top {
-            display: flex;
-            justify-content: space-between;
-            gap: 1rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.8rem;
-        }
-
-        .tl-item h3 {
-            margin-bottom: 0.2rem;
-        }
-
-        .tl-meta {
-            color: var(--muted);
-            font-size: 0.88rem;
-        }
-
-        .tl-role {
-            display: inline-block;
-            background: var(--gold-soft);
-            color: var(--gold);
-            border: 1px solid rgba(200, 168, 107, 0.22);
-            border-radius: 999px;
-            padding: 0.22rem 0.75rem;
-            font-size: 0.75rem;
-            font-weight: 700;
+        .vessel-meta {
+            font-size: 0.74rem;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-bottom: 0.75rem;
+            letter-spacing: 0.14em;
+            color: var(--soft);
+            font-weight: 700;
+            margin-bottom: 0.4rem;
         }
 
-        .tl-item ul {
-            list-style: none;
-            display: grid;
-            gap: 0.38rem;
-        }
-
-        .tl-item li {
-            color: var(--muted);
-            font-size: 0.93rem;
-            padding-left: 1.2rem;
-            position: relative;
-        }
-
-        .tl-item li::before {
-            content: '—';
-            position: absolute;
-            left: 0;
-            color: var(--muted-soft);
-        }
-
-        /* ── CREDENTIALS ── */
-        .creds-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-        }
-
-        .creds-card {
-            padding: 1.5rem;
-        }
-
-        .creds-card h3 {
-            margin-bottom: 1rem;
-        }
-
-        .pill-list {
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.6rem;
-        }
-
-        .pill-list li {
-            padding: 0.5rem 0.9rem;
-            border-radius: 999px;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(255,255,255,0.09);
-            font-size: 0.86rem;
-            font-weight: 500;
-        }
-
-        /* ── CONTACT ── */
-        .contact-grid {
-            display: grid;
-            grid-template-columns: 1.5fr 1fr;
-            gap: 1.5rem;
+        .log-grid {
+            grid-template-columns: 1.1fr 0.9fr;
             align-items: start;
         }
 
-        .contact-main {
-            padding: 2rem;
+        .log-date {
+            font-size: 0.74rem;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--gold);
+            font-weight: 700;
+            margin-bottom: 0.9rem;
         }
 
-        .contact-lede {
-            color: var(--muted);
-            font-size: 1.02rem;
-            margin-bottom: 2rem;
+        .contact-grid {
+            grid-template-columns: 1.15fr 0.85fr;
+            align-items: start;
         }
 
         .contact-methods {
             list-style: none;
             display: grid;
-            gap: 1.1rem;
+            gap: 1rem;
+            margin: 1.6rem 0 1.8rem;
         }
 
         .c-label {
             font-size: 0.72rem;
             text-transform: uppercase;
             letter-spacing: 0.14em;
-            color: var(--muted-soft);
-            font-weight: 600;
+            color: var(--soft);
+            font-weight: 700;
             margin-bottom: 0.15rem;
         }
 
         .c-value {
+            font-size: 1rem;
             font-weight: 600;
-            font-size: 1.02rem;
         }
 
         .c-value a {
@@ -997,62 +703,48 @@
             color: var(--accent);
         }
 
-        .c-value a:hover { text-decoration: underline; }
-
         .contact-actions {
             display: flex;
             flex-wrap: wrap;
             gap: 0.75rem;
-            margin-top: 1.75rem;
-        }
-
-        .contact-side {
-            padding: 2rem;
         }
 
         .qr-block {
             text-align: center;
-            margin-bottom: 1.75rem;
+            margin-bottom: 1.5rem;
         }
 
         .qr-block img {
             max-width: 150px;
-            width: 100%;
-            border-radius: 10px;
-            margin-bottom: 0.65rem;
-            opacity: 0.88;
+            margin: 0 auto 0.65rem;
+            border-radius: 12px;
         }
 
         .qr-caption {
-            font-size: 0.8rem;
             color: var(--muted);
+            font-size: 0.82rem;
         }
 
         .quick-links {
             list-style: none;
             display: grid;
-            gap: 0.7rem;
+            gap: 0.75rem;
         }
 
         .quick-links a {
             text-decoration: none;
             color: var(--accent);
-            font-size: 0.9rem;
-            font-weight: 500;
+            font-size: 0.92rem;
             display: flex;
+            gap: 0.45rem;
             align-items: center;
-            gap: 0.5rem;
         }
 
         .quick-links a::before {
             content: '→';
             opacity: 0.55;
-            flex-shrink: 0;
         }
 
-        .quick-links a:hover { text-decoration: underline; }
-
-        /* ── FOOTER ── */
         footer {
             border-top: 1px solid var(--line);
             padding: 2.5rem 0 4rem;
@@ -1062,106 +754,79 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 1.5rem;
+            gap: 1rem;
             flex-wrap: wrap;
         }
 
-        .footer-brand {
-            display: flex;
-            align-items: center;
-            gap: 0.7rem;
-            text-decoration: none;
-        }
-
-        .footer-brand img {
-            width: 30px;
-            height: 30px;
-            object-fit: contain;
-            opacity: 0.65;
-        }
-
         .footer-copy {
-            color: var(--muted-soft);
+            color: var(--soft);
             font-size: 0.86rem;
         }
 
         .footer-links {
             display: flex;
-            gap: 1.25rem;
             list-style: none;
+            gap: 1rem;
         }
 
         .footer-links a {
             text-decoration: none;
-            color: var(--muted-soft);
+            color: var(--soft);
             font-size: 0.86rem;
-            transition: color 0.15s;
         }
 
-        .footer-links a:hover { color: var(--text); }
-
-        /* ── RESPONSIVE ── */
-        @media (max-width: 900px) {
-            :root { --gap: 3.5rem; }
-
-            .grounds-grid,
-            .vessels-grid,
+        @media (max-width: 980px) {
+            .hero-layout,
+            .story-grid,
+            .quote-banner,
+            .contact-grid,
             .log-grid,
-            .creds-grid,
-            .contact-grid { grid-template-columns: 1fr; }
+            .vessel-showcase { grid-template-columns: 1fr; }
 
-            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .hero-visual { order: -1; }
+            .hero-glass,
+            .route-grid,
+            .feature-grid,
+            .grounds-grid { grid-template-columns: 1fr 1fr; }
+            .stats-grid { grid-template-columns: 1fr 1fr; }
             .stat-item:nth-child(2) { border-right: none; }
-            .stat-item:nth-child(3) { border-right: 1px solid var(--line); }
             .stat-item:nth-child(3),
             .stat-item:nth-child(4) { border-top: 1px solid var(--line); }
-
-            .value-grid { grid-template-columns: 1fr 1fr; }
-
-            .log-aside {
-                border-left: none;
-                border-top: 2px solid var(--gold);
-            }
+            .stat-item:nth-child(3) { border-right: 1px solid var(--line); }
         }
 
-        @media (max-width: 640px) {
-            :root { --gap: 2.75rem; }
-
-            .nav-links { display: none; flex-direction: column; }
+        @media (max-width: 720px) {
+            .nav-links { display: none; }
             .nav-links.open {
                 display: flex;
                 position: absolute;
-                top: 68px;
-                left: 0; right: 0;
-                background: rgba(5, 16, 30, 0.98);
-                border-bottom: 1px solid rgba(255,255,255,0.07);
-                padding: 1.5rem;
-                gap: 1.1rem;
-                list-style: none;
-                z-index: 99;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: rgba(4, 16, 29, 0.98);
+                border-bottom: 1px solid rgba(255,255,255,0.08);
+                padding: 1.3rem;
+                gap: 1rem;
+                flex-direction: column;
+                align-items: flex-start;
             }
-            .nav-links.open .nav-cta {
-                align-self: flex-start;
-            }
-            .nav-toggle { display: flex; }
-
-            .hero-content { padding: 2.5rem 0 4rem; }
-            .hero-actions { flex-direction: column; }
-            .btn { justify-content: center; }
-            .hero-glass-grid,
-            .signal-grid,
-            .quote-banner { grid-template-columns: 1fr; }
-
-            .value-grid { grid-template-columns: 1fr; }
-
-            .vessel-specs { grid-template-columns: 1fr 1fr; }
-
-            .footer-inner { flex-direction: column; align-items: flex-start; }
+            .nav-toggle { display: block; }
+            .hero-layout { padding: 3rem 0 4rem; }
+            .hero-actions,
+            .contact-actions { flex-direction: column; }
+            .btn { width: 100%; }
+            .hero-glass,
+            .route-grid,
+            .feature-grid,
+            .grounds-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr; }
+            .stat-item { border-right: none; border-top: 1px solid var(--line); }
+            .stat-item:first-child { border-top: none; }
+            .postcard { transform: none; }
         }
     </style>
 </head>
 <body>
-
     <header class="topbar">
         <div class="topbar-inner">
             <a class="brand" href="#top">
@@ -1170,501 +835,272 @@
             </a>
             <nav aria-label="Primary">
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="#grounds">Waters</a></li>
-                    <li><a href="#vessels">Vessels</a></li>
+                    <li><a href="#story">Story</a></li>
+                    <li><a href="#voyages">Voyages</a></li>
                     <li><a href="#log">Captain's Log</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a class="nav-cta" href="cv.html">View CV</a></li>
+                    <li><a class="nav-cta" href="cv.html">Captain's CV</a></li>
                 </ul>
             </nav>
-            <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+            <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">☰</button>
         </div>
     </header>
 
-    <!-- ── HERO ── -->
-    <section class="hero-section" id="top" aria-label="Introduction">
-        <div class="hero-ocean" aria-hidden="true"></div>
-        <div class="hero-shimmer" aria-hidden="true"></div>
-
-        <div class="hero-content page">
-            <div class="eyebrow">Motor Yacht Captain &middot; Fort Lauderdale, FL</div>
-            <h1>Twenty years<br><em>underway.</em></h1>
-            <p class="hero-sub">Private motor yachts, 75 to 112 feet. East Coast, Bahamas, Great Lakes.</p>
-            <div class="avail-badge">
-                <span class="pulse" aria-hidden="true"></span>
-                Available immediately following current WPB to NJ delivery
-            </div>
-            <div class="hero-actions">
-                <a class="btn btn-primary" href="#contact">Get in touch</a>
-                <a class="btn btn-secondary" href="cv.html">View CV</a>
-            </div>
-
-            <div class="hero-glass-grid" aria-label="Quick highlights">
-                <div class="glass-card">
-                    <div class="glass-kicker">Owner confidence</div>
-                    <strong>Calm, technical command</strong>
-                    <span>Experienced owner-facing captain with real maintenance depth and no appetite for chaos.</span>
+    <section class="hero" id="top" aria-label="Introduction">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-layout">
+            <div>
+                <div class="eyebrow">Captain Tommy • Adventures Underway</div>
+                <h1>The captain.<br><em>The stories.</em><br>The water.</h1>
+                <p class="hero-sub">This should feel less like opening a résumé and more like stepping into a life underway, deliveries, passages, anchorages, memorable boats, and the kind of adventure that keeps going long after the next job begins.</p>
+                <div class="hero-note">
+                    <span class="pulse" aria-hidden="true"></span>
+                    Currently underway, collecting the next chapter
                 </div>
-                <div class="glass-card">
-                    <div class="glass-kicker">Current status</div>
-                    <strong>Underway, not between stories</strong>
-                    <span>Currently running a delivery from West Palm Beach to Northern New Jersey, available on arrival.</span>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#log">Read the log</a>
+                    <a class="btn btn-secondary" href="#story">Meet Captain Tommy</a>
+                    <a class="btn btn-ghost" href="cv.html">Recruiters, start here</a>
                 </div>
-                <div class="glass-card">
-                    <div class="glass-kicker">Hiring path</div>
-                    <strong>CV, contact, and QR ready</strong>
-                    <span>Built for introductions, recruiter handoffs, dockside conversations, and immediate follow-up.</span>
+                <div class="hero-glass">
+                    <div class="glass-card">
+                        <div class="glass-kicker">What this is</div>
+                        <strong>More than a resume site</strong>
+                        <span>A home for voyages, sea stories, boats, places, and the ongoing shape of life around the water.</span>
+                    </div>
+                    <div class="glass-card">
+                        <div class="glass-kicker">Current chapter</div>
+                        <strong>Still very much underway</strong>
+                        <span>Right now the route runs from West Palm Beach toward Northern New Jersey, with more stories about that trip still to come.</span>
+                    </div>
+                    <div class="glass-card">
+                        <div class="glass-kicker">For work</div>
+                        <strong>The hiring path still exists</strong>
+                        <span>The CV page, QR code, and recruiter-friendly materials stay easy to reach without taking over the homepage.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="postcard">
+                    <div class="postcard-photo"></div>
+                    <div class="postcard-caption">
+                        <strong>Photo-ready adventure homepage</strong>
+                        <span>Drop in a great helm shot, delivery photo, or Bahamas image here and the whole thing starts to sing.</span>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <a class="scroll-cue" href="#grounds" aria-label="Scroll to cruising grounds">Scroll</a>
+        <a class="scroll-cue" href="#story">Scroll</a>
     </section>
 
-    <!-- ── STATS ── -->
     <div class="stats-strip">
         <div class="page">
             <div class="stats-grid">
                 <div class="stat-item">
                     <div class="stat-value">20+</div>
-                    <div class="stat-label">Years of professional experience</div>
+                    <div class="stat-label">Years of life and work on the water</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">75&ndash;112&thinsp;ft</div>
-                    <div class="stat-label">Motor yacht command range</div>
+                    <div class="stat-value">75–112 ft</div>
+                    <div class="stat-label">Private motor yachts commanded</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">200T</div>
-                    <div class="stat-label">USCG Near Coastal license</div>
+                    <div class="stat-value">Bahamas</div>
+                    <div class="stat-label">To Great Lakes, East Coast, and home waters</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">4</div>
-                    <div class="stat-label">Major cruising regions commanded</div>
+                    <div class="stat-value">Stories</div>
+                    <div class="stat-label">Worth telling, with more on the way</div>
                 </div>
             </div>
         </div>
     </div>
 
     <main class="page">
-
-        <!-- ── CRUISING GROUNDS ── -->
-        <section class="section" id="grounds" aria-labelledby="grounds-heading">
+        <section class="section" id="story" aria-labelledby="story-heading">
             <div class="section-head">
-                <div class="eyebrow">Cruising grounds</div>
-                <h2 id="grounds-heading">Waters I know well.</h2>
-                <p class="section-lede">From the cuts of the Abacos to open Lake Michigan, built over two decades of real programs with real owners aboard.</p>
+                <div class="eyebrow">About Captain Tommy</div>
+                <h2 id="story-heading">Not just where I’ve worked. Who I am underway.</h2>
+                <p class="section-lede">The licenses and the command history matter, but the front page should carry the feel of the life, not just the paperwork behind it.</p>
+            </div>
+
+            <div class="story-grid">
+                <div class="story-main card">
+                    <h3 style="margin-bottom:0.8rem;">A captain with a travel soul</h3>
+                    <p>Captain Tommy’s world is not one marina, one owner, or one chapter. It is a string of coastlines, crossings, weather calls, yard periods, sunrise departures, and anchorages that stay in your head long after you leave them behind.</p>
+                    <p>This site should feel like stepping aboard. A little grit, a little elegance, and a lot of lived-in sea time. A place to show the boats, the destinations, the stories, and the adventure that keeps unfolding even when the next position changes.</p>
+                    <p>That makes the homepage useful beyond any single job hunt. It becomes a real home port for Captain Tommy as a person and a brand, not just a container for employment details.</p>
+                </div>
+
+                <div class="story-side card">
+                    <div class="pull-quote">“The CV explains the qualifications. The site should explain the life.”</div>
+                    <div class="mini-label">How this should work</div>
+                    <p>The homepage builds vibe, curiosity, and trust. The CV page handles the recruiter path. One pulls people in. The other gives them the formal handoff when they need it.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="voyages" aria-labelledby="voyages-heading">
+            <div class="section-head">
+                <div class="eyebrow">Voyages & waters</div>
+                <h2 id="voyages-heading">The map behind the stories.</h2>
+                <p class="section-lede">These are not bullet points on a CV. They are places with weather, memory, character, and miles attached to them.</p>
             </div>
 
             <div class="grounds-grid">
                 <article class="ground-card ground-bahamas">
                     <div class="ground-overlay" aria-hidden="true"></div>
-                    <!-- PHOTO: aerial turquoise sand bars, Exumas or Abacos -->
-                    <div class="ground-coords" aria-hidden="true">26°31&prime;N<br>77°04&prime;W</div>
                     <div class="ground-body">
                         <div class="ground-tag">Bahamas</div>
-                        <h3>Abacos &amp; Exumas</h3>
-                        <p>Multiple seasons with owners aboard. Man-O-War Cay, Hope Town, Staniel Cay, the Exuma Sound. The cuts, the bars, the timing — learned it the right way.</p>
+                        <h3>Abacos & Exumas</h3>
+                        <p>Turquoise cuts, timing the bars, owner trips that become core memories, and all the details that make those islands feel earned instead of decorative.</p>
                     </div>
                 </article>
 
                 <article class="ground-card ground-eastcoast">
                     <div class="ground-overlay" aria-hidden="true"></div>
-                    <!-- PHOTO: ICW or coastal Atlantic, moody or golden hour -->
-                    <div class="ground-coords" aria-hidden="true">35°54&prime;N<br>75°40&prime;W</div>
                     <div class="ground-body">
                         <div class="ground-tag">U.S. East Coast</div>
                         <h3>ICW to New York</h3>
-                        <p>Seasonal runs up and down the Seaboard, offshore and ICW. Cape Hatteras, the Chesapeake, New York Harbor, the Hamptons. South Florida to the Northeast and back.</p>
+                        <p>South Florida up through the Carolinas, the Chesapeake, New York Harbor, and the rhythm of real seasonal movement along the coast.</p>
                     </div>
                 </article>
 
                 <article class="ground-card ground-sfla">
                     <div class="ground-overlay" aria-hidden="true"></div>
-                    <!-- PHOTO: Fort Lauderdale sunrise, New River or Port Everglades -->
-                    <div class="ground-coords" aria-hidden="true">26°07&prime;N<br>80°06&prime;W</div>
                     <div class="ground-body">
                         <div class="ground-tag">South Florida</div>
                         <h3>Fort Lauderdale home base</h3>
-                        <p>Deep local knowledge of Fort Lauderdale, Palm Beach, and Biscayne Bay. Home waters, trusted marinas, maintenance infrastructure, and contractor relationships.</p>
+                        <p>Local knowledge, trusted infrastructure, and the working home waters where so many programs begin, reset, and prepare for the next run.</p>
                     </div>
                 </article>
 
                 <article class="ground-card ground-lakes">
                     <div class="ground-overlay" aria-hidden="true"></div>
-                    <!-- PHOTO: Lake Michigan open water, summer horizon -->
-                    <div class="ground-coords" aria-hidden="true">41°53&prime;N<br>87°37&prime;W</div>
                     <div class="ground-body">
                         <div class="ground-tag">Great Lakes</div>
-                        <h3>Lake Michigan &amp; Beyond</h3>
-                        <p>Long-range deliveries and summer programs out of Chicago and Holland, MI. Fresh-water operations, seasonal layup, and the Lakes&rsquo; distinctive conditions and infrastructure.</p>
+                        <h3>Lake Michigan & beyond</h3>
+                        <p>Fresh water, long miles, seasonal transitions, and a different kind of boating rhythm that still leaves its own strong imprint on the story.</p>
                     </div>
                 </article>
             </div>
         </section>
 
-        <!-- ── VESSELS ── -->
-        <section class="section" id="vessels" aria-labelledby="vessels-heading">
+        <section class="section" aria-labelledby="route-heading">
             <div class="section-head">
-                <div class="eyebrow">Vessels commanded</div>
-                <h2 id="vessels-heading">Programs managed.</h2>
-                <p class="section-lede">Each command a full program &mdash; maintenance oversight, owner relations, crew, seasons, and budget responsibility included.</p>
+                <div class="eyebrow">Adventure structure</div>
+                <h2 id="route-heading">The kind of threads this site can keep collecting.</h2>
             </div>
 
-            <div class="vessels-grid">
-                <article class="vessel-card card">
-                    <div class="vessel-header">
-                        <div>
-                            <div class="vessel-name">M/Y Lady Victory</div>
-                            <div class="vessel-type">88&prime; Rayburn &middot; Private</div>
-                        </div>
-                        <div class="vessel-badge">2024&ndash;2025</div>
-                    </div>
-                    <div class="vessel-specs">
-                        <div>
-                            <div class="spec-label">LOA</div>
-                            <div class="spec-value">88 ft</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Program</div>
-                            <div class="spec-value">South Florida &rarr; Hamptons</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Builder</div>
-                            <div class="spec-value">Rayburn</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Base</div>
-                            <div class="spec-value">Fort Lauderdale / New York</div>
-                        </div>
-                    </div>
-                    <p class="vessel-note">Assumed command after deferred maintenance and restored seaworthiness. Ran a full seasonal coastal program while prioritizing critical system upgrades and compliance.</p>
+            <div class="route-grid">
+                <article class="route-card card">
+                    <h3>Deliveries</h3>
+                    <p>Short entries about passages, weather windows, route decisions, favorite stops, and the oddly satisfying details that make a good run feel clean.</p>
                 </article>
-
-                <article class="vessel-card card">
-                    <div class="vessel-header">
-                        <div>
-                            <div class="vessel-name">M/Y Lady B</div>
-                            <div class="vessel-type">85&prime; Pacific Mariner &middot; Private</div>
-                        </div>
-                        <div class="vessel-badge">2022&ndash;2023</div>
-                    </div>
-                    <div class="vessel-specs">
-                        <div>
-                            <div class="spec-label">LOA</div>
-                            <div class="spec-value">85 ft</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Program</div>
-                            <div class="spec-value">Fort Lauderdale &amp; Bahamas</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Builder</div>
-                            <div class="spec-value">Pacific Mariner</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Refit</div>
-                            <div class="spec-value">5-month interior &amp; systems</div>
-                        </div>
-                    </div>
-                    <p class="vessel-note">Bahamas cruising with owner and guests through the Abacos and Exumas. Managed a five-month refit coordinating contractors, systems upgrades, and interior work.</p>
+                <article class="route-card card">
+                    <h3>Boat life</h3>
+                    <p>The less glamorous but very real texture of running vessels properly, yard periods, systems, prep, maintenance culture, and the art of keeping things right.</p>
                 </article>
-
-                <article class="vessel-card card">
-                    <div class="vessel-header">
-                        <div>
-                            <div class="vessel-name">M/Y Well Played</div>
-                            <div class="vessel-type">75&prime; Hatteras M75 &middot; Private</div>
-                        </div>
-                        <div class="vessel-badge">2020&ndash;2021</div>
-                    </div>
-                    <div class="vessel-specs">
-                        <div>
-                            <div class="spec-label">LOA</div>
-                            <div class="spec-value">75 ft</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Program</div>
-                            <div class="spec-value">Great Lakes &amp; Bahamas</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Builder</div>
-                            <div class="spec-value">Hatteras</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Routes</div>
-                            <div class="spec-value">Chicago &rarr; Florida deliveries</div>
-                        </div>
-                    </div>
-                    <p class="vessel-note">Long-range deliveries between the Great Lakes and Florida, plus Bahamas cruising with owner aboard. Full maintenance, navigation, and guest operations management.</p>
-                </article>
-
-                <article class="vessel-card card">
-                    <div class="vessel-header">
-                        <div>
-                            <div class="vessel-name">Freelance Command</div>
-                            <div class="vessel-type">80&ndash;90&prime; Private Motor Yachts</div>
-                        </div>
-                        <div class="vessel-badge">2023&ndash;2024</div>
-                    </div>
-                    <div class="vessel-specs">
-                        <div>
-                            <div class="spec-label">Range</div>
-                            <div class="spec-value">80&ndash;90 ft</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Grounds</div>
-                            <div class="spec-value">Florida, Bahamas, Great Lakes</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Role</div>
-                            <div class="spec-value">Contract &amp; Relief Captain</div>
-                        </div>
-                        <div>
-                            <div class="spec-label">Type</div>
-                            <div class="spec-value">Deliveries &amp; Owner Programs</div>
-                        </div>
-                    </div>
-                    <p class="vessel-note">Selected for short-notice contract and relief roles requiring technical range and operational flexibility. Deliveries, owner programs, and Bahamas crossings.</p>
+                <article class="route-card card">
+                    <h3>Places worth returning to</h3>
+                    <p>Anchorages, marinas, cuts, shore moments, and the destinations that deserve more than a tiny mention buried inside a job history.</p>
                 </article>
             </div>
         </section>
 
-        <!-- ── CAPTAIN'S LOG ── -->
+        <section class="section" aria-labelledby="quote-heading">
+            <div class="quote-banner">
+                <div class="quote-panel card">
+                    <div class="eyebrow">Captain Tommy vibe</div>
+                    <blockquote id="quote-heading">“I want this to feel less like a résumé and more like a life lived properly on the water.”</blockquote>
+                </div>
+                <div class="quote-panel card">
+                    <p>The point of the homepage is atmosphere as much as information, a sense of sea time, movement, personality, and adventure that can keep growing no matter what boat comes next.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="features-heading">
+            <div class="section-head">
+                <div class="eyebrow">Where this can go</div>
+                <h2 id="features-heading">What makes the site feel alive.</h2>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card card">
+                    <div class="feature-num">01</div>
+                    <h3>Stories over bullet points</h3>
+                    <p>The homepage pulls people into the journey first, then lets the formal credentials live one click away where they belong.</p>
+                </article>
+                <article class="feature-card card">
+                    <div class="feature-num">02</div>
+                    <h3>Photo-ready adventures</h3>
+                    <p>Once the real imagery arrives, this becomes part travel journal, part captain brand, and part visual proof that the life is real.</p>
+                </article>
+                <article class="feature-card card">
+                    <div class="feature-num">03</div>
+                    <h3>Still useful for hiring</h3>
+                    <p>The recruiter path stays intact through the CV page, QR code, and contact flow, but it no longer dominates the front door.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="vessels-heading">
+            <div class="section-head">
+                <div class="eyebrow">Boats & chapters</div>
+                <h2 id="vessels-heading">The vessels that shaped the story.</h2>
+                <p class="section-lede">Every boat leaves its own mark. Different owners, different waters, different programs, same standard: keep her right and make the experience worth remembering.</p>
+            </div>
+
+            <div class="vessel-showcase">
+                <article class="vessel-card card">
+                    <div class="vessel-meta">Current/recent chapter</div>
+                    <h3>M/Y Lady Victory • 88' Rayburn</h3>
+                    <p>Restoring confidence in a vessel after deferred maintenance, then turning that back into a real seasonal program, is exactly the sort of chapter that says something about the captain behind it.</p>
+                </article>
+                <article class="vessel-card card">
+                    <div class="vessel-meta">Bahamas chapter</div>
+                    <h3>M/Y Lady B • 85' Pacific Mariner</h3>
+                    <p>Owner trips through the Abacos and Exumas, plus the less glamorous work of refit coordination and systems attention that made those trips possible.</p>
+                </article>
+                <article class="vessel-card card">
+                    <div class="vessel-meta">Great Lakes chapter</div>
+                    <h3>M/Y Well Played • 75' Hatteras M75</h3>
+                    <p>Long-range delivery energy, seasonal transitions, and the kind of miles that turn a vessel history into something more personal than a list.</p>
+                </article>
+            </div>
+        </section>
+
         <section class="section" id="log" aria-labelledby="log-heading">
             <div class="section-head">
-                <div class="eyebrow">Captain&rsquo;s Log</div>
+                <div class="eyebrow">Captain’s Log</div>
                 <h2 id="log-heading">Stories from the water.</h2>
-                <p class="section-lede">Real programs, real owners, real sea time. Not a highlight reel &mdash; the actual work.</p>
+                <p class="section-lede">This is where the site starts to become a living thing, deliveries, seasons, crossings, memorable stops, and the moments that deserve more than a line on a resume.</p>
             </div>
 
             <div class="log-grid">
-                <div class="log-entry card">
-                    <div class="log-date">April 2026 &middot; West Palm Beach &rarr; Northern New Jersey</div>
-                    <h3>Running the coast right now.</h3>
-                    <p>Currently underway on a delivery from West Palm Beach to Northern New Jersey &mdash; a route I know well. The ICW through Georgia and the Carolinas, offshore windows timed around the weather, a Chesapeake Bay run if the forecast cooperates north of Hatteras.</p>
-                    <p>This kind of delivery focuses the mind. It&rsquo;s just the vessel, the passage plan, and the decisions that need to be made as conditions develop. No drama, no improvising &mdash; just the methodical execution of a plan built on experience and good weather routing.</p>
-                    <p>Available for introductions, conversations, and a new position immediately on arrival.</p>
-                </div>
+                <article class="log-entry card">
+                    <div class="log-date">April 2026 • West Palm Beach to Northern New Jersey</div>
+                    <h3 style="margin-bottom:0.85rem;">Running the coast right now.</h3>
+                    <p>There is something about a delivery that sharpens everything. The passage plan matters, the weather matters, the timing matters, and so does the calm steady rhythm of making good decisions one after another.</p>
+                    <p>This leg up the coast is exactly the kind of story the homepage should hold, not just because it sounds good, but because it is the real texture of the life. The route, the pace, the changing conditions, and the sense that another chapter is already underway before the last one has fully settled.</p>
+                </article>
 
-                <div class="log-aside card">
-                    <p class="log-pull-quote">&ldquo;There is something about a delivery that focuses the mind &mdash; just the boat, the passage, and the plan.&rdquo;</p>
-
-                    <div class="log-meta-grid">
-                        <div>
-                            <div class="log-meta-label">Route</div>
-                            <div class="log-meta-value">WPB &rarr; Northern NJ</div>
-                        </div>
-                        <div>
-                            <div class="log-meta-label">Waters</div>
-                            <div class="log-meta-value">ICW + Offshore</div>
-                        </div>
-                        <div>
-                            <div class="log-meta-label">Status</div>
-                            <div class="log-meta-value">Active &middot; En route</div>
-                        </div>
-                        <div>
-                            <div class="log-meta-label">Available</div>
-                            <div class="log-meta-value">On arrival</div>
-                        </div>
-                    </div>
-
-                    <div class="log-secondary">
-                        <div class="log-date" style="margin-bottom: 0.75rem;">June 2022 &middot; Abacos &amp; Exumas</div>
-                        <p>Five weeks in the Bahamas with M/Y Lady B &mdash; Man-O-War Cay, then south to Staniel Cay and the Exumas. By the end of the trip, the owner wanted to buy land there. That&rsquo;s the program you build when the systems are right and the captain has done the preparation.</p>
-                    </div>
-                </div>
+                <aside class="log-side card">
+                    <div class="pull-quote">“Some trips are jobs. Some become stories before you even tie up.”</div>
+                    <div class="mini-label">Another future entry</div>
+                    <p>Five weeks in the Bahamas with an owner aboard, a favorite anchorage, a delivery that turned into a memory, a dock conversation that changed the next chapter. This is the lane the site should keep growing into.</p>
+                </aside>
             </div>
         </section>
 
-        <section class="section section-band" aria-labelledby="quote-heading">
-            <div class="card quote-banner">
-                <div>
-                    <div class="eyebrow">The difference</div>
-                    <blockquote id="quote-heading">"I like boats that work, trips that run clean, and owners who never have to wonder what’s being handled."</blockquote>
-                </div>
-                <p>This site is designed to become photo-rich, but even before the imagery lands, the message is clear: seasoned command, strong technical judgment, and a program that feels composed from the dock to open water.</p>
-            </div>
-        </section>
-
-        <section class="section" aria-labelledby="signals-heading">
-            <div class="section-head">
-                <div class="eyebrow">Why this works</div>
-                <h2 id="signals-heading">Signals that matter to owners.</h2>
-            </div>
-
-            <div class="signal-grid">
-                <article class="signal-card card">
-                    <div class="signal-icon">01</div>
-                    <h3>Presentation without fluff</h3>
-                    <p>The site now sells confidence, range, and professionalism before anyone ever opens the PDF. That matters.</p>
-                </article>
-                <article class="signal-card card">
-                    <div class="signal-icon">02</div>
-                    <h3>Photo-ready structure</h3>
-                    <p>When your real shots arrive, the hero and cruising sections can jump from polished to genuinely jaw-dropping without rebuilding the whole thing.</p>
-                </article>
-                <article class="signal-card card">
-                    <div class="signal-icon">03</div>
-                    <h3>Built for real-world hiring</h3>
-                    <p>Fast CV access, QR handoff, and a mobile-friendly recruiting page make it practical, not just pretty.</p>
-                </article>
-            </div>
-        </section>
-
-        <!-- ── VALUE PROP ── -->
-        <section class="section" aria-labelledby="value-heading">
-            <div class="section-head">
-                <div class="eyebrow">Owner value</div>
-                <h2 id="value-heading">What you actually get.</h2>
-            </div>
-
-            <div class="value-grid">
-                <div class="value-card card">
-                    <div class="value-num">01</div>
-                    <h3>Technical command</h3>
-                    <p>Strong hands-on capability from helm to engine room: marine electronics, AV, onboard IT, mechanical and electrical troubleshooting. Fewer contractor call-outs, better maintenance decisions, more confidence underway.</p>
-                </div>
-                <div class="value-card card">
-                    <div class="value-num">02</div>
-                    <h3>Program stability</h3>
-                    <p>Experience running structured multi-season programs with real maintenance culture: preventative schedules, yard period management, clear owner communication, and no surprises. The vessel is always ready when you are.</p>
-                </div>
-                <div class="value-card card">
-                    <div class="value-num">03</div>
-                    <h3>Owner-first operations</h3>
-                    <p>Twelve years running a client services business before yachting. Tom understands long-term relationships, clear expectations, and what it means to work <em>for</em> someone &mdash; not just alongside them.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ── EXPERIENCE TIMELINE ── -->
-        <section class="section" id="experience" aria-labelledby="exp-heading">
-            <div class="section-head">
-                <div class="eyebrow">Command history</div>
-                <h2 id="exp-heading">Full experience record.</h2>
-            </div>
-
-            <div class="card timeline-card">
-                <article class="tl-item">
-                    <div class="tl-top">
-                        <div>
-                            <h3>M/Y Lady Victory &mdash; 88&prime; Rayburn</h3>
-                            <div class="tl-meta">Fort Lauderdale, FL / New York, NY</div>
-                        </div>
-                        <div style="text-align:right">
-                            <div class="tl-role">Lead Captain</div>
-                            <div class="tl-meta">May 2024 &ndash; Dec 2025</div>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Restored safe operation after an extended deferred maintenance period; returned vessel to seaworthiness and compliance.</li>
-                        <li>Managed the full seasonal cruising program: South Florida to New York and the Hamptons.</li>
-                        <li>Identified and prioritized critical system upgrades; coordinated yard work and contractor relationships.</li>
-                    </ul>
-                </article>
-
-                <article class="tl-item">
-                    <div class="tl-top">
-                        <div>
-                            <h3>Freelance Captain &mdash; Private Motor Yachts</h3>
-                            <div class="tl-meta">Florida / Bahamas / Great Lakes</div>
-                        </div>
-                        <div style="text-align:right">
-                            <div class="tl-role">Contract Captain</div>
-                            <div class="tl-meta">Jul 2023 &ndash; May 2024</div>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Contract and relief roles aboard multiple private yachts from 80&prime; to 90&prime;.</li>
-                        <li>Deliveries, owner-operated cruising programs, and Bahamas crossings.</li>
-                        <li>Engaged for short-notice assignments requiring strong technical and operational range.</li>
-                    </ul>
-                </article>
-
-                <article class="tl-item">
-                    <div class="tl-top">
-                        <div>
-                            <h3>M/Y Lady B &mdash; 85&prime; Pacific Mariner</h3>
-                            <div class="tl-meta">Fort Lauderdale, FL / Bahamas</div>
-                        </div>
-                        <div style="text-align:right">
-                            <div class="tl-role">Lead Captain</div>
-                            <div class="tl-meta">Jun 2022 &ndash; Jun 2023</div>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Bahamas cruising with owner and guests through the Abacos and Exumas.</li>
-                        <li>Managed a five-month interior and systems refit, coordinating contractors and upgrades.</li>
-                        <li>Full vessel operations, maintenance, and owner/guest experience management.</li>
-                    </ul>
-                </article>
-
-                <article class="tl-item">
-                    <div class="tl-top">
-                        <div>
-                            <h3>M/Y Well Played &mdash; 75&prime; Hatteras M75</h3>
-                            <div class="tl-meta">Chicago / Florida / Bahamas</div>
-                        </div>
-                        <div style="text-align:right">
-                            <div class="tl-role">Lead Captain</div>
-                            <div class="tl-meta">Jul 2020 &ndash; Oct 2021</div>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Navigation, maintenance, logistics, guest services, and owner support across a multi-region program.</li>
-                        <li>Long-range deliveries between the Great Lakes and Florida.</li>
-                        <li>Bahamas cruising program with owner aboard.</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
-
-        <!-- ── CREDENTIALS ── -->
-        <section class="section" id="credentials" aria-labelledby="creds-heading">
-            <div class="section-head">
-                <div class="eyebrow">Certifications &amp; competencies</div>
-                <h2 id="creds-heading">Credentials current.</h2>
-            </div>
-
-            <div class="creds-grid">
-                <div class="creds-card card">
-                    <h3>Certifications</h3>
-                    <ul class="pill-list">
-                        <li>USCG Master 200T Near Coastal</li>
-                        <li>STCW Basic Safety Training</li>
-                        <li>ENG1 / USCG Medical</li>
-                        <li>TWIC</li>
-                        <li>FCC Marine Radio Operator</li>
-                        <li>FCC HAM Radio KE8KJU</li>
-                        <li>Garmin Certified Installer</li>
-                        <li>KVH Certified Installer</li>
-                    </ul>
-                </div>
-                <div class="creds-card card">
-                    <h3>Core competencies</h3>
-                    <ul class="pill-list">
-                        <li>Vessel Command</li>
-                        <li>Owner &amp; Guest Operations</li>
-                        <li>Passage Planning</li>
-                        <li>Weather Routing</li>
-                        <li>Marine Electronics</li>
-                        <li>AV &amp; IT Systems</li>
-                        <li>Refit Management</li>
-                        <li>Mechanical / Electrical</li>
-                        <li>Crew Leadership</li>
-                        <li>Preventative Maintenance</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- ── CONTACT ── -->
         <section class="section" id="contact" aria-labelledby="contact-heading">
             <div class="contact-grid">
                 <div class="contact-main card">
                     <div class="eyebrow">Get in touch</div>
-                    <h2 id="contact-heading">Let&rsquo;s talk about<br>your program.</h2>
-                    <p class="contact-lede">Available for conversations, introductions, and captain opportunities immediately following the current delivery. Fort Lauderdale home base.</p>
+                    <h2 id="contact-heading">Say hello, follow the voyage, or talk work.</h2>
+                    <p class="section-lede">The front page is the story side. If you are reaching out about an opportunity, the CV page is ready. If you just want to connect over boats, passages, or future adventures, that works too.</p>
 
                     <ul class="contact-methods">
                         <li>
@@ -1676,49 +1112,40 @@
                             <div class="c-value"><a href="tel:+19546542944">+1 954-654-2944</a></div>
                         </li>
                         <li>
-                            <div class="c-label">Base</div>
+                            <div class="c-label">Home base</div>
                             <div class="c-value">Fort Lauderdale, FL</div>
-                        </li>
-                        <li>
-                            <div class="c-label">Status</div>
-                            <div class="c-value" style="font-size:0.92rem;font-weight:500">American citizen, current passport, clean driver&rsquo;s license, non-smoker</div>
                         </li>
                     </ul>
 
                     <div class="contact-actions">
-                        <a class="btn btn-primary" href="mailto:tom@captain-tommy.com?subject=Captain%20Opportunity">Email about a position</a>
-                        <a class="btn btn-secondary" href="cv.html">View full CV</a>
+                        <a class="btn btn-primary" href="mailto:tom@captain-tommy.com?subject=Captain%20Tommy">Send an email</a>
+                        <a class="btn btn-secondary" href="cv.html">Open the CV page</a>
                     </div>
                 </div>
 
                 <div class="contact-side card">
                     <div class="qr-block">
                         <img src="cv-qr.png" alt="QR code linking to Captain Tommy's CV">
-                        <div class="qr-caption">Scan to open CV &mdash; for in-person networking</div>
+                        <div class="qr-caption">Recruiter or dockside handoff? Scan straight to the CV page.</div>
                     </div>
 
                     <ul class="quick-links">
                         <li><a href="cv.html">Mobile-friendly CV page</a></li>
-                        <li><a href="mailto:tom@captain-tommy.com?subject=Captain%20Opportunity">Email about an opportunity</a></li>
                         <li><a href="THOMAS_MOLENHOUSE_-_CV_2026.pdf">Download full CV (PDF)</a></li>
                         <li><a href="THOMAS_MOLENHOUSE_-_CV_2026_-_1_Page.pdf">Download one-page CV (PDF)</a></li>
                     </ul>
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer>
         <div class="page">
             <div class="footer-inner">
-                <a class="footer-brand" href="#top">
-                    <img src="logo.png" alt="">
-                    <span class="footer-copy">Captain Tommy Molenhouse</span>
-                </a>
-                <p class="footer-copy">&copy; 2026 Thomas Molenhouse, Professional Yacht Captain.</p>
+                <div class="footer-copy">© 2026 Captain Tommy Molenhouse</div>
                 <ul class="footer-links">
                     <li><a href="cv.html">CV</a></li>
+                    <li><a href="#log">Log</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -1734,7 +1161,7 @@
                 toggle.setAttribute('aria-expanded', open);
                 toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
             });
-            // Close on nav link click (mobile)
+
             navLinks.querySelectorAll('a').forEach(a => {
                 a.addEventListener('click', () => {
                     navLinks.classList.remove('open');
@@ -1744,6 +1171,5 @@
             });
         }
     </script>
-
 </body>
 </html>
