@@ -1,0 +1,89 @@
+{
+  "region": "bahamas",
+  "placeId": "chub-cay",
+  "placeKey": "bahamas/chub-cay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "bahamas-chub-cay-2021-0001",
+      "filename": "18212.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18212.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18212.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18212.jpg",
+      "capture_date": "2021:03:18 14:39:36"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0002",
+      "filename": "18213.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18213.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18213.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18213.jpg",
+      "capture_date": "2021:03:18 14:39:38"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0003",
+      "filename": "18214.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18214.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18214.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18214.jpg",
+      "capture_date": "2021:03:18 14:39:40"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0004",
+      "filename": "18215.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18215.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18215.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18215.jpg",
+      "capture_date": "2021:03:18 14:39:43"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0005",
+      "filename": "18216.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18216.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18216.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18216.jpg",
+      "capture_date": "2021:03:18 14:39:46"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0006",
+      "filename": "18219.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18219.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18219.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18219.jpg",
+      "capture_date": "2021:03:18 14:52:14"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0007",
+      "filename": "18220.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18220.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18220.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18220.jpg",
+      "capture_date": "2021:03:18 14:52:16"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0008",
+      "filename": "18221.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18221.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18221.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18221.jpg",
+      "capture_date": "2021:03:18 14:53:54"
+    },
+    {
+      "id": "bahamas-chub-cay-2021-0009",
+      "filename": "18225.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2021/originals/18225.jpeg",
+      "large": "assets/images/bahamas/chub-cay/2021/large/18225.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2021/thumb/18225.jpg",
+      "capture_date": "2021:03:18 15:17:41"
+    }
+  ]
+}

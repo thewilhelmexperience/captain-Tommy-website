@@ -1,0 +1,17 @@
+{
+  "region": "great-lakes",
+  "placeId": "port-huron",
+  "placeKey": "great-lakes/port-huron",
+  "year": 2016,
+  "images": [
+    {
+      "id": "great-lakes-port-huron-2016-0001",
+      "filename": "219.jpeg",
+      "year": 2016,
+      "source": "photo-archive/source/regions/great-lakes/port-huron/2016/originals/219.jpeg",
+      "large": "assets/images/great-lakes/port-huron/2016/large/219.jpg",
+      "thumb": "assets/images/great-lakes/port-huron/2016/thumb/219.jpg",
+      "capture_date": "2016:10:08 08:53:35"
+    }
+  ]
+}

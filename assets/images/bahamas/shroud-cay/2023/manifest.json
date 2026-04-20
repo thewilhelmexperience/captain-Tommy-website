@@ -1,0 +1,53 @@
+{
+  "region": "bahamas",
+  "placeId": "shroud-cay",
+  "placeKey": "bahamas/shroud-cay",
+  "year": 2023,
+  "images": [
+    {
+      "id": "bahamas-shroud-cay-2023-0001",
+      "filename": "IMG_0605.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2023/originals/IMG_0605.JPEG",
+      "large": "assets/images/bahamas/shroud-cay/2023/large/img-0605.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2023/thumb/img-0605.jpg",
+      "capture_date": "2023:03:04 14:14:41"
+    },
+    {
+      "id": "bahamas-shroud-cay-2023-0002",
+      "filename": "IMG_0606.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2023/originals/IMG_0606.JPEG",
+      "large": "assets/images/bahamas/shroud-cay/2023/large/img-0606.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2023/thumb/img-0606.jpg",
+      "capture_date": "2023:03:04 14:14:43"
+    },
+    {
+      "id": "bahamas-shroud-cay-2023-0003",
+      "filename": "IMG_0607.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2023/originals/IMG_0607.JPEG",
+      "large": "assets/images/bahamas/shroud-cay/2023/large/img-0607.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2023/thumb/img-0607.jpg",
+      "capture_date": "2023:03:04 19:53:48"
+    },
+    {
+      "id": "bahamas-shroud-cay-2023-0004",
+      "filename": "IMG_0608.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2023/originals/IMG_0608.JPEG",
+      "large": "assets/images/bahamas/shroud-cay/2023/large/img-0608.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2023/thumb/img-0608.jpg",
+      "capture_date": "2023:03:04 19:53:53"
+    },
+    {
+      "id": "bahamas-shroud-cay-2023-0005",
+      "filename": "IMG_0609.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2023/originals/IMG_0609.JPEG",
+      "large": "assets/images/bahamas/shroud-cay/2023/large/img-0609.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2023/thumb/img-0609.jpg",
+      "capture_date": "2023:03:04 19:53:56"
+    }
+  ]
+}

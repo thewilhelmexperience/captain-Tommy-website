@@ -1,0 +1,17 @@
+{
+  "region": "south-florida",
+  "placeId": "naples-marco-island",
+  "placeKey": "south-florida/naples-marco-island",
+  "year": 2017,
+  "images": [
+    {
+      "id": "south-florida-naples-marco-island-2017-0001",
+      "filename": "1306.jpeg",
+      "year": 2017,
+      "source": "photo-archive/source/regions/south-florida/naples-marco-island/2017/originals/1306.jpeg",
+      "large": "assets/images/south-florida/naples-marco-island/2017/large/1306.jpg",
+      "thumb": "assets/images/south-florida/naples-marco-island/2017/thumb/1306.jpg",
+      "capture_date": "2017:11:06 15:09:07"
+    }
+  ]
+}

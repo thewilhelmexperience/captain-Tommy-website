@@ -1,0 +1,89 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "cape-hatteras",
+  "placeKey": "east-coast-icw/cape-hatteras",
+  "year": 2024,
+  "images": [
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0001",
+      "filename": "IMG_2943.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2943.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2943.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2943.jpg",
+      "capture_date": "2024:06:08 09:17:28"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0002",
+      "filename": "IMG_2944.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2944.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2944.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2944.jpg",
+      "capture_date": "2024:06:08 09:17:30"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0003",
+      "filename": "IMG_2945.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2945.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2945.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2945.jpg",
+      "capture_date": "2024:06:08 09:17:36"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0004",
+      "filename": "IMG_2946.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2946.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2946.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2946.jpg",
+      "capture_date": "2024:06:08 14:26:04"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0005",
+      "filename": "IMG_2947.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2947.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2947.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2947.jpg",
+      "capture_date": "2024:06:08 14:41:37"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0006",
+      "filename": "IMG_2948.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2948.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2948.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2948.jpg",
+      "capture_date": "2024:06:08 14:41:39"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0007",
+      "filename": "IMG_2949.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_2949.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-2949.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-2949.jpg",
+      "capture_date": "2024:06:08 14:41:41"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0008",
+      "filename": "IMG_3908.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_3908.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-3908.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-3908.jpg",
+      "capture_date": "2024:10:25 08:26:47"
+    },
+    {
+      "id": "east-coast-icw-cape-hatteras-2024-0009",
+      "filename": "IMG_3909.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/cape-hatteras/2024/originals/IMG_3909.JPEG",
+      "large": "assets/images/east-coast-icw/cape-hatteras/2024/large/img-3909.jpg",
+      "thumb": "assets/images/east-coast-icw/cape-hatteras/2024/thumb/img-3909.jpg",
+      "capture_date": "2024:10:25 08:26:49"
+    }
+  ]
+}

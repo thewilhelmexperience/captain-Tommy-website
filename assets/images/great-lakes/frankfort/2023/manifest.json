@@ -1,0 +1,62 @@
+{
+  "region": "great-lakes",
+  "placeId": "frankfort",
+  "placeKey": "great-lakes/frankfort",
+  "year": 2023,
+  "images": [
+    {
+      "id": "great-lakes-frankfort-2023-0001",
+      "filename": "IMG_1418.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2023/originals/IMG_1418.JPEG",
+      "large": "assets/images/great-lakes/frankfort/2023/large/img-1418.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2023/thumb/img-1418.jpg",
+      "capture_date": "2023:07:31 13:09:52"
+    },
+    {
+      "id": "great-lakes-frankfort-2023-0002",
+      "filename": "IMG_1419.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2023/originals/IMG_1419.JPEG",
+      "large": "assets/images/great-lakes/frankfort/2023/large/img-1419.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2023/thumb/img-1419.jpg",
+      "capture_date": "2023:07:31 13:09:54"
+    },
+    {
+      "id": "great-lakes-frankfort-2023-0003",
+      "filename": "IMG_1420.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2023/originals/IMG_1420.JPEG",
+      "large": "assets/images/great-lakes/frankfort/2023/large/img-1420.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2023/thumb/img-1420.jpg",
+      "capture_date": "2023:07:31 13:09:58"
+    },
+    {
+      "id": "great-lakes-frankfort-2023-0004",
+      "filename": "IMG_1421.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2023/originals/IMG_1421.JPEG",
+      "large": "assets/images/great-lakes/frankfort/2023/large/img-1421.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2023/thumb/img-1421.jpg",
+      "capture_date": "2023:07:31 13:10:10"
+    },
+    {
+      "id": "great-lakes-frankfort-2023-0005",
+      "filename": "IMG_1422.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2023/originals/IMG_1422.JPEG",
+      "large": "assets/images/great-lakes/frankfort/2023/large/img-1422.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2023/thumb/img-1422.jpg",
+      "capture_date": "2023:07:31 13:10:11"
+    },
+    {
+      "id": "great-lakes-frankfort-2023-0006",
+      "filename": "IMG_1423.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2023/originals/IMG_1423.JPEG",
+      "large": "assets/images/great-lakes/frankfort/2023/large/img-1423.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2023/thumb/img-1423.jpg",
+      "capture_date": "2023:07:31 13:10:18"
+    }
+  ]
+}

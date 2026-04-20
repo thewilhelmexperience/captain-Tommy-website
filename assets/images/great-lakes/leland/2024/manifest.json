@@ -1,0 +1,17 @@
+{
+  "region": "great-lakes",
+  "placeId": "leland",
+  "placeKey": "great-lakes/leland",
+  "year": 2024,
+  "images": [
+    {
+      "id": "great-lakes-leland-2024-0001",
+      "filename": "IMG_2628.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/great-lakes/leland/2024/originals/IMG_2628.JPEG",
+      "large": "assets/images/great-lakes/leland/2024/large/img-2628.jpg",
+      "thumb": "assets/images/great-lakes/leland/2024/thumb/img-2628.jpg",
+      "capture_date": "2024:05:03 15:26:01"
+    }
+  ]
+}

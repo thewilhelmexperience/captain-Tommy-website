@@ -1,0 +1,98 @@
+{
+  "region": "south-florida",
+  "placeId": "boca-raton-delray",
+  "placeKey": "south-florida/boca-raton-delray",
+  "year": 2025,
+  "images": [
+    {
+      "id": "south-florida-boca-raton-delray-2025-0001",
+      "filename": "IMG_4236.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4236.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4236.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4236.jpg",
+      "capture_date": "2025:01:04 10:36:25"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0002",
+      "filename": "IMG_4237.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4237.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4237.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4237.jpg",
+      "capture_date": "2025:01:04 10:36:30"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0003",
+      "filename": "IMG_4238.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4238.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4238.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4238.jpg",
+      "capture_date": "2025:01:04 10:36:44"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0004",
+      "filename": "IMG_4246.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4246.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4246.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4246.jpg",
+      "capture_date": "2025:01:06 14:12:36"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0005",
+      "filename": "IMG_4247.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4247.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4247.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4247.jpg",
+      "capture_date": "2025:01:06 14:12:42"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0006",
+      "filename": "IMG_4248.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4248.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4248.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4248.jpg",
+      "capture_date": "2025:01:06 14:12:48"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0007",
+      "filename": "IMG_4249.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4249.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4249.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4249.jpg",
+      "capture_date": "2025:01:06 14:12:51"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0008",
+      "filename": "IMG_4389.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4389.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4389.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4389.jpg",
+      "capture_date": "2025:02:15 13:07:27"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0009",
+      "filename": "IMG_4390.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4390.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4390.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4390.jpg",
+      "capture_date": "2025:02:15 13:07:28"
+    },
+    {
+      "id": "south-florida-boca-raton-delray-2025-0010",
+      "filename": "IMG_4391.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/boca-raton-delray/2025/originals/IMG_4391.JPEG",
+      "large": "assets/images/south-florida/boca-raton-delray/2025/large/img-4391.jpg",
+      "thumb": "assets/images/south-florida/boca-raton-delray/2025/thumb/img-4391.jpg",
+      "capture_date": "2025:02:15 13:07:31"
+    }
+  ]
+}

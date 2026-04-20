@@ -1,0 +1,35 @@
+{
+  "region": "hudson-river-nyc",
+  "placeId": "upper-manhattan-bronx",
+  "placeKey": "hudson-river-nyc/upper-manhattan-bronx",
+  "year": 2025,
+  "images": [
+    {
+      "id": "hudson-river-nyc-upper-manhattan-bronx-2025-0001",
+      "filename": "IMG_5610.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/upper-manhattan-bronx/2025/originals/IMG_5610.JPEG",
+      "large": "assets/images/hudson-river-nyc/upper-manhattan-bronx/2025/large/img-5610.jpg",
+      "thumb": "assets/images/hudson-river-nyc/upper-manhattan-bronx/2025/thumb/img-5610.jpg",
+      "capture_date": "2025:09:02 14:54:14"
+    },
+    {
+      "id": "hudson-river-nyc-upper-manhattan-bronx-2025-0002",
+      "filename": "IMG_5611.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/upper-manhattan-bronx/2025/originals/IMG_5611.JPEG",
+      "large": "assets/images/hudson-river-nyc/upper-manhattan-bronx/2025/large/img-5611.jpg",
+      "thumb": "assets/images/hudson-river-nyc/upper-manhattan-bronx/2025/thumb/img-5611.jpg",
+      "capture_date": "2025:09:02 14:54:25"
+    },
+    {
+      "id": "hudson-river-nyc-upper-manhattan-bronx-2025-0003",
+      "filename": "IMG_5612.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/upper-manhattan-bronx/2025/originals/IMG_5612.JPEG",
+      "large": "assets/images/hudson-river-nyc/upper-manhattan-bronx/2025/large/img-5612.jpg",
+      "thumb": "assets/images/hudson-river-nyc/upper-manhattan-bronx/2025/thumb/img-5612.jpg",
+      "capture_date": "2025:09:02 14:54:32"
+    }
+  ]
+}

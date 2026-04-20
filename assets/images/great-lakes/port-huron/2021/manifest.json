@@ -1,0 +1,53 @@
+{
+  "region": "great-lakes",
+  "placeId": "port-huron",
+  "placeKey": "great-lakes/port-huron",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-port-huron-2021-0001",
+      "filename": "IMG_6615.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/port-huron/2021/originals/IMG_6615.JPEG",
+      "large": "assets/images/great-lakes/port-huron/2021/large/img-6615.jpg",
+      "thumb": "assets/images/great-lakes/port-huron/2021/thumb/img-6615.jpg",
+      "capture_date": "2021:06:06 07:55:35"
+    },
+    {
+      "id": "great-lakes-port-huron-2021-0002",
+      "filename": "IMG_6616.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/port-huron/2021/originals/IMG_6616.JPEG",
+      "large": "assets/images/great-lakes/port-huron/2021/large/img-6616.jpg",
+      "thumb": "assets/images/great-lakes/port-huron/2021/thumb/img-6616.jpg",
+      "capture_date": "2021:06:06 11:44:37"
+    },
+    {
+      "id": "great-lakes-port-huron-2021-0003",
+      "filename": "IMG_7041.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/port-huron/2021/originals/IMG_7041.JPEG",
+      "large": "assets/images/great-lakes/port-huron/2021/large/img-7041.jpg",
+      "thumb": "assets/images/great-lakes/port-huron/2021/thumb/img-7041.jpg",
+      "capture_date": "2021:09:18 09:22:37"
+    },
+    {
+      "id": "great-lakes-port-huron-2021-0004",
+      "filename": "IMG_7042.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/port-huron/2021/originals/IMG_7042.JPEG",
+      "large": "assets/images/great-lakes/port-huron/2021/large/img-7042.jpg",
+      "thumb": "assets/images/great-lakes/port-huron/2021/thumb/img-7042.jpg",
+      "capture_date": "2021:09:18 11:09:39"
+    },
+    {
+      "id": "great-lakes-port-huron-2021-0005",
+      "filename": "IMG_7043.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/port-huron/2021/originals/IMG_7043.JPEG",
+      "large": "assets/images/great-lakes/port-huron/2021/large/img-7043.jpg",
+      "thumb": "assets/images/great-lakes/port-huron/2021/thumb/img-7043.jpg",
+      "capture_date": "2021:09:18 12:11:36"
+    }
+  ]
+}

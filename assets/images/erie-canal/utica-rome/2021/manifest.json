@@ -1,0 +1,116 @@
+{
+  "region": "erie-canal",
+  "placeId": "utica-rome",
+  "placeKey": "erie-canal/utica-rome",
+  "year": 2021,
+  "images": [
+    {
+      "id": "erie-canal-utica-rome-2021-0001",
+      "filename": "IMG_6590.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6590.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6590.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6590.jpg",
+      "capture_date": "2021:06:02 16:05:05"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0002",
+      "filename": "IMG_6591.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6591.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6591.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6591.jpg",
+      "capture_date": "2021:06:02 16:05:06"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0003",
+      "filename": "IMG_6592.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6592.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6592.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6592.jpg",
+      "capture_date": "2021:06:02 16:05:07"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0004",
+      "filename": "IMG_6593.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6593.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6593.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6593.jpg",
+      "capture_date": "2021:06:02 16:05:08"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0005",
+      "filename": "IMG_6594.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6594.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6594.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6594.jpg",
+      "capture_date": "2021:06:02 16:05:09"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0006",
+      "filename": "IMG_6595.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6595.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6595.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6595.jpg",
+      "capture_date": "2021:06:03 07:59:38"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0007",
+      "filename": "IMG_6596.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6596.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6596.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6596.jpg",
+      "capture_date": "2021:06:03 07:59:40"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0008",
+      "filename": "IMG_6597.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6597.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6597.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6597.jpg",
+      "capture_date": "2021:06:03 07:59:59"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0009",
+      "filename": "IMG_6598.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6598.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6598.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6598.jpg",
+      "capture_date": "2021:06:03 08:01:24"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0010",
+      "filename": "IMG_6599.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_6599.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-6599.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-6599.jpg",
+      "capture_date": "2021:06:03 08:01:25"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0011",
+      "filename": "IMG_7136.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_7136.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-7136.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-7136.jpg",
+      "capture_date": "2021:09:23 13:59:31"
+    },
+    {
+      "id": "erie-canal-utica-rome-2021-0012",
+      "filename": "IMG_7137.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/utica-rome/2021/originals/IMG_7137.JPEG",
+      "large": "assets/images/erie-canal/utica-rome/2021/large/img-7137.jpg",
+      "thumb": "assets/images/erie-canal/utica-rome/2021/thumb/img-7137.jpg",
+      "capture_date": "2021:09:23 13:59:32"
+    }
+  ]
+}

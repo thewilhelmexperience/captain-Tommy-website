@@ -1,0 +1,53 @@
+{
+  "region": "great-lakes",
+  "placeId": "mackinac-straits",
+  "placeKey": "great-lakes/mackinac-straits",
+  "year": 2018,
+  "images": [
+    {
+      "id": "great-lakes-mackinac-straits-2018-0001",
+      "filename": "1802.jpeg",
+      "year": 2018,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2018/originals/1802.jpeg",
+      "large": "assets/images/great-lakes/mackinac-straits/2018/large/1802.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2018/thumb/1802.jpg",
+      "capture_date": "2018:05:20 18:56:35"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2018-0002",
+      "filename": "1761.jpeg",
+      "year": 2018,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2018/originals/1761.jpeg",
+      "large": "assets/images/great-lakes/mackinac-straits/2018/large/1761.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2018/thumb/1761.jpg",
+      "capture_date": "2018:05:20 18:56:42"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2018-0003",
+      "filename": "1858.jpeg",
+      "year": 2018,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2018/originals/1858.jpeg",
+      "large": "assets/images/great-lakes/mackinac-straits/2018/large/1858.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2018/thumb/1858.jpg",
+      "capture_date": "2018:05:20 19:31:51"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2018-0004",
+      "filename": "1654.jpeg",
+      "year": 2018,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2018/originals/1654.jpeg",
+      "large": "assets/images/great-lakes/mackinac-straits/2018/large/1654.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2018/thumb/1654.jpg",
+      "capture_date": "2018:05:21 08:03:25"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2018-0005",
+      "filename": "1960.jpeg",
+      "year": 2018,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2018/originals/1960.jpeg",
+      "large": "assets/images/great-lakes/mackinac-straits/2018/large/1960.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2018/thumb/1960.jpg",
+      "capture_date": "2018:05:21 08:10:22"
+    }
+  ]
+}

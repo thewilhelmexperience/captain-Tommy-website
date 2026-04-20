@@ -1,0 +1,2352 @@
+<!--
+  ╔══════════════════════════════════════════════════════════════════════╗
+  ║  travel-trail-v4.html · Captain Tommy · Chart Archive Explorer       ║
+  ╠══════════════════════════════════════════════════════════════════════╣
+  ║                                                                      ║
+  ║  V4 INTERACTION MODEL                                                ║
+  ║  ──────────────────────────────────────────────────────────────────  ║
+  ║  Four entry axes into a 30-year archive of passages, places,         ║
+  ║  and recurring corridors:                                            ║
+  ║                                                                      ║
+  ║    1. By Corridor  — five connected waterway systems, each with      ║
+  ║       stops, content counts, and year visit history.                 ║
+  ║                                                                      ║
+  ║    2. By Place     — [NEW / CORE CORRECTION] curated recurring       ║
+  ║       stops that show how individual places accumulate visits,       ║
+  ║       memories, and character across many different seasons.         ║
+  ║       George Town, Mackinac, Charleston — each appears across        ║
+  ║       multiple years on multiple boats. The place is the anchor;     ║
+  ║       the visits pile up around it.                                  ║
+  ║                                                                      ║
+  ║    3. By Chapter   — broad life/water eras organized by vessel       ║
+  ║       program, not by individual voyages.                            ║
+  ║                                                                      ║
+  ║    4. Archive      — flat content-type browser.                      ║
+  ║                                                                      ║
+  ║  WHY THIS IS BETTER THAN V3                                          ║
+  ║  ──────────────────────────────────────────────────────────────────  ║
+  ║  V3's main flaw: the 1994 Stuart→Cheboygan run was treated as the   ║
+  ║  founding narrative. It appeared in the page lede, as "Chapter 1"   ║
+  ║  of the timeline, and in stop notes for both Stuart and Cheboygan.  ║
+  ║  The archive felt like it existed to document one voyage rather      ║
+  ║  than thirty years of accumulation.                                  ║
+  ║                                                                      ║
+  ║  V4 corrections:                                                     ║
+  ║  • Page lede describes the archive as breadth and repetition,        ║
+  ║    not as a single founding run with follow-on work.                 ║
+  ║  • 1994 is the archive's earliest year, not an origin myth.         ║
+  ║  • Chapters start at "1994–1999 · Early Runs," plural.              ║
+  ║  • Stuart and Cheboygan stop notes describe the places, not          ║
+  ║    their role in one delivery.                                       ║
+  ║  • The By Place tab makes accumulation the primary model: one        ║
+  ║    place, many returns, many layers of memory over time.             ║
+  ║  • Seeded data implies breadth and repetition throughout.            ║
+  ╚══════════════════════════════════════════════════════════════════════╝
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Trail v4 · Captain Tommy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    :root {
+      --bg:          #04101d;
+      --bg-2:        #071a2e;
+      --bg-chart:    #020c18;
+      --panel:       rgba(9, 20, 36, 0.86);
+      --line:        rgba(110, 170, 255, 0.12);
+      --line-strong: rgba(110, 170, 255, 0.24);
+      --text:        #ecf4ff;
+      --muted:       #92a9bf;
+      --soft:        #5a738d;
+      --accent:      #57c8ff;
+      --accent-2:    #81e1b2;
+      --gold:        #d4b176;
+      --grad:        linear-gradient(135deg, #57c8ff 0%, #81e1b2 100%);
+      --shadow:      0 24px 60px rgba(0,0,0,0.45);
+      --radius:      20px;
+      --max:         1280px;
+
+      --c-lakes:  #4fd1c5;
+      --c-canal:  #a3c4f3;
+      --c-icw:    #57c8ff;
+      --c-sfla:   #68d391;
+      --c-bah:    #d4b176;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(180deg, #061220 0%, #04101d 100%);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── Proto bar ── */
+    .proto-bar {
+      padding: 0.85rem 0;
+      background: rgba(4,16,29,0.94);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .proto-bar-inner {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .proto-back {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.88rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: color 0.15s;
+    }
+    .proto-back:hover { color: var(--text); }
+    .proto-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.28rem 0.72rem;
+      background: rgba(212,177,118,0.1);
+      border: 1px solid rgba(212,177,118,0.28);
+      border-radius: 999px;
+      color: var(--gold);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+    .proto-meta { color: var(--soft); font-size: 0.76rem; }
+
+    /* ── Page header ── */
+    .page-head {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+      padding: 2.5rem 0 1.5rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--accent);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-weight: 700;
+      margin-bottom: 0.7rem;
+    }
+    .eyebrow::before {
+      content: '';
+      width: 1.6rem;
+      height: 1px;
+      background: var(--accent);
+      opacity: 0.5;
+      flex-shrink: 0;
+    }
+    .page-head h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      line-height: 1.06;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.55rem;
+    }
+    .page-head h1 em {
+      font-style: italic;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .page-lede {
+      color: var(--muted);
+      font-size: 0.96rem;
+      max-width: 54rem;
+    }
+
+    /* ── App shell ── */
+    .app {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 370px 1fr;
+      gap: 0;
+      min-height: calc(100vh - 180px);
+      border-left: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+    }
+
+    /* ── Chart pane ── */
+    .chart-pane {
+      border-right: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-chart);
+      position: sticky;
+      top: 53px;
+      height: calc(100vh - 53px);
+      overflow-y: auto;
+    }
+    .chart-wrap {
+      padding: 1.2rem 1rem 0.5rem;
+      flex-shrink: 0;
+    }
+    #chart { display: block; width: 100%; height: auto; }
+
+    .corridor-path {
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: opacity 0.25s, stroke-width 0.2s;
+      cursor: pointer;
+    }
+@@
+     .chart-has-selection .corridor-path:not(.selected),
+     .chart-has-selection .stop-dot:not(.selected-corridor) { opacity: 0.18; }
+     .chart-has-selection .corridor-path.selected { opacity: 1; stroke-width: 2.5px !important; }
+     .chart-has-selection .stop-dot.selected-corridor { opacity: 1; }
++    .corridor-path.hovered { opacity: 1; stroke-width: 3px !important; }
+     .stop-dot.active-stop { r: 6; }
+    .corridor-path[data-corridor="great-lakes"]   { stroke: var(--c-lakes); }
+    .corridor-path[data-corridor="erie-canal"]    { stroke: var(--c-canal); }
+    .corridor-path[data-corridor="east-coast"]    { stroke: var(--c-icw);   }
+    .corridor-path[data-corridor="south-florida"] { stroke: var(--c-sfla);  }
+    .corridor-path[data-corridor="bahamas"]       { stroke: var(--c-bah);   }
+    .corridor-path[data-corridor="new-england"]   { stroke: #9bc4ff;        }
+
+    .stop-dot {
+      transition: opacity 0.25s, r 0.15s;
+      cursor: pointer;
+    }
+    .stop-dot[data-corridor="great-lakes"]   { fill: var(--c-lakes); }
+    .stop-dot[data-corridor="erie-canal"]    { fill: var(--c-canal); }
+    .stop-dot[data-corridor="east-coast"]    { fill: var(--c-icw);   }
+    .stop-dot[data-corridor="south-florida"] { fill: var(--c-sfla);  }
+    .stop-dot[data-corridor="bahamas"]       { fill: var(--c-bah);   }
+    .stop-dot[data-corridor="new-england"]   { fill: #9bc4ff;        }
+
+    .chart-has-selection .corridor-path:not(.selected),
+    .chart-has-selection .stop-dot:not(.selected-corridor) { opacity: 0.18; }
+    .chart-has-selection .corridor-path.selected { opacity: 1; stroke-width: 2.5px !important; }
+    .chart-has-selection .stop-dot.selected-corridor { opacity: 1; }
+    .stop-dot.active-stop { r: 6; }
+
+    .chart-label {
+      font-family: 'Inter', sans-serif;
+      fill: rgba(146,169,191,0.6);
+      font-size: 6px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      pointer-events: none;
+      user-select: none;
+    }
+    .chart-label-major {
+      fill: rgba(236,244,255,0.45);
+      font-size: 6.5px;
+      font-weight: 600;
+    }
+    .chart-waterway-label {
+      fill: rgba(87,200,255,0.22);
+      font-size: 5.5px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+
+    /* ── Chart legend ── */
+    .chart-legend {
+      padding: 0.75rem 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex-shrink: 0;
+    }
+    .legend-label {
+      font-size: 0.64rem;
+      color: var(--soft);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      cursor: pointer;
+      padding: 0.3rem 0.5rem;
+      border-radius: 8px;
+      transition: background 0.15s;
+    }
+    .legend-item:hover { background: rgba(87,200,255,0.05); }
+    .legend-item.active { background: rgba(87,200,255,0.08); }
+    .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .legend-name { font-size: 0.8rem; font-weight: 600; color: var(--muted); flex: 1; }
+    .legend-item.active .legend-name { color: var(--text); }
+    .legend-era { font-size: 0.68rem; color: var(--soft); }
+
+    /* ── Detail pane ── */
+    .detail-pane { display: flex; flex-direction: column; min-height: 0; }
+
+    .browse-tabs {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      border-bottom: 1px solid var(--line);
+      padding: 0 1.5rem;
+      background: rgba(4,14,27,0.6);
+      position: sticky;
+      top: 53px;
+      z-index: 10;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .browse-tabs::-webkit-scrollbar { display: none; }
+    .browse-tab {
+      padding: 1rem 1.1rem 0.9rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--soft);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+      margin-bottom: -1px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .browse-tab:hover { color: var(--muted); }
+    .browse-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+    .panel-body { flex: 1; overflow-y: auto; padding: 1.5rem; }
+
+    /* ── Corridor tab ── */
+    .corridor-index { display: flex; flex-direction: column; gap: 0.5rem; }
+    .corridor-index.focus-mode .corridor-card:not(.open) {
+      opacity: 0.45;
+      transform: scale(0.985);
+    }
+    .corridor-index.focus-mode .corridor-card.before-open {
+      max-height: 0;
+      opacity: 0;
+      margin: 0;
+      border-width: 0;
+      overflow: hidden;
+      pointer-events: none;
+      transform: translateY(-8px);
+    }
+    .corridor-index.focus-mode .corridor-card.after-open {
+      max-height: 56px;
+      overflow: hidden;
+    }
+    .corridor-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color 0.2s, opacity 0.2s, transform 0.2s, max-height 0.24s ease;
+      max-height: 2400px;
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .corridor-card.open {
+      border-color: var(--line-strong);
+      overflow: visible;
+    }
+    .corridor-header {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding: 1rem 1.1rem;
+      cursor: pointer;
+      background: rgba(9,20,36,0.5);
+      transition: background 0.15s;
+      user-select: none;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .corridor-header:hover { background: rgba(9,20,36,0.8); }
+    .corridor-swatch { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .corridor-name-group { flex: 1; min-width: 0; }
+    .corridor-name { font-weight: 700; font-size: 0.92rem; color: var(--text); }
+    .corridor-tag { font-size: 0.74rem; color: var(--soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .corridor-counts { display: flex; gap: 0.5rem; flex-shrink: 0; }
+    .count-chip { display: flex; align-items: center; gap: 0.22rem; font-size: 0.68rem; color: var(--soft); font-weight: 600; }
+    .count-chip span { color: var(--muted); }
+    .corridor-chevron { color: var(--soft); font-size: 0.75rem; transition: transform 0.2s; flex-shrink: 0; }
+    .corridor-card.open .corridor-chevron { transform: rotate(180deg); }
+
+    .corridor-body { display: none; padding: 0 1.1rem 1.25rem; background: rgba(5,13,24,0.4); overflow: visible; width: 100%; box-sizing: border-box; }
+    .corridor-card.open .corridor-body { display: block; }
+    .corridor-desc {
+      font-size: 0.84rem;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-bottom: 1rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .count-bar { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .count-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.32rem;
+      padding: 0.28rem 0.65rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border: 1px solid;
+    }
+    .count-pill.photos  { color: #81e1b2; border-color: rgba(129,225,178,0.25); background: rgba(129,225,178,0.06); }
+    .count-pill.stories { color: #d4b176; border-color: rgba(212,177,118,0.25); background: rgba(212,177,118,0.06); }
+    .count-pill.log     { color: #57c8ff; border-color: rgba(87,200,255,0.25);  background: rgba(87,200,255,0.06);  }
+    .count-pill.routes  { color: #92a9bf; border-color: rgba(146,169,191,0.2);  background: rgba(146,169,191,0.04); }
+
+    .era-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 1rem; }
+    .era-chip {
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      background: rgba(87,200,255,0.07);
+      border: 1px solid rgba(87,200,255,0.16);
+      color: var(--muted);
+    }
+
+    .stops-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--soft);
+      margin-bottom: 0.6rem;
+    }
+    .stops-scroll {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(148px, 148px));
+      gap: 0.6rem;
+      max-width: 784px;
+      padding-bottom: 0.2rem;
+    }
+    .stop-card {
+      width: 148px;
+      padding: 0.8rem 0.85rem;
+      border-radius: 11px;
+      background: rgba(9,22,40,0.7);
+      border: 1px solid var(--line);
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .stop-card:hover { border-color: var(--line-strong); background: rgba(9,22,40,0.95); }
+    .stop-card.active { border-color: rgba(87,200,255,0.4); background: rgba(87,200,255,0.05); }
+    .stop-card-name { font-weight: 700; font-size: 0.82rem; color: var(--text); margin-bottom: 0.18rem; }
+    .stop-card-sub { font-size: 0.7rem; color: var(--soft); line-height: 1.35; margin-bottom: 0.55rem; }
+    .stop-card-counts { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .stop-count { font-size: 0.64rem; font-weight: 600; color: var(--soft); }
+    .stop-count .val { color: var(--muted); }
+
+    @media (max-width: 900px) {
+      .stops-scroll {
+        grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+        max-width: 100%;
+      }
+      .stop-card {
+        width: auto;
+      }
+    }
+
+    .stop-detail {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 12px;
+      background: rgba(87,200,255,0.04);
+      border: 1px solid rgba(87,200,255,0.14);
+      overflow: visible;
+    }
+    .stop-detail-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.65rem;
+    }
+    .stop-detail-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+    .stop-detail-sub { font-size: 0.78rem; color: var(--muted); margin-top: 0.1rem; }
+    .stop-detail-close {
+      background: none;
+      border: 1px solid var(--line);
+      color: var(--soft);
+      border-radius: 6px;
+      padding: 0.22rem 0.55rem;
+      font-size: 0.72rem;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: color 0.15s;
+    }
+    .stop-detail-close:hover { color: var(--text); }
+    .stop-detail-body { font-size: 0.83rem; color: var(--muted); line-height: 1.6; margin-bottom: 0.85rem; }
+    .stop-gallery {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.6rem;
+    }
+    .stop-gallery-thumb {
+      display: block;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+      cursor: pointer;
+      padding: 0;
+      aspect-ratio: 1 / 1;
+    }
+    .stop-gallery-thumb img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content-drawer-shell {
+      margin-top: 1rem;
+    }
+    .content-drawer-header-row {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    .content-drawer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 1rem;
+    }
+    .content-filter-chip {
+      border: 1px solid rgba(255,255,255,0.09);
+      background: rgba(255,255,255,0.03);
+      color: var(--soft);
+      border-radius: 999px;
+      padding: 0.35rem 0.68rem;
+      font-size: 0.72rem;
+      cursor: pointer;
+    }
+    .content-filter-chip:hover {
+      border-color: rgba(87,200,255,0.2);
+      color: var(--text);
+    }
+    .content-filter-chip.is-active {
+      border-color: rgba(87,200,255,0.28);
+      background: rgba(87,200,255,0.09);
+      color: var(--accent);
+    }
+    .content-drawer-list {
+      display: grid;
+      gap: 0.75rem;
+      margin-top: 0.7rem;
+    }
+    .content-drawer-card {
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 0.9rem 0.95rem;
+      background: rgba(255,255,255,0.03);
+      display: grid;
+      gap: 0.45rem;
+    }
+    .content-drawer-type {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .content-drawer-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .content-drawer-summary {
+      font-size: 0.79rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+    .content-drawer-meta {
+      font-size: 0.72rem;
+      color: var(--soft);
+    }
+    .content-drawer-open {
+      justify-self: start;
+      border: 1px solid rgba(87,200,255,0.2);
+      background: rgba(87,200,255,0.08);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 0.38rem 0.7rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .content-drawer-open:hover {
+      background: rgba(87,200,255,0.14);
+    }
+    .content-drawer-card.open {
+      background: rgba(87,200,255,0.05);
+      border-color: rgba(87,200,255,0.16);
+    }
+    .content-drawer-body {
+      font-size: 0.82rem;
+      line-height: 1.65;
+      color: var(--muted);
+      padding-top: 0.2rem;
+    }
+    .content-drawer-body p + p {
+      margin-top: 0.85rem;
+    }
+
+    .gallery-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 120;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.2rem;
+      background: rgba(2, 8, 18, 0.82);
+      backdrop-filter: blur(10px);
+    }
+    .gallery-modal.open {
+      display: flex;
+    }
+    .gallery-modal-panel {
+      width: min(1100px, 100%);
+      max-height: min(92vh, 920px);
+      background: rgba(7, 19, 33, 0.96);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+    .gallery-modal-topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .gallery-modal-title {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .gallery-modal-close {
+      border: none;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .gallery-modal-stage {
+      position: relative;
+      min-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.18);
+      padding: 1rem 4.25rem;
+    }
+    .gallery-modal-image {
+      max-width: 100%;
+      max-height: 62vh;
+      object-fit: contain;
+      border-radius: 16px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.35);
+    }
+    .gallery-modal-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      border: none;
+      border-radius: 999px;
+      background: rgba(7, 19, 33, 0.82);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .gallery-modal-nav.prev { left: 1rem; }
+    .gallery-modal-nav.next { right: 1rem; }
+    .gallery-modal-strip {
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      padding: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.02);
+    }
+    .gallery-modal-strip::-webkit-scrollbar { height: 10px; }
+    .gallery-modal-strip::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.15);
+      border-radius: 999px;
+    }
+    .gallery-modal-thumb {
+      flex: 0 0 auto;
+      width: 108px;
+      height: 72px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 2px solid transparent;
+      background: rgba(255,255,255,0.03);
+      cursor: pointer;
+      padding: 0;
+    }
+    .gallery-modal-thumb.active {
+      border-color: var(--accent);
+    }
+    .gallery-modal-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .stop-detail-gps {
+
+      font-size: 0.66rem;
+      color: var(--soft);
+      font-family: 'SF Mono', 'Fira Mono', monospace;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Places tab ── */
+    .places-header {
+      font-size: 0.78rem;
+      color: var(--soft);
+      line-height: 1.5;
+      margin-bottom: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .places-header strong { color: var(--muted); }
+
+    .places-list { display: flex; flex-direction: column; gap: 0.6rem; }
+
+    .place-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+      cursor: pointer;
+    }
+    .place-card:hover { border-color: var(--line-strong); }
+    .place-card.open { border-color: var(--line-strong); }
+
+    .place-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      padding: 0.9rem 1rem;
+      background: rgba(9,20,36,0.5);
+      transition: background 0.15s;
+    }
+    .place-card:hover .place-card-header { background: rgba(9,20,36,0.8); }
+    .place-card.open .place-card-header { background: rgba(9,20,36,0.7); }
+
+    .place-swatch {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 0.35rem;
+    }
+    .place-name-group { flex: 1; min-width: 0; }
+    .place-name { font-weight: 700; font-size: 0.92rem; color: var(--text); margin-bottom: 0.1rem; }
+    .place-sub { font-size: 0.73rem; color: var(--soft); margin-bottom: 0.55rem; }
+
+    /* Year visit history strip */
+    .place-years {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.28rem;
+      margin-bottom: 0.5rem;
+    }
+    .year-pip {
+      font-size: 0.64rem;
+      font-weight: 700;
+      padding: 0.15rem 0.42rem;
+      border-radius: 5px;
+      background: rgba(87,200,255,0.07);
+      border: 1px solid rgba(87,200,255,0.14);
+      color: var(--soft);
+      letter-spacing: 0.03em;
+    }
+    .year-pip.is-active,
+    .era-chip.is-active {
+      color: var(--text);
+      background: rgba(87,200,255,0.18);
+      border-color: rgba(87,200,255,0.4);
+      box-shadow: 0 0 0 1px rgba(87,200,255,0.14) inset;
+    }
+    .place-counts { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .place-count-chip {
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: var(--soft);
+    }
+
+    /* Expanded place detail */
+    .place-card-body {
+      display: none;
+      padding: 0.85rem 1rem 1rem 2.75rem;
+      background: rgba(5,13,24,0.4);
+      border-top: 1px solid var(--line);
+    }
+    .place-card.open .place-card-body { display: block; }
+    .place-note {
+      font-size: 0.83rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 0.85rem;
+    }
+    .place-archive-note {
+      margin-top: 1rem;
+      margin-bottom: 0.65rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .trail-disclaimer {
+      margin-top: 0.95rem;
+      max-width: 760px;
+      font-size: 0.76rem;
+      line-height: 1.55;
+      color: var(--soft);
+    }
+    .trail-disclaimer strong {
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .place-visit-label {
+      font-size: 0.66rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--soft);
+      margin-bottom: 0.4rem;
+    }
+    .place-visit-years {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-bottom: 0.9rem;
+    }
+    .place-visit-year {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.22rem 0.58rem;
+      border-radius: 7px;
+      background: rgba(87,200,255,0.08);
+      border: 1px solid rgba(87,200,255,0.18);
+      color: var(--muted);
+    }
+    .place-detail-counts { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+
+    /* ── Chapter / Timeline tab ── */
+    .timeline { display: flex; flex-direction: column; gap: 0; }
+    .timeline-chapter { border-bottom: 1px solid var(--line); }
+    .timeline-chapter:last-child { border-bottom: none; }
+    .chapter-head {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0.25rem;
+      cursor: pointer;
+    }
+    .chapter-year {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.5rem;
+      letter-spacing: -0.04em;
+      color: var(--soft);
+      min-width: 80px;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .chapter-head:hover .chapter-year { color: var(--muted); }
+    .chapter-name-group { flex: 1; }
+    .chapter-name { font-weight: 700; font-size: 0.9rem; color: var(--muted); }
+    .chapter-sub { font-size: 0.75rem; color: var(--soft); margin-top: 0.1rem; }
+    .chapter-corridors { display: flex; gap: 0.3rem; flex-shrink: 0; }
+    .ch-dot { width: 7px; height: 7px; border-radius: 50%; }
+    .chapter-body { display: none; padding: 0 0.25rem 1.1rem; }
+    .chapter-open .chapter-body { display: block; }
+    .chapter-open .chapter-year { color: var(--text); }
+    .chapter-stops { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.6rem; }
+    .chapter-stop-tag {
+      font-size: 0.74rem;
+      padding: 0.22rem 0.55rem;
+      border-radius: 7px;
+      background: rgba(9,20,36,0.7);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      cursor: pointer;
+      transition: border-color 180ms ease, color 180ms ease, transform 180ms ease;
+    }
+    .chapter-stop-tag:hover {
+      border-color: rgba(87,200,255,0.35);
+      color: var(--text);
+      transform: translateY(-1px);
+    }
+    .chapter-note { font-size: 0.82rem; color: var(--soft); line-height: 1.55; font-style: italic; }
+
+    /* ── Archive tab ── */
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .archive-card {
+      padding: 1.2rem;
+      border-radius: 14px;
+      background: rgba(9,20,36,0.6);
+      border: 1px solid var(--line);
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .archive-card:hover { border-color: var(--line-strong); background: rgba(9,20,36,0.9); }
+    .archive-icon { font-size: 1.5rem; margin-bottom: 0.55rem; }
+    .archive-type {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--soft);
+      margin-bottom: 0.25rem;
+    }
+    .archive-count {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.9rem;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+    .archive-desc { font-size: 0.76rem; color: var(--soft); line-height: 1.45; }
+    .archive-stub {
+      padding: 1rem 1.1rem;
+      border-radius: 12px;
+      background: rgba(87,200,255,0.04);
+      border: 1px dashed rgba(87,200,255,0.15);
+      font-size: 0.8rem;
+      color: var(--soft);
+      line-height: 1.55;
+    }
+    .archive-stub strong { color: var(--muted); font-weight: 600; }
+    .archive-content-browser {
+      margin-top: 1rem;
+      padding: 1rem 1.05rem;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.025);
+    }
+    .archive-content-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.85rem;
+    }
+
+    /* ── Tooltip ── */
+    #chart-tooltip {
+      position: fixed;
+      pointer-events: none;
+      z-index: 200;
+      display: none;
+      padding: 0.4rem 0.7rem;
+      background: rgba(4,16,29,0.95);
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      font-size: 0.76rem;
+      color: var(--text);
+      white-space: nowrap;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    #chart-tooltip .tt-sub { font-size: 0.66rem; color: var(--muted); margin-top: 0.1rem; }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .app {
+        grid-template-columns: 1fr;
+        border-left: none;
+        border-right: none;
+      }
+      .chart-pane {
+        position: static;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+      }
+      .chart-legend {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+        padding: 0.5rem 1rem 0.75rem;
+      }
+      .legend-era { display: none; }
+    }
+    @media (max-width: 560px) {
+      .archive-grid { grid-template-columns: 1fr; }
+      .page-head { padding: 1.5rem 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="proto-bar" aria-label="Prototype navigation">
+    <div class="proto-bar-inner">
+      <a href="index.html" class="proto-back">← Captain Tommy</a>
+      <div style="display:flex;align-items:center;gap:0.75rem;">
+        <span class="proto-badge">Prototype · v4</span>
+        <span class="proto-meta">Chart Archive Explorer</span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="eyebrow">Travel Trail</div>
+    <h1>Six Corridors, <em>Thirty Years</em></h1>
+    <p class="page-lede">Hundreds of passages, anchorages, deliveries, and returns — organized by waterway, by place, and by chapter. The same harbors across different seasons, different boats, different years. Browse by corridor, by recurring place, or by era.</p>
+    <p class="trail-disclaimer"><strong>Note:</strong> This archive is live and usable now, but a few parts of the content and structure are still being tightened up and filled in.</p>
+  </header>
+
+  <div id="chart-tooltip" role="tooltip"></div>
+
+  <div class="app">
+
+    <div class="gallery-modal" id="gallery-modal" aria-hidden="true">
+      <div class="gallery-modal-panel" role="dialog" aria-modal="true" aria-label="Photo viewer">
+        <div class="gallery-modal-topbar">
+          <div class="gallery-modal-title" id="gallery-modal-title">Photo viewer</div>
+          <button class="gallery-modal-close" id="gallery-modal-close" type="button">Close</button>
+        </div>
+        <div class="gallery-modal-stage">
+          <button class="gallery-modal-nav prev" id="gallery-modal-prev" type="button" aria-label="Previous image">‹</button>
+          <img class="gallery-modal-image" id="gallery-modal-image" alt="Expanded gallery image">
+          <button class="gallery-modal-nav next" id="gallery-modal-next" type="button" aria-label="Next image">›</button>
+        </div>
+        <div class="gallery-modal-strip" id="gallery-modal-strip"></div>
+      </div>
+    </div>
+
+    <!-- Left: schematic chart -->
+    <aside class="chart-pane" aria-label="Waterway chart">
+      <div class="chart-wrap">
+        <svg id="chart" viewBox="0 0 340 490" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="340" height="490" fill="#020c18"/>
+
+          <!-- Blueprint grid -->
+          <g stroke="rgba(87,165,255,0.05)" stroke-width="0.5" fill="none">
+            <line x1="0" y1="80"  x2="340" y2="80"/>
+            <line x1="0" y1="160" x2="340" y2="160"/>
+            <line x1="0" y1="240" x2="340" y2="240"/>
+            <line x1="0" y1="320" x2="340" y2="320"/>
+            <line x1="0" y1="400" x2="340" y2="400"/>
+            <line x1="80"  y1="0" x2="80"  y2="490"/>
+            <line x1="160" y1="0" x2="160" y2="490"/>
+            <line x1="240" y1="0" x2="240" y2="490"/>
+            <line x1="320" y1="0" x2="320" y2="490"/>
+          </g>
+
+          <!-- Great Lakes -->
+          <path class="corridor-path" data-corridor="great-lakes"
+            d="M 28,115 L 50,100 L 112,65 L 132,72 L 122,83"
+            stroke-width="1.8" />
+          <path class="corridor-path" data-corridor="great-lakes"
+            d="M 112,65 L 150,108"
+            stroke-width="1.4" stroke-dasharray="4,3" />
+
+          <!-- Erie Canal -->
+          <path class="corridor-path" data-corridor="erie-canal"
+            d="M 150,108 L 172,108 L 195,100 L 218,115"
+            stroke-width="1.6" />
+
+          <!-- East Coast corridor, including Hudson reach -->
+          <path class="corridor-path" data-corridor="east-coast"
+            d="M 218,115 L 222,136 L 224,162 L 225,190 L 226,238 L 225,262 L 224,278 L 220,350"
+            stroke-width="1.8" />
+
+          <!-- NYC to East End connector -->
+          <path class="corridor-path" data-corridor="new-england"
+            d="M 218,115 L 228,110 L 240,107 L 252,108 L 264,114"
+            stroke-width="2.1" />
+
+          <!-- New England / East End -->
+          <path class="corridor-path" data-corridor="new-england"
+            d="M 264,114 L 274,122"
+            stroke-width="1.8" />
+
+          <!-- South Florida -->
+          <path class="corridor-path" data-corridor="south-florida"
+            d="M 220,350 L 218,367 L 212,385 L 198,408 L 182,422"
+            stroke-width="1.6" />
+          <path class="corridor-path" data-corridor="south-florida"
+            d="M 220,350 L 205,392 L 190,422 L 175,410 L 168,392 L 164,376 L 156,376"
+            stroke-width="1.4" stroke-dasharray="4,3" />
+
+          <!-- Bahamas -->
+          <path class="corridor-path" data-corridor="bahamas"
+            d="M 218,367 L 258,352 L 268,360 L 276,372 L 280,382 L 284,393 L 289,410 L 294,425"
+            stroke-width="1.8" />
+
+          <!-- Great Lakes stops -->
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="fish-creek"       cx="44"  cy="108" r="3.5" opacity="0.9"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="sister-bay"       cx="58"  cy="97"  r="3.5" opacity="0.9"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="ephraim"          cx="64"  cy="104" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="ellison-bay"      cx="74"  cy="88"  r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="mackinac-straits" cx="112" cy="65"  r="3.8" opacity="0.95"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="port-huron"       cx="154" cy="109" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="put-in-bay"       cx="142" cy="121" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="great-lakes" data-stop="welland-canal"    cx="172" cy="97"  r="3"   opacity="0.78"/>
+
+          <!-- Erie Canal stops -->
+          <circle class="stop-dot" data-corridor="erie-canal"  data-stop="oneida-lake-oswego"      cx="195" cy="100" r="3"   opacity="0.78"/>
+          <circle class="stop-dot" data-corridor="erie-canal"  data-stop="utica-rome"              cx="186" cy="106" r="3"   opacity="0.74"/>
+          <circle class="stop-dot" data-corridor="erie-canal"  data-stop="schenectady-amsterdam"   cx="205" cy="111" r="3"   opacity="0.74"/>
+          <circle class="stop-dot" data-corridor="erie-canal"  data-stop="albany-troy"             cx="218" cy="115" r="3.5" opacity="0.88"/>
+
+          <!-- East Coast stops -->
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="jersey-city-manhattan"      cx="222" cy="136" r="3.8" opacity="0.95"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="norfolk-chesapeake"         cx="225" cy="190" r="3.5" opacity="0.82"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="coinjock-nc"                cx="226" cy="210" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="cape-hatteras"              cx="232" cy="227" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="beaufort-nc"                cx="227" cy="240" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="southport-nc"               cx="226" cy="249" r="3.2" opacity="0.78"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="charleston-sc"              cx="225" cy="262" r="3.5" opacity="0.88"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="hilton-head"                cx="224" cy="278" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="daytona-st-augustine"       cx="223" cy="318" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="east-coast"  data-stop="palm-beach-to-cape-canaveral" cx="220" cy="350" r="4" opacity="0.95"/>
+
+          <!-- New England / East End stops -->
+          <circle class="stop-dot" data-corridor="new-england" data-stop="old-saybrook"      cx="235" cy="122" r="2.9" opacity="0.68"/>
+          <circle class="stop-dot" data-corridor="new-england" data-stop="mystic-stonington" cx="246" cy="118" r="2.9" opacity="0.7"/>
+          <circle class="stop-dot" data-corridor="new-england" data-stop="greenport"         cx="252" cy="119" r="3"   opacity="0.74"/>
+          <circle class="stop-dot" data-corridor="new-england" data-stop="shelter-island"    cx="257" cy="121" r="3.1" opacity="0.78"/>
+          <circle class="stop-dot" data-corridor="new-england" data-stop="sag-harbor"        cx="261" cy="122" r="3.5" opacity="0.9"/>
+          <circle class="stop-dot" data-corridor="new-england" data-stop="sag-harbor-bay"    cx="264" cy="124" r="3.1" opacity="0.78"/>
+
+          <!-- South Florida stops -->
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="palm-beach-west-palm"    cx="220" cy="350" r="3.2" opacity="0.85"/>
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="boca-raton-delray"      cx="219" cy="358" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="fort-lauderdale"       cx="218" cy="367" r="4"   opacity="0.97"/>
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="miami"                 cx="212" cy="385" r="3.5" opacity="0.82"/>
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="upper-keys-islamorada" cx="198" cy="408" r="3"   opacity="0.75"/>
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="marathon-middle-keys"  cx="182" cy="422" r="3.3" opacity="0.8"/>
+          <circle class="stop-dot" data-corridor="south-florida" data-stop="naples-marco-island"   cx="168" cy="363" r="3.2" opacity="0.78"/>
+
+          <!-- Bahamas stops -->
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="crossing"      cx="258" cy="352" r="3"   opacity="0.8"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="chub-cay"      cx="268" cy="360" r="3.1" opacity="0.78"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="albany-lyford" cx="276" cy="372" r="4"   opacity="0.92"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="normans-cay"   cx="280" cy="382" r="3.1" opacity="0.78"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="highbourne-cay" cx="282" cy="387" r="3.2" opacity="0.8"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="shroud-cay"    cx="283" cy="390" r="3"   opacity="0.74"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="staniel-cay"   cx="284" cy="393" r="3.5" opacity="0.88"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="compass-cay"   cx="286" cy="398" r="4"   opacity="0.97"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="georgetown"    cx="289" cy="410" r="3.8" opacity="0.9"/>
+          <circle class="stop-dot" data-corridor="bahamas" data-stop="long-island"   cx="294" cy="425" r="3"   opacity="0.8"/>
+
+          <!-- Labels: major stops -->
+          <text class="chart-label chart-label-major" x="34"  y="103">Fish Creek</text>
+          <text class="chart-label chart-label-major" x="98"  y="60">Mackinac</text>
+          <text class="chart-label chart-label-major" x="194" y="112">Albany</text>
+          <text class="chart-label chart-label-major" x="226" y="132">NY Harbor</text>
+          <text class="chart-label chart-label-major" x="248" y="111">East End</text>
+          <text class="chart-label chart-label-major" x="228" y="186">Chesapeake</text>
+          <text class="chart-label chart-label-major" x="228" y="257">Charleston</text>
+          <text class="chart-label chart-label-major" x="188" y="346">Palm Beach</text>
+          <text class="chart-label chart-label-major" x="228" y="368">Ft. Lauderdale</text>
+          <text class="chart-label chart-label-major" x="270" y="367">Lyford</text>
+          <text class="chart-label chart-label-major" x="276" y="406">George Town</text>
+
+          <!-- Waterway region labels -->
+          <text class="chart-waterway-label" x="18"  y="75"  transform="rotate(-5,18,75)">Lake Michigan</text>
+          <text class="chart-waterway-label" x="130" y="50"  transform="rotate(-5,130,50)">Mackinac Strait</text>
+          <text class="chart-waterway-label" x="163" y="95">Erie Canal</text>
+          <text class="chart-waterway-label" x="246" y="106">East End</text>
+          <text class="chart-waterway-label" x="235" y="215" transform="rotate(90,235,215)">ICW</text>
+          <text class="chart-waterway-label" x="240" y="390">Bahamas</text>
+          <text class="chart-waterway-label" x="140" y="372">Gulf Side</text>
+
+          <!-- Compass rose -->
+          <g transform="translate(22, 458)">
+            <circle cx="0" cy="0" r="10" fill="none" stroke="rgba(87,200,255,0.1)" stroke-width="0.8"/>
+            <line x1="0" y1="-10" x2="0" y2="10" stroke="rgba(87,200,255,0.3)" stroke-width="0.8"/>
+            <line x1="-10" y1="0" x2="10" y2="0" stroke="rgba(87,200,255,0.3)" stroke-width="0.8"/>
+            <polygon points="0,-10 2,-4 0,-6 -2,-4" fill="rgba(87,200,255,0.55)"/>
+            <text x="0" y="-12" text-anchor="middle" font-size="5" fill="rgba(87,200,255,0.5)" font-family="Inter,sans-serif" font-weight="700">N</text>
+          </g>
+
+          <text x="338" y="488" text-anchor="end" font-size="5" fill="rgba(87,200,255,0.15)" font-family="Inter,sans-serif" letter-spacing="0.1em">CAPT. T. MOLENHOUSE · CRUISING GROUNDS</text>
+        </svg>
+      </div>
+
+      <div class="chart-legend" id="chart-legend">
+        <div class="legend-label">Corridors</div>
+        <div class="legend-item" data-legend="great-lakes">
+          <div class="legend-dot" style="background:var(--c-lakes)"></div>
+          <span class="legend-name">Great Lakes System</span>
+          <span class="legend-era">474 photos · 18 places</span>
+        </div>
+        <div class="legend-item" data-legend="erie-canal">
+          <div class="legend-dot" style="background:var(--c-canal)"></div>
+          <span class="legend-name">Erie Canal</span>
+          <span class="legend-era">74 photos · 4 places</span>
+        </div>
+        <div class="legend-item" data-legend="east-coast">
+          <div class="legend-dot" style="background:var(--c-icw)"></div>
+          <span class="legend-name">East Coast Corridor</span>
+          <span class="legend-era">443 photos · 14 places</span>
+        </div>
+        <div class="legend-item" data-legend="south-florida">
+          <div class="legend-dot" style="background:var(--c-sfla)"></div>
+          <span class="legend-name">South Florida</span>
+          <span class="legend-era">339 photos · 7 places</span>
+        </div>
+        <div class="legend-item" data-legend="bahamas">
+          <div class="legend-dot" style="background:var(--c-bah)"></div>
+          <span class="legend-name">Bahamas Chain</span>
+          <span class="legend-era">734 photos · 10 places</span>
+        </div>
+        <div class="legend-item" data-legend="new-england">
+          <div class="legend-dot" style="background:#9bc4ff"></div>
+          <span class="legend-name">New England / East End</span>
+          <span class="legend-era">117 photos · 8 places</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right: detail pane -->
+    <section class="detail-pane" aria-label="Archive browser">
+      <div class="browse-tabs" role="tablist">
+        <button class="browse-tab active" role="tab" data-tab="corridor"  aria-selected="true">By Corridor</button>
+        <button class="browse-tab"         role="tab" data-tab="place"    aria-selected="false">By Place</button>
+        <button class="browse-tab"         role="tab" data-tab="chapter"  aria-selected="false">By Chapter</button>
+        <button class="browse-tab"         role="tab" data-tab="archive"  aria-selected="false">Archive</button>
+      </div>
+      <div class="panel-body" id="panel-body"></div>
+    </section>
+
+  </div><!-- /.app -->
+
+  <script>
+    // ════════════════════════════════════════════════════════════════════
+    //  DATA
+    // ════════════════════════════════════════════════════════════════════
+
+    const REGION_TO_CORRIDOR = {
+      'great-lakes': 'great-lakes',
+      'erie-canal': 'erie-canal',
+      'hudson-river-nyc': 'east-coast',
+      'east-coast-icw': 'east-coast',
+      'south-florida': 'south-florida',
+      'bahamas': 'bahamas',
+      'new-england': 'new-england',
+    };
+
+    const CORRIDOR_META = {
+      'great-lakes': {
+        name: 'Great Lakes System',
+        tag: 'Lake Michigan · Mackinac · Lake Huron · Lake Erie · Georgian edges',
+        color: 'var(--c-lakes)', hex: '#4fd1c5',
+        season: 'Summer cruising, deliveries, and freshwater passages',
+        desc: 'The northern freshwater run, from Door County and Lake Michigan up through the Straits, Lake Huron, and the western Lake Erie edge. The distances are real, the weather can turn quickly, and each harbor has more of its own personality than people expect if they have only seen the lakes on a map.',
+      },
+      'erie-canal': {
+        name: 'Erie Canal',
+        tag: 'Albany · Schenectady · Utica · Oneida · Oswego',
+        color: 'var(--c-canal)', hex: '#a3c4f3',
+        season: 'Lock-by-lock inland connector seasons',
+        desc: 'The inland hinge between the coast and the lakes. Slow miles, lock walls, river towns, and the kind of practical movement that never looks glamorous but changes the shape of a voyage.',
+      },
+      'east-coast': {
+        name: 'East Coast Corridor',
+        tag: 'Hudson · Harbor · Chesapeake · Carolinas · Low Country',
+        color: 'var(--c-icw)', hex: '#57c8ff',
+        season: 'Northbound and southbound coastal migration',
+        desc: 'The main Atlantic migration spine, from the Hudson and New York Harbor through the Mid-Atlantic, the Chesapeake, the Outer Banks, and down the Carolinas and Georgia. It is a route built on repetition, weather windows, timing, and the stops that become familiar because you have had to rely on them.',
+      },
+      'south-florida': {
+        name: 'South Florida',
+        tag: 'Palm Beach · Fort Lauderdale · Miami · Keys · Naples',
+        color: 'var(--c-sfla)', hex: '#68d391',
+        season: 'Home-waters operations and staging',
+        desc: 'Home waters and staging waters. South Florida carries a lot of the day-to-day texture, bridges, marinas, crossings, quick turns, familiar channels, and the shift in mood as you work south into the Keys or west toward the Gulf side.',
+      },
+      'bahamas': {
+        name: 'Bahamas Chain',
+        tag: 'Crossing · Berry Islands · New Providence · Exumas · Long Island',
+        color: 'var(--c-bah)', hex: '#d4b176',
+        season: 'Crossings and island-chain work over multiple spring cycles',
+        desc: 'Blue-water crossing, western-island arrivals, New Providence edges, and the long run down through the Exumas into the southern islands. Some of it is beautiful in the obvious way, and some of it is memorable because of timing, weather, paperwork, and the quiet discipline of getting it right.',
+      },
+      'new-england': {
+        name: 'New England and East End',
+        tag: 'Greenport · Shelter Island · Sag Harbor · Mystic',
+        color: 'var(--c-canal)', hex: '#9bc4ff',
+        season: 'Late summer and shoulder-season Northeast runs',
+        desc: 'The East End and southern New England side of the story, where harbors, bays, and short coastal runs each carry their own character. Smaller and tighter than the ICW, but full of places that feel unmistakably different once you have spent time in them.',
+      },
+    };
+
+    const PLACE_META = {
+      'bahamas/crossing': { name: 'Crossing', sub: 'Florida Straits / Gulf Stream', lat: 26.08, lon: -79.10, note: 'That stretch where South Florida falls away, the water turns serious, and everything starts to feel earned.' },
+      'bahamas/chub-cay': { name: 'Chub Cay', sub: 'Berry Islands, Bahamas', lat: 25.41, lon: -77.88, note: 'A practical first foothold, more about arrival, clearing in, and getting your bearings than any postcard version of the Bahamas.' },
+      'bahamas/albany-lyford': { name: 'Albany · Lyford Cay', sub: 'Western New Providence, Bahamas', lat: 25.02, lon: -77.52, note: 'Western New Providence water, with all the contrast between polished shorelines and the work of moving people and boats through them.' },
+      'bahamas/normans-cay': { name: "Norman's Cay", sub: 'Central Exumas, Bahamas', lat: 24.59, lon: -76.82, note: 'A real Exuma waypoint, the kind of place that keeps showing up because it actually sits in the rhythm of the run.' },
+      'bahamas/highbourne-cay': { name: 'Highbourne Cay', sub: 'Northern Exumas', lat: 24.71, lon: -76.82, note: 'Where the trip usually starts to relax a little and the chain begins to open up.' },
+      'bahamas/shroud-cay': { name: 'Shroud Cay', sub: 'Exuma Land and Sea Park', lat: 24.33, lon: -76.60, note: 'Park water, creek water, and that quiet Exuma feeling that only makes sense once you are actually in it.' },
+      'bahamas/staniel-cay': { name: 'Staniel Cay', sub: 'Exuma Cays, Bahamas', lat: 24.17, lon: -76.44, note: 'A lively center of gravity in the Exumas, familiar, useful, and full of its own character.' },
+      'bahamas/compass-cay': { name: 'Compass Cay', sub: 'Exumas, Bahamas', lat: 24.26, lon: -76.51, note: 'Clear water, tight cuts, working docks, and enough repeat visits to feel like a place you actually know.' },
+      'bahamas/georgetown': { name: 'George Town', sub: 'Great Exuma, Bahamas', lat: 23.52, lon: -75.77, note: 'The southern pull of the Exumas, where the trip starts to feel broader, busier, and a little more settled.' },
+      'bahamas/long-island': { name: 'Long Island', sub: 'Bahamas', lat: 23.10, lon: -75.01, note: 'Farther south, longer reaches, and a little more edge to the feeling of being out there.' },
+      'great-lakes/fish-creek': { name: 'Fish Creek', sub: 'Door County, Wisconsin', lat: 45.13, lon: -87.24, note: 'A real center of gravity in Door County, busy in season but still very much its own harbor town.' },
+      'great-lakes/sister-bay': { name: 'Sister Bay', sub: 'Door County, Wisconsin', lat: 45.19, lon: -87.12, note: 'Open, familiar, and unmistakably Door County, with its own feel once you stop lumping everything together.' },
+      'great-lakes/ephraim': { name: 'Ephraim', sub: 'Door County, Wisconsin', lat: 45.16, lon: -87.17, note: 'Quiet white buildings, sheltered water, and that gentler freshwater harbor feel.' },
+      'great-lakes/ellison-bay': { name: 'Ellison Bay', sub: 'Door County, Wisconsin', lat: 45.26, lon: -87.06, note: 'Farther north and a little rougher around the edges, in a good way.' },
+      'great-lakes/mackinac-straits': { name: 'Mackinac Straits', sub: 'Michigan', lat: 45.82, lon: -84.72, note: 'Big water, moving weather, bridge traffic, and the feeling that the lakes are not playing around.' },
+      'great-lakes/welland-canal': { name: 'Welland Canal', sub: 'Ontario', lat: 43.12, lon: -79.24, note: 'Steel, concrete, current, and timing. Not scenic in the usual sense, but deeply part of the job.' },
+      'great-lakes/put-in-bay': { name: 'Put-in-Bay', sub: 'Lake Erie, Ohio', lat: 41.65, lon: -82.82, note: 'Western Lake Erie with a little chaos, a little fun, and its own very specific energy.' },
+      'great-lakes/port-huron': { name: 'Port Huron', sub: 'Michigan', lat: 42.97, lon: -82.42, note: 'A freshwater gateway where transit, current, and working-boat awareness all come together.' },
+      'erie-canal/albany-troy': { name: 'Albany · Troy', sub: 'Hudson meets Erie Canal', lat: 42.73, lon: -73.69, note: 'Where the Hudson hands you off to the canal and the whole trip changes character.' },
+      'erie-canal/utica-rome': { name: 'Utica · Rome', sub: 'Mohawk Valley, New York', lat: 43.10, lon: -75.23, note: 'Classic canal country, practical, quiet, and more about movement than spectacle.' },
+      'erie-canal/oneida-lake-oswego': { name: 'Oneida Lake · Oswego', sub: 'New York', lat: 43.46, lon: -76.51, note: 'The part of the system that starts to open outward, with lake weather and more room to breathe.' },
+      'erie-canal/schenectady-amsterdam': { name: 'Schenectady · Amsterdam', sub: 'Mohawk River, New York', lat: 42.81, lon: -73.94, note: 'Small river towns and canal edges that make the route feel earned one lock and one day at a time.' },
+      'hudson-river-nyc/jersey-city-manhattan': { name: 'Jersey City · Manhattan', sub: 'New York Harbor', lat: 40.72, lon: -74.03, note: 'Big city water, skyline everywhere, and enough traffic and scale to keep you honest.' },
+      'hudson-river-nyc/lower-nyc-harbor': { name: 'Lower New York Harbor', sub: 'New York', lat: 40.68, lon: -74.04, note: 'Outer harbor water, ship traffic, and that feeling of entering or leaving somewhere that matters.' },
+      'hudson-river-nyc/upper-manhattan-bronx': { name: 'Upper Manhattan · Bronx', sub: 'Hudson / Harlem edge', lat: 40.83, lon: -73.94, note: 'Where the city still feels dense but the waterway starts pulling you north.' },
+      'hudson-river-nyc/yonkers-westchester': { name: 'Yonkers · Westchester', sub: 'Hudson River', lat: 40.93, lon: -73.90, note: 'The quieter urban river edge north of the city, still busy but already breathing differently.' },
+      'east-coast-icw/norfolk-chesapeake': { name: 'Norfolk · Chesapeake', sub: 'Virginia', lat: 36.85, lon: -76.29, note: 'Commercial traffic, military presence, weather, timing, and no room to be sloppy.' },
+      'east-coast-icw/cape-hatteras': { name: 'Cape Hatteras', sub: 'Outer Banks, North Carolina', lat: 35.25, lon: -75.53, note: 'A coast with a reputation for a reason, beautiful when it is kind and serious when it is not.' },
+      'east-coast-icw/coinjock-nc': { name: 'Coinjock', sub: 'North Carolina', lat: 36.37, lon: -75.94, note: 'One of those classic east coast names that means something if you have actually done the run.' },
+      'east-coast-icw/southport-nc': { name: 'Southport · Wilmington', sub: 'North Carolina', lat: 33.92, lon: -78.02, note: 'Cape Fear country, tidal water, working stops, and the feeling of covering real ground.' },
+      'east-coast-icw/beaufort-nc': { name: 'Beaufort · Morehead City', sub: 'North Carolina', lat: 34.72, lon: -76.66, note: 'A strong North Carolina stop, practical in some moments and full of personality in others.' },
+      'east-coast-icw/charleston-sc': { name: 'Charleston', sub: 'South Carolina', lat: 32.78, lon: -79.93, note: 'A city stop with real style, but still very much part of the working route.' },
+      'east-coast-icw/hilton-head': { name: 'Hilton Head · Savannah', sub: 'South Carolina / Georgia', lat: 32.16, lon: -80.76, note: 'Low-country water, marsh light, winding channels, and that wide southern tidal feel.' },
+      'east-coast-icw/daytona-st-augustine': { name: 'Daytona · St. Augustine', sub: 'Florida Atlantic coast', lat: 29.89, lon: -81.31, note: 'Florida east coast transit, less about one big reveal and more about the feel of moving steadily south.' },
+      'east-coast-icw/new-jersey-delmarva': { name: 'New Jersey · Delmarva', sub: 'Mid-Atlantic coast', lat: 39.40, lon: -74.43, note: 'A connector stretch that is rarely romantic but absolutely part of the real coastwise story.' },
+      'east-coast-icw/palm-beach-to-cape-canaveral': { name: 'Palm Beach to Cape Canaveral', sub: 'Florida east coast', lat: 28.39, lon: -80.60, note: 'Long Florida coast miles where the routine sets in and the trip starts feeling more like disciplined movement than novelty.' },
+      'south-florida/fort-lauderdale': { name: 'Fort Lauderdale', sub: 'Florida', lat: 26.12, lon: -80.14, note: 'Home-water gravity, working marinas, familiar bridges, and the kind of place that becomes second nature.' },
+      'south-florida/palm-beach-west-palm': { name: 'Palm Beach · West Palm', sub: 'Florida', lat: 26.71, lon: -80.05, note: 'The north end of the South Florida run, useful, familiar, and often tied to crossings or repositioning.' },
+      'south-florida/boca-raton-delray': { name: 'Boca Raton · Delray', sub: 'Florida', lat: 26.46, lon: -80.06, note: 'That in-between stretch of South Florida coast that becomes meaningful because you actually spend time moving through it.' },
+      'south-florida/miami': { name: 'Miami', sub: 'Florida', lat: 25.77, lon: -80.19, note: 'Fast, busy, loud, unmistakable, and always very aware of itself.' },
+      'south-florida/upper-keys-islamorada': { name: 'Upper Keys · Islamorada', sub: 'Florida Keys', lat: 24.92, lon: -80.63, note: 'Where South Florida starts giving way to Keys logic, with different water, different weather, and a different pace.' },
+      'south-florida/marathon-middle-keys': { name: 'Marathon · Middle Keys', sub: 'Florida Keys', lat: 24.72, lon: -81.02, note: 'Middle Keys cruising, flatter horizons, clearer water, and a calmer rhythm than the mainland coast.' },
+      'south-florida/naples-marco-island': { name: 'Naples · Marco Island', sub: 'Gulf Side, Florida', lat: 26.14, lon: -81.80, note: 'Gulf-side light and weather, a different mood from the Atlantic side almost immediately.' },
+      'new-england/sag-harbor': { name: 'Sag Harbor', sub: 'East End, New York', lat: 41.00, lon: -72.29, note: 'One of those places that really does feel like itself the moment you come into it.' },
+      'new-england/sag-harbor-bay': { name: 'Sag Harbor Bay', sub: 'East End, New York', lat: 41.04, lon: -72.31, note: 'Just outside the harbor, where the feel opens up but still belongs to the same world.' },
+      'new-england/shelter-island': { name: 'Shelter Island', sub: 'New York', lat: 41.06, lon: -72.34, note: 'Protected interior East End water with its own slower, quieter rhythm.' },
+      'new-england/greenport': { name: 'Greenport', sub: 'North Fork, New York', lat: 41.10, lon: -72.36, note: 'A real harbor town, useful and attractive without feeling overworked.' },
+      'new-england/shinnecock-bay': { name: 'Shinnecock Bay', sub: 'New York', lat: 40.88, lon: -72.48, note: 'South-side East End water, flatter, broader, and different in feel from the bays to the north.' },
+      'new-england/three-mile-harbor': { name: 'Three Mile Harbor', sub: 'East Hampton, New York', lat: 41.02, lon: -72.18, note: 'A smaller harbor stop, but exactly the kind of place that gives a cruising ground its texture.' },
+      'new-england/mystic-stonington': { name: 'Mystic · Stonington', sub: 'Connecticut', lat: 41.35, lon: -71.97, note: 'Compact New England harbor country, old maritime bones, and a very different tone from farther south.' },
+      'new-england/old-saybrook': { name: 'Old Saybrook', sub: 'Connecticut', lat: 41.29, lon: -72.35, note: 'A small Connecticut river-mouth stop with exactly the kind of understated reality these routes are made of.' },
+    };
+
+    const CORRIDOR_PLACE_ORDER = {
+      'great-lakes': ['fish-creek','sister-bay','ephraim','ellison-bay','baileys-harbor','sturgeon-bay','menominee','sleeping-bear-dunes','leland','northport','frankfort','manistee','mackinac-straits','rogers-city','port-huron','welland-canal','put-in-bay','erie'],
+      'erie-canal': ['albany-troy','schenectady-amsterdam','utica-rome','oneida-lake-oswego'],
+      'east-coast': ['yonkers-westchester','upper-manhattan-bronx','jersey-city-manhattan','lower-nyc-harbor','new-jersey-delmarva','norfolk-chesapeake','coinjock-nc','cape-hatteras','beaufort-nc','southport-nc','charleston-sc','hilton-head','daytona-st-augustine','palm-beach-to-cape-canaveral'],
+      'south-florida': ['palm-beach-west-palm','boca-raton-delray','fort-lauderdale','miami','upper-keys-islamorada','marathon-middle-keys','naples-marco-island'],
+      'bahamas': ['crossing','chub-cay','albany-lyford','normans-cay','highbourne-cay','shroud-cay','staniel-cay','compass-cay','georgetown','long-island'],
+      'new-england': ['greenport','shelter-island','sag-harbor','sag-harbor-bay','shinnecock-bay','three-mile-harbor','mystic-stonington','old-saybrook'],
+    };
+
+    const CHAPTERS = [
+      {
+        id: 'home-waters-runs',
+        yearRange: '1981–Current',
+        year: 1981,
+        name: 'Home Waters Runs',
+        sub: 'Childhood to current, the long home-water saga',
+        corridors: ['south-florida', 'great-lakes'],
+        stops: [
+          { label: 'Fort Lauderdale', placeId: 'fort-lauderdale', corridorId: 'south-florida' },
+          { label: 'Boca · Delray', placeId: 'boca-raton-delray', corridorId: 'south-florida' },
+          { label: 'Palm Beach', placeId: 'palm-beach-west-palm', corridorId: 'south-florida' },
+          { label: 'Fish Creek', placeId: 'fish-creek', corridorId: 'great-lakes' },
+          { label: 'Mackinac Straits', placeId: 'mackinac-straits', corridorId: 'great-lakes' },
+        ],
+        note: 'This one starts at the beginning and keeps going. Childhood water, the thirteen-foot Whaler years, home waters, and the runs that shaped everything that came later. It is less a chapter than an ongoing saga, and it will keep growing as more old photos and new mileage get folded back in.'
+      },
+      {
+        id: 'exploration-years',
+        yearRange: '2019–2022',
+        year: 2019,
+        name: 'The Exploration Years',
+        sub: 'Beginning the expedition, from Florida through the islands and up and down the coast',
+        corridors: ['south-florida', 'east-coast', 'bahamas', 'great-lakes'],
+        stops: [
+          { label: 'Fort Lauderdale', placeId: 'fort-lauderdale', corridorId: 'south-florida' },
+          { label: 'Palm Beach', placeId: 'palm-beach-west-palm', corridorId: 'south-florida' },
+          { label: 'Crossing', placeId: 'crossing', corridorId: 'bahamas' },
+          { label: 'Chub Cay', placeId: 'chub-cay', corridorId: 'bahamas' },
+          { label: 'Highbourne Cay', placeId: 'highbourne-cay', corridorId: 'bahamas' },
+          { label: 'Compass Cay', placeId: 'compass-cay', corridorId: 'bahamas' },
+          { label: 'Charleston', placeId: 'charleston-sc', corridorId: 'east-coast' },
+          { label: 'Norfolk · Chesapeake', placeId: 'norfolk-chesapeake', corridorId: 'east-coast' },
+        ],
+        note: 'This is where it starts to feel like an expedition instead of a series of isolated trips. The Bahamas opened up, the coast began connecting north to south and back again, and the range of the whole life started getting bigger in a real way.'
+      },
+      {
+        id: 'deeper-into-the-islands',
+        yearRange: '2021–2023',
+        year: 2021,
+        name: 'Deeper Into the Islands',
+        sub: 'New boat, new boss, and the islands opening up',
+        corridors: ['south-florida', 'bahamas'],
+        stops: [
+          { label: 'Crossing', placeId: 'crossing', corridorId: 'bahamas' },
+          { label: 'Albany · Lyford Cay', placeId: 'albany-lyford', corridorId: 'bahamas' },
+          { label: "Norman's Cay", placeId: 'normans-cay', corridorId: 'bahamas' },
+          { label: 'Highbourne Cay', placeId: 'highbourne-cay', corridorId: 'bahamas' },
+          { label: 'Shroud Cay', placeId: 'shroud-cay', corridorId: 'bahamas' },
+          { label: 'Staniel Cay', placeId: 'staniel-cay', corridorId: 'bahamas' },
+          { label: 'Compass Cay', placeId: 'compass-cay', corridorId: 'bahamas' },
+          { label: 'George Town', placeId: 'georgetown', corridorId: 'bahamas' },
+        ],
+        note: 'A new boat, a new boss, and a deeper push into the islands. Part of the story is showing them their first real taste of the true islands, and part of it is discovering new water along the way. This one will eventually stretch farther out, but for now it stays centered on the islands themselves.'
+      },
+      {
+        id: 'city-water-and-east-end-runs',
+        yearRange: '2024–Current',
+        year: 2024,
+        name: 'City Water and East End Runs',
+        sub: 'Boca to New York City to the Hamptons and back down the coast',
+        corridors: ['east-coast', 'new-england', 'south-florida'],
+        stops: [
+          { label: 'Jersey City · Manhattan', placeId: 'jersey-city-manhattan', corridorId: 'east-coast' },
+          { label: 'Lower New York Harbor', placeId: 'lower-nyc-harbor', corridorId: 'east-coast' },
+          { label: 'Sag Harbor', placeId: 'sag-harbor', corridorId: 'new-england' },
+          { label: 'Shelter Island', placeId: 'shelter-island', corridorId: 'new-england' },
+          { label: 'Palm Beach', placeId: 'palm-beach-west-palm', corridorId: 'south-florida' },
+          { label: 'Boca · Delray', placeId: 'boca-raton-delray', corridorId: 'south-florida' },
+          { label: 'Fort Lauderdale', placeId: 'fort-lauderdale', corridorId: 'south-florida' },
+          { label: 'Charleston', placeId: 'charleston-sc', corridorId: 'east-coast' },
+        ],
+        note: 'Bouncing between Boca and New York, running out to the Hamptons, and mixing the city-yachting experience with some great East Coast mileage. It has the contrast of polished city waterfronts, familiar home-water departures, and long stretches of real coast in between.'
+      },
+    ];
+
+    const SOURCE_CATALOG = [];
+    const IMAGE_MANIFESTS = {};
+    const CONTENT_INDEX = [];
+    const PLACE_INDEX = [];
+    const CORRIDORS = [];
+    const PLACES = [];
+
+    function prettyRegion(regionId) {
+      return regionId.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+    }
+
+    function prettyPlace(placeId) {
+      return placeId.split('-').map(part => {
+        if (part === 'nyc') return 'NYC';
+        if (part === 'nc') return 'NC';
+        if (part === 'sc') return 'SC';
+        return part.charAt(0).toUpperCase() + part.slice(1);
+      }).join(' ');
+    }
+
+    function summarizeCounts(total, content = []) {
+      return {
+        photos: total,
+        stories: content.filter(item => item.type === 'story').length,
+        log: content.filter(item => item.type === 'log').length,
+        routes: 0,
+        notes: content.filter(item => item.type === 'note').length,
+      };
+    }
+
+    function getRelatedContent({ corridorId = null, placeId = null, chapterId = null, year = null, types = null } = {}) {
+      return CONTENT_INDEX.filter(item => {
+        if (corridorId && !(item.corridors || []).includes(corridorId)) return false;
+        if (placeId && !(item.places || []).includes(placeId)) return false;
+        if (chapterId && !(item.chapters || []).includes(chapterId)) return false;
+        if (year && !(item.years || []).includes(year)) return false;
+        if (types && types.length && !types.includes(item.type)) return false;
+        return true;
+      }).sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+    }
+
+    function buildDataModel() {
+      const grouped = new Map();
+      SOURCE_CATALOG.forEach(row => {
+        const key = `${row.region}/${row.place}`;
+        if (!grouped.has(key)) {
+          grouped.set(key, {
+            region: row.region,
+            place: row.place,
+            key,
+            years: new Set(),
+            count: 0,
+          });
+        }
+        const entry = grouped.get(key);
+        entry.years.add(row.year);
+        entry.count += 1;
+      });
+
+      PLACE_INDEX.length = 0;
+      grouped.forEach(entry => {
+        const corridor = REGION_TO_CORRIDOR[entry.region] || entry.region;
+        const meta = PLACE_META[entry.key] || {};
+        const content = getRelatedContent({ corridorId: corridor, placeId: entry.place });
+        PLACE_INDEX.push({
+          id: entry.place,
+          key: entry.key,
+          region: entry.region,
+          corridor,
+          name: meta.name || prettyPlace(entry.place),
+          sub: meta.sub || prettyRegion(entry.region),
+          note: meta.note || 'A real stop in the larger trail, with more of its story still to be written.',
+          lat: meta.lat ?? null,
+          lon: meta.lon ?? null,
+          visitYears: [...entry.years].sort((a, b) => a - b),
+          counts: summarizeCounts(entry.count, content),
+          hex: CORRIDOR_META[corridor]?.hex || '#8fb7d8',
+          images: IMAGE_MANIFESTS[entry.key] || [],
+          content,
+        });
+      });
+
+      PLACE_INDEX.sort((a, b) => a.name.localeCompare(b.name));
+      PLACES.length = 0;
+      PLACES.push(...PLACE_INDEX);
+
+      CORRIDORS.length = 0;
+      Object.entries(CORRIDOR_META).forEach(([corridorId, meta]) => {
+        const ordered = CORRIDOR_PLACE_ORDER[corridorId] || [];
+        const corridorPlaces = PLACE_INDEX.filter(p => p.corridor === corridorId);
+        corridorPlaces.sort((a, b) => {
+          const ai = ordered.indexOf(a.id);
+          const bi = ordered.indexOf(b.id);
+          if (ai >= 0 || bi >= 0) {
+            return (ai >= 0 ? ai : 999) - (bi >= 0 ? bi : 999);
+          }
+          return a.name.localeCompare(b.name);
+        });
+        const eras = [...new Set(corridorPlaces.flatMap(p => p.visitYears))].sort((a, b) => a - b);
+        const photoTotal = corridorPlaces.reduce((sum, p) => sum + (p.counts.photos || 0), 0);
+        const corridorContent = getRelatedContent({ corridorId });
+        CORRIDORS.push({
+          id: corridorId,
+          name: meta.name,
+          tag: meta.tag,
+          color: meta.color,
+          hex: meta.hex,
+          season: meta.season,
+          desc: meta.desc,
+          eras,
+          content: corridorContent,
+          counts: summarizeCounts(photoTotal, corridorContent),
+          stops: corridorPlaces.map(p => ({
+            id: p.id,
+            key: p.key,
+            name: p.name,
+            sub: p.sub,
+            lat: p.lat,
+            lon: p.lon,
+            note: p.note,
+            eras: p.visitYears,
+            content: p.content,
+            counts: { photos: p.counts.photos, stories: p.counts.stories, log: p.counts.log, notes: p.counts.notes },
+          })),
+        });
+      });
+    }
+
+    function getArchiveStats() {
+      return {
+        photos: SOURCE_CATALOG.length,
+        places: PLACES.length,
+        corridorCount: CORRIDORS.length,
+        contentCount: CONTENT_INDEX.length,
+      };
+    }
+
+    const ARCHIVE = {
+      photos:   { total: () => getArchiveStats().photos, desc: 'Photos from the live archive now tied to real places and years', icon: '📷' },
+      stories:  { total: () => CONTENT_INDEX.filter(item => item.type === 'story').length, desc: 'Story pieces now pulled from the shared content index', icon: '📖' },
+      log:      { total: () => CONTENT_INDEX.filter(item => item.type === 'log').length, desc: 'Captain\'s Log entries now pulled from the shared content index', icon: '📋' },
+      notes:    { total: () => CONTENT_INDEX.filter(item => item.type === 'note').length, desc: 'Quick route truths, remembered fragments, and support notes', icon: '🗒️' },
+      passages: { total: () => CORRIDORS.length, desc: 'Major route lines that keep showing up across the years', icon: '⚓' },
+    };
+
+    // ════════════════════════════════════════════════════════════════════
+    //  STATE
+    // ════════════════════════════════════════════════════════════════════
+
+    const state = {
+      tab: 'corridor',
+      openCorridor: null,
+      activeStop: null,
+      activePlace: null,
+      activeContentContext: null,
+      archiveContentType: 'all',
+      corridorFilter: 'all',
+      corridorYear: 'all',
+      placeRegionFilter: 'hudson-river-nyc',
+      gallery: {
+        images: [],
+        title: '',
+        index: 0,
+        open: false,
+      },
+    };
+
+    function setState(patch) {
+      Object.assign(state, patch);
+      renderChart();
+      renderPanel();
+    }
+
+    async function loadSourceData() {
+      try {
+        const [manifestsRes, contentRes] = await Promise.all([
+          fetch('assets/images/image-manifests.json', { cache: 'no-store' }),
+          fetch('assets/data/content-index.json', { cache: 'no-store' }),
+        ]);
+        if (!manifestsRes.ok) throw new Error(`manifests HTTP ${manifestsRes.status}`);
+        if (!contentRes.ok) throw new Error(`content HTTP ${contentRes.status}`);
+        const [manifests, content] = await Promise.all([manifestsRes.json(), contentRes.json()]);
+        CONTENT_INDEX.splice(0, CONTENT_INDEX.length, ...content);
+        Object.assign(IMAGE_MANIFESTS, manifests);
+        const catalog = [];
+        Object.entries(manifests).forEach(([key, images]) => {
+          const [region, place] = key.split('/');
+          (images || []).forEach(image => {
+            catalog.push({
+              region,
+              place,
+              year: Number(image.year) || null,
+            });
+          });
+        });
+        SOURCE_CATALOG.splice(0, SOURCE_CATALOG.length, ...catalog);
+        buildDataModel();
+      } catch (err) {
+        console.warn('Failed to load source-backed archive data', err);
+      }
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    //  CHART RENDER
+    // ════════════════════════════════════════════════════════════════════
+
+    function getVisibleCorridors() {
+      if (state.corridorFilter === 'all') return CORRIDORS;
+      return CORRIDORS.filter(c => c.id === state.corridorFilter);
+    }
+
+    function renderChart() {
+      const chart = document.getElementById('chart');
+      const cid = state.openCorridor;
+      chart.classList.toggle('chart-has-selection', !!cid);
+      chart.querySelectorAll('.corridor-path').forEach(el =>
+        el.classList.toggle('selected', el.dataset.corridor === cid));
+      chart.querySelectorAll('.stop-dot').forEach(el => {
+        el.classList.toggle('selected-corridor', el.dataset.corridor === cid);
+        el.classList.toggle('active-stop', el.dataset.stop === state.activeStop);
+      });
+      document.querySelectorAll('.legend-item').forEach(el =>
+        el.classList.toggle('active', el.dataset.legend === cid));
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    //  PANEL RENDER
+    // ════════════════════════════════════════════════════════════════════
+
+    function renderPanel() {
+      const body = document.getElementById('panel-body');
+      document.querySelectorAll('.browse-tab').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === state.tab);
+        btn.setAttribute('aria-selected', btn.dataset.tab === state.tab);
+      });
+      if      (state.tab === 'corridor') body.innerHTML = renderCorridorTab();
+      else if (state.tab === 'place')    body.innerHTML = renderPlaceTab();
+      else if (state.tab === 'chapter')  body.innerHTML = renderChapterTab();
+      else                               body.innerHTML = renderArchiveTab();
+      bindPanelEvents();
+    }
+
+    // ── Corridor tab ──────────────────────────────────────────────────
+
+    function renderCorridorTab() {
+      const visibleCorridors = getVisibleCorridors();
+      const openIndex = visibleCorridors.findIndex(c => c.id === state.openCorridor);
+      const focusClass = openIndex >= 0 ? 'focus-mode' : '';
+      return `
+        <div class="places-header">
+          <strong>Corridors</strong> — the bigger route lines that connect the places in the archive.
+        </div>
+        <div class="corridor-index ${focusClass}">${visibleCorridors.map((c, idx) => renderCorridorCard(c, idx, openIndex)).join('')}</div>`;
+    }
+
+    function renderCorridorCard(c, idx, openIndex) {
+      const isOpen = state.openCorridor === c.id;
+      const posClass = openIndex < 0 ? '' : (idx < openIndex ? 'before-open' : idx > openIndex ? 'after-open' : '');
+      return `
+        <div class="corridor-card ${isOpen ? 'open' : ''} ${posClass}" data-card="${c.id}">
+          <div class="corridor-header" data-open-corridor="${c.id}">
+            <div class="corridor-swatch" style="background:${c.hex}"></div>
+            <div class="corridor-name-group">
+              <div class="corridor-name">${c.name}</div>
+              <div class="corridor-tag">${c.tag}</div>
+            </div>
+            <div class="corridor-counts">
+              <span class="count-chip">📷<span>${c.counts.photos}</span></span>
+              <span class="count-chip">📋<span>${c.counts.log}</span></span>
+            </div>
+            <span class="corridor-chevron">▾</span>
+          </div>
+          ${isOpen ? renderCorridorBody(c) : ''}
+        </div>`;
+    }
+
+    function renderCorridorBody(c) {
+      const yearFilter = state.corridorYear === 'all' ? null : Number(state.corridorYear);
+      const filteredStops = yearFilter ? c.stops.filter(s => (s.eras || []).includes(yearFilter)) : c.stops;
+      const stopDetail = state.activeStop ? filteredStops.find(s => s.id === state.activeStop) || c.stops.find(s => s.id === state.activeStop) : null;
+      const filteredPhotoCount = filteredStops.reduce((sum, s) => sum + (s.filteredCounts?.photos ?? s.counts.photos ?? 0), 0);
+      return `<div class="corridor-body">
+        <p class="corridor-desc">${c.desc}</p>
+        <div class="count-bar">
+          <span class="count-pill photos">📷 ${filteredPhotoCount} photos</span>
+          <span class="count-pill stories">📖 ${c.counts.stories || 0} stories</span>
+          <span class="count-pill log">📋 ${c.counts.log} log entries</span>
+          <span class="count-pill routes">⚓ ${c.counts.routes} passages</span>
+        </div>
+        <div class="era-chips">
+          <button class="era-chip ${state.corridorYear === 'all' ? 'is-active' : ''}" type="button" data-corridor-year="all">All years</button>
+          ${[...new Set(c.eras)].sort().map(y =>
+            `<button class="era-chip ${String(state.corridorYear) === String(y) ? 'is-active' : ''}" type="button" data-corridor-year="${y}">${y}</button>`).join('')}
+        </div>
+        <div class="stops-label">${filteredStops.length} places ${yearFilter ? `for ${yearFilter}` : 'along this corridor'}</div>
+        <div class="stops-scroll">${filteredStops.map(s => renderStopCard(s, c.hex)).join('')}</div>
+        ${stopDetail ? renderStopDetail(stopDetail) : ''}
+      </div>`;
+    }
+
+    function renderStopCard(s, hex) {
+      const isActive = state.activeStop === s.id;
+      const chips = [
+        s.counts.photos  ? `📷 ${s.counts.photos}` : '',
+        s.counts.log     ? `📋 ${s.counts.log}`     : '',
+        s.counts.stories ? `📖 ${s.counts.stories}` : '',
+        s.counts.notes   ? `🗒️ ${s.counts.notes}`   : '',
+      ].filter(Boolean);
+      return `
+        <div class="stop-card ${isActive ? 'active' : ''}" data-open-stop="${s.id}">
+          <div class="stop-card-name">${s.name}</div>
+          <div class="stop-card-sub">${s.sub}</div>
+          <div class="stop-card-counts">
+            ${chips.map(ch => `<span class="stop-count">${ch}</span>`).join('')}
+            ${!chips.length ? '<span class="stop-count" style="font-style:italic;font-size:0.62rem">archive pending</span>' : ''}
+          </div>
+        </div>`;
+    }
+
+    function renderContentCards(items, emptyText = 'No written content tied here yet.') {
+      if (!items.length) return `<div class="place-archive-note">${emptyText}</div>`;
+      return `
+        <div class="content-drawer-list">
+          ${items.map(item => {
+            const meta = [
+              item.date ? item.date : '',
+              ...(item.places || []).slice(0, 2).map(v => prettyPlace(v)),
+            ].filter(Boolean);
+            const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : '🗒️';
+            const isOpen = state.activeContentContext === item.id;
+            const bodyHtml = String(item.body || '')
+              .split(/\n\n+/)
+              .filter(Boolean)
+              .map(p => `<p>${p}</p>`)
+              .join('');
+            return `
+              <article class="content-drawer-card ${isOpen ? 'open' : ''}" data-open-content="${item.id}">
+                <div class="content-drawer-type">${icon} ${item.type}</div>
+                <div class="content-drawer-title">${item.title}</div>
+                <div class="content-drawer-summary">${item.summary || excerptText(item.body, 180)}</div>
+                <div class="content-drawer-meta">${meta.join(' · ')}</div>
+                <button class="content-drawer-open" type="button" data-open-content="${item.id}">${isOpen ? 'Close entry' : 'Open entry'}</button>
+                ${isOpen ? `<div class="content-drawer-body">${bodyHtml}</div>` : ''}
+              </article>`;
+          }).join('')}
+        </div>`;
+    }
+
+    function excerptText(text, maxLength = 220) {
+      const cleaned = String(text || '').replace(/\s+/g, ' ').trim();
+      if (!cleaned) return '';
+      if (cleaned.length <= maxLength) return cleaned;
+      return `${cleaned.slice(0, maxLength).trim()}…`;
+    }
+
+    function renderContentDrawer(context) {
+      if (!context) return '';
+      return `
+        <div class="content-drawer-shell">
+          <div class="content-drawer-header-row">
+            <div>
+              <div class="place-visit-label" style="margin-top:1rem;">Written content</div>
+              <div class="place-archive-note">${context.label}</div>
+            </div>
+          </div>
+          ${renderContentCards(context.items, context.emptyText)}
+        </div>`;
+    }
+
+    function renderArchiveContentBrowser() {
+      const activeType = state.archiveContentType === 'all' ? null : state.archiveContentType;
+      const items = activeType ? CONTENT_INDEX.filter(item => item.type === activeType) : CONTENT_INDEX.slice();
+      const actions = [
+        { type: 'all', label: `All ${CONTENT_INDEX.length}` },
+        { type: 'log', label: `Logs ${CONTENT_INDEX.filter(item => item.type === 'log').length}` },
+        { type: 'story', label: `Stories ${CONTENT_INDEX.filter(item => item.type === 'story').length}` },
+        { type: 'note', label: `Notes ${CONTENT_INDEX.filter(item => item.type === 'note').length}` },
+      ].filter(action => action.type === 'all' || Number(action.label.split(' ').pop()) > 0);
+      return `
+        <div class="archive-content-browser">
+          <div class="archive-content-head">
+            <div>
+              <div class="place-visit-label">Browse written archive</div>
+              <div class="place-archive-note">A global browse surface for logs, stories, and notes across the whole trail.</div>
+            </div>
+            <div class="content-drawer-actions">
+              ${actions.map(action => `
+                <button class="content-filter-chip ${state.archiveContentType === action.type ? 'is-active' : ''}" type="button" data-archive-content-type="${action.type}">${action.label}</button>
+              `).join('')}
+            </div>
+          </div>
+          ${renderContentCards(items, `No ${activeType || 'written'} content is available in the archive yet.`)}
+        </div>`;
+    }
+
+    function renderStopDetail(s) {
+      const coords = (s.lat != null && s.lon != null)
+        ? `${Math.abs(s.lat).toFixed(2)}° ${s.lat >= 0 ? 'N' : 'S'} · ${Math.abs(s.lon).toFixed(2)}° ${s.lon >= 0 ? 'E' : 'W'}`
+        : 'Archive coordinates pending';
+      const allImages = IMAGE_MANIFESTS[s.key || `${state.openCorridor}/${s.id}`] || [];
+      const yearFilter = state.corridorYear === 'all' ? null : String(state.corridorYear);
+      const images = yearFilter ? allImages.filter(img => String(img.year) === yearFilter) : allImages;
+      const previewImages = images.slice(0, 12);
+      const contentItems = yearFilter
+        ? (s.content || []).filter(item => (item.years || []).includes(Number(yearFilter)))
+        : (s.content || []);
+      return `
+        <div class="stop-detail">
+          <div class="stop-detail-head">
+            <div>
+              <div class="stop-detail-name">${s.name}</div>
+              <div class="stop-detail-sub">${s.sub}</div>
+            </div>
+            <button class="stop-detail-close" data-close-stop>✕ close</button>
+          </div>
+          <p class="stop-detail-body">${s.note}</p>
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;">
+            <div class="count-bar" style="margin:0;">
+              ${(images.length || s.counts.photos) ? `<span class="count-pill photos">📷 ${images.length || s.counts.photos} photos</span>` : ''}
+              ${s.counts.stories ? `<span class="count-pill stories">📖 ${s.counts.stories} stories</span>` : ''}
+              ${s.counts.log     ? `<span class="count-pill log">📋 ${s.counts.log} log entries</span>` : ''}
+              ${s.counts.notes   ? `<span class="count-pill stories">🗒️ ${s.counts.notes} notes</span>` : ''}
+            </div>
+            <div class="stop-detail-gps">${coords}</div>
+          </div>
+          ${renderContentDrawer({
+            label: yearFilter ? `${contentItems.length} entries tied to ${s.name} in ${yearFilter}` : `${contentItems.length} entries tied to ${s.name}`,
+            items: contentItems,
+            emptyText: `No written content matched this view yet.`,
+          })}
+          ${images.length ? `
+            <div class="place-visit-label" style="margin-top:0.8rem;">${yearFilter ? `${yearFilter} gallery preview` : 'Gallery preview'}</div>
+            <div class="stop-gallery">
+              ${previewImages.map((img, idx) => `
+                <button class="stop-gallery-thumb" type="button" data-gallery-open="${s.id}" data-gallery-index="${idx}">
+                  <img src="${img.thumb}" alt="${s.name} photo ${idx + 1}" loading="lazy">
+                </button>`).join('')}
+            </div>
+            ${images.length > previewImages.length ? `<div class="place-archive-note">Showing ${previewImages.length} of ${images.length} images, open the gallery to browse the full set.</div>` : ''}
+          ` : ''}
+        </div>`;
+    }
+
+    // ── Place tab (NEW) ───────────────────────────────────────────────
+
+    function renderPlaceTab() {
+      const placeRegions = [...new Set(PLACES.map(p => p.region))].sort();
+      const visiblePlaces = state.placeRegionFilter === 'all'
+        ? PLACES
+        : PLACES.filter(p => p.region === state.placeRegionFilter);
+      return `
+        <div class="places-header">
+          <strong>Places</strong> — the harbors, towns, islands, and working stops that make the routes feel real.
+          Each row shows where the archive has depth, and where there is still more story to add.
+          <div class="place-visit-years" style="margin-top:0.75rem;">
+            <button class="year-pip ${state.placeRegionFilter === 'all' ? 'is-active' : ''}" type="button" data-place-region="all">All regions</button>
+            ${placeRegions.map(region => `<button class="year-pip ${state.placeRegionFilter === region ? 'is-active' : ''}" type="button" data-place-region="${region}">${prettyRegion(region)}</button>`).join('')}
+          </div>
+        </div>
+        <div class="places-list">${visiblePlaces.map(p => renderPlaceCard(p)).join('')}</div>`;
+    }
+
+    function renderPlaceCard(p) {
+      const isOpen = state.activePlace === p.id;
+      // Show first 4 year pips in collapsed state, all in expanded
+      const previewYears = p.visitYears.slice(0, 5);
+      const hasMore = p.visitYears.length > 5;
+      const chips = [
+        p.counts.photos  ? `📷 ${p.counts.photos}` : '',
+        p.counts.log     ? `📋 ${p.counts.log}`     : '',
+        p.counts.stories ? `📖 ${p.counts.stories}` : '',
+        p.counts.notes   ? `🗒️ ${p.counts.notes}`   : '',
+      ].filter(Boolean);
+
+      return `
+        <div class="place-card ${isOpen ? 'open' : ''}" data-open-place="${p.id}">
+          <div class="place-card-header">
+            <div class="place-swatch" style="background:${p.hex}"></div>
+            <div class="place-name-group">
+              <div class="place-name">${p.name}</div>
+              <div class="place-sub">${p.sub}</div>
+              <div class="place-years">
+                ${previewYears.map(y => `<span class="year-pip">${y}</span>`).join('')}
+                ${hasMore && !isOpen ? `<span class="year-pip" style="color:var(--accent);border-color:rgba(87,200,255,0.25)">+${p.visitYears.length - 5} more</span>` : ''}
+              </div>
+              <div class="place-counts">${chips.map(c => `<span class="place-count-chip">${c}</span>`).join('')}</div>
+            </div>
+          </div>
+          ${isOpen ? renderPlaceBody(p) : ''}
+        </div>`;
+    }
+
+    function renderPlaceBody(p) {
+      const images = IMAGE_MANIFESTS[p.key] || [];
+      return `
+        <div class="place-card-body">
+          <p class="place-note">${p.note}</p>
+          <div class="place-visit-label">${p.visitYears.length} recorded years in the archive</div>
+          <div class="place-visit-years">
+            ${p.visitYears.map(y => `<span class="place-visit-year">${y}</span>`).join('')}
+          </div>
+          <div class="place-detail-counts count-bar">
+            ${p.counts.photos  ? `<span class="count-pill photos">📷 ${p.counts.photos} photos</span>` : ''}
+            ${p.counts.stories ? `<span class="count-pill stories">📖 ${p.counts.stories} stories</span>` : ''}
+            ${p.counts.log     ? `<span class="count-pill log">📋 ${p.counts.log} log entries</span>` : ''}
+            ${p.counts.notes   ? `<span class="count-pill stories">🗒️ ${p.counts.notes} notes</span>` : ''}
+          </div>
+          ${renderContentDrawer({
+            label: p.content?.length ? `${p.content.length} entries linked to ${p.name}` : `No written content linked to ${p.name} yet.`,
+            items: p.content || [],
+            emptyText: `No written content matched this place yet.`,
+          })}
+          ${images.length ? `
+            <div class="place-archive-note">Photo set available for this place</div>
+            <div class="stop-gallery">
+              ${images.map((img, idx) => `
+                <button class="stop-gallery-thumb" type="button" data-gallery-open="${p.id}" data-gallery-index="${idx}">
+                  <img src="${img.thumb}" alt="${p.name} photo ${idx + 1}" loading="lazy">
+                </button>`).join('')}
+            </div>` : ''}
+        </div>`;
+    }
+
+    // ── Chapter tab ───────────────────────────────────────────────────
+
+    function renderChapterTab() {
+      return `
+        <div class="places-header">
+          <strong>Voyage chapters</strong> — the bigger stretches of the story, grouped from the places and routes that keep coming back.
+          These are working chapter frames, honest and unfinished by design.
+        </div>
+        <div class="timeline">${CHAPTERS.map(ch => renderChapterRow(ch)).join('')}</div>`;
+    }
+
+    function renderChapterRow(ch) {
+      const colors = {
+        'great-lakes': '#4fd1c5', 'erie-canal': '#a3c4f3',
+        'east-coast': '#57c8ff', 'south-florida': '#68d391', 'bahamas': '#d4b176', 'new-england': '#9bc4ff'
+      };
+      const dots = ch.corridors.map(id =>
+        `<span class="ch-dot" style="background:${colors[id] || '#666'}"></span>`).join('');
+      return `
+        <div class="timeline-chapter" data-chapter-id="${ch.id || ''}">
+          <div class="chapter-head" data-toggle-chapter="${ch.id || ch.year}">
+            <div class="chapter-year">${ch.yearRange}</div>
+            <div class="chapter-name-group">
+              <div class="chapter-name">${ch.name}</div>
+              <div class="chapter-sub">${ch.sub}</div>
+            </div>
+            <div class="chapter-corridors">${dots}</div>
+          </div>
+          <div class="chapter-body">
+            <div class="chapter-stops">
+              ${ch.stops.map(s => `<button class="chapter-stop-tag" type="button" data-chapter-stop="${s.placeId}" data-chapter-corridor="${s.corridorId}">${s.label}</button>`).join('')}
+            </div>
+            <p class="chapter-note">${ch.note}</p>
+            <div class="place-visit-label" style="margin-top:0.8rem;">Corridors involved</div>
+            <div class="place-visit-years">
+              ${ch.corridors.map(cid => `<span class="place-visit-year">${CORRIDOR_META[cid]?.name || cid}</span>`).join('')}
+            </div>
+            ${(() => {
+              const items = getRelatedContent({ chapterId: ch.id });
+              return renderContentDrawer({
+                label: `${items.length} entries linked to this chapter`,
+                items,
+                emptyText: `No written content matched this chapter yet.`,
+              });
+            })()}
+          </div>
+        </div>`;
+    }
+
+    // ── Archive tab ───────────────────────────────────────────────────
+
+    function renderArchiveTab() {
+      const stats = getArchiveStats();
+      const cards = Object.entries(ARCHIVE).map(([key, val]) => `
+        <div class="archive-card">
+          <div class="archive-icon">${val.icon}</div>
+          <div class="archive-type">${key}</div>
+          <div class="archive-count">${typeof val.total === 'function' ? val.total() : val.total}</div>
+          <div class="archive-desc">${val.desc}</div>
+        </div>`).join('');
+      return `
+        <div class="archive-grid">${cards}</div>
+        <div class="archive-stub">
+          <strong>The archive browser is now tied to the cleaned live library.</strong> It currently includes ${stats.photos.toLocaleString()} images, ${stats.places} places, ${stats.corridorCount} corridors, and ${stats.contentCount} written entries.
+          <br><br>
+          The structure is in good shape now. What comes next is the human layer, stories, notes, and the details that make the route feel lived instead of merely mapped.
+        </div>
+        ${renderArchiveContentBrowser()}`;
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    //  EVENT BINDING
+    // ════════════════════════════════════════════════════════════════════
+
+    function bindPanelEvents() {
+      document.querySelectorAll('[data-corridor-year]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.stopPropagation();
+          const year = el.dataset.corridorYear;
+          setState({
+            corridorYear: year,
+            activeStop: null,
+            activeContentContext: null,
+          });
+        });
+      });
+
+      document.querySelectorAll('[data-place-region]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.stopPropagation();
+          setState({
+            placeRegionFilter: el.dataset.placeRegion,
+            activePlace: null,
+            activeContentContext: null,
+          });
+        });
+      });
+
+      document.querySelectorAll('[data-archive-content-type]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          e.stopPropagation();
+          setState({
+            archiveContentType: el.dataset.archiveContentType || 'all',
+            activeContentContext: null,
+          });
+        });
+      });
+
+      // Corridor cards
+      document.querySelectorAll('[data-open-corridor]').forEach(el => {
+        el.addEventListener('click', () => {
+          const id = el.dataset.openCorridor;
+          setState({ openCorridor: state.openCorridor === id ? null : id, activeStop: null, corridorYear: 'all', activeContentContext: null });
+        });
+      });
+
+      // Stop cards
+      document.querySelectorAll('[data-open-stop]').forEach(el => {
+        el.addEventListener('click', () => {
+          const id = el.dataset.openStop;
+          setState({ activeStop: state.activeStop === id ? null : id, activeContentContext: null });
+        });
+      });
+
+      // Close stop detail
+      document.querySelectorAll('[data-close-stop]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.stopPropagation();
+          setState({ activeStop: null, activeContentContext: null });
+        });
+      });
+
+      document.querySelectorAll('[data-gallery-open]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          e.stopPropagation();
+          const itemId = el.dataset.galleryOpen;
+          const stop = CORRIDORS.flatMap(c => c.stops).find(s => s.id === itemId);
+          const place = PLACES.find(p => p.id === itemId);
+          const images = stop ? (IMAGE_MANIFESTS[stop.key] || []) : (place ? (IMAGE_MANIFESTS[place.key] || []) : []);
+          openGallery(images, Number(el.dataset.galleryIndex || 0), stop ? stop.name : (place ? place.name : 'Photo viewer'));
+        });
+      });
+
+      document.querySelectorAll('[data-open-content]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          e.stopPropagation();
+          const id = el.dataset.openContent;
+          setState({ activeContentContext: state.activeContentContext === id ? null : id });
+        });
+      });
+
+      // Place cards — also highlights corridor on chart
+      document.querySelectorAll('[data-open-place]').forEach(el => {
+        el.addEventListener('click', () => {
+          const id = el.dataset.openPlace;
+          const place = PLACES.find(p => p.id === id);
+          const isToggling = state.activePlace === id;
+          setState({
+            activePlace: isToggling ? null : id,
+            openCorridor: isToggling ? null : (place ? place.corridor : null),
+            activeContentContext: null,
+          });
+        });
+      });
+
+      document.querySelectorAll('[data-chapter-stop]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.stopPropagation();
+          const placeId = el.dataset.chapterStop;
+          const corridorId = el.dataset.chapterCorridor;
+          setState({
+            tab: 'corridor',
+            corridorFilter: 'all',
+            openCorridor: corridorId,
+            activeStop: placeId,
+            activePlace: null,
+            activeContentContext: null,
+          });
+        });
+      });
+
+      // Chapter toggles
+      document.querySelectorAll('[data-toggle-chapter]').forEach(el => {
+        el.addEventListener('click', () => {
+          el.closest('.timeline-chapter').classList.toggle('chapter-open');
+        });
+      });
+    }
+
+    function openGallery(images, index, title) {
+      if (!images.length) return;
+      state.gallery.images = images;
+      state.gallery.title = title;
+      state.gallery.index = Math.max(0, Math.min(index, images.length - 1));
+      state.gallery.open = true;
+      renderGalleryModal();
+    }
+
+    function closeGallery() {
+      state.gallery.open = false;
+      renderGalleryModal();
+    }
+
+    function stepGallery(delta) {
+      if (!state.gallery.images.length) return;
+      const total = state.gallery.images.length;
+      state.gallery.index = (state.gallery.index + delta + total) % total;
+      renderGalleryModal();
+    }
+
+    function renderGalleryModal() {
+      const modal = document.getElementById('gallery-modal');
+      const image = document.getElementById('gallery-modal-image');
+      const strip = document.getElementById('gallery-modal-strip');
+      const title = document.getElementById('gallery-modal-title');
+      if (!modal || !image || !strip || !title) return;
+
+      modal.classList.toggle('open', !!state.gallery.open);
+      modal.setAttribute('aria-hidden', state.gallery.open ? 'false' : 'true');
+
+      if (!state.gallery.open || !state.gallery.images.length) {
+        strip.innerHTML = '';
+        return;
+      }
+
+      const current = state.gallery.images[state.gallery.index];
+      image.src = current.large;
+      image.alt = `${state.gallery.title} image ${state.gallery.index + 1}`;
+      image.dataset.source = current.source || '';
+      title.textContent = `${state.gallery.title} · ${state.gallery.index + 1} of ${state.gallery.images.length}`;
+      strip.innerHTML = state.gallery.images.map((img, idx) => `
+        <button class="gallery-modal-thumb ${idx === state.gallery.index ? 'active' : ''}" type="button" data-gallery-modal-index="${idx}">
+          <img src="${img.thumb}" alt="${state.gallery.title} thumbnail ${idx + 1}" loading="lazy">
+        </button>`).join('');
+
+      strip.querySelectorAll('[data-gallery-modal-index]').forEach(el => {
+        el.addEventListener('click', () => {
+          state.gallery.index = Number(el.dataset.galleryModalIndex || 0);
+          renderGalleryModal();
+        });
+      });
+
+      const activeThumb = strip.querySelector('.gallery-modal-thumb.active');
+      activeThumb?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+
+    function bindChartEvents() {
+      const chart = document.getElementById('chart');
+      const tt = document.getElementById('chart-tooltip');
+
+      chart.querySelectorAll('.corridor-path').forEach(path => {
+        path.addEventListener('mouseenter', e => {
+          const cid = path.dataset.corridor;
+          chart.querySelectorAll(`.corridor-path[data-corridor="${cid}"]`).forEach(el => el.classList.add('hovered'));
+        });
+        path.addEventListener('mousemove', e => {
+          const corridor = CORRIDORS.find(c => c.id === path.dataset.corridor);
+          if (!corridor) return;
+          tt.innerHTML = `<strong>${corridor.name}</strong><div class="tt-sub">${corridor.tag}</div>`;
+          tt.style.display = 'block';
+          tt.style.left = (e.clientX + 14) + 'px';
+          tt.style.top  = (e.clientY - 10) + 'px';
+        });
+        path.addEventListener('mouseleave', () => {
+          const cid = path.dataset.corridor;
+          chart.querySelectorAll(`.corridor-path[data-corridor="${cid}"]`).forEach(el => el.classList.remove('hovered'));
+          tt.style.display = 'none';
+        });
+        path.addEventListener('click', () => {
+          const cid = path.dataset.corridor;
+          setState({ tab: 'corridor', corridorFilter: 'all', openCorridor: cid, activeStop: null, activePlace: null, corridorYear: 'all', activeContentContext: null });
+          document.getElementById('panel-body').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+      });
+
+      chart.querySelectorAll('.stop-dot').forEach(dot => {
+        dot.addEventListener('click', e => {
+          const cid = dot.dataset.corridor;
+          const sid = dot.dataset.stop;
+          setState({ tab: 'corridor', corridorFilter: 'all', openCorridor: cid, activeStop: sid, activePlace: null, activeContentContext: null });
+          document.getElementById('panel-body').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+
+        dot.addEventListener('mouseenter', e => {
+          const corridor = CORRIDORS.find(c => c.id === dot.dataset.corridor);
+          const stop = corridor?.stops.find(s => s.id === dot.dataset.stop);
+          if (!stop) return;
+          tt.innerHTML = `<strong>${stop.name}</strong><div class="tt-sub">${stop.sub}</div>`;
+          tt.style.display = 'block';
+        });
+        dot.addEventListener('mousemove', e => {
+          tt.style.left = (e.clientX + 14) + 'px';
+          tt.style.top  = (e.clientY - 10) + 'px';
+        });
+        dot.addEventListener('mouseleave', () => { tt.style.display = 'none'; });
+      });
+    }
+
+    function bindLegendEvents() {
+      document.querySelectorAll('[data-legend]').forEach(el => {
+        el.addEventListener('click', () => {
+          const id = el.dataset.legend;
+          setState({
+            tab: 'corridor',
+            corridorFilter: id,
+            openCorridor: state.openCorridor === id ? null : id,
+            activeStop: null,
+            activePlace: null,
+            activeContentContext: null,
+          });
+        });
+      });
+    }
+
+    function bindTabEvents() {
+      document.querySelectorAll('.browse-tab').forEach(btn => {
+        btn.addEventListener('click', () => setState({ tab: btn.dataset.tab }));
+      });
+    }
+
+    function bindGalleryModalEvents() {
+      document.getElementById('gallery-modal-close')?.addEventListener('click', closeGallery);
+      document.getElementById('gallery-modal-prev')?.addEventListener('click', () => stepGallery(-1));
+      document.getElementById('gallery-modal-next')?.addEventListener('click', () => stepGallery(1));
+      document.getElementById('gallery-modal')?.addEventListener('click', e => {
+        if (e.target.id === 'gallery-modal') closeGallery();
+      });
+      document.addEventListener('keydown', e => {
+        if (!state.gallery.open) return;
+        if (e.key === 'Escape') closeGallery();
+        if (e.key === 'ArrowLeft') stepGallery(-1);
+        if (e.key === 'ArrowRight') stepGallery(1);
+      });
+    }
+
+    // ── Init ──────────────────────────────────────────────────────────
+
+    bindTabEvents();
+    bindLegendEvents();
+    bindGalleryModalEvents();
+    loadSourceData().finally(() => {
+      renderPanel();
+      renderGalleryModal();
+      bindChartEvents();
+    });
+
+  </script>
+</body>
+</html>

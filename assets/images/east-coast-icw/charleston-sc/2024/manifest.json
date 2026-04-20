@@ -1,0 +1,179 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "charleston-sc",
+  "placeKey": "east-coast-icw/charleston-sc",
+  "year": 2024,
+  "images": [
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0001",
+      "filename": "IMG_2903.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2903.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2903.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2903.jpg",
+      "capture_date": "2024:06:04 12:54:50"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0002",
+      "filename": "IMG_2904.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2904.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2904.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2904.jpg",
+      "capture_date": "2024:06:04 13:00:59"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0003",
+      "filename": "IMG_2905.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2905.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2905.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2905.jpg",
+      "capture_date": "2024:06:04 13:00:59"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0004",
+      "filename": "IMG_2906.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2906.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2906.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2906.jpg",
+      "capture_date": "2024:06:04 13:01:00"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0005",
+      "filename": "IMG_2907.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2907.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2907.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2907.jpg",
+      "capture_date": "2024:06:04 13:01:01"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0006",
+      "filename": "IMG_2908.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2908.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2908.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2908.jpg",
+      "capture_date": "2024:06:04 13:01:03"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0007",
+      "filename": "IMG_2909.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2909.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2909.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2909.jpg",
+      "capture_date": "2024:06:04 13:01:03"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0008",
+      "filename": "IMG_2913.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2913.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2913.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2913.jpg",
+      "capture_date": "2024:06:05 13:06:56"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0009",
+      "filename": "IMG_2914.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2914.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2914.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2914.jpg",
+      "capture_date": "2024:06:05 13:06:57"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0010",
+      "filename": "IMG_2915.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2915.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2915.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2915.jpg",
+      "capture_date": "2024:06:05 13:06:59"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0011",
+      "filename": "IMG_2916.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2916.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2916.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2916.jpg",
+      "capture_date": "2024:06:05 13:07:29"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0012",
+      "filename": "IMG_2917.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2917.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2917.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2917.jpg",
+      "capture_date": "2024:06:05 13:07:31"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0013",
+      "filename": "IMG_2918.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2918.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2918.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2918.jpg",
+      "capture_date": "2024:06:05 13:07:33"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0014",
+      "filename": "IMG_2919.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2919.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2919.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2919.jpg",
+      "capture_date": "2024:06:05 13:17:14"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0015",
+      "filename": "IMG_2920.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2920.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2920.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2920.jpg",
+      "capture_date": "2024:06:05 13:17:16"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0016",
+      "filename": "IMG_2921.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2921.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2921.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2921.jpg",
+      "capture_date": "2024:06:05 13:31:59"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0017",
+      "filename": "IMG_2922.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2922.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2922.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2922.jpg",
+      "capture_date": "2024:06:05 15:06:37"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0018",
+      "filename": "IMG_2923.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2923.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2923.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2923.jpg",
+      "capture_date": "2024:06:05 15:06:38"
+    },
+    {
+      "id": "east-coast-icw-charleston-sc-2024-0019",
+      "filename": "IMG_2924.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/charleston-sc/2024/originals/IMG_2924.JPEG",
+      "large": "assets/images/east-coast-icw/charleston-sc/2024/large/img-2924.jpg",
+      "thumb": "assets/images/east-coast-icw/charleston-sc/2024/thumb/img-2924.jpg",
+      "capture_date": "2024:06:05 15:06:44"
+    }
+  ]
+}

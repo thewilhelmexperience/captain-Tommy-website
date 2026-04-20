@@ -1,0 +1,1934 @@
+{
+  "region": "bahamas",
+  "placeId": "compass-cay",
+  "placeKey": "bahamas/compass-cay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "bahamas-compass-cay-2021-0001",
+      "filename": "17299.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17299.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17299.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17299.jpg",
+      "capture_date": "2021:02:26 15:38:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0002",
+      "filename": "17301.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17301.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17301.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17301.jpg",
+      "capture_date": "2021:02:26 16:51:30"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0003",
+      "filename": "17302.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17302.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17302.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17302.jpg",
+      "capture_date": "2021:02:26 16:51:33"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0004",
+      "filename": "17303.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17303.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17303.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17303.jpg",
+      "capture_date": "2021:02:26 16:51:35"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0005",
+      "filename": "17304.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17304.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17304.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17304.jpg",
+      "capture_date": "2021:02:26 16:51:37"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0006",
+      "filename": "17305.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17305.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17305.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17305.jpg",
+      "capture_date": "2021:02:26 16:51:38"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0007",
+      "filename": "17335.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17335.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17335.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17335.jpg",
+      "capture_date": "2021:02:27 18:33:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0008",
+      "filename": "17336.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17336.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17336.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17336.jpg",
+      "capture_date": "2021:02:27 18:33:59"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0009",
+      "filename": "17337.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17337.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17337.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17337.jpg",
+      "capture_date": "2021:02:27 18:34:05"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0010",
+      "filename": "17338.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17338.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17338.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17338.jpg",
+      "capture_date": "2021:02:27 18:34:06"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0011",
+      "filename": "17339.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17339.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17339.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17339.jpg",
+      "capture_date": "2021:02:27 18:34:08"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0012",
+      "filename": "17340.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17340.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17340.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17340.jpg",
+      "capture_date": "2021:02:27 18:34:14"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0013",
+      "filename": "17341.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17341.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17341.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17341.jpg",
+      "capture_date": "2021:02:27 18:34:15"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0014",
+      "filename": "17342.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17342.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17342.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17342.jpg",
+      "capture_date": "2021:02:27 18:34:17"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0015",
+      "filename": "17343.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17343.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17343.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17343.jpg",
+      "capture_date": "2021:02:27 18:34:20"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0016",
+      "filename": "17344.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17344.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17344.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17344.jpg",
+      "capture_date": "2021:02:27 19:09:18"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0017",
+      "filename": "17345.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17345.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17345.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17345.jpg",
+      "capture_date": "2021:02:27 19:09:36"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0018",
+      "filename": "17348.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17348.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17348.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17348.jpg",
+      "capture_date": "2021:02:27 20:17:05"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0019",
+      "filename": "17349.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17349.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17349.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17349.jpg",
+      "capture_date": "2021:02:27 20:17:09"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0020",
+      "filename": "17350.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17350.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17350.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17350.jpg",
+      "capture_date": "2021:02:27 20:17:14"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0021",
+      "filename": "17351.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17351.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17351.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17351.jpg",
+      "capture_date": "2021:02:27 20:17:37"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0022",
+      "filename": "17352.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17352.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17352.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17352.jpg",
+      "capture_date": "2021:02:27 20:17:40"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0023",
+      "filename": "17353.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17353.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17353.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17353.jpg",
+      "capture_date": "2021:02:27 20:17:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0024",
+      "filename": "17354.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17354.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17354.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17354.jpg",
+      "capture_date": "2021:02:27 20:18:13"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0025",
+      "filename": "17355.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17355.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17355.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17355.jpg",
+      "capture_date": "2021:02:27 20:18:16"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0026",
+      "filename": "17356.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17356.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17356.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17356.jpg",
+      "capture_date": "2021:02:27 20:18:18"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0027",
+      "filename": "17357.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17357.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17357.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17357.jpg",
+      "capture_date": "2021:02:27 20:18:20"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0028",
+      "filename": "17358.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17358.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17358.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17358.jpg",
+      "capture_date": "2021:02:27 20:18:24"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0029",
+      "filename": "17359.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17359.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17359.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17359.jpg",
+      "capture_date": "2021:02:27 20:18:53"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0030",
+      "filename": "17360.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17360.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17360.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17360.jpg",
+      "capture_date": "2021:02:27 20:18:57"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0031",
+      "filename": "17361.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17361.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17361.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17361.jpg",
+      "capture_date": "2021:02:27 20:18:59"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0032",
+      "filename": "17362.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17362.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17362.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17362.jpg",
+      "capture_date": "2021:02:27 20:19:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0033",
+      "filename": "17363.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17363.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17363.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17363.jpg",
+      "capture_date": "2021:02:27 20:19:14"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0034",
+      "filename": "17364.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17364.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17364.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17364.jpg",
+      "capture_date": "2021:02:27 20:19:19"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0035",
+      "filename": "17365.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17365.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17365.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17365.jpg",
+      "capture_date": "2021:02:27 20:19:31"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0036",
+      "filename": "17366.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17366.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17366.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17366.jpg",
+      "capture_date": "2021:02:27 20:19:33"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0037",
+      "filename": "17367.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17367.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17367.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17367.jpg",
+      "capture_date": "2021:02:27 20:19:35"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0038",
+      "filename": "17368.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17368.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17368.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17368.jpg",
+      "capture_date": "2021:02:27 20:19:38"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0039",
+      "filename": "17369.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17369.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17369.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17369.jpg",
+      "capture_date": "2021:02:27 20:19:42"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0040",
+      "filename": "17370.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17370.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17370.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17370.jpg",
+      "capture_date": "2021:02:27 20:19:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0041",
+      "filename": "17371.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17371.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17371.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17371.jpg",
+      "capture_date": "2021:02:27 20:19:50"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0042",
+      "filename": "17377.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17377.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17377.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17377.jpg",
+      "capture_date": "2021:02:27 20:25:56"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0043",
+      "filename": "17381.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17381.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17381.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17381.jpg",
+      "capture_date": "2021:02:27 20:27:55"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0044",
+      "filename": "17382.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17382.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17382.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17382.jpg",
+      "capture_date": "2021:02:27 20:28:06"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0045",
+      "filename": "17383.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17383.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17383.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17383.jpg",
+      "capture_date": "2021:02:27 20:28:16"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0046",
+      "filename": "17384.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17384.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17384.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17384.jpg",
+      "capture_date": "2021:02:27 20:32:38"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0047",
+      "filename": "17387.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17387.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17387.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17387.jpg",
+      "capture_date": "2021:02:27 20:33:33"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0048",
+      "filename": "17388.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17388.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17388.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17388.jpg",
+      "capture_date": "2021:02:27 20:33:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0049",
+      "filename": "17389.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17389.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17389.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17389.jpg",
+      "capture_date": "2021:02:27 20:34:15"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0050",
+      "filename": "17390.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17390.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17390.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17390.jpg",
+      "capture_date": "2021:02:27 20:34:18"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0051",
+      "filename": "17391.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17391.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17391.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17391.jpg",
+      "capture_date": "2021:02:27 20:34:23"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0052",
+      "filename": "17422.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17422.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17422.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17422.jpg",
+      "capture_date": "2021:02:28 21:58:55"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0053",
+      "filename": "17423.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17423.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17423.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17423.jpg",
+      "capture_date": "2021:02:28 21:59:11"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0054",
+      "filename": "17424.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17424.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17424.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17424.jpg",
+      "capture_date": "2021:02:28 21:59:27"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0055",
+      "filename": "17425.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17425.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17425.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17425.jpg",
+      "capture_date": "2021:02:28 21:59:36"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0056",
+      "filename": "17426.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17426.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17426.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17426.jpg",
+      "capture_date": "2021:02:28 21:59:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0057",
+      "filename": "17428.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17428.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17428.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17428.jpg",
+      "capture_date": "2021:02:28 22:02:00"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0058",
+      "filename": "17429.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17429.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17429.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17429.jpg",
+      "capture_date": "2021:02:28 22:02:36"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0059",
+      "filename": "17430.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17430.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17430.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17430.jpg",
+      "capture_date": "2021:02:28 22:55:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0060",
+      "filename": "17583.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17583.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17583.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17583.jpg",
+      "capture_date": "2021:03:05 09:23:18"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0061",
+      "filename": "17584.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17584.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17584.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17584.jpg",
+      "capture_date": "2021:03:05 09:23:20"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0062",
+      "filename": "17586.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17586.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17586.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17586.jpg",
+      "capture_date": "2021:03:05 09:23:24"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0063",
+      "filename": "17589.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17589.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17589.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17589.jpg",
+      "capture_date": "2021:03:05 10:06:01"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0064",
+      "filename": "17590.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17590.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17590.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17590.jpg",
+      "capture_date": "2021:03:05 10:06:04"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0065",
+      "filename": "17609.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17609.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17609.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17609.jpg",
+      "capture_date": "2021:03:06 07:56:26"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0066",
+      "filename": "17610.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17610.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17610.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17610.jpg",
+      "capture_date": "2021:03:06 10:12:48"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0067",
+      "filename": "17619.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17619.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17619.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17619.jpg",
+      "capture_date": "2021:03:06 18:05:25"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0068",
+      "filename": "17620.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17620.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17620.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17620.jpg",
+      "capture_date": "2021:03:06 18:05:42"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0069",
+      "filename": "17621.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17621.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17621.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17621.jpg",
+      "capture_date": "2021:03:06 18:05:43"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0070",
+      "filename": "17622.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17622.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17622.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17622.jpg",
+      "capture_date": "2021:03:06 18:05:44"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0071",
+      "filename": "17623.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17623.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17623.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17623.jpg",
+      "capture_date": "2021:03:06 18:05:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0072",
+      "filename": "17624.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17624.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17624.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17624.jpg",
+      "capture_date": "2021:03:06 18:05:47"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0073",
+      "filename": "17625.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17625.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17625.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17625.jpg",
+      "capture_date": "2021:03:06 18:39:38"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0074",
+      "filename": "17626.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17626.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17626.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17626.jpg",
+      "capture_date": "2021:03:06 18:39:41"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0075",
+      "filename": "17627.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17627.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17627.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17627.jpg",
+      "capture_date": "2021:03:06 18:39:42"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0076",
+      "filename": "17628.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17628.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17628.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17628.jpg",
+      "capture_date": "2021:03:06 18:39:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0077",
+      "filename": "17629.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17629.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17629.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17629.jpg",
+      "capture_date": "2021:03:06 18:39:49"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0078",
+      "filename": "17630.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17630.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17630.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17630.jpg",
+      "capture_date": "2021:03:06 18:39:53"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0079",
+      "filename": "17631.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17631.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17631.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17631.jpg",
+      "capture_date": "2021:03:06 18:39:57"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0080",
+      "filename": "17632.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17632.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17632.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17632.jpg",
+      "capture_date": "2021:03:06 18:40:04"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0081",
+      "filename": "17633.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17633.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17633.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17633.jpg",
+      "capture_date": "2021:03:06 18:40:08"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0082",
+      "filename": "17634.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17634.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17634.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17634.jpg",
+      "capture_date": "2021:03:06 18:41:03"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0083",
+      "filename": "17635.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17635.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17635.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17635.jpg",
+      "capture_date": "2021:03:06 18:41:09"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0084",
+      "filename": "17636.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17636.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17636.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17636.jpg",
+      "capture_date": "2021:03:06 18:41:11"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0085",
+      "filename": "17637.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17637.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17637.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17637.jpg",
+      "capture_date": "2021:03:06 18:41:15"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0086",
+      "filename": "17638.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17638.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17638.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17638.jpg",
+      "capture_date": "2021:03:06 18:41:19"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0087",
+      "filename": "17639.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17639.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17639.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17639.jpg",
+      "capture_date": "2021:03:06 18:41:24"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0088",
+      "filename": "17640.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17640.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17640.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17640.jpg",
+      "capture_date": "2021:03:06 18:41:26"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0089",
+      "filename": "17641.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17641.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17641.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17641.jpg",
+      "capture_date": "2021:03:06 18:41:32"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0090",
+      "filename": "17642.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17642.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17642.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17642.jpg",
+      "capture_date": "2021:03:06 18:41:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0091",
+      "filename": "17643.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17643.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17643.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17643.jpg",
+      "capture_date": "2021:03:06 18:41:48"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0092",
+      "filename": "17644.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17644.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17644.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17644.jpg",
+      "capture_date": "2021:03:06 18:42:03"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0093",
+      "filename": "17645.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17645.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17645.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17645.jpg",
+      "capture_date": "2021:03:06 18:42:08"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0094",
+      "filename": "17646.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17646.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17646.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17646.jpg",
+      "capture_date": "2021:03:06 18:42:11"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0095",
+      "filename": "17647.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17647.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17647.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17647.jpg",
+      "capture_date": "2021:03:06 18:42:14"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0096",
+      "filename": "17648.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17648.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17648.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17648.jpg",
+      "capture_date": "2021:03:06 18:42:20"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0097",
+      "filename": "17649.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17649.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17649.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17649.jpg",
+      "capture_date": "2021:03:06 18:42:23"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0098",
+      "filename": "17650.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17650.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17650.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17650.jpg",
+      "capture_date": "2021:03:06 18:42:25"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0099",
+      "filename": "17651.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17651.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17651.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17651.jpg",
+      "capture_date": "2021:03:06 18:42:28"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0100",
+      "filename": "17652.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17652.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17652.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17652.jpg",
+      "capture_date": "2021:03:06 18:42:31"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0101",
+      "filename": "17653.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17653.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17653.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17653.jpg",
+      "capture_date": "2021:03:06 18:42:33"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0102",
+      "filename": "17654.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17654.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17654.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17654.jpg",
+      "capture_date": "2021:03:06 18:42:37"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0103",
+      "filename": "17655.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17655.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17655.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17655.jpg",
+      "capture_date": "2021:03:06 18:42:42"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0104",
+      "filename": "17656.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17656.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17656.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17656.jpg",
+      "capture_date": "2021:03:06 18:42:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0105",
+      "filename": "17657.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17657.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17657.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17657.jpg",
+      "capture_date": "2021:03:06 18:43:01"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0106",
+      "filename": "17658.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17658.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17658.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17658.jpg",
+      "capture_date": "2021:03:06 18:43:05"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0107",
+      "filename": "17659.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17659.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17659.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17659.jpg",
+      "capture_date": "2021:03:06 19:03:37"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0108",
+      "filename": "17673.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17673.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17673.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17673.jpg",
+      "capture_date": "2021:03:07 08:00:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0109",
+      "filename": "17674.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17674.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17674.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17674.jpg",
+      "capture_date": "2021:03:07 08:00:04"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0110",
+      "filename": "17675.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17675.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17675.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17675.jpg",
+      "capture_date": "2021:03:07 08:00:07"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0111",
+      "filename": "17676.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17676.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17676.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17676.jpg",
+      "capture_date": "2021:03:07 08:00:10"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0112",
+      "filename": "17677.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17677.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17677.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17677.jpg",
+      "capture_date": "2021:03:07 08:09:16"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0113",
+      "filename": "17681.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17681.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17681.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17681.jpg",
+      "capture_date": "2021:03:07 09:10:01"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0114",
+      "filename": "17682.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17682.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17682.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17682.jpg",
+      "capture_date": "2021:03:07 09:12:44"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0115",
+      "filename": "17683.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17683.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17683.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17683.jpg",
+      "capture_date": "2021:03:07 09:15:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0116",
+      "filename": "17684.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17684.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17684.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17684.jpg",
+      "capture_date": "2021:03:07 09:15:56"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0117",
+      "filename": "17685.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17685.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17685.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17685.jpg",
+      "capture_date": "2021:03:07 09:15:57"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0118",
+      "filename": "17686.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17686.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17686.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17686.jpg",
+      "capture_date": "2021:03:07 09:16:44"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0119",
+      "filename": "17687.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17687.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17687.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17687.jpg",
+      "capture_date": "2021:03:07 09:16:46"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0120",
+      "filename": "17688.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17688.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17688.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17688.jpg",
+      "capture_date": "2021:03:07 09:16:50"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0121",
+      "filename": "17690.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17690.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17690.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17690.jpg",
+      "capture_date": "2021:03:07 15:20:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0122",
+      "filename": "17694.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17694.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17694.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17694.jpg",
+      "capture_date": "2021:03:07 16:51:57"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0123",
+      "filename": "17695.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17695.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17695.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17695.jpg",
+      "capture_date": "2021:03:07 16:52:00"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0124",
+      "filename": "17910.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17910.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17910.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17910.jpg",
+      "capture_date": "2021:03:10 15:44:11"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0125",
+      "filename": "17911.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17911.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17911.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17911.jpg",
+      "capture_date": "2021:03:10 18:46:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0126",
+      "filename": "17912.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17912.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17912.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17912.jpg",
+      "capture_date": "2021:03:10 18:47:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0127",
+      "filename": "17933.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17933.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17933.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17933.jpg",
+      "capture_date": "2021:03:11 08:27:25"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0128",
+      "filename": "17935.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17935.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17935.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17935.jpg",
+      "capture_date": "2021:03:11 12:56:00"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0129",
+      "filename": "17936.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17936.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17936.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17936.jpg",
+      "capture_date": "2021:03:11 12:56:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0130",
+      "filename": "17944.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17944.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17944.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17944.jpg",
+      "capture_date": "2021:03:11 17:53:56"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0131",
+      "filename": "17945.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17945.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17945.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17945.jpg",
+      "capture_date": "2021:03:11 17:54:05"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0132",
+      "filename": "17951.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17951.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17951.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17951.jpg",
+      "capture_date": "2021:03:12 11:00:42"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0133",
+      "filename": "17952.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17952.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17952.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17952.jpg",
+      "capture_date": "2021:03:12 11:00:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0134",
+      "filename": "17953.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17953.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17953.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17953.jpg",
+      "capture_date": "2021:03:12 11:00:50"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0135",
+      "filename": "17954.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17954.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17954.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17954.jpg",
+      "capture_date": "2021:03:12 11:00:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0136",
+      "filename": "17955.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17955.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17955.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17955.jpg",
+      "capture_date": "2021:03:12 11:01:00"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0137",
+      "filename": "17956.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17956.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17956.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17956.jpg",
+      "capture_date": "2021:03:12 11:01:03"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0138",
+      "filename": "17957.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17957.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17957.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17957.jpg",
+      "capture_date": "2021:03:12 11:01:15"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0139",
+      "filename": "17958.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17958.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17958.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17958.jpg",
+      "capture_date": "2021:03:12 11:04:35"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0140",
+      "filename": "17959.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17959.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17959.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17959.jpg",
+      "capture_date": "2021:03:12 11:04:40"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0141",
+      "filename": "17960.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17960.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17960.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17960.jpg",
+      "capture_date": "2021:03:12 11:04:46"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0142",
+      "filename": "17961.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17961.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17961.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17961.jpg",
+      "capture_date": "2021:03:12 11:04:56"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0143",
+      "filename": "17962.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17962.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17962.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17962.jpg",
+      "capture_date": "2021:03:12 11:04:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0144",
+      "filename": "17963.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17963.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17963.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17963.jpg",
+      "capture_date": "2021:03:12 11:05:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0145",
+      "filename": "17964.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17964.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17964.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17964.jpg",
+      "capture_date": "2021:03:12 11:06:33"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0146",
+      "filename": "17965.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17965.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17965.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17965.jpg",
+      "capture_date": "2021:03:12 11:06:39"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0147",
+      "filename": "17966.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17966.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17966.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17966.jpg",
+      "capture_date": "2021:03:12 11:06:49"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0148",
+      "filename": "17967.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17967.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17967.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17967.jpg",
+      "capture_date": "2021:03:12 11:06:53"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0149",
+      "filename": "17968.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17968.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17968.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17968.jpg",
+      "capture_date": "2021:03:12 11:06:56"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0150",
+      "filename": "17969.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17969.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17969.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17969.jpg",
+      "capture_date": "2021:03:12 11:06:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0151",
+      "filename": "17970.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17970.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17970.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17970.jpg",
+      "capture_date": "2021:03:12 11:07:01"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0152",
+      "filename": "17971.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17971.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17971.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17971.jpg",
+      "capture_date": "2021:03:12 11:07:03"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0153",
+      "filename": "17972.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17972.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17972.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17972.jpg",
+      "capture_date": "2021:03:12 11:07:05"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0154",
+      "filename": "17973.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17973.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17973.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17973.jpg",
+      "capture_date": "2021:03:12 11:07:07"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0155",
+      "filename": "17974.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17974.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17974.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17974.jpg",
+      "capture_date": "2021:03:12 11:07:28"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0156",
+      "filename": "17975.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17975.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17975.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17975.jpg",
+      "capture_date": "2021:03:12 11:07:31"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0157",
+      "filename": "17976.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17976.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17976.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17976.jpg",
+      "capture_date": "2021:03:12 11:07:34"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0158",
+      "filename": "17977.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17977.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17977.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17977.jpg",
+      "capture_date": "2021:03:12 11:07:38"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0159",
+      "filename": "17978.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17978.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17978.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17978.jpg",
+      "capture_date": "2021:03:12 11:07:43"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0160",
+      "filename": "17979.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17979.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17979.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17979.jpg",
+      "capture_date": "2021:03:12 11:07:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0161",
+      "filename": "17980.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17980.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17980.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17980.jpg",
+      "capture_date": "2021:03:12 11:07:48"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0162",
+      "filename": "17981.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17981.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17981.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17981.jpg",
+      "capture_date": "2021:03:12 11:07:51"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0163",
+      "filename": "17982.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17982.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17982.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17982.jpg",
+      "capture_date": "2021:03:12 11:07:53"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0164",
+      "filename": "17983.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17983.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17983.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17983.jpg",
+      "capture_date": "2021:03:12 11:07:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0165",
+      "filename": "17984.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17984.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17984.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17984.jpg",
+      "capture_date": "2021:03:12 11:08:01"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0166",
+      "filename": "17985.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17985.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17985.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17985.jpg",
+      "capture_date": "2021:03:12 11:08:16"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0167",
+      "filename": "17986.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17986.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17986.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17986.jpg",
+      "capture_date": "2021:03:12 11:08:30"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0168",
+      "filename": "17987.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17987.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17987.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17987.jpg",
+      "capture_date": "2021:03:12 11:08:41"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0169",
+      "filename": "17988.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17988.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17988.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17988.jpg",
+      "capture_date": "2021:03:12 11:08:58"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0170",
+      "filename": "17994.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/17994.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/17994.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/17994.jpg",
+      "capture_date": "2021:03:12 11:19:00"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0171",
+      "filename": "18082.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18082.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18082.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18082.jpg",
+      "capture_date": "2021:03:14 11:53:32"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0172",
+      "filename": "18097.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18097.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18097.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18097.jpg",
+      "capture_date": "2021:03:14 19:39:32"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0173",
+      "filename": "18098.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18098.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18098.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18098.jpg",
+      "capture_date": "2021:03:14 19:39:36"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0174",
+      "filename": "18099.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18099.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18099.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18099.jpg",
+      "capture_date": "2021:03:14 19:39:43"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0175",
+      "filename": "18100.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18100.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18100.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18100.jpg",
+      "capture_date": "2021:03:14 19:39:48"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0176",
+      "filename": "18101.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18101.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18101.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18101.jpg",
+      "capture_date": "2021:03:14 19:39:55"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0177",
+      "filename": "18102.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18102.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18102.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18102.jpg",
+      "capture_date": "2021:03:14 19:40:03"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0178",
+      "filename": "18103.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18103.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18103.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18103.jpg",
+      "capture_date": "2021:03:14 19:40:07"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0179",
+      "filename": "18104.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18104.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18104.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18104.jpg",
+      "capture_date": "2021:03:14 19:40:19"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0180",
+      "filename": "18105.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18105.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18105.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18105.jpg",
+      "capture_date": "2021:03:14 19:40:30"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0181",
+      "filename": "18106.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18106.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18106.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18106.jpg",
+      "capture_date": "2021:03:14 19:40:40"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0182",
+      "filename": "18107.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18107.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18107.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18107.jpg",
+      "capture_date": "2021:03:14 19:40:59"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0183",
+      "filename": "18108.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18108.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18108.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18108.jpg",
+      "capture_date": "2021:03:14 19:41:13"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0184",
+      "filename": "18109.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18109.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18109.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18109.jpg",
+      "capture_date": "2021:03:14 19:41:36"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0185",
+      "filename": "18110.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18110.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18110.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18110.jpg",
+      "capture_date": "2021:03:14 19:41:48"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0186",
+      "filename": "18111.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18111.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18111.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18111.jpg",
+      "capture_date": "2021:03:14 19:41:50"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0187",
+      "filename": "18112.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18112.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18112.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18112.jpg",
+      "capture_date": "2021:03:14 19:42:00"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0188",
+      "filename": "18113.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18113.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18113.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18113.jpg",
+      "capture_date": "2021:03:14 19:42:12"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0189",
+      "filename": "18114.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18114.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18114.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18114.jpg",
+      "capture_date": "2021:03:14 19:42:52"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0190",
+      "filename": "18115.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18115.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18115.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18115.jpg",
+      "capture_date": "2021:03:14 19:42:56"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0191",
+      "filename": "18116.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18116.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18116.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18116.jpg",
+      "capture_date": "2021:03:14 19:43:01"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0192",
+      "filename": "18117.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18117.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18117.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18117.jpg",
+      "capture_date": "2021:03:14 19:43:11"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0193",
+      "filename": "18118.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18118.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18118.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18118.jpg",
+      "capture_date": "2021:03:14 19:43:15"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0194",
+      "filename": "18119.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18119.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18119.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18119.jpg",
+      "capture_date": "2021:03:14 19:43:43"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0195",
+      "filename": "18120.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18120.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18120.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18120.jpg",
+      "capture_date": "2021:03:14 19:43:47"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0196",
+      "filename": "18121.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18121.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18121.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18121.jpg",
+      "capture_date": "2021:03:14 19:44:20"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0197",
+      "filename": "18122.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18122.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18122.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18122.jpg",
+      "capture_date": "2021:03:14 19:44:47"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0198",
+      "filename": "18123.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18123.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18123.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18123.jpg",
+      "capture_date": "2021:03:14 19:45:19"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0199",
+      "filename": "18124.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18124.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18124.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18124.jpg",
+      "capture_date": "2021:03:14 19:45:57"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0200",
+      "filename": "18125.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18125.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18125.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18125.jpg",
+      "capture_date": "2021:03:14 19:48:54"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0201",
+      "filename": "18126.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18126.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18126.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18126.jpg",
+      "capture_date": "2021:03:14 19:49:02"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0202",
+      "filename": "18127.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18127.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18127.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18127.jpg",
+      "capture_date": "2021:03:14 19:49:15"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0203",
+      "filename": "18128.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18128.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18128.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18128.jpg",
+      "capture_date": "2021:03:14 19:49:22"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0204",
+      "filename": "18129.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18129.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18129.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18129.jpg",
+      "capture_date": "2021:03:14 19:49:29"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0205",
+      "filename": "18139.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18139.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18139.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18139.jpg",
+      "capture_date": "2021:03:15 06:59:42"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0206",
+      "filename": "18140.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18140.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18140.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18140.jpg",
+      "capture_date": "2021:03:15 06:59:44"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0207",
+      "filename": "18141.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18141.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18141.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18141.jpg",
+      "capture_date": "2021:03:15 06:59:47"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0208",
+      "filename": "18142.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18142.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18142.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18142.jpg",
+      "capture_date": "2021:03:15 07:00:34"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0209",
+      "filename": "18143.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18143.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18143.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18143.jpg",
+      "capture_date": "2021:03:15 07:21:06"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0210",
+      "filename": "18144.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18144.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18144.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18144.jpg",
+      "capture_date": "2021:03:15 08:44:36"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0211",
+      "filename": "18145.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18145.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18145.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18145.jpg",
+      "capture_date": "2021:03:15 08:44:45"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0212",
+      "filename": "18146.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18146.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18146.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18146.jpg",
+      "capture_date": "2021:03:15 08:46:19"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0213",
+      "filename": "18147.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18147.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18147.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18147.jpg",
+      "capture_date": "2021:03:15 08:46:21"
+    },
+    {
+      "id": "bahamas-compass-cay-2021-0214",
+      "filename": "18148.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/compass-cay/2021/originals/18148.jpeg",
+      "large": "assets/images/bahamas/compass-cay/2021/large/18148.jpg",
+      "thumb": "assets/images/bahamas/compass-cay/2021/thumb/18148.jpg",
+      "capture_date": "2021:03:15 08:46:25"
+    }
+  ]
+}

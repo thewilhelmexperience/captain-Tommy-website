@@ -1,0 +1,341 @@
+{
+  "region": "great-lakes",
+  "placeId": "welland-canal",
+  "placeKey": "great-lakes/welland-canal",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-welland-canal-2021-0001",
+      "filename": "IMG_6610.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_6610.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-6610.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-6610.jpg",
+      "capture_date": "2021:06:04 11:32:10"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0002",
+      "filename": "IMG_7070.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7070.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7070.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7070.jpg",
+      "capture_date": "2021:09:21 07:04:26"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0003",
+      "filename": "IMG_7071.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7071.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7071.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7071.jpg",
+      "capture_date": "2021:09:21 07:04:29"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0004",
+      "filename": "IMG_7072.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7072.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7072.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7072.jpg",
+      "capture_date": "2021:09:21 07:04:30"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0005",
+      "filename": "IMG_2925.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2925.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2925.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2925.jpg",
+      "capture_date": "2021:09:21 07:09:28"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0006",
+      "filename": "IMG_2929.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2929.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2929.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2929.jpg",
+      "capture_date": "2021:09:21 07:22:14"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0007",
+      "filename": "IMG_2937.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2937.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2937.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2937.jpg",
+      "capture_date": "2021:09:21 09:36:48"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0008",
+      "filename": "IMG_7073.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7073.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7073.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7073.jpg",
+      "capture_date": "2021:09:21 09:45:06"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0009",
+      "filename": "IMG_7074.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7074.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7074.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7074.jpg",
+      "capture_date": "2021:09:21 09:45:10"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0010",
+      "filename": "IMG_7075.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7075.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7075.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7075.jpg",
+      "capture_date": "2021:09:21 09:45:12"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0011",
+      "filename": "IMG_7076.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7076.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7076.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7076.jpg",
+      "capture_date": "2021:09:21 09:45:16"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0012",
+      "filename": "IMG_2939.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2939.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2939.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2939.jpg",
+      "capture_date": "2021:09:21 09:48:24"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0013",
+      "filename": "IMG_2941.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2941.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2941.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2941.jpg",
+      "capture_date": "2021:09:21 09:49:00"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0014",
+      "filename": "IMG_2943.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2943.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2943.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2943.jpg",
+      "capture_date": "2021:09:21 09:53:00"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0015",
+      "filename": "IMG_2944.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2944.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2944.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2944.jpg",
+      "capture_date": "2021:09:21 09:56:52"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0016",
+      "filename": "IMG_2945.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2945.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2945.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2945.jpg",
+      "capture_date": "2021:09:21 09:57:13"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0017",
+      "filename": "IMG_2947.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2947.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2947.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2947.jpg",
+      "capture_date": "2021:09:21 10:19:46"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0018",
+      "filename": "IMG_2950.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2950.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2950.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2950.jpg",
+      "capture_date": "2021:09:21 10:31:12"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0019",
+      "filename": "IMG_2951.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2951.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2951.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2951.jpg",
+      "capture_date": "2021:09:21 10:45:23"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0020",
+      "filename": "IMG_2952.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2952.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2952.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2952.jpg",
+      "capture_date": "2021:09:21 10:51:36"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0021",
+      "filename": "IMG_2953.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2953.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2953.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2953.jpg",
+      "capture_date": "2021:09:21 10:51:38"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0022",
+      "filename": "IMG_2954.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2954.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2954.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2954.jpg",
+      "capture_date": "2021:09:21 10:57:31"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0023",
+      "filename": "IMG_2955.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2955.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2955.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2955.jpg",
+      "capture_date": "2021:09:21 10:57:44"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0024",
+      "filename": "IMG_2956.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2956.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2956.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2956.jpg",
+      "capture_date": "2021:09:21 10:57:52"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0025",
+      "filename": "IMG_2957.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2957.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2957.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2957.jpg",
+      "capture_date": "2021:09:21 10:59:15"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0026",
+      "filename": "IMG_2958.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2958.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2958.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2958.jpg",
+      "capture_date": "2021:09:21 11:11:16"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0027",
+      "filename": "IMG_7077.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7077.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7077.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7077.jpg",
+      "capture_date": "2021:09:21 11:23:26"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0028",
+      "filename": "IMG_7078.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7078.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7078.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7078.jpg",
+      "capture_date": "2021:09:21 11:31:07"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0029",
+      "filename": "IMG_7080.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_7080.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-7080.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-7080.jpg",
+      "capture_date": "2021:09:21 11:36:00"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0030",
+      "filename": "IMG_2963.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2963.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2963.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2963.jpg",
+      "capture_date": "2021:09:21 12:26:15"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0031",
+      "filename": "IMG_2967.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2967.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2967.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2967.jpg",
+      "capture_date": "2021:09:21 12:54:04"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0032",
+      "filename": "IMG_2968.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2968.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2968.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2968.jpg",
+      "capture_date": "2021:09:21 13:15:23"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0033",
+      "filename": "IMG_2970.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2970.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2970.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2970.jpg",
+      "capture_date": "2021:09:21 13:16:26"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0034",
+      "filename": "IMG_2971.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2971.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2971.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2971.jpg",
+      "capture_date": "2021:09:21 13:22:26"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0035",
+      "filename": "IMG_2974.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2974.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2974.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2974.jpg",
+      "capture_date": "2021:09:21 13:38:53"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0036",
+      "filename": "IMG_2975.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2975.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2975.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2975.jpg",
+      "capture_date": "2021:09:21 13:40:04"
+    },
+    {
+      "id": "great-lakes-welland-canal-2021-0037",
+      "filename": "IMG_2976.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/welland-canal/2021/originals/IMG_2976.JPEG",
+      "large": "assets/images/great-lakes/welland-canal/2021/large/img-2976.jpg",
+      "thumb": "assets/images/great-lakes/welland-canal/2021/thumb/img-2976.jpg",
+      "capture_date": "2021:09:21 14:06:20"
+    }
+  ]
+}

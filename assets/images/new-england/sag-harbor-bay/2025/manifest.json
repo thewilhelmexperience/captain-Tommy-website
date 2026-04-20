@@ -1,0 +1,80 @@
+{
+  "region": "new-england",
+  "placeId": "sag-harbor-bay",
+  "placeKey": "new-england/sag-harbor-bay",
+  "year": 2025,
+  "images": [
+    {
+      "id": "new-england-sag-harbor-bay-2025-0001",
+      "filename": "IMG_5434.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5434.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5434.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5434.jpg",
+      "capture_date": "2025:08:19 13:51:43"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0002",
+      "filename": "IMG_5436.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5436.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5436.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5436.jpg",
+      "capture_date": "2025:08:19 14:42:01"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0003",
+      "filename": "IMG_5437.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5437.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5437.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5437.jpg",
+      "capture_date": "2025:08:19 14:42:01"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0004",
+      "filename": "IMG_5438.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5438.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5438.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5438.jpg",
+      "capture_date": "2025:08:19 14:42:03"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0005",
+      "filename": "IMG_5543.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5543.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5543.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5543.jpg",
+      "capture_date": "2025:08:23 20:56:22"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0006",
+      "filename": "IMG_5557.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5557.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5557.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5557.jpg",
+      "capture_date": "2025:08:25 19:33:20"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0007",
+      "filename": "IMG_5572.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5572.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5572.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5572.jpg",
+      "capture_date": "2025:08:28 11:49:43"
+    },
+    {
+      "id": "new-england-sag-harbor-bay-2025-0008",
+      "filename": "IMG_5588.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/sag-harbor-bay/2025/originals/IMG_5588.JPEG",
+      "large": "assets/images/new-england/sag-harbor-bay/2025/large/img-5588.jpg",
+      "thumb": "assets/images/new-england/sag-harbor-bay/2025/thumb/img-5588.jpg",
+      "capture_date": "2025:08:31 09:46:16"
+    }
+  ]
+}

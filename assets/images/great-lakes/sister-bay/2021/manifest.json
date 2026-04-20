@@ -1,0 +1,98 @@
+{
+  "region": "great-lakes",
+  "placeId": "sister-bay",
+  "placeKey": "great-lakes/sister-bay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-sister-bay-2021-0001",
+      "filename": "IMG_6958.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6958.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6958.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6958.jpg",
+      "capture_date": "2021:09:07 12:13:06"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0002",
+      "filename": "IMG_6961.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6961.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6961.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6961.jpg",
+      "capture_date": "2021:09:08 12:26:04"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0003",
+      "filename": "IMG_6962.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6962.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6962.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6962.jpg",
+      "capture_date": "2021:09:08 12:54:36"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0004",
+      "filename": "IMG_6963.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6963.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6963.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6963.jpg",
+      "capture_date": "2021:09:08 15:01:46"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0005",
+      "filename": "IMG_6964.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6964.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6964.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6964.jpg",
+      "capture_date": "2021:09:08 15:01:51"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0006",
+      "filename": "IMG_6965.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6965.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6965.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6965.jpg",
+      "capture_date": "2021:09:08 15:02:00"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0007",
+      "filename": "IMG_6991.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6991.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6991.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6991.jpg",
+      "capture_date": "2021:09:16 05:45:19"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0008",
+      "filename": "IMG_6992.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6992.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6992.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6992.jpg",
+      "capture_date": "2021:09:16 05:45:26"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0009",
+      "filename": "IMG_6993.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_6993.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-6993.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-6993.jpg",
+      "capture_date": "2021:09:16 05:45:33"
+    },
+    {
+      "id": "great-lakes-sister-bay-2021-0010",
+      "filename": "IMG_2745.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/sister-bay/2021/originals/IMG_2745.JPEG",
+      "large": "assets/images/great-lakes/sister-bay/2021/large/img-2745.jpg",
+      "thumb": "assets/images/great-lakes/sister-bay/2021/thumb/img-2745.jpg",
+      "capture_date": "2021:09:16 07:42:10"
+    }
+  ]
+}

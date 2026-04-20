@@ -1,0 +1,35 @@
+{
+  "region": "great-lakes",
+  "placeId": "northport",
+  "placeKey": "great-lakes/northport",
+  "year": 2023,
+  "images": [
+    {
+      "id": "great-lakes-northport-2023-0001",
+      "filename": "IMG_1429.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/northport/2023/originals/IMG_1429.JPEG",
+      "large": "assets/images/great-lakes/northport/2023/large/img-1429.jpg",
+      "thumb": "assets/images/great-lakes/northport/2023/thumb/img-1429.jpg",
+      "capture_date": "2023:07:31 14:29:10"
+    },
+    {
+      "id": "great-lakes-northport-2023-0002",
+      "filename": "IMG_1430.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/northport/2023/originals/IMG_1430.JPEG",
+      "large": "assets/images/great-lakes/northport/2023/large/img-1430.jpg",
+      "thumb": "assets/images/great-lakes/northport/2023/thumb/img-1430.jpg",
+      "capture_date": "2023:07:31 14:29:13"
+    },
+    {
+      "id": "great-lakes-northport-2023-0003",
+      "filename": "IMG_1431.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/northport/2023/originals/IMG_1431.JPEG",
+      "large": "assets/images/great-lakes/northport/2023/large/img-1431.jpg",
+      "thumb": "assets/images/great-lakes/northport/2023/thumb/img-1431.jpg",
+      "capture_date": "2023:07:31 14:29:16"
+    }
+  ]
+}

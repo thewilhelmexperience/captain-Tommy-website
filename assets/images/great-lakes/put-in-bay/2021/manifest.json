@@ -1,0 +1,134 @@
+{
+  "region": "great-lakes",
+  "placeId": "put-in-bay",
+  "placeKey": "great-lakes/put-in-bay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-put-in-bay-2021-0001",
+      "filename": "IMG_7044.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7044.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7044.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7044.jpg",
+      "capture_date": "2021:09:18 12:57:49"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0002",
+      "filename": "IMG_7045.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7045.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7045.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7045.jpg",
+      "capture_date": "2021:09:18 13:17:53"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0003",
+      "filename": "IMG_7046.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7046.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7046.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7046.jpg",
+      "capture_date": "2021:09:18 14:24:35"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0004",
+      "filename": "IMG_7047.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7047.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7047.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7047.jpg",
+      "capture_date": "2021:09:18 14:24:44"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0005",
+      "filename": "IMG_7048.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7048.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7048.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7048.jpg",
+      "capture_date": "2021:09:18 14:51:05"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0006",
+      "filename": "IMG_7049.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7049.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7049.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7049.jpg",
+      "capture_date": "2021:09:18 14:51:08"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0007",
+      "filename": "IMG_7050.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7050.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7050.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7050.jpg",
+      "capture_date": "2021:09:18 17:25:39"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0008",
+      "filename": "IMG_7058.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7058.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7058.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7058.jpg",
+      "capture_date": "2021:09:20 06:34:37"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0009",
+      "filename": "IMG_7059.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7059.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7059.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7059.jpg",
+      "capture_date": "2021:09:20 06:34:45"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0010",
+      "filename": "IMG_2897.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_2897.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-2897.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-2897.jpg",
+      "capture_date": "2021:09:20 06:59:01"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0011",
+      "filename": "IMG_7060.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7060.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7060.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7060.jpg",
+      "capture_date": "2021:09:20 07:00:59"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0012",
+      "filename": "IMG_7061.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7061.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7061.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7061.jpg",
+      "capture_date": "2021:09:20 07:01:00"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0013",
+      "filename": "IMG_7062.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7062.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7062.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7062.jpg",
+      "capture_date": "2021:09:20 07:16:16"
+    },
+    {
+      "id": "great-lakes-put-in-bay-2021-0014",
+      "filename": "IMG_7063.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/put-in-bay/2021/originals/IMG_7063.JPEG",
+      "large": "assets/images/great-lakes/put-in-bay/2021/large/img-7063.jpg",
+      "thumb": "assets/images/great-lakes/put-in-bay/2021/thumb/img-7063.jpg",
+      "capture_date": "2021:09:20 07:16:19"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "beaufort-nc",
+  "placeKey": "east-coast-icw/beaufort-nc",
+  "year": 2025,
+  "images": [
+    {
+      "id": "east-coast-icw-beaufort-nc-2025-0001",
+      "filename": "IMG_5025.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/beaufort-nc/2025/originals/IMG_5025.JPEG",
+      "large": "assets/images/east-coast-icw/beaufort-nc/2025/large/img-5025.jpg",
+      "thumb": "assets/images/east-coast-icw/beaufort-nc/2025/thumb/img-5025.jpg",
+      "capture_date": "2025:06:04 10:09:41"
+    },
+    {
+      "id": "east-coast-icw-beaufort-nc-2025-0002",
+      "filename": "IMG_5026.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/beaufort-nc/2025/originals/IMG_5026.JPEG",
+      "large": "assets/images/east-coast-icw/beaufort-nc/2025/large/img-5026.jpg",
+      "thumb": "assets/images/east-coast-icw/beaufort-nc/2025/thumb/img-5026.jpg",
+      "capture_date": "2025:06:04 10:09:43"
+    },
+    {
+      "id": "east-coast-icw-beaufort-nc-2025-0003",
+      "filename": "IMG_5831.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/beaufort-nc/2025/originals/IMG_5831.JPEG",
+      "large": "assets/images/east-coast-icw/beaufort-nc/2025/large/img-5831.jpg",
+      "thumb": "assets/images/east-coast-icw/beaufort-nc/2025/thumb/img-5831.jpg",
+      "capture_date": "2025:10:09 16:25:30"
+    },
+    {
+      "id": "east-coast-icw-beaufort-nc-2025-0004",
+      "filename": "IMG_5832.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/beaufort-nc/2025/originals/IMG_5832.JPEG",
+      "large": "assets/images/east-coast-icw/beaufort-nc/2025/large/img-5832.jpg",
+      "thumb": "assets/images/east-coast-icw/beaufort-nc/2025/thumb/img-5832.jpg",
+      "capture_date": "2025:10:09 16:26:27"
+    }
+  ]
+}

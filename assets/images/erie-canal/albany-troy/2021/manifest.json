@@ -1,0 +1,278 @@
+{
+  "region": "erie-canal",
+  "placeId": "albany-troy",
+  "placeKey": "erie-canal/albany-troy",
+  "year": 2021,
+  "images": [
+    {
+      "id": "erie-canal-albany-troy-2021-0001",
+      "filename": "IMG_6584.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_6584.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-6584.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-6584.jpg",
+      "capture_date": "2021:05:31 16:31:20"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0002",
+      "filename": "IMG_6585.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_6585.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-6585.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-6585.jpg",
+      "capture_date": "2021:05:31 16:31:24"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0003",
+      "filename": "IMG_6586.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_6586.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-6586.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-6586.jpg",
+      "capture_date": "2021:05:31 18:37:25"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0004",
+      "filename": "IMG_7149.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7149.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7149.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7149.jpg",
+      "capture_date": "2021:09:25 06:37:31"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0005",
+      "filename": "IMG_7150.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7150.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7150.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7150.jpg",
+      "capture_date": "2021:09:25 06:37:34"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0006",
+      "filename": "IMG_7151.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7151.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7151.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7151.jpg",
+      "capture_date": "2021:09:25 06:37:37"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0007",
+      "filename": "IMG_7152.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7152.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7152.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7152.jpg",
+      "capture_date": "2021:09:25 06:37:41"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0008",
+      "filename": "IMG_7153.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7153.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7153.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7153.jpg",
+      "capture_date": "2021:09:25 06:37:43"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0009",
+      "filename": "IMG_7154.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7154.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7154.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7154.jpg",
+      "capture_date": "2021:09:25 06:39:56"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0010",
+      "filename": "IMG_7155.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7155.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7155.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7155.jpg",
+      "capture_date": "2021:09:25 06:40:02"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0011",
+      "filename": "IMG_7156.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7156.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7156.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7156.jpg",
+      "capture_date": "2021:09:25 06:42:06"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0012",
+      "filename": "IMG_7157.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7157.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7157.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7157.jpg",
+      "capture_date": "2021:09:25 06:42:17"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0013",
+      "filename": "IMG_7158.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7158.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7158.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7158.jpg",
+      "capture_date": "2021:09:25 07:18:05"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0014",
+      "filename": "IMG_7162.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7162.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7162.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7162.jpg",
+      "capture_date": "2021:09:25 09:39:00"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0015",
+      "filename": "IMG_7168.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7168.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7168.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7168.jpg",
+      "capture_date": "2021:09:25 12:45:27"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0016",
+      "filename": "IMG_7169.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7169.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7169.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7169.jpg",
+      "capture_date": "2021:09:25 12:45:30"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0017",
+      "filename": "IMG_7171.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7171.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7171.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7171.jpg",
+      "capture_date": "2021:09:25 15:56:18"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0018",
+      "filename": "IMG_7172.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7172.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7172.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7172.jpg",
+      "capture_date": "2021:09:25 16:23:34"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0019",
+      "filename": "IMG_7174.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7174.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7174.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7174.jpg",
+      "capture_date": "2021:09:25 18:33:26"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0020",
+      "filename": "IMG_7176.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7176.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7176.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7176.jpg",
+      "capture_date": "2021:09:25 19:18:31"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0021",
+      "filename": "IMG_7177.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7177.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7177.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7177.jpg",
+      "capture_date": "2021:09:25 19:18:39"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0022",
+      "filename": "IMG_7178.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7178.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7178.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7178.jpg",
+      "capture_date": "2021:09:25 19:34:10"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0023",
+      "filename": "IMG_7180.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7180.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7180.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7180.jpg",
+      "capture_date": "2021:09:26 07:32:48"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0024",
+      "filename": "IMG_7181.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7181.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7181.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7181.jpg",
+      "capture_date": "2021:09:26 07:32:50"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0025",
+      "filename": "IMG_7182.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7182.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7182.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7182.jpg",
+      "capture_date": "2021:09:26 07:33:05"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0026",
+      "filename": "IMG_7183.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7183.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7183.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7183.jpg",
+      "capture_date": "2021:09:26 07:34:20"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0027",
+      "filename": "IMG_7184.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7184.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7184.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7184.jpg",
+      "capture_date": "2021:09:26 07:34:37"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0028",
+      "filename": "IMG_7185.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7185.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7185.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7185.jpg",
+      "capture_date": "2021:09:26 10:37:36"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0029",
+      "filename": "IMG_7186.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7186.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7186.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7186.jpg",
+      "capture_date": "2021:09:26 11:21:41"
+    },
+    {
+      "id": "erie-canal-albany-troy-2021-0030",
+      "filename": "IMG_7187.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/albany-troy/2021/originals/IMG_7187.JPEG",
+      "large": "assets/images/erie-canal/albany-troy/2021/large/img-7187.jpg",
+      "thumb": "assets/images/erie-canal/albany-troy/2021/thumb/img-7187.jpg",
+      "capture_date": "2021:09:26 11:21:44"
+    }
+  ]
+}

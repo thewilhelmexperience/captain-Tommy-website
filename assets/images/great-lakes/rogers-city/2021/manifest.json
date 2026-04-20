@@ -1,0 +1,71 @@
+{
+  "region": "great-lakes",
+  "placeId": "rogers-city",
+  "placeKey": "great-lakes/rogers-city",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-rogers-city-2021-0001",
+      "filename": "IMG_6619.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_6619.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-6619.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-6619.jpg",
+      "capture_date": "2021:06:06 20:40:05"
+    },
+    {
+      "id": "great-lakes-rogers-city-2021-0002",
+      "filename": "IMG_6995.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_6995.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-6995.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-6995.jpg",
+      "capture_date": "2021:09:16 14:56:29"
+    },
+    {
+      "id": "great-lakes-rogers-city-2021-0003",
+      "filename": "IMG_2770.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_2770.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-2770.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-2770.jpg",
+      "capture_date": "2021:09:16 15:30:20"
+    },
+    {
+      "id": "great-lakes-rogers-city-2021-0004",
+      "filename": "IMG_2771.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_2771.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-2771.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-2771.jpg",
+      "capture_date": "2021:09:16 16:00:22"
+    },
+    {
+      "id": "great-lakes-rogers-city-2021-0005",
+      "filename": "IMG_2772.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_2772.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-2772.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-2772.jpg",
+      "capture_date": "2021:09:16 16:00:32"
+    },
+    {
+      "id": "great-lakes-rogers-city-2021-0006",
+      "filename": "IMG_2773.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_2773.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-2773.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-2773.jpg",
+      "capture_date": "2021:09:16 16:00:37"
+    },
+    {
+      "id": "great-lakes-rogers-city-2021-0007",
+      "filename": "IMG_2775.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2021/originals/IMG_2775.JPEG",
+      "large": "assets/images/great-lakes/rogers-city/2021/large/img-2775.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2021/thumb/img-2775.jpg",
+      "capture_date": "2021:09:16 17:21:56"
+    }
+  ]
+}

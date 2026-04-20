@@ -1,0 +1,71 @@
+{
+  "region": "bahamas",
+  "placeId": "albany-lyford",
+  "placeKey": "bahamas/albany-lyford",
+  "year": 2021,
+  "images": [
+    {
+      "id": "bahamas-albany-lyford-2021-0001",
+      "filename": "16538.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/16538.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/16538.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/16538.jpg",
+      "capture_date": "2021:02:15 13:12:53"
+    },
+    {
+      "id": "bahamas-albany-lyford-2021-0002",
+      "filename": "16598.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/16598.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/16598.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/16598.jpg",
+      "capture_date": "2021:02:16 10:37:19"
+    },
+    {
+      "id": "bahamas-albany-lyford-2021-0003",
+      "filename": "16600.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/16600.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/16600.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/16600.jpg",
+      "capture_date": "2021:02:16 10:48:02"
+    },
+    {
+      "id": "bahamas-albany-lyford-2021-0004",
+      "filename": "18192.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/18192.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/18192.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/18192.jpg",
+      "capture_date": "2021:03:17 16:49:35"
+    },
+    {
+      "id": "bahamas-albany-lyford-2021-0005",
+      "filename": "18205.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/18205.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/18205.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/18205.jpg",
+      "capture_date": "2021:03:18 07:08:37"
+    },
+    {
+      "id": "bahamas-albany-lyford-2021-0006",
+      "filename": "18206.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/18206.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/18206.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/18206.jpg",
+      "capture_date": "2021:03:18 07:13:42"
+    },
+    {
+      "id": "bahamas-albany-lyford-2021-0007",
+      "filename": "18208.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/albany-lyford/2021/originals/18208.jpeg",
+      "large": "assets/images/bahamas/albany-lyford/2021/large/18208.jpg",
+      "thumb": "assets/images/bahamas/albany-lyford/2021/thumb/18208.jpg",
+      "capture_date": "2021:03:18 11:33:36"
+    }
+  ]
+}

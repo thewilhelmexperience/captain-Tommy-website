@@ -1,0 +1,170 @@
+{
+  "region": "south-florida",
+  "placeId": "palm-beach-west-palm",
+  "placeKey": "south-florida/palm-beach-west-palm",
+  "year": 2021,
+  "images": [
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0001",
+      "filename": "16390.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16390.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16390.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16390.jpg",
+      "capture_date": "2021:02:09 15:06:40"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0002",
+      "filename": "16391.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16391.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16391.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16391.jpg",
+      "capture_date": "2021:02:09 16:11:11"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0003",
+      "filename": "16395.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16395.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16395.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16395.jpg",
+      "capture_date": "2021:02:09 17:30:26"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0004",
+      "filename": "16409.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16409.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16409.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16409.jpg",
+      "capture_date": "2021:02:10 18:19:36"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0005",
+      "filename": "16410.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16410.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16410.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16410.jpg",
+      "capture_date": "2021:02:10 18:30:44"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0006",
+      "filename": "16414.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16414.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16414.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16414.jpg",
+      "capture_date": "2021:02:10 20:23:03"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0007",
+      "filename": "16517.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16517.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16517.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16517.jpg",
+      "capture_date": "2021:02:14 07:21:54"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0008",
+      "filename": "16518.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/16518.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/16518.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/16518.jpg",
+      "capture_date": "2021:02:14 07:52:35"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0009",
+      "filename": "20227.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20227.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20227.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20227.jpg",
+      "capture_date": "2021:05:06 18:36:39"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0010",
+      "filename": "20228.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20228.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20228.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20228.jpg",
+      "capture_date": "2021:05:06 18:36:47"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0011",
+      "filename": "20229.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20229.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20229.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20229.jpg",
+      "capture_date": "2021:05:06 18:36:49"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0012",
+      "filename": "20230.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20230.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20230.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20230.jpg",
+      "capture_date": "2021:05:06 18:36:59"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0013",
+      "filename": "20231.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20231.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20231.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20231.jpg",
+      "capture_date": "2021:05:06 18:37:14"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0014",
+      "filename": "20232.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20232.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20232.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20232.jpg",
+      "capture_date": "2021:05:06 18:37:28"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0015",
+      "filename": "20233.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/20233.jpeg",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/20233.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/20233.jpg",
+      "capture_date": "2021:05:06 18:37:37"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0016",
+      "filename": "IMG_6492.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/IMG_6492.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/img-6492.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/img-6492.jpg",
+      "capture_date": "2021:05:18 06:13:31"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0017",
+      "filename": "IMG_6493.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/IMG_6493.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/img-6493.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/img-6493.jpg",
+      "capture_date": "2021:05:18 06:13:34"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2021-0018",
+      "filename": "IMG_7205.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2021/originals/IMG_7205.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2021/large/img-7205.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2021/thumb/img-7205.jpg",
+      "capture_date": "2021:10:04 15:03:24"
+    }
+  ]
+}

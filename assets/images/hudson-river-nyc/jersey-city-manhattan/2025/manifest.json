@@ -1,0 +1,530 @@
+{
+  "region": "hudson-river-nyc",
+  "placeId": "jersey-city-manhattan",
+  "placeKey": "hudson-river-nyc/jersey-city-manhattan",
+  "year": 2025,
+  "images": [
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0001",
+      "filename": "IMG_5040.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5040.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5040.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5040.jpg",
+      "capture_date": "2025:06:06 08:18:10"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0002",
+      "filename": "IMG_5042.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5042.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5042.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5042.jpg",
+      "capture_date": "2025:06:06 10:27:07"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0003",
+      "filename": "IMG_5043.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5043.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5043.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5043.jpg",
+      "capture_date": "2025:06:06 11:12:04"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0004",
+      "filename": "IMG_5076.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5076.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5076.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5076.jpg",
+      "capture_date": "2025:06:09 19:01:47"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0005",
+      "filename": "IMG_5079.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5079.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5079.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5079.jpg",
+      "capture_date": "2025:06:09 20:37:30"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0006",
+      "filename": "IMG_5080.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5080.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5080.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5080.jpg",
+      "capture_date": "2025:06:09 20:49:34"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0007",
+      "filename": "IMG_5084.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5084.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5084.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5084.jpg",
+      "capture_date": "2025:06:10 18:11:29"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0008",
+      "filename": "IMG_5085.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5085.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5085.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5085.jpg",
+      "capture_date": "2025:06:10 19:01:29"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0009",
+      "filename": "IMG_5114.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5114.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5114.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5114.jpg",
+      "capture_date": "2025:06:19 21:26:04"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0010",
+      "filename": "IMG_5129.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5129.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5129.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5129.jpg",
+      "capture_date": "2025:06:24 17:52:40"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0011",
+      "filename": "IMG_5136.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5136.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5136.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5136.jpg",
+      "capture_date": "2025:06:24 17:53:52"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0012",
+      "filename": "IMG_5139.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5139.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5139.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5139.jpg",
+      "capture_date": "2025:06:24 19:20:15"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0013",
+      "filename": "IMG_5154.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5154.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5154.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5154.jpg",
+      "capture_date": "2025:06:30 19:07:44"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0014",
+      "filename": "IMG_5155.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5155.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5155.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5155.jpg",
+      "capture_date": "2025:06:30 19:07:48"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0015",
+      "filename": "IMG_5156.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5156.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5156.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5156.jpg",
+      "capture_date": "2025:06:30 19:07:50"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0016",
+      "filename": "IMG_5269.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5269.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5269.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5269.jpg",
+      "capture_date": "2025:07:24 21:45:46"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0017",
+      "filename": "IMG_5270.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5270.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5270.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5270.jpg",
+      "capture_date": "2025:07:24 21:45:50"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0018",
+      "filename": "IMG_5312.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5312.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5312.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5312.jpg",
+      "capture_date": "2025:08:02 09:33:36"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0019",
+      "filename": "IMG_5313.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5313.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5313.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5313.jpg",
+      "capture_date": "2025:08:02 09:33:38"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0020",
+      "filename": "IMG_5314.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5314.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5314.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5314.jpg",
+      "capture_date": "2025:08:02 09:33:39"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0021",
+      "filename": "IMG_5315.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5315.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5315.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5315.jpg",
+      "capture_date": "2025:08:02 09:35:30"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0022",
+      "filename": "IMG_5316.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5316.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5316.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5316.jpg",
+      "capture_date": "2025:08:02 09:42:03"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0023",
+      "filename": "IMG_5317.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5317.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5317.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5317.jpg",
+      "capture_date": "2025:08:02 09:42:12"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0024",
+      "filename": "IMG_5318.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5318.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5318.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5318.jpg",
+      "capture_date": "2025:08:02 09:42:24"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0025",
+      "filename": "IMG_5613.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5613.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5613.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5613.jpg",
+      "capture_date": "2025:09:03 12:50:06"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0026",
+      "filename": "IMG_5635.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5635.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5635.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5635.jpg",
+      "capture_date": "2025:09:09 17:12:57"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0027",
+      "filename": "IMG_5636.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5636.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5636.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5636.jpg",
+      "capture_date": "2025:09:09 17:13:39"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0028",
+      "filename": "IMG_5637.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5637.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5637.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5637.jpg",
+      "capture_date": "2025:09:09 17:13:59"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0029",
+      "filename": "IMG_5638.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5638.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5638.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5638.jpg",
+      "capture_date": "2025:09:09 17:14:09"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0030",
+      "filename": "IMG_5639.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5639.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5639.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5639.jpg",
+      "capture_date": "2025:09:09 17:14:12"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0031",
+      "filename": "IMG_5640.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5640.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5640.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5640.jpg",
+      "capture_date": "2025:09:09 17:14:14"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0032",
+      "filename": "IMG_5641.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5641.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5641.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5641.jpg",
+      "capture_date": "2025:09:09 17:14:16"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0033",
+      "filename": "IMG_5644.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5644.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5644.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5644.jpg",
+      "capture_date": "2025:09:09 18:33:43"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0034",
+      "filename": "IMG_5645.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5645.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5645.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5645.jpg",
+      "capture_date": "2025:09:09 18:55:33"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0035",
+      "filename": "IMG_5646.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5646.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5646.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5646.jpg",
+      "capture_date": "2025:09:09 18:55:35"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0036",
+      "filename": "IMG_5647.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5647.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5647.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5647.jpg",
+      "capture_date": "2025:09:09 19:56:29"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0037",
+      "filename": "IMG_5648.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5648.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5648.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5648.jpg",
+      "capture_date": "2025:09:09 19:56:35"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0038",
+      "filename": "IMG_5649.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5649.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5649.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5649.jpg",
+      "capture_date": "2025:09:09 20:00:00"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0039",
+      "filename": "IMG_5650.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5650.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5650.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5650.jpg",
+      "capture_date": "2025:09:09 20:00:15"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0040",
+      "filename": "IMG_5651.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5651.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5651.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5651.jpg",
+      "capture_date": "2025:09:09 20:00:21"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0041",
+      "filename": "IMG_5710.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5710.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5710.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5710.jpg",
+      "capture_date": "2025:09:17 20:25:50"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0042",
+      "filename": "IMG_5711.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5711.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5711.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5711.jpg",
+      "capture_date": "2025:09:17 20:25:53"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0043",
+      "filename": "IMG_5712.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5712.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5712.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5712.jpg",
+      "capture_date": "2025:09:17 20:26:17"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0044",
+      "filename": "IMG_5713.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5713.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5713.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5713.jpg",
+      "capture_date": "2025:09:17 20:26:26"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0045",
+      "filename": "IMG_5714.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5714.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5714.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5714.jpg",
+      "capture_date": "2025:09:17 20:26:31"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0046",
+      "filename": "IMG_5715.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5715.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5715.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5715.jpg",
+      "capture_date": "2025:09:17 20:26:34"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0047",
+      "filename": "IMG_5716.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5716.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5716.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5716.jpg",
+      "capture_date": "2025:09:17 20:40:59"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0048",
+      "filename": "IMG_5717.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5717.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5717.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5717.jpg",
+      "capture_date": "2025:09:17 20:41:42"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0049",
+      "filename": "IMG_5718.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5718.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5718.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5718.jpg",
+      "capture_date": "2025:09:17 20:43:53"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0050",
+      "filename": "IMG_5719.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5719.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5719.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5719.jpg",
+      "capture_date": "2025:09:17 20:43:58"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0051",
+      "filename": "IMG_5745.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5745.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5745.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5745.jpg",
+      "capture_date": "2025:09:25 17:24:52"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0052",
+      "filename": "IMG_5746.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5746.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5746.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5746.jpg",
+      "capture_date": "2025:09:25 17:25:12"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0053",
+      "filename": "IMG_5750.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5750.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5750.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5750.jpg",
+      "capture_date": "2025:09:29 18:51:31"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0054",
+      "filename": "IMG_5751.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5751.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5751.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5751.jpg",
+      "capture_date": "2025:09:29 18:51:39"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0055",
+      "filename": "IMG_5752.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5752.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5752.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5752.jpg",
+      "capture_date": "2025:09:29 18:51:46"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0056",
+      "filename": "IMG_5753.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5753.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5753.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5753.jpg",
+      "capture_date": "2025:09:29 18:54:50"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0057",
+      "filename": "IMG_5754.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5754.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5754.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5754.jpg",
+      "capture_date": "2025:09:29 18:54:53"
+    },
+    {
+      "id": "hudson-river-nyc-jersey-city-manhattan-2025-0058",
+      "filename": "IMG_5792.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/hudson-river-nyc/jersey-city-manhattan/2025/originals/IMG_5792.JPEG",
+      "large": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/large/img-5792.jpg",
+      "thumb": "assets/images/hudson-river-nyc/jersey-city-manhattan/2025/thumb/img-5792.jpg",
+      "capture_date": "2025:10:06 22:29:01"
+    }
+  ]
+}

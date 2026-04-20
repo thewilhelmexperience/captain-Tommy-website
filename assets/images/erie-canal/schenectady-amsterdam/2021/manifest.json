@@ -1,0 +1,35 @@
+{
+  "region": "erie-canal",
+  "placeId": "schenectady-amsterdam",
+  "placeKey": "erie-canal/schenectady-amsterdam",
+  "year": 2021,
+  "images": [
+    {
+      "id": "erie-canal-schenectady-amsterdam-2021-0001",
+      "filename": "IMG_7143.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/schenectady-amsterdam/2021/originals/IMG_7143.JPEG",
+      "large": "assets/images/erie-canal/schenectady-amsterdam/2021/large/img-7143.jpg",
+      "thumb": "assets/images/erie-canal/schenectady-amsterdam/2021/thumb/img-7143.jpg",
+      "capture_date": "2021:09:24 06:49:13"
+    },
+    {
+      "id": "erie-canal-schenectady-amsterdam-2021-0002",
+      "filename": "IMG_7144.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/schenectady-amsterdam/2021/originals/IMG_7144.JPEG",
+      "large": "assets/images/erie-canal/schenectady-amsterdam/2021/large/img-7144.jpg",
+      "thumb": "assets/images/erie-canal/schenectady-amsterdam/2021/thumb/img-7144.jpg",
+      "capture_date": "2021:09:24 06:49:19"
+    },
+    {
+      "id": "erie-canal-schenectady-amsterdam-2021-0003",
+      "filename": "IMG_7145.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/schenectady-amsterdam/2021/originals/IMG_7145.JPEG",
+      "large": "assets/images/erie-canal/schenectady-amsterdam/2021/large/img-7145.jpg",
+      "thumb": "assets/images/erie-canal/schenectady-amsterdam/2021/thumb/img-7145.jpg",
+      "capture_date": "2021:09:24 06:49:24"
+    }
+  ]
+}

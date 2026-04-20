@@ -1,0 +1,629 @@
+{
+  "region": "south-florida",
+  "placeId": "palm-beach-west-palm",
+  "placeKey": "south-florida/palm-beach-west-palm",
+  "year": 2022,
+  "images": [
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0001",
+      "filename": "IMG_7709.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7709.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7709.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7709.jpg",
+      "capture_date": "2022:06:30 08:01:10"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0002",
+      "filename": "IMG_7711.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7711.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7711.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7711.jpg",
+      "capture_date": "2022:06:30 08:01:57"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0003",
+      "filename": "IMG_7717.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7717.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7717.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7717.jpg",
+      "capture_date": "2022:07:01 08:52:21"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0004",
+      "filename": "IMG_7723.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7723.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7723.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7723.jpg",
+      "capture_date": "2022:07:01 08:53:52"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0005",
+      "filename": "IMG_7724.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7724.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7724.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7724.jpg",
+      "capture_date": "2022:07:01 08:53:57"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0006",
+      "filename": "IMG_7725.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7725.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7725.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7725.jpg",
+      "capture_date": "2022:07:01 08:53:59"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0007",
+      "filename": "IMG_7726.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7726.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7726.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7726.jpg",
+      "capture_date": "2022:07:01 08:54:03"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0008",
+      "filename": "IMG_7728.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7728.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7728.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7728.jpg",
+      "capture_date": "2022:07:01 08:55:29"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0009",
+      "filename": "IMG_7730.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7730.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7730.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7730.jpg",
+      "capture_date": "2022:07:01 08:56:25"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0010",
+      "filename": "IMG_7731.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7731.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7731.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7731.jpg",
+      "capture_date": "2022:07:01 08:56:27"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0011",
+      "filename": "IMG_7732.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7732.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7732.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7732.jpg",
+      "capture_date": "2022:07:01 08:56:32"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0012",
+      "filename": "IMG_7733.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7733.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7733.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7733.jpg",
+      "capture_date": "2022:07:01 09:13:04"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0013",
+      "filename": "IMG_7735.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7735.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7735.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7735.jpg",
+      "capture_date": "2022:07:01 09:17:46"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0014",
+      "filename": "IMG_7736.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7736.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7736.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7736.jpg",
+      "capture_date": "2022:07:01 09:18:00"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0015",
+      "filename": "IMG_7738.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7738.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7738.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7738.jpg",
+      "capture_date": "2022:07:01 09:18:40"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0016",
+      "filename": "IMG_7739.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7739.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7739.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7739.jpg",
+      "capture_date": "2022:07:01 09:19:05"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0017",
+      "filename": "IMG_7740.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7740.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7740.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7740.jpg",
+      "capture_date": "2022:07:01 09:19:09"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0018",
+      "filename": "IMG_7743.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7743.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7743.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7743.jpg",
+      "capture_date": "2022:07:01 09:24:46"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0019",
+      "filename": "IMG_7744.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7744.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7744.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7744.jpg",
+      "capture_date": "2022:07:01 09:24:49"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0020",
+      "filename": "IMG_7745.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7745.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7745.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7745.jpg",
+      "capture_date": "2022:07:01 09:26:36"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0021",
+      "filename": "IMG_7750.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7750.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7750.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7750.jpg",
+      "capture_date": "2022:07:01 09:27:42"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0022",
+      "filename": "IMG_7751.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7751.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7751.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7751.jpg",
+      "capture_date": "2022:07:01 09:29:27"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0023",
+      "filename": "IMG_7752.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7752.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7752.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7752.jpg",
+      "capture_date": "2022:07:01 09:29:28"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0024",
+      "filename": "IMG_7753.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7753.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7753.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7753.jpg",
+      "capture_date": "2022:07:01 09:29:30"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0025",
+      "filename": "IMG_7754.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7754.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7754.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7754.jpg",
+      "capture_date": "2022:07:01 09:29:31"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0026",
+      "filename": "IMG_7755.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7755.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7755.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7755.jpg",
+      "capture_date": "2022:07:01 09:33:27"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0027",
+      "filename": "IMG_7756.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7756.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7756.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7756.jpg",
+      "capture_date": "2022:07:01 09:33:44"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0028",
+      "filename": "IMG_7757.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7757.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7757.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7757.jpg",
+      "capture_date": "2022:07:01 09:34:26"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0029",
+      "filename": "IMG_7758.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7758.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7758.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7758.jpg",
+      "capture_date": "2022:07:01 09:34:33"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0030",
+      "filename": "IMG_7762.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7762.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7762.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7762.jpg",
+      "capture_date": "2022:07:01 10:10:14"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0031",
+      "filename": "IMG_7763.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7763.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7763.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7763.jpg",
+      "capture_date": "2022:07:01 10:10:16"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0032",
+      "filename": "IMG_7764.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7764.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7764.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7764.jpg",
+      "capture_date": "2022:07:01 10:11:28"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0033",
+      "filename": "IMG_7765.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7765.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7765.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7765.jpg",
+      "capture_date": "2022:07:01 10:17:06"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0034",
+      "filename": "IMG_7766.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7766.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7766.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7766.jpg",
+      "capture_date": "2022:07:01 11:05:32"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0035",
+      "filename": "IMG_7767.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7767.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7767.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7767.jpg",
+      "capture_date": "2022:07:01 11:29:12"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0036",
+      "filename": "IMG_7769.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7769.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7769.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7769.jpg",
+      "capture_date": "2022:07:01 12:06:28"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0037",
+      "filename": "IMG_7797.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7797.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7797.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7797.jpg",
+      "capture_date": "2022:07:01 16:21:55"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0038",
+      "filename": "IMG_7798.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7798.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7798.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7798.jpg",
+      "capture_date": "2022:07:01 16:22:06"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0039",
+      "filename": "IMG_7799.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7799.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7799.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7799.jpg",
+      "capture_date": "2022:07:01 16:22:13"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0040",
+      "filename": "IMG_7800.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7800.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7800.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7800.jpg",
+      "capture_date": "2022:07:01 16:22:20"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0041",
+      "filename": "IMG_7801.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7801.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7801.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7801.jpg",
+      "capture_date": "2022:07:01 16:22:22"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0042",
+      "filename": "IMG_7802.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7802.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7802.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7802.jpg",
+      "capture_date": "2022:07:01 16:22:47"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0043",
+      "filename": "IMG_7832.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7832.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7832.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7832.jpg",
+      "capture_date": "2022:07:06 18:39:25"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0044",
+      "filename": "IMG_7835.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7835.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7835.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7835.jpg",
+      "capture_date": "2022:07:07 08:41:09"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0045",
+      "filename": "IMG_7836.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7836.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7836.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7836.jpg",
+      "capture_date": "2022:07:07 08:41:11"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0046",
+      "filename": "IMG_7837.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7837.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7837.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7837.jpg",
+      "capture_date": "2022:07:07 08:41:14"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0047",
+      "filename": "IMG_7838.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7838.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7838.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7838.jpg",
+      "capture_date": "2022:07:07 08:41:18"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0048",
+      "filename": "IMG_7839.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7839.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7839.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7839.jpg",
+      "capture_date": "2022:07:07 08:41:20"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0049",
+      "filename": "IMG_7840.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7840.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7840.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7840.jpg",
+      "capture_date": "2022:07:07 08:41:23"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0050",
+      "filename": "IMG_7841.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7841.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7841.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7841.jpg",
+      "capture_date": "2022:07:07 08:41:28"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0051",
+      "filename": "IMG_7842.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7842.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7842.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7842.jpg",
+      "capture_date": "2022:07:07 08:41:34"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0052",
+      "filename": "IMG_7843.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7843.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7843.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7843.jpg",
+      "capture_date": "2022:07:07 08:41:39"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0053",
+      "filename": "IMG_7844.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7844.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7844.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7844.jpg",
+      "capture_date": "2022:07:07 08:41:41"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0054",
+      "filename": "IMG_7845.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7845.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7845.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7845.jpg",
+      "capture_date": "2022:07:07 08:42:09"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0055",
+      "filename": "IMG_7846.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7846.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7846.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7846.jpg",
+      "capture_date": "2022:07:07 08:42:14"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0056",
+      "filename": "IMG_7847.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7847.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7847.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7847.jpg",
+      "capture_date": "2022:07:07 08:45:22"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0057",
+      "filename": "IMG_7848.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7848.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7848.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7848.jpg",
+      "capture_date": "2022:07:07 08:45:24"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0058",
+      "filename": "IMG_7849.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7849.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7849.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7849.jpg",
+      "capture_date": "2022:07:07 08:45:26"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0059",
+      "filename": "IMG_7850.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7850.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7850.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7850.jpg",
+      "capture_date": "2022:07:07 08:45:31"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0060",
+      "filename": "IMG_7851.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7851.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7851.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7851.jpg",
+      "capture_date": "2022:07:07 08:45:38"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0061",
+      "filename": "IMG_7852.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7852.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7852.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7852.jpg",
+      "capture_date": "2022:07:07 08:45:41"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0062",
+      "filename": "IMG_7853.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7853.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7853.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7853.jpg",
+      "capture_date": "2022:07:07 08:45:43"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0063",
+      "filename": "IMG_7854.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7854.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7854.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7854.jpg",
+      "capture_date": "2022:07:07 08:45:48"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0064",
+      "filename": "IMG_7855.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7855.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7855.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7855.jpg",
+      "capture_date": "2022:07:07 08:45:55"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0065",
+      "filename": "IMG_7856.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7856.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7856.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7856.jpg",
+      "capture_date": "2022:07:07 09:32:04"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0066",
+      "filename": "IMG_7857.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7857.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7857.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7857.jpg",
+      "capture_date": "2022:07:07 09:32:06"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0067",
+      "filename": "IMG_7895.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7895.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7895.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7895.jpg",
+      "capture_date": "2022:07:16 15:44:15"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0068",
+      "filename": "IMG_7897.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7897.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7897.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7897.jpg",
+      "capture_date": "2022:07:16 17:22:40"
+    },
+    {
+      "id": "south-florida-palm-beach-west-palm-2022-0069",
+      "filename": "IMG_7898.JPEG",
+      "year": 2022,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2022/originals/IMG_7898.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2022/large/img-7898.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2022/thumb/img-7898.jpg",
+      "capture_date": "2022:07:16 18:14:43"
+    }
+  ]
+}

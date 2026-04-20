@@ -1,0 +1,44 @@
+{
+  "region": "bahamas",
+  "placeId": "normans-cay",
+  "placeKey": "bahamas/normans-cay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "bahamas-normans-cay-2021-0001",
+      "filename": "17063.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2021/originals/17063.jpeg",
+      "large": "assets/images/bahamas/normans-cay/2021/large/17063.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2021/thumb/17063.jpg",
+      "capture_date": "2021:02:23 11:56:56"
+    },
+    {
+      "id": "bahamas-normans-cay-2021-0002",
+      "filename": "17066.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2021/originals/17066.jpeg",
+      "large": "assets/images/bahamas/normans-cay/2021/large/17066.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2021/thumb/17066.jpg",
+      "capture_date": "2021:02:23 13:05:55"
+    },
+    {
+      "id": "bahamas-normans-cay-2021-0003",
+      "filename": "17067.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2021/originals/17067.jpeg",
+      "large": "assets/images/bahamas/normans-cay/2021/large/17067.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2021/thumb/17067.jpg",
+      "capture_date": "2021:02:23 14:27:39"
+    },
+    {
+      "id": "bahamas-normans-cay-2021-0004",
+      "filename": "17068.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2021/originals/17068.jpeg",
+      "large": "assets/images/bahamas/normans-cay/2021/large/17068.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2021/thumb/17068.jpg",
+      "capture_date": "2021:02:23 14:27:43"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "region": "great-lakes",
+  "placeId": "fish-creek",
+  "placeKey": "great-lakes/fish-creek",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-fish-creek-2021-0001",
+      "filename": "IMG_6631.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6631.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6631.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6631.jpg",
+      "capture_date": "2021:06:07 14:16:07"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0002",
+      "filename": "IMG_6633.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6633.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6633.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6633.jpg",
+      "capture_date": "2021:06:10 07:58:35"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0003",
+      "filename": "IMG_6634.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6634.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6634.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6634.jpg",
+      "capture_date": "2021:06:10 07:58:38"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0004",
+      "filename": "IMG_6639.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6639.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6639.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6639.jpg",
+      "capture_date": "2021:06:13 11:12:06"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0005",
+      "filename": "IMG_6649.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6649.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6649.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6649.jpg",
+      "capture_date": "2021:06:21 09:24:58"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0006",
+      "filename": "IMG_6650.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6650.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6650.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6650.jpg",
+      "capture_date": "2021:06:21 09:25:01"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0007",
+      "filename": "IMG_6651.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6651.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6651.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6651.jpg",
+      "capture_date": "2021:06:21 09:25:04"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0008",
+      "filename": "IMG_6656.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6656.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6656.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6656.jpg",
+      "capture_date": "2021:06:22 11:48:56"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0009",
+      "filename": "IMG_6659.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6659.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6659.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6659.jpg",
+      "capture_date": "2021:06:26 09:50:21"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0010",
+      "filename": "IMG_6690.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6690.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6690.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6690.jpg",
+      "capture_date": "2021:07:03 19:21:22"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0011",
+      "filename": "IMG_6691.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6691.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6691.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6691.jpg",
+      "capture_date": "2021:07:03 20:55:01"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0012",
+      "filename": "IMG_6693.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6693.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6693.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6693.jpg",
+      "capture_date": "2021:07:03 20:56:23"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0013",
+      "filename": "IMG_6707.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6707.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6707.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6707.jpg",
+      "capture_date": "2021:07:08 19:54:26"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0014",
+      "filename": "IMG_6708.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6708.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6708.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6708.jpg",
+      "capture_date": "2021:07:08 19:54:30"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0015",
+      "filename": "IMG_6716.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6716.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6716.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6716.jpg",
+      "capture_date": "2021:07:10 09:59:19"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0016",
+      "filename": "IMG_6717.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6717.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6717.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6717.jpg",
+      "capture_date": "2021:07:10 09:59:22"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0017",
+      "filename": "IMG_6718.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6718.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6718.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6718.jpg",
+      "capture_date": "2021:07:10 10:01:09"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0018",
+      "filename": "IMG_6719.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6719.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6719.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6719.jpg",
+      "capture_date": "2021:07:10 10:01:10"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0019",
+      "filename": "IMG_6910.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6910.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6910.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6910.jpg",
+      "capture_date": "2021:08:20 14:16:09"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0020",
+      "filename": "IMG_6911.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6911.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6911.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6911.jpg",
+      "capture_date": "2021:08:20 14:16:43"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0021",
+      "filename": "IMG_6912.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6912.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6912.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6912.jpg",
+      "capture_date": "2021:08:20 14:16:47"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0022",
+      "filename": "IMG_6913.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6913.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6913.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6913.jpg",
+      "capture_date": "2021:08:20 14:16:50"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0023",
+      "filename": "IMG_6914.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6914.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6914.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6914.jpg",
+      "capture_date": "2021:08:20 14:16:51"
+    },
+    {
+      "id": "great-lakes-fish-creek-2021-0024",
+      "filename": "IMG_6915.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/fish-creek/2021/originals/IMG_6915.JPEG",
+      "large": "assets/images/great-lakes/fish-creek/2021/large/img-6915.jpg",
+      "thumb": "assets/images/great-lakes/fish-creek/2021/thumb/img-6915.jpg",
+      "capture_date": "2021:08:20 14:16:54"
+    }
+  ]
+}

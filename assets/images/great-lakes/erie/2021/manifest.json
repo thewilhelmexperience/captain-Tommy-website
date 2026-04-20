@@ -1,0 +1,35 @@
+{
+  "region": "great-lakes",
+  "placeId": "erie",
+  "placeKey": "great-lakes/erie",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-erie-2021-0001",
+      "filename": "IMG_6612.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/erie/2021/originals/IMG_6612.JPEG",
+      "large": "assets/images/great-lakes/erie/2021/large/img-6612.jpg",
+      "thumb": "assets/images/great-lakes/erie/2021/thumb/img-6612.jpg",
+      "capture_date": "2021:06:05 01:00:06"
+    },
+    {
+      "id": "great-lakes-erie-2021-0002",
+      "filename": "IMG_6613.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/erie/2021/originals/IMG_6613.JPEG",
+      "large": "assets/images/great-lakes/erie/2021/large/img-6613.jpg",
+      "thumb": "assets/images/great-lakes/erie/2021/thumb/img-6613.jpg",
+      "capture_date": "2021:06:05 01:00:26"
+    },
+    {
+      "id": "great-lakes-erie-2021-0003",
+      "filename": "IMG_6614.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/erie/2021/originals/IMG_6614.JPEG",
+      "large": "assets/images/great-lakes/erie/2021/large/img-6614.jpg",
+      "thumb": "assets/images/great-lakes/erie/2021/thumb/img-6614.jpg",
+      "capture_date": "2021:06:05 01:00:53"
+    }
+  ]
+}

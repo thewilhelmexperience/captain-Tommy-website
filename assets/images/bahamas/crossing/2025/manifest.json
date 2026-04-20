@@ -1,0 +1,17 @@
+{
+  "region": "bahamas",
+  "placeId": "crossing",
+  "placeKey": "bahamas/crossing",
+  "year": 2025,
+  "images": [
+    {
+      "id": "bahamas-crossing-2025-0001",
+      "filename": "IMG_4625.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/bahamas/crossing/2025/originals/IMG_4625.JPEG",
+      "large": "assets/images/bahamas/crossing/2025/large/img-4625.jpg",
+      "thumb": "assets/images/bahamas/crossing/2025/thumb/img-4625.jpg",
+      "capture_date": "2025:04:16 18:01:54"
+    }
+  ]
+}

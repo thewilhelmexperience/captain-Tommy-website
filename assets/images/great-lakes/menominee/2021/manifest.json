@@ -1,0 +1,71 @@
+{
+  "region": "great-lakes",
+  "placeId": "menominee",
+  "placeKey": "great-lakes/menominee",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-menominee-2021-0001",
+      "filename": "IMG_6888.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6888.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6888.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6888.jpg",
+      "capture_date": "2021:08:07 09:52:10"
+    },
+    {
+      "id": "great-lakes-menominee-2021-0002",
+      "filename": "IMG_6889.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6889.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6889.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6889.jpg",
+      "capture_date": "2021:08:07 09:52:42"
+    },
+    {
+      "id": "great-lakes-menominee-2021-0003",
+      "filename": "IMG_6890.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6890.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6890.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6890.jpg",
+      "capture_date": "2021:08:07 09:53:51"
+    },
+    {
+      "id": "great-lakes-menominee-2021-0004",
+      "filename": "IMG_6891.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6891.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6891.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6891.jpg",
+      "capture_date": "2021:08:07 09:54:03"
+    },
+    {
+      "id": "great-lakes-menominee-2021-0005",
+      "filename": "IMG_6892.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6892.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6892.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6892.jpg",
+      "capture_date": "2021:08:07 09:54:28"
+    },
+    {
+      "id": "great-lakes-menominee-2021-0006",
+      "filename": "IMG_6893.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6893.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6893.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6893.jpg",
+      "capture_date": "2021:08:07 09:54:32"
+    },
+    {
+      "id": "great-lakes-menominee-2021-0007",
+      "filename": "IMG_6894.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/menominee/2021/originals/IMG_6894.JPEG",
+      "large": "assets/images/great-lakes/menominee/2021/large/img-6894.jpg",
+      "thumb": "assets/images/great-lakes/menominee/2021/thumb/img-6894.jpg",
+      "capture_date": "2021:08:07 09:54:46"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "coinjock-nc",
+  "placeKey": "east-coast-icw/coinjock-nc",
+  "year": 2025,
+  "images": [
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0001",
+      "filename": "IMG_5813.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5813.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5813.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5813.jpg",
+      "capture_date": "2025:10:08 16:25:25"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0002",
+      "filename": "IMG_5814.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5814.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5814.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5814.jpg",
+      "capture_date": "2025:10:08 17:06:58"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0003",
+      "filename": "IMG_5817.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5817.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5817.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5817.jpg",
+      "capture_date": "2025:10:08 17:32:11"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0004",
+      "filename": "IMG_5818.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5818.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5818.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5818.jpg",
+      "capture_date": "2025:10:08 17:59:19"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0005",
+      "filename": "IMG_5819.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5819.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5819.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5819.jpg",
+      "capture_date": "2025:10:09 10:38:20"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0006",
+      "filename": "IMG_5820.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5820.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5820.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5820.jpg",
+      "capture_date": "2025:10:09 11:11:50"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0007",
+      "filename": "IMG_5821.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5821.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5821.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5821.jpg",
+      "capture_date": "2025:10:09 11:15:55"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0008",
+      "filename": "IMG_5822.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5822.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5822.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5822.jpg",
+      "capture_date": "2025:10:09 11:17:16"
+    },
+    {
+      "id": "east-coast-icw-coinjock-nc-2025-0009",
+      "filename": "IMG_5824.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/coinjock-nc/2025/originals/IMG_5824.JPEG",
+      "large": "assets/images/east-coast-icw/coinjock-nc/2025/large/img-5824.jpg",
+      "thumb": "assets/images/east-coast-icw/coinjock-nc/2025/thumb/img-5824.jpg",
+      "capture_date": "2025:10:09 14:33:54"
+    }
+  ]
+}

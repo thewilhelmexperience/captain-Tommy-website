@@ -1,0 +1,125 @@
+{
+  "region": "bahamas",
+  "placeId": "shroud-cay",
+  "placeKey": "bahamas/shroud-cay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "bahamas-shroud-cay-2021-0001",
+      "filename": "17182.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17182.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17182.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17182.jpg",
+      "capture_date": "2021:02:25 05:16:17"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0002",
+      "filename": "17183.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17183.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17183.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17183.jpg",
+      "capture_date": "2021:02:25 05:16:29"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0003",
+      "filename": "17282.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17282.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17282.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17282.jpg",
+      "capture_date": "2021:02:26 05:30:48"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0004",
+      "filename": "17283.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17283.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17283.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17283.jpg",
+      "capture_date": "2021:02:26 05:30:57"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0005",
+      "filename": "17284.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17284.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17284.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17284.jpg",
+      "capture_date": "2021:02:26 05:31:20"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0006",
+      "filename": "17285.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17285.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17285.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17285.jpg",
+      "capture_date": "2021:02:26 05:31:27"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0007",
+      "filename": "17287.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/17287.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/17287.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/17287.jpg",
+      "capture_date": "2021:02:26 06:15:35"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0008",
+      "filename": "18150.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/18150.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/18150.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/18150.jpg",
+      "capture_date": "2021:03:15 11:25:56"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0009",
+      "filename": "18151.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/18151.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/18151.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/18151.jpg",
+      "capture_date": "2021:03:15 11:26:03"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0010",
+      "filename": "18152.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/18152.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/18152.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/18152.jpg",
+      "capture_date": "2021:03:15 11:26:13"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0011",
+      "filename": "18153.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/18153.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/18153.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/18153.jpg",
+      "capture_date": "2021:03:15 11:26:15"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0012",
+      "filename": "18154.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/18154.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/18154.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/18154.jpg",
+      "capture_date": "2021:03:15 11:27:03"
+    },
+    {
+      "id": "bahamas-shroud-cay-2021-0013",
+      "filename": "18155.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/shroud-cay/2021/originals/18155.jpeg",
+      "large": "assets/images/bahamas/shroud-cay/2021/large/18155.jpg",
+      "thumb": "assets/images/bahamas/shroud-cay/2021/thumb/18155.jpg",
+      "capture_date": "2021:03:15 11:27:08"
+    }
+  ]
+}

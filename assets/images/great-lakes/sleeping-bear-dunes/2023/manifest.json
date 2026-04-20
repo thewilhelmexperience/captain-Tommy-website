@@ -1,0 +1,35 @@
+{
+  "region": "great-lakes",
+  "placeId": "sleeping-bear-dunes",
+  "placeKey": "great-lakes/sleeping-bear-dunes",
+  "year": 2023,
+  "images": [
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2023-0001",
+      "filename": "IMG_1425.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2023/originals/IMG_1425.JPEG",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2023/large/img-1425.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2023/thumb/img-1425.jpg",
+      "capture_date": "2023:07:31 14:00:28"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2023-0002",
+      "filename": "IMG_1427.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2023/originals/IMG_1427.JPEG",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2023/large/img-1427.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2023/thumb/img-1427.jpg",
+      "capture_date": "2023:07:31 14:00:29"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2023-0003",
+      "filename": "IMG_1428.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2023/originals/IMG_1428.JPEG",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2023/large/img-1428.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2023/thumb/img-1428.jpg",
+      "capture_date": "2023:07:31 14:00:30"
+    }
+  ]
+}

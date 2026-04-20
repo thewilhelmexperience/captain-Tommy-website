@@ -1,0 +1,44 @@
+{
+  "region": "great-lakes",
+  "placeId": "ephraim",
+  "placeKey": "great-lakes/ephraim",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-ephraim-2021-0001",
+      "filename": "IMG_6645.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ephraim/2021/originals/IMG_6645.JPEG",
+      "large": "assets/images/great-lakes/ephraim/2021/large/img-6645.jpg",
+      "thumb": "assets/images/great-lakes/ephraim/2021/thumb/img-6645.jpg",
+      "capture_date": "2021:06:19 12:44:01"
+    },
+    {
+      "id": "great-lakes-ephraim-2021-0002",
+      "filename": "IMG_6899.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ephraim/2021/originals/IMG_6899.JPEG",
+      "large": "assets/images/great-lakes/ephraim/2021/large/img-6899.jpg",
+      "thumb": "assets/images/great-lakes/ephraim/2021/thumb/img-6899.jpg",
+      "capture_date": "2021:08:10 19:12:30"
+    },
+    {
+      "id": "great-lakes-ephraim-2021-0003",
+      "filename": "IMG_6900.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ephraim/2021/originals/IMG_6900.JPEG",
+      "large": "assets/images/great-lakes/ephraim/2021/large/img-6900.jpg",
+      "thumb": "assets/images/great-lakes/ephraim/2021/thumb/img-6900.jpg",
+      "capture_date": "2021:08:10 19:12:30"
+    },
+    {
+      "id": "great-lakes-ephraim-2021-0004",
+      "filename": "IMG_6901.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ephraim/2021/originals/IMG_6901.JPEG",
+      "large": "assets/images/great-lakes/ephraim/2021/large/img-6901.jpg",
+      "thumb": "assets/images/great-lakes/ephraim/2021/thumb/img-6901.jpg",
+      "capture_date": "2021:08:10 19:12:32"
+    }
+  ]
+}

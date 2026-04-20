@@ -1,0 +1,17 @@
+{
+  "region": "south-florida",
+  "placeId": "palm-beach-west-palm",
+  "placeKey": "south-florida/palm-beach-west-palm",
+  "year": 2026,
+  "images": [
+    {
+      "id": "south-florida-palm-beach-west-palm-2026-0001",
+      "filename": "IMG_6483.JPEG",
+      "year": 2026,
+      "source": "photo-archive/source/regions/south-florida/palm-beach-west-palm/2026/originals/IMG_6483.JPEG",
+      "large": "assets/images/south-florida/palm-beach-west-palm/2026/large/img-6483.jpg",
+      "thumb": "assets/images/south-florida/palm-beach-west-palm/2026/thumb/img-6483.jpg",
+      "capture_date": "2026:04:18 14:24:13-04:00"
+    }
+  ]
+}

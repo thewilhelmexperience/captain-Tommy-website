@@ -1,0 +1,539 @@
+{
+  "region": "bahamas",
+  "placeId": "normans-cay",
+  "placeKey": "bahamas/normans-cay",
+  "year": 2023,
+  "images": [
+    {
+      "id": "bahamas-normans-cay-2023-0001",
+      "filename": "IMG_0506.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0506.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0506.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0506.jpg",
+      "capture_date": "2023:02:24 22:20:29"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0002",
+      "filename": "IMG_0507.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0507.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0507.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0507.jpg",
+      "capture_date": "2023:02:24 22:20:35"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0003",
+      "filename": "IMG_0510.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0510.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0510.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0510.jpg",
+      "capture_date": "2023:02:24 23:10:43"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0004",
+      "filename": "IMG_0511.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0511.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0511.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0511.jpg",
+      "capture_date": "2023:02:25 06:41:53"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0005",
+      "filename": "IMG_0512.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0512.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0512.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0512.jpg",
+      "capture_date": "2023:02:25 06:41:57"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0006",
+      "filename": "dji_fly_20230225_070740_24_1677326873304_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070740_24_1677326873304_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070740-24-1677326873304-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070740-24-1677326873304-photo.jpg",
+      "capture_date": "2023:02:25 07:07:41"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0007",
+      "filename": "dji_fly_20230225_070812_25_1677326917029_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070812_25_1677326917029_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070812-25-1677326917029-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070812-25-1677326917029-photo.jpg",
+      "capture_date": "2023:02:25 07:08:13"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0008",
+      "filename": "dji_fly_20230225_070816_26_1677326922517_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070816_26_1677326922517_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070816-26-1677326922517-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070816-26-1677326922517-photo.jpg",
+      "capture_date": "2023:02:25 07:08:16"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0009",
+      "filename": "dji_fly_20230225_070818_27_1677326928895_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070818_27_1677326928895_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070818-27-1677326928895-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070818-27-1677326928895-photo.jpg",
+      "capture_date": "2023:02:25 07:08:18"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0010",
+      "filename": "dji_fly_20230225_070820_28_1677326938123_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070820_28_1677326938123_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070820-28-1677326938123-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070820-28-1677326938123-photo.jpg",
+      "capture_date": "2023:02:25 07:08:21"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0011",
+      "filename": "dji_fly_20230225_070846_29_1677326942300_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070846_29_1677326942300_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070846-29-1677326942300-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070846-29-1677326942300-photo.jpg",
+      "capture_date": "2023:02:25 07:08:47"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0012",
+      "filename": "dji_fly_20230225_070934_30_1677326991345_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070934_30_1677326991345_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070934-30-1677326991345-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070934-30-1677326991345-photo.jpg",
+      "capture_date": "2023:02:25 07:09:34"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0013",
+      "filename": "dji_fly_20230225_070936_31_1677326995669_photo.jpg",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/dji_fly_20230225_070936_31_1677326995669_photo.jpg",
+      "large": "assets/images/bahamas/normans-cay/2023/large/dji-fly-20230225-070936-31-1677326995669-photo.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/dji-fly-20230225-070936-31-1677326995669-photo.jpg",
+      "capture_date": "2023:02:25 07:09:37"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0014",
+      "filename": "IMG_0583.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0583.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0583.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0583.jpg",
+      "capture_date": "2023:03:02 16:40:59"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0015",
+      "filename": "IMG_0584.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0584.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0584.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0584.jpg",
+      "capture_date": "2023:03:02 19:57:15"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0016",
+      "filename": "IMG_0592.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0592.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0592.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0592.jpg",
+      "capture_date": "2023:03:03 15:16:18"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0017",
+      "filename": "IMG_0595.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0595.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0595.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0595.jpg",
+      "capture_date": "2023:03:03 16:02:29"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0018",
+      "filename": "IMG_0596.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0596.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0596.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0596.jpg",
+      "capture_date": "2023:03:03 16:02:35"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0019",
+      "filename": "IMG_0597.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0597.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0597.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0597.jpg",
+      "capture_date": "2023:03:04 07:29:44"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0020",
+      "filename": "IMG_0598.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0598.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0598.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0598.jpg",
+      "capture_date": "2023:03:04 07:30:04"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0021",
+      "filename": "IMG_0599.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0599.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0599.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0599.jpg",
+      "capture_date": "2023:03:04 07:30:13"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0022",
+      "filename": "IMG_0600.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0600.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0600.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0600.jpg",
+      "capture_date": "2023:03:04 07:30:16"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0023",
+      "filename": "IMG_0601.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0601.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0601.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0601.jpg",
+      "capture_date": "2023:03:04 07:30:27"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0024",
+      "filename": "IMG_0837.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0837.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0837.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0837.jpg",
+      "capture_date": "2023:03:23 13:14:36"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0025",
+      "filename": "IMG_0838.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0838.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0838.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0838.jpg",
+      "capture_date": "2023:03:23 13:14:44"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0026",
+      "filename": "IMG_0839.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0839.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0839.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0839.jpg",
+      "capture_date": "2023:03:23 13:14:46"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0027",
+      "filename": "IMG_0840.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0840.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0840.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0840.jpg",
+      "capture_date": "2023:03:23 13:14:48"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0028",
+      "filename": "IMG_0841.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0841.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0841.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0841.jpg",
+      "capture_date": "2023:03:23 13:22:42"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0029",
+      "filename": "IMG_0847.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0847.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0847.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0847.jpg",
+      "capture_date": "2023:03:24 15:05:07"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0030",
+      "filename": "IMG_0848.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0848.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0848.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0848.jpg",
+      "capture_date": "2023:03:24 15:05:10"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0031",
+      "filename": "IMG_0849.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0849.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0849.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0849.jpg",
+      "capture_date": "2023:03:24 15:05:34"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0032",
+      "filename": "IMG_0850.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0850.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0850.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0850.jpg",
+      "capture_date": "2023:03:24 15:06:03"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0033",
+      "filename": "IMG_0851.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0851.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0851.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0851.jpg",
+      "capture_date": "2023:03:24 15:06:20"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0034",
+      "filename": "IMG_0852.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0852.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0852.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0852.jpg",
+      "capture_date": "2023:03:24 15:06:21"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0035",
+      "filename": "IMG_0853.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0853.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0853.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0853.jpg",
+      "capture_date": "2023:03:24 15:06:22"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0036",
+      "filename": "IMG_0854.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0854.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0854.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0854.jpg",
+      "capture_date": "2023:03:24 15:06:23"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0037",
+      "filename": "IMG_0855.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0855.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0855.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0855.jpg",
+      "capture_date": "2023:03:24 15:06:24"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0038",
+      "filename": "IMG_0856.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0856.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0856.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0856.jpg",
+      "capture_date": "2023:03:24 15:06:26"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0039",
+      "filename": "IMG_0857.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0857.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0857.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0857.jpg",
+      "capture_date": "2023:03:24 15:06:27"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0040",
+      "filename": "IMG_0858.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0858.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0858.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0858.jpg",
+      "capture_date": "2023:03:24 15:06:28"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0041",
+      "filename": "IMG_0859.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0859.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0859.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0859.jpg",
+      "capture_date": "2023:03:24 15:06:28"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0042",
+      "filename": "IMG_0860.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0860.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0860.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0860.jpg",
+      "capture_date": "2023:03:24 15:06:32"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0043",
+      "filename": "IMG_0861.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0861.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0861.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0861.jpg",
+      "capture_date": "2023:03:24 15:06:40"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0044",
+      "filename": "IMG_0862.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0862.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0862.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0862.jpg",
+      "capture_date": "2023:03:24 15:07:26"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0045",
+      "filename": "IMG_0863.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0863.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0863.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0863.jpg",
+      "capture_date": "2023:03:24 15:07:28"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0046",
+      "filename": "IMG_0864.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0864.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0864.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0864.jpg",
+      "capture_date": "2023:03:24 15:07:30"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0047",
+      "filename": "IMG_0865.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0865.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0865.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0865.jpg",
+      "capture_date": "2023:03:24 15:07:31"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0048",
+      "filename": "IMG_0866.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0866.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0866.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0866.jpg",
+      "capture_date": "2023:03:24 15:07:37"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0049",
+      "filename": "IMG_0867.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0867.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0867.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0867.jpg",
+      "capture_date": "2023:03:24 15:07:43"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0050",
+      "filename": "IMG_0868.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0868.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0868.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0868.jpg",
+      "capture_date": "2023:03:24 15:10:47"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0051",
+      "filename": "IMG_0869.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0869.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0869.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0869.jpg",
+      "capture_date": "2023:03:24 15:10:50"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0052",
+      "filename": "IMG_0870.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0870.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0870.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0870.jpg",
+      "capture_date": "2023:03:24 15:10:53"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0053",
+      "filename": "IMG_0871.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0871.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0871.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0871.jpg",
+      "capture_date": "2023:03:24 15:41:34"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0054",
+      "filename": "IMG_0873.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0873.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0873.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0873.jpg",
+      "capture_date": "2023:03:25 08:17:12"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0055",
+      "filename": "IMG_0874.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0874.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0874.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0874.jpg",
+      "capture_date": "2023:03:25 08:17:14"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0056",
+      "filename": "IMG_0875.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0875.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0875.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0875.jpg",
+      "capture_date": "2023:03:25 08:17:16"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0057",
+      "filename": "IMG_0878.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0878.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0878.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0878.jpg",
+      "capture_date": "2023:03:25 10:19:55"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0058",
+      "filename": "IMG_0879.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0879.JPEG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0879.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0879.jpg",
+      "capture_date": "2023:03:25 10:19:58"
+    },
+    {
+      "id": "bahamas-normans-cay-2023-0059",
+      "filename": "IMG_0880.JPG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/normans-cay/2023/originals/IMG_0880.JPG",
+      "large": "assets/images/bahamas/normans-cay/2023/large/img-0880.jpg",
+      "thumb": "assets/images/bahamas/normans-cay/2023/thumb/img-0880.jpg",
+      "capture_date": "2023:03:25 10:20:00"
+    }
+  ]
+}

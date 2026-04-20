@@ -1,0 +1,35 @@
+{
+  "region": "great-lakes",
+  "placeId": "leland",
+  "placeKey": "great-lakes/leland",
+  "year": 2023,
+  "images": [
+    {
+      "id": "great-lakes-leland-2023-0001",
+      "filename": "IMG_1443.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/leland/2023/originals/IMG_1443.JPEG",
+      "large": "assets/images/great-lakes/leland/2023/large/img-1443.jpg",
+      "thumb": "assets/images/great-lakes/leland/2023/thumb/img-1443.jpg",
+      "capture_date": "2023:08:05 09:49:28"
+    },
+    {
+      "id": "great-lakes-leland-2023-0002",
+      "filename": "IMG_1444.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/leland/2023/originals/IMG_1444.JPEG",
+      "large": "assets/images/great-lakes/leland/2023/large/img-1444.jpg",
+      "thumb": "assets/images/great-lakes/leland/2023/thumb/img-1444.jpg",
+      "capture_date": "2023:08:05 09:49:28"
+    },
+    {
+      "id": "great-lakes-leland-2023-0003",
+      "filename": "IMG_1445.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/great-lakes/leland/2023/originals/IMG_1445.JPEG",
+      "large": "assets/images/great-lakes/leland/2023/large/img-1445.jpg",
+      "thumb": "assets/images/great-lakes/leland/2023/thumb/img-1445.jpg",
+      "capture_date": "2023:08:05 09:49:33"
+    }
+  ]
+}

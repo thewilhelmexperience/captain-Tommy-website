@@ -1,0 +1,53 @@
+{
+  "region": "great-lakes",
+  "placeId": "frankfort",
+  "placeKey": "great-lakes/frankfort",
+  "year": 2020,
+  "images": [
+    {
+      "id": "great-lakes-frankfort-2020-0001",
+      "filename": "4956.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2020/originals/4956.jpeg",
+      "large": "assets/images/great-lakes/frankfort/2020/large/4956.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2020/thumb/4956.jpg",
+      "capture_date": "2020:07:16 16:12:12"
+    },
+    {
+      "id": "great-lakes-frankfort-2020-0002",
+      "filename": "4833.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2020/originals/4833.jpeg",
+      "large": "assets/images/great-lakes/frankfort/2020/large/4833.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2020/thumb/4833.jpg",
+      "capture_date": "2020:07:16 16:12:13"
+    },
+    {
+      "id": "great-lakes-frankfort-2020-0003",
+      "filename": "4834.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2020/originals/4834.jpeg",
+      "large": "assets/images/great-lakes/frankfort/2020/large/4834.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2020/thumb/4834.jpg",
+      "capture_date": "2020:07:16 16:12:15"
+    },
+    {
+      "id": "great-lakes-frankfort-2020-0004",
+      "filename": "4835.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2020/originals/4835.jpeg",
+      "large": "assets/images/great-lakes/frankfort/2020/large/4835.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2020/thumb/4835.jpg",
+      "capture_date": "2020:07:16 16:12:18"
+    },
+    {
+      "id": "great-lakes-frankfort-2020-0005",
+      "filename": "4836.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/frankfort/2020/originals/4836.jpeg",
+      "large": "assets/images/great-lakes/frankfort/2020/large/4836.jpg",
+      "thumb": "assets/images/great-lakes/frankfort/2020/thumb/4836.jpg",
+      "capture_date": "2020:07:16 16:12:19"
+    }
+  ]
+}

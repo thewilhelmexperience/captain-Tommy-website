@@ -1,0 +1,98 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "hilton-head",
+  "placeKey": "east-coast-icw/hilton-head",
+  "year": 2024,
+  "images": [
+    {
+      "id": "east-coast-icw-hilton-head-2024-0001",
+      "filename": "IMG_2891.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2891.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2891.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2891.jpg",
+      "capture_date": "2024:06:04 06:48:49"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0002",
+      "filename": "IMG_2892.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2892.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2892.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2892.jpg",
+      "capture_date": "2024:06:04 06:48:52"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0003",
+      "filename": "IMG_2893.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2893.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2893.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2893.jpg",
+      "capture_date": "2024:06:04 06:48:56"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0004",
+      "filename": "IMG_2894.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2894.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2894.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2894.jpg",
+      "capture_date": "2024:06:04 10:05:53"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0005",
+      "filename": "IMG_2897.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2897.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2897.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2897.jpg",
+      "capture_date": "2024:06:04 10:53:12"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0006",
+      "filename": "IMG_2898.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2898.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2898.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2898.jpg",
+      "capture_date": "2024:06:04 10:53:13"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0007",
+      "filename": "IMG_2899.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2899.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2899.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2899.jpg",
+      "capture_date": "2024:06:04 10:53:13"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0008",
+      "filename": "IMG_2900.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2900.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2900.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2900.jpg",
+      "capture_date": "2024:06:04 10:53:14"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0009",
+      "filename": "IMG_2901.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2901.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2901.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2901.jpg",
+      "capture_date": "2024:06:04 10:53:15"
+    },
+    {
+      "id": "east-coast-icw-hilton-head-2024-0010",
+      "filename": "IMG_2902.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2024/originals/IMG_2902.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2024/large/img-2902.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2024/thumb/img-2902.jpg",
+      "capture_date": "2024:06:04 10:53:16"
+    }
+  ]
+}

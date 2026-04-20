@@ -1,0 +1,17 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "beaufort-nc",
+  "placeKey": "east-coast-icw/beaufort-nc",
+  "year": 2021,
+  "images": [
+    {
+      "id": "east-coast-icw-beaufort-nc-2021-0001",
+      "filename": "IMG_6503.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/beaufort-nc/2021/originals/IMG_6503.JPEG",
+      "large": "assets/images/east-coast-icw/beaufort-nc/2021/large/img-6503.jpg",
+      "thumb": "assets/images/east-coast-icw/beaufort-nc/2021/thumb/img-6503.jpg",
+      "capture_date": "2021:05:21 13:13:55"
+    }
+  ]
+}

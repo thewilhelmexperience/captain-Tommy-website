@@ -1,0 +1,53 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "new-jersey-delmarva",
+  "placeKey": "east-coast-icw/new-jersey-delmarva",
+  "year": 2021,
+  "images": [
+    {
+      "id": "east-coast-icw-new-jersey-delmarva-2021-0001",
+      "filename": "IMG_6566.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/new-jersey-delmarva/2021/originals/IMG_6566.JPEG",
+      "large": "assets/images/east-coast-icw/new-jersey-delmarva/2021/large/img-6566.jpg",
+      "thumb": "assets/images/east-coast-icw/new-jersey-delmarva/2021/thumb/img-6566.jpg",
+      "capture_date": "2021:05:28 15:50:28"
+    },
+    {
+      "id": "east-coast-icw-new-jersey-delmarva-2021-0002",
+      "filename": "IMG_7191.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/new-jersey-delmarva/2021/originals/IMG_7191.JPEG",
+      "large": "assets/images/east-coast-icw/new-jersey-delmarva/2021/large/img-7191.jpg",
+      "thumb": "assets/images/east-coast-icw/new-jersey-delmarva/2021/thumb/img-7191.jpg",
+      "capture_date": "2021:09:28 11:43:49"
+    },
+    {
+      "id": "east-coast-icw-new-jersey-delmarva-2021-0003",
+      "filename": "IMG_7192.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/new-jersey-delmarva/2021/originals/IMG_7192.JPEG",
+      "large": "assets/images/east-coast-icw/new-jersey-delmarva/2021/large/img-7192.jpg",
+      "thumb": "assets/images/east-coast-icw/new-jersey-delmarva/2021/thumb/img-7192.jpg",
+      "capture_date": "2021:09:28 11:43:52"
+    },
+    {
+      "id": "east-coast-icw-new-jersey-delmarva-2021-0004",
+      "filename": "IMG_7193.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/new-jersey-delmarva/2021/originals/IMG_7193.JPEG",
+      "large": "assets/images/east-coast-icw/new-jersey-delmarva/2021/large/img-7193.jpg",
+      "thumb": "assets/images/east-coast-icw/new-jersey-delmarva/2021/thumb/img-7193.jpg",
+      "capture_date": "2021:09:28 11:43:54"
+    },
+    {
+      "id": "east-coast-icw-new-jersey-delmarva-2021-0005",
+      "filename": "IMG_7194.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/new-jersey-delmarva/2021/originals/IMG_7194.JPEG",
+      "large": "assets/images/east-coast-icw/new-jersey-delmarva/2021/large/img-7194.jpg",
+      "thumb": "assets/images/east-coast-icw/new-jersey-delmarva/2021/thumb/img-7194.jpg",
+      "capture_date": "2021:09:28 11:43:58"
+    }
+  ]
+}

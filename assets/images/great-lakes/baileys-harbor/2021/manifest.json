@@ -1,0 +1,62 @@
+{
+  "region": "great-lakes",
+  "placeId": "baileys-harbor",
+  "placeKey": "great-lakes/baileys-harbor",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-baileys-harbor-2021-0001",
+      "filename": "IMG_6637.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2021/originals/IMG_6637.JPEG",
+      "large": "assets/images/great-lakes/baileys-harbor/2021/large/img-6637.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2021/thumb/img-6637.jpg",
+      "capture_date": "2021:06:11 15:05:58"
+    },
+    {
+      "id": "great-lakes-baileys-harbor-2021-0002",
+      "filename": "IMG_6642.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2021/originals/IMG_6642.JPEG",
+      "large": "assets/images/great-lakes/baileys-harbor/2021/large/img-6642.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2021/thumb/img-6642.jpg",
+      "capture_date": "2021:06:16 18:10:28"
+    },
+    {
+      "id": "great-lakes-baileys-harbor-2021-0003",
+      "filename": "IMG_6643.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2021/originals/IMG_6643.JPEG",
+      "large": "assets/images/great-lakes/baileys-harbor/2021/large/img-6643.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2021/thumb/img-6643.jpg",
+      "capture_date": "2021:06:16 18:10:33"
+    },
+    {
+      "id": "great-lakes-baileys-harbor-2021-0004",
+      "filename": "IMG_6644.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2021/originals/IMG_6644.JPEG",
+      "large": "assets/images/great-lakes/baileys-harbor/2021/large/img-6644.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2021/thumb/img-6644.jpg",
+      "capture_date": "2021:06:16 19:04:10"
+    },
+    {
+      "id": "great-lakes-baileys-harbor-2021-0005",
+      "filename": "IMG_6661.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2021/originals/IMG_6661.JPEG",
+      "large": "assets/images/great-lakes/baileys-harbor/2021/large/img-6661.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2021/thumb/img-6661.jpg",
+      "capture_date": "2021:06:26 12:52:09"
+    },
+    {
+      "id": "great-lakes-baileys-harbor-2021-0006",
+      "filename": "IMG_6876.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2021/originals/IMG_6876.JPEG",
+      "large": "assets/images/great-lakes/baileys-harbor/2021/large/img-6876.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2021/thumb/img-6876.jpg",
+      "capture_date": "2021:07:28 12:53:25"
+    }
+  ]
+}

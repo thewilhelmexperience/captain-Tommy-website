@@ -1,0 +1,476 @@
+{
+  "region": "bahamas",
+  "placeId": "highbourne-cay",
+  "placeKey": "bahamas/highbourne-cay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "bahamas-highbourne-cay-2021-0001",
+      "filename": "16637.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16637.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16637.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16637.jpg",
+      "capture_date": "2021:02:17 12:34:12"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0002",
+      "filename": "16638.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16638.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16638.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16638.jpg",
+      "capture_date": "2021:02:17 12:34:15"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0003",
+      "filename": "16639.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16639.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16639.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16639.jpg",
+      "capture_date": "2021:02:17 12:34:19"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0004",
+      "filename": "16640.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16640.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16640.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16640.jpg",
+      "capture_date": "2021:02:17 12:34:23"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0005",
+      "filename": "16642.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16642.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16642.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16642.jpg",
+      "capture_date": "2021:02:17 13:59:24"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0006",
+      "filename": "16643.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16643.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16643.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16643.jpg",
+      "capture_date": "2021:02:17 13:59:50"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0007",
+      "filename": "16644.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16644.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16644.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16644.jpg",
+      "capture_date": "2021:02:17 14:00:12"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0008",
+      "filename": "16654.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16654.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16654.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16654.jpg",
+      "capture_date": "2021:02:17 19:45:53"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0009",
+      "filename": "16660.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16660.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16660.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16660.jpg",
+      "capture_date": "2021:02:18 07:57:28"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0010",
+      "filename": "16661.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16661.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16661.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16661.jpg",
+      "capture_date": "2021:02:18 08:28:20"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0011",
+      "filename": "16663.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16663.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16663.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16663.jpg",
+      "capture_date": "2021:02:18 11:17:12"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0012",
+      "filename": "16664.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16664.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16664.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16664.jpg",
+      "capture_date": "2021:02:18 11:17:21"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0013",
+      "filename": "16665.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16665.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16665.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16665.jpg",
+      "capture_date": "2021:02:18 11:20:15"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0014",
+      "filename": "16685.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16685.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16685.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16685.jpg",
+      "capture_date": "2021:02:18 11:20:16"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0015",
+      "filename": "16667.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16667.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16667.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16667.jpg",
+      "capture_date": "2021:02:18 11:20:18"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0016",
+      "filename": "16686.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16686.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16686.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16686.jpg",
+      "capture_date": "2021:02:18 11:20:38"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0017",
+      "filename": "16687.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16687.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16687.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16687.jpg",
+      "capture_date": "2021:02:18 11:20:41"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0018",
+      "filename": "16688.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16688.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16688.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16688.jpg",
+      "capture_date": "2021:02:18 11:20:44"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0019",
+      "filename": "16689.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16689.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16689.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16689.jpg",
+      "capture_date": "2021:02:18 11:20:53"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0020",
+      "filename": "16672.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16672.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16672.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16672.jpg",
+      "capture_date": "2021:02:18 11:20:55"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0021",
+      "filename": "16673.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16673.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16673.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16673.jpg",
+      "capture_date": "2021:02:18 11:20:59"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0022",
+      "filename": "16674.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16674.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16674.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16674.jpg",
+      "capture_date": "2021:02:18 11:21:02"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0023",
+      "filename": "16675.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16675.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16675.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16675.jpg",
+      "capture_date": "2021:02:18 11:21:04"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0024",
+      "filename": "16676.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16676.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16676.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16676.jpg",
+      "capture_date": "2021:02:18 11:21:06"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0025",
+      "filename": "16677.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16677.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16677.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16677.jpg",
+      "capture_date": "2021:02:18 11:21:07"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0026",
+      "filename": "16678.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16678.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16678.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16678.jpg",
+      "capture_date": "2021:02:18 11:21:09"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0027",
+      "filename": "16679.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16679.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16679.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16679.jpg",
+      "capture_date": "2021:02:18 11:21:10"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0028",
+      "filename": "16690.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16690.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16690.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16690.jpg",
+      "capture_date": "2021:02:18 11:21:12"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0029",
+      "filename": "16681.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16681.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16681.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16681.jpg",
+      "capture_date": "2021:02:18 11:21:13"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0030",
+      "filename": "16695.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16695.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16695.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16695.jpg",
+      "capture_date": "2021:02:18 17:31:57"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0031",
+      "filename": "16696.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16696.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16696.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16696.jpg",
+      "capture_date": "2021:02:18 17:32:00"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0032",
+      "filename": "16697.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16697.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16697.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16697.jpg",
+      "capture_date": "2021:02:18 17:32:02"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0033",
+      "filename": "16699.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16699.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16699.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16699.jpg",
+      "capture_date": "2021:02:18 19:38:05"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0034",
+      "filename": "16700.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16700.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16700.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16700.jpg",
+      "capture_date": "2021:02:18 19:38:17"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0035",
+      "filename": "16701.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16701.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16701.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16701.jpg",
+      "capture_date": "2021:02:18 19:38:36"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0036",
+      "filename": "16704.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16704.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16704.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16704.jpg",
+      "capture_date": "2021:02:18 19:41:30"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0037",
+      "filename": "16705.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16705.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16705.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16705.jpg",
+      "capture_date": "2021:02:18 19:41:32"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0038",
+      "filename": "16715.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16715.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16715.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16715.jpg",
+      "capture_date": "2021:02:19 07:43:55"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0039",
+      "filename": "16716.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16716.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16716.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16716.jpg",
+      "capture_date": "2021:02:19 07:44:11"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0040",
+      "filename": "16717.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16717.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16717.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16717.jpg",
+      "capture_date": "2021:02:19 07:44:16"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0041",
+      "filename": "16718.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16718.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16718.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16718.jpg",
+      "capture_date": "2021:02:19 07:45:37"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0042",
+      "filename": "16731.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16731.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16731.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16731.jpg",
+      "capture_date": "2021:02:19 21:48:37"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0043",
+      "filename": "16779.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16779.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16779.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16779.jpg",
+      "capture_date": "2021:02:20 10:39:48"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0044",
+      "filename": "16805.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16805.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16805.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16805.jpg",
+      "capture_date": "2021:02:20 19:57:29"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0045",
+      "filename": "16806.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/16806.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/16806.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/16806.jpg",
+      "capture_date": "2021:02:20 19:57:32"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0046",
+      "filename": "17055.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/17055.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/17055.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/17055.jpg",
+      "capture_date": "2021:02:22 18:32:59"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0047",
+      "filename": "18160.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/18160.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/18160.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/18160.jpg",
+      "capture_date": "2021:03:15 21:24:20"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0048",
+      "filename": "18161.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/18161.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/18161.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/18161.jpg",
+      "capture_date": "2021:03:15 21:29:26"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0049",
+      "filename": "18162.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/18162.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/18162.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/18162.jpg",
+      "capture_date": "2021:03:15 21:29:33"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0050",
+      "filename": "18172.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/18172.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/18172.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/18172.jpg",
+      "capture_date": "2021:03:16 14:32:40"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0051",
+      "filename": "18173.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/18173.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/18173.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/18173.jpg",
+      "capture_date": "2021:03:16 14:32:42"
+    },
+    {
+      "id": "bahamas-highbourne-cay-2021-0052",
+      "filename": "18177.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/bahamas/highbourne-cay/2021/originals/18177.jpeg",
+      "large": "assets/images/bahamas/highbourne-cay/2021/large/18177.jpg",
+      "thumb": "assets/images/bahamas/highbourne-cay/2021/thumb/18177.jpg",
+      "capture_date": "2021:03:16 18:01:42"
+    }
+  ]
+}

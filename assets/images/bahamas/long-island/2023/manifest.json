@@ -1,0 +1,143 @@
+{
+  "region": "bahamas",
+  "placeId": "long-island",
+  "placeKey": "bahamas/long-island",
+  "year": 2023,
+  "images": [
+    {
+      "id": "bahamas-long-island-2023-0001",
+      "filename": "IMG_0713.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0713.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0713.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0713.jpg",
+      "capture_date": "2023:03:17 11:53:53"
+    },
+    {
+      "id": "bahamas-long-island-2023-0002",
+      "filename": "IMG_4753.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_4753.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-4753.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-4753.jpg",
+      "capture_date": "2023:03:19 09:15:46"
+    },
+    {
+      "id": "bahamas-long-island-2023-0003",
+      "filename": "IMG_0750.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0750.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0750.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0750.jpg",
+      "capture_date": "2023:03:19 10:43:32"
+    },
+    {
+      "id": "bahamas-long-island-2023-0004",
+      "filename": "IMG_0751.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0751.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0751.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0751.jpg",
+      "capture_date": "2023:03:19 10:43:38"
+    },
+    {
+      "id": "bahamas-long-island-2023-0005",
+      "filename": "IMG_0752.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0752.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0752.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0752.jpg",
+      "capture_date": "2023:03:19 10:47:38"
+    },
+    {
+      "id": "bahamas-long-island-2023-0006",
+      "filename": "IMG_0753.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0753.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0753.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0753.jpg",
+      "capture_date": "2023:03:19 10:47:43"
+    },
+    {
+      "id": "bahamas-long-island-2023-0007",
+      "filename": "IMG_0754.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0754.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0754.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0754.jpg",
+      "capture_date": "2023:03:19 10:47:47"
+    },
+    {
+      "id": "bahamas-long-island-2023-0008",
+      "filename": "IMG_0755.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0755.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0755.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0755.jpg",
+      "capture_date": "2023:03:19 10:47:49"
+    },
+    {
+      "id": "bahamas-long-island-2023-0009",
+      "filename": "IMG_4757.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_4757.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-4757.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-4757.jpg",
+      "capture_date": "2023:03:19 12:17:07"
+    },
+    {
+      "id": "bahamas-long-island-2023-0010",
+      "filename": "IMG_4763.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_4763.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-4763.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-4763.jpg",
+      "capture_date": "2023:03:19 12:20:14"
+    },
+    {
+      "id": "bahamas-long-island-2023-0011",
+      "filename": "IMG_0756.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0756.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0756.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0756.jpg",
+      "capture_date": "2023:03:19 12:38:29"
+    },
+    {
+      "id": "bahamas-long-island-2023-0012",
+      "filename": "IMG_0757.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0757.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0757.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0757.jpg",
+      "capture_date": "2023:03:19 12:38:33"
+    },
+    {
+      "id": "bahamas-long-island-2023-0013",
+      "filename": "IMG_0758.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0758.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0758.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0758.jpg",
+      "capture_date": "2023:03:19 12:38:37"
+    },
+    {
+      "id": "bahamas-long-island-2023-0014",
+      "filename": "IMG_0759.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0759.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0759.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0759.jpg",
+      "capture_date": "2023:03:19 12:38:40"
+    },
+    {
+      "id": "bahamas-long-island-2023-0015",
+      "filename": "IMG_0760.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/long-island/2023/originals/IMG_0760.JPEG",
+      "large": "assets/images/bahamas/long-island/2023/large/img-0760.jpg",
+      "thumb": "assets/images/bahamas/long-island/2023/thumb/img-0760.jpg",
+      "capture_date": "2023:03:19 12:39:53"
+    }
+  ]
+}

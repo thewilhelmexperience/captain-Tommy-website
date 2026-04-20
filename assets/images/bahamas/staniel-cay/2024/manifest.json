@@ -1,0 +1,152 @@
+{
+  "region": "bahamas",
+  "placeId": "staniel-cay",
+  "placeKey": "bahamas/staniel-cay",
+  "year": 2024,
+  "images": [
+    {
+      "id": "bahamas-staniel-cay-2024-0001",
+      "filename": "IMG_2370.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2370.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2370.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2370.jpg",
+      "capture_date": "2024:04:09 17:06:00"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0002",
+      "filename": "IMG_2371.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2371.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2371.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2371.jpg",
+      "capture_date": "2024:04:09 17:06:02"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0003",
+      "filename": "IMG_2372.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2372.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2372.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2372.jpg",
+      "capture_date": "2024:04:09 18:33:43"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0004",
+      "filename": "IMG_2373.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2373.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2373.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2373.jpg",
+      "capture_date": "2024:04:09 19:18:32"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0005",
+      "filename": "IMG_2374.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2374.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2374.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2374.jpg",
+      "capture_date": "2024:04:09 19:21:41"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0006",
+      "filename": "IMG_2375.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2375.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2375.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2375.jpg",
+      "capture_date": "2024:04:09 19:32:06"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0007",
+      "filename": "IMG_2376.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2376.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2376.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2376.jpg",
+      "capture_date": "2024:04:09 19:35:19"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0008",
+      "filename": "IMG_2377.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2377.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2377.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2377.jpg",
+      "capture_date": "2024:04:09 19:35:21"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0009",
+      "filename": "IMG_2378.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2378.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2378.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2378.jpg",
+      "capture_date": "2024:04:09 19:52:54"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0010",
+      "filename": "IMG_2379.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2379.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2379.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2379.jpg",
+      "capture_date": "2024:04:09 19:52:58"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0011",
+      "filename": "IMG_2380.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2380.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2380.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2380.jpg",
+      "capture_date": "2024:04:09 19:59:26"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0012",
+      "filename": "IMG_2381.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2381.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2381.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2381.jpg",
+      "capture_date": "2024:04:09 21:36:48"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0013",
+      "filename": "IMG_2391.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2391.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2391.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2391.jpg",
+      "capture_date": "2024:04:10 11:27:52"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0014",
+      "filename": "IMG_2393.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2393.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2393.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2393.jpg",
+      "capture_date": "2024:04:10 11:34:59"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0015",
+      "filename": "IMG_2394.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2394.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2394.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2394.jpg",
+      "capture_date": "2024:04:10 12:03:37"
+    },
+    {
+      "id": "bahamas-staniel-cay-2024-0016",
+      "filename": "IMG_2395.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/staniel-cay/2024/originals/IMG_2395.JPEG",
+      "large": "assets/images/bahamas/staniel-cay/2024/large/img-2395.jpg",
+      "thumb": "assets/images/bahamas/staniel-cay/2024/thumb/img-2395.jpg",
+      "capture_date": "2024:04:10 12:03:43"
+    }
+  ]
+}

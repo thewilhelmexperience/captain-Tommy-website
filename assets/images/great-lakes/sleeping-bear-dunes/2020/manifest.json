@@ -1,0 +1,89 @@
+{
+  "region": "great-lakes",
+  "placeId": "sleeping-bear-dunes",
+  "placeKey": "great-lakes/sleeping-bear-dunes",
+  "year": 2020,
+  "images": [
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0001",
+      "filename": "4191.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4191.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4191.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4191.jpg",
+      "capture_date": "2020:06:17 11:58:00"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0002",
+      "filename": "4192.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4192.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4192.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4192.jpg",
+      "capture_date": "2020:06:17 11:58:03"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0003",
+      "filename": "4202.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4202.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4202.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4202.jpg",
+      "capture_date": "2020:06:17 12:03:29"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0004",
+      "filename": "4203.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4203.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4203.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4203.jpg",
+      "capture_date": "2020:06:17 12:13:02"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0005",
+      "filename": "4204.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4204.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4204.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4204.jpg",
+      "capture_date": "2020:06:17 12:13:05"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0006",
+      "filename": "4205.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4205.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4205.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4205.jpg",
+      "capture_date": "2020:06:17 12:13:06"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0007",
+      "filename": "4207.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4207.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4207.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4207.jpg",
+      "capture_date": "2020:06:17 12:22:52"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0008",
+      "filename": "4208.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4208.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4208.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4208.jpg",
+      "capture_date": "2020:06:17 12:22:53"
+    },
+    {
+      "id": "great-lakes-sleeping-bear-dunes-2020-0009",
+      "filename": "4209.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/sleeping-bear-dunes/2020/originals/4209.jpeg",
+      "large": "assets/images/great-lakes/sleeping-bear-dunes/2020/large/4209.jpg",
+      "thumb": "assets/images/great-lakes/sleeping-bear-dunes/2020/thumb/4209.jpg",
+      "capture_date": "2020:06:17 12:22:55"
+    }
+  ]
+}

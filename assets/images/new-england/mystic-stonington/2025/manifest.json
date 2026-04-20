@@ -1,0 +1,26 @@
+{
+  "region": "new-england",
+  "placeId": "mystic-stonington",
+  "placeKey": "new-england/mystic-stonington",
+  "year": 2025,
+  "images": [
+    {
+      "id": "new-england-mystic-stonington-2025-0001",
+      "filename": "IMG_5170.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/mystic-stonington/2025/originals/IMG_5170.JPEG",
+      "large": "assets/images/new-england/mystic-stonington/2025/large/img-5170.jpg",
+      "thumb": "assets/images/new-england/mystic-stonington/2025/thumb/img-5170.jpg",
+      "capture_date": "2025:07:04 10:03:26"
+    },
+    {
+      "id": "new-england-mystic-stonington-2025-0002",
+      "filename": "IMG_5171.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/new-england/mystic-stonington/2025/originals/IMG_5171.JPEG",
+      "large": "assets/images/new-england/mystic-stonington/2025/large/img-5171.jpg",
+      "thumb": "assets/images/new-england/mystic-stonington/2025/thumb/img-5171.jpg",
+      "capture_date": "2025:07:04 10:03:42"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "southport-nc",
+  "placeKey": "east-coast-icw/southport-nc",
+  "year": 2025,
+  "images": [
+    {
+      "id": "east-coast-icw-southport-nc-2025-0001",
+      "filename": "IMG_5015.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/southport-nc/2025/originals/IMG_5015.JPEG",
+      "large": "assets/images/east-coast-icw/southport-nc/2025/large/img-5015.jpg",
+      "thumb": "assets/images/east-coast-icw/southport-nc/2025/thumb/img-5015.jpg",
+      "capture_date": "2025:06:03 19:39:18"
+    },
+    {
+      "id": "east-coast-icw-southport-nc-2025-0002",
+      "filename": "IMG_5834.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/southport-nc/2025/originals/IMG_5834.JPEG",
+      "large": "assets/images/east-coast-icw/southport-nc/2025/large/img-5834.jpg",
+      "thumb": "assets/images/east-coast-icw/southport-nc/2025/thumb/img-5834.jpg",
+      "capture_date": "2025:10:10 14:40:52"
+    },
+    {
+      "id": "east-coast-icw-southport-nc-2025-0003",
+      "filename": "IMG_5837.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/southport-nc/2025/originals/IMG_5837.JPEG",
+      "large": "assets/images/east-coast-icw/southport-nc/2025/large/img-5837.jpg",
+      "thumb": "assets/images/east-coast-icw/southport-nc/2025/thumb/img-5837.jpg",
+      "capture_date": "2025:10:10 21:58:03"
+    },
+    {
+      "id": "east-coast-icw-southport-nc-2025-0004",
+      "filename": "IMG_5847.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/southport-nc/2025/originals/IMG_5847.JPEG",
+      "large": "assets/images/east-coast-icw/southport-nc/2025/large/img-5847.jpg",
+      "thumb": "assets/images/east-coast-icw/southport-nc/2025/thumb/img-5847.jpg",
+      "capture_date": "2025:10:13 09:29:03"
+    },
+    {
+      "id": "east-coast-icw-southport-nc-2025-0005",
+      "filename": "IMG_5848.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/southport-nc/2025/originals/IMG_5848.JPEG",
+      "large": "assets/images/east-coast-icw/southport-nc/2025/large/img-5848.jpg",
+      "thumb": "assets/images/east-coast-icw/southport-nc/2025/thumb/img-5848.jpg",
+      "capture_date": "2025:10:13 09:29:05"
+    },
+    {
+      "id": "east-coast-icw-southport-nc-2025-0006",
+      "filename": "IMG_5849.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/east-coast-icw/southport-nc/2025/originals/IMG_5849.JPEG",
+      "large": "assets/images/east-coast-icw/southport-nc/2025/large/img-5849.jpg",
+      "thumb": "assets/images/east-coast-icw/southport-nc/2025/thumb/img-5849.jpg",
+      "capture_date": "2025:10:13 09:32:21"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "region": "bahamas",
+  "placeId": "georgetown",
+  "placeKey": "bahamas/georgetown",
+  "year": 2023,
+  "images": [
+    {
+      "id": "bahamas-georgetown-2023-0001",
+      "filename": "IMG_0654.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0654.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0654.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0654.jpg",
+      "capture_date": "2023:03:08 15:16:17"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0002",
+      "filename": "IMG_0656.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0656.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0656.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0656.jpg",
+      "capture_date": "2023:03:08 20:33:09"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0003",
+      "filename": "IMG_0657.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0657.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0657.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0657.jpg",
+      "capture_date": "2023:03:08 20:33:26"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0004",
+      "filename": "IMG_0658.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0658.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0658.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0658.jpg",
+      "capture_date": "2023:03:09 07:00:54"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0005",
+      "filename": "IMG_0665.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0665.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0665.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0665.jpg",
+      "capture_date": "2023:03:10 09:57:17"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0006",
+      "filename": "IMG_0666.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0666.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0666.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0666.jpg",
+      "capture_date": "2023:03:10 09:57:22"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0007",
+      "filename": "IMG_0673.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0673.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0673.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0673.jpg",
+      "capture_date": "2023:03:10 13:02:42"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0008",
+      "filename": "IMG_0678.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0678.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0678.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0678.jpg",
+      "capture_date": "2023:03:10 20:50:38"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0009",
+      "filename": "IMG_0679.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0679.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0679.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0679.jpg",
+      "capture_date": "2023:03:10 21:39:43"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0010",
+      "filename": "IMG_0680.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0680.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0680.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0680.jpg",
+      "capture_date": "2023:03:10 21:40:05"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0011",
+      "filename": "IMG_0692.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0692.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0692.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0692.jpg",
+      "capture_date": "2023:03:13 09:53:49"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0012",
+      "filename": "IMG_0702.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0702.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0702.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0702.jpg",
+      "capture_date": "2023:03:14 20:13:46"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0013",
+      "filename": "IMG_0703.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0703.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0703.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0703.jpg",
+      "capture_date": "2023:03:14 21:02:02"
+    },
+    {
+      "id": "bahamas-georgetown-2023-0014",
+      "filename": "IMG_0704.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/georgetown/2023/originals/IMG_0704.JPEG",
+      "large": "assets/images/bahamas/georgetown/2023/large/img-0704.jpg",
+      "thumb": "assets/images/bahamas/georgetown/2023/thumb/img-0704.jpg",
+      "capture_date": "2023:03:14 21:02:04"
+    }
+  ]
+}

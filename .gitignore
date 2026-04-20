@@ -1,9 +1,31 @@
 # Local-only photo source and review working files
 photo-ingest/
 photo-review/
+photo-archive/source/
+photo-archive/proofs/
+photo-archive/organized/
+photo-archive/quarantine/
+photo-archive/video-hold/
+tmp/
 assets/site-photos/
+
+# Local intake and scratch pipelines
+intake/regions/**/*.zip
+intake/regions/**/*_extracted/
+scripts/__pycache__/
+.venv-intake/
 
 # Keep deployable web assets tracked
 !assets/
 !assets/site-photos-web/
 !assets/site-photos-web/**
+!assets/images/
+!assets/images/**
+!assets/archive/
+!assets/archive/**
+!assets/data/
+!assets/data/**
+
+# Keep project metadata/docs tracked
+!photo-archive/metadata/
+!photo-archive/metadata/**

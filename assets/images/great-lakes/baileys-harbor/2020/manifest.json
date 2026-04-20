@@ -1,0 +1,17 @@
+{
+  "region": "great-lakes",
+  "placeId": "baileys-harbor",
+  "placeKey": "great-lakes/baileys-harbor",
+  "year": 2020,
+  "images": [
+    {
+      "id": "great-lakes-baileys-harbor-2020-0001",
+      "filename": "5036.jpeg",
+      "year": 2020,
+      "source": "photo-archive/source/regions/great-lakes/baileys-harbor/2020/originals/5036.jpeg",
+      "large": "assets/images/great-lakes/baileys-harbor/2020/large/5036.jpg",
+      "thumb": "assets/images/great-lakes/baileys-harbor/2020/thumb/5036.jpg",
+      "capture_date": "2020:09:14 14:31:45"
+    }
+  ]
+}

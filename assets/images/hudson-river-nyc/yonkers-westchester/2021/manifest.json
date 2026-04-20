@@ -1,0 +1,17 @@
+{
+  "region": "hudson-river-nyc",
+  "placeId": "yonkers-westchester",
+  "placeKey": "hudson-river-nyc/yonkers-westchester",
+  "year": 2021,
+  "images": [
+    {
+      "id": "hudson-river-nyc-yonkers-westchester-2021-0001",
+      "filename": "IMG_7190.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/hudson-river-nyc/yonkers-westchester/2021/originals/IMG_7190.JPEG",
+      "large": "assets/images/hudson-river-nyc/yonkers-westchester/2021/large/img-7190.jpg",
+      "thumb": "assets/images/hudson-river-nyc/yonkers-westchester/2021/thumb/img-7190.jpg",
+      "capture_date": "2021:09:27 11:19:58"
+    }
+  ]
+}

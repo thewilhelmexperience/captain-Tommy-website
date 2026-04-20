@@ -1,0 +1,98 @@
+{
+  "region": "great-lakes",
+  "placeId": "ellison-bay",
+  "placeKey": "great-lakes/ellison-bay",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-ellison-bay-2021-0001",
+      "filename": "IMG_6628.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_6628.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-6628.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-6628.jpg",
+      "capture_date": "2021:06:07 13:08:05"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0002",
+      "filename": "IMG_2721.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_2721.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-2721.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-2721.jpg",
+      "capture_date": "2021:09:13 19:18:27"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0003",
+      "filename": "IMG_6980.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_6980.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-6980.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-6980.jpg",
+      "capture_date": "2021:09:13 19:59:36"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0004",
+      "filename": "IMG_2722.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_2722.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-2722.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-2722.jpg",
+      "capture_date": "2021:09:13 20:09:07"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0005",
+      "filename": "IMG_6982.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_6982.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-6982.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-6982.jpg",
+      "capture_date": "2021:09:13 20:30:46"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0006",
+      "filename": "IMG_6986.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_6986.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-6986.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-6986.jpg",
+      "capture_date": "2021:09:13 20:42:04"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0007",
+      "filename": "IMG_6987.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_6987.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-6987.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-6987.jpg",
+      "capture_date": "2021:09:13 20:42:05"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0008",
+      "filename": "IMG_6988.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_6988.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-6988.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-6988.jpg",
+      "capture_date": "2021:09:13 20:42:07"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0009",
+      "filename": "IMG_2723.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_2723.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-2723.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-2723.jpg",
+      "capture_date": "2021:09:13 21:06:52"
+    },
+    {
+      "id": "great-lakes-ellison-bay-2021-0010",
+      "filename": "IMG_2724.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/ellison-bay/2021/originals/IMG_2724.JPEG",
+      "large": "assets/images/great-lakes/ellison-bay/2021/large/img-2724.jpg",
+      "thumb": "assets/images/great-lakes/ellison-bay/2021/thumb/img-2724.jpg",
+      "capture_date": "2021:09:13 21:22:29"
+    }
+  ]
+}

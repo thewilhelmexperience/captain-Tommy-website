@@ -1,0 +1,134 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "palm-beach-to-cape-canaveral",
+  "placeKey": "east-coast-icw/palm-beach-to-cape-canaveral",
+  "year": 2024,
+  "images": [
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0001",
+      "filename": "IMG_2866.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2866.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2866.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2866.jpg",
+      "capture_date": "2024:06:03 11:11:08"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0002",
+      "filename": "IMG_2867.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2867.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2867.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2867.jpg",
+      "capture_date": "2024:06:03 11:11:09"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0003",
+      "filename": "IMG_2868.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2868.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2868.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2868.jpg",
+      "capture_date": "2024:06:03 11:30:46"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0004",
+      "filename": "IMG_2869.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2869.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2869.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2869.jpg",
+      "capture_date": "2024:06:03 11:30:47"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0005",
+      "filename": "IMG_2874.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2874.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2874.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2874.jpg",
+      "capture_date": "2024:06:03 15:10:04"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0006",
+      "filename": "IMG_2880.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2880.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2880.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2880.jpg",
+      "capture_date": "2024:06:03 17:39:43"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0007",
+      "filename": "IMG_2881.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2881.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2881.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2881.jpg",
+      "capture_date": "2024:06:03 17:39:44"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0008",
+      "filename": "IMG_2882.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2882.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2882.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2882.jpg",
+      "capture_date": "2024:06:03 17:40:43"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0009",
+      "filename": "IMG_2883.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2883.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2883.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2883.jpg",
+      "capture_date": "2024:06:03 17:40:46"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0010",
+      "filename": "IMG_2884.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2884.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2884.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2884.jpg",
+      "capture_date": "2024:06:03 17:40:46"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0011",
+      "filename": "IMG_2885.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2885.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2885.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2885.jpg",
+      "capture_date": "2024:06:03 17:40:49"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0012",
+      "filename": "IMG_2886.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2886.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2886.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2886.jpg",
+      "capture_date": "2024:06:03 17:40:51"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0013",
+      "filename": "IMG_2888.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2888.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2888.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2888.jpg",
+      "capture_date": "2024:06:03 19:25:19"
+    },
+    {
+      "id": "east-coast-icw-palm-beach-to-cape-canaveral-2024-0014",
+      "filename": "IMG_2889.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/east-coast-icw/palm-beach-to-cape-canaveral/2024/originals/IMG_2889.JPEG",
+      "large": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/large/img-2889.jpg",
+      "thumb": "assets/images/east-coast-icw/palm-beach-to-cape-canaveral/2024/thumb/img-2889.jpg",
+      "capture_date": "2024:06:03 19:25:24"
+    }
+  ]
+}

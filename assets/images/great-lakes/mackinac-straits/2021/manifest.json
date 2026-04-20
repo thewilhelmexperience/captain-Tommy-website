@@ -1,0 +1,251 @@
+{
+  "region": "great-lakes",
+  "placeId": "mackinac-straits",
+  "placeKey": "great-lakes/mackinac-straits",
+  "year": 2021,
+  "images": [
+    {
+      "id": "great-lakes-mackinac-straits-2021-0001",
+      "filename": "IMG_6620.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6620.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6620.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6620.jpg",
+      "capture_date": "2021:06:06 21:19:03"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0002",
+      "filename": "IMG_6621.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6621.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6621.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6621.jpg",
+      "capture_date": "2021:06:06 21:22:17"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0003",
+      "filename": "IMG_6622.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6622.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6622.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6622.jpg",
+      "capture_date": "2021:06:06 21:22:44"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0004",
+      "filename": "IMG_6623.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6623.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6623.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6623.jpg",
+      "capture_date": "2021:06:06 21:22:50"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0005",
+      "filename": "IMG_6624.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6624.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6624.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6624.jpg",
+      "capture_date": "2021:06:06 21:24:30"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0006",
+      "filename": "IMG_6625.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6625.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6625.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6625.jpg",
+      "capture_date": "2021:06:06 21:24:42"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0007",
+      "filename": "IMG_6626.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6626.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6626.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6626.jpg",
+      "capture_date": "2021:06:06 21:27:01"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0008",
+      "filename": "IMG_2747.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2747.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2747.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2747.jpg",
+      "capture_date": "2021:09:16 12:19:58"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0009",
+      "filename": "IMG_2748.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2748.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2748.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2748.jpg",
+      "capture_date": "2021:09:16 12:53:32"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0010",
+      "filename": "IMG_2749.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2749.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2749.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2749.jpg",
+      "capture_date": "2021:09:16 12:53:48"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0011",
+      "filename": "IMG_2750.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2750.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2750.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2750.jpg",
+      "capture_date": "2021:09:16 12:53:59"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0012",
+      "filename": "IMG_2751.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2751.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2751.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2751.jpg",
+      "capture_date": "2021:09:16 13:00:56"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0013",
+      "filename": "IMG_2752.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2752.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2752.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2752.jpg",
+      "capture_date": "2021:09:16 13:10:24"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0014",
+      "filename": "IMG_6994.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_6994.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-6994.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-6994.jpg",
+      "capture_date": "2021:09:16 13:10:26"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0015",
+      "filename": "IMG_2754.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2754.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2754.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2754.jpg",
+      "capture_date": "2021:09:16 13:18:39"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0016",
+      "filename": "IMG_2755-1.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2755-1.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2755-1.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2755-1.jpg",
+      "capture_date": "2021:09:16 13:20:32"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0017",
+      "filename": "IMG_2756.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2756.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2756.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2756.jpg",
+      "capture_date": "2021:09:16 13:20:37"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0018",
+      "filename": "IMG_2758.JPG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2758.JPG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2758.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2758.jpg",
+      "capture_date": "2021:09:16 13:21:33"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0019",
+      "filename": "IMG_2759.JPG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2759.JPG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2759.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2759.jpg",
+      "capture_date": "2021:09:16 13:21:34"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0020",
+      "filename": "IMG_2761.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2761.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2761.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2761.jpg",
+      "capture_date": "2021:09:16 13:21:43"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0021",
+      "filename": "IMG_2762-1.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2762-1.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2762-1.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2762-1.jpg",
+      "capture_date": "2021:09:16 13:21:47"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0022",
+      "filename": "IMG_2763.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2763.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2763.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2763.jpg",
+      "capture_date": "2021:09:16 13:21:53"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0023",
+      "filename": "IMG_2764.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2764.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2764.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2764.jpg",
+      "capture_date": "2021:09:16 13:22:05"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0024",
+      "filename": "IMG_2765.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2765.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2765.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2765.jpg",
+      "capture_date": "2021:09:16 13:22:08"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0025",
+      "filename": "IMG_2767.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2767.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2767.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2767.jpg",
+      "capture_date": "2021:09:16 13:23:08"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0026",
+      "filename": "IMG_2768.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2768.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2768.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2768.jpg",
+      "capture_date": "2021:09:16 13:23:18"
+    },
+    {
+      "id": "great-lakes-mackinac-straits-2021-0027",
+      "filename": "IMG_2769.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/great-lakes/mackinac-straits/2021/originals/IMG_2769.JPEG",
+      "large": "assets/images/great-lakes/mackinac-straits/2021/large/img-2769.jpg",
+      "thumb": "assets/images/great-lakes/mackinac-straits/2021/thumb/img-2769.jpg",
+      "capture_date": "2021:09:16 13:23:21"
+    }
+  ]
+}

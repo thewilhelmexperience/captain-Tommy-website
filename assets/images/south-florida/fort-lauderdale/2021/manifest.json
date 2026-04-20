@@ -1,0 +1,458 @@
+{
+  "region": "south-florida",
+  "placeId": "fort-lauderdale",
+  "placeKey": "south-florida/fort-lauderdale",
+  "year": 2021,
+  "images": [
+    {
+      "id": "south-florida-fort-lauderdale-2021-0001",
+      "filename": "12482.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12482.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12482.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12482.jpg",
+      "capture_date": "2021:01:01 00:02:03"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0002",
+      "filename": "12483.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12483.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12483.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12483.jpg",
+      "capture_date": "2021:01:01 00:02:08"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0003",
+      "filename": "12484.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12484.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12484.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12484.jpg",
+      "capture_date": "2021:01:01 00:02:14"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0004",
+      "filename": "12487.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12487.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12487.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12487.jpg",
+      "capture_date": "2021:01:01 00:02:20"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0005",
+      "filename": "12486.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12486.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12486.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12486.jpg",
+      "capture_date": "2021:01:01 00:02:24"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0006",
+      "filename": "12485.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12485.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12485.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12485.jpg",
+      "capture_date": "2021:01:01 00:02:27"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0007",
+      "filename": "12489.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12489.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12489.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12489.jpg",
+      "capture_date": "2021:01:01 00:03:20"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0008",
+      "filename": "12490.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12490.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12490.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12490.jpg",
+      "capture_date": "2021:01:01 00:03:32"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0009",
+      "filename": "12798.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12798.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12798.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12798.jpg",
+      "capture_date": "2021:01:08 15:23:31"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0010",
+      "filename": "12800.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12800.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12800.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12800.jpg",
+      "capture_date": "2021:01:08 15:23:37"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0011",
+      "filename": "12801.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/12801.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/12801.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/12801.jpg",
+      "capture_date": "2021:01:08 15:23:39"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0012",
+      "filename": "13351.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/13351.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/13351.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/13351.jpg",
+      "capture_date": "2021:01:14 21:01:46"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0013",
+      "filename": "13439.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/13439.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/13439.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/13439.jpg",
+      "capture_date": "2021:01:15 13:16:37"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0014",
+      "filename": "13440.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/13440.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/13440.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/13440.jpg",
+      "capture_date": "2021:01:15 13:16:49"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0015",
+      "filename": "13441.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/13441.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/13441.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/13441.jpg",
+      "capture_date": "2021:01:15 13:17:48"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0016",
+      "filename": "13442.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/13442.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/13442.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/13442.jpg",
+      "capture_date": "2021:01:15 13:17:50"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0017",
+      "filename": "14404.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/14404.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/14404.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/14404.jpg",
+      "capture_date": "2021:01:25 17:06:00"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0018",
+      "filename": "15755.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/15755.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/15755.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/15755.jpg",
+      "capture_date": "2021:02:02 08:42:04"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0019",
+      "filename": "15771.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/15771.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/15771.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/15771.jpg",
+      "capture_date": "2021:02:02 12:52:20"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0020",
+      "filename": "15780.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/15780.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/15780.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/15780.jpg",
+      "capture_date": "2021:02:02 14:01:22"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0021",
+      "filename": "15783.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/15783.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/15783.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/15783.jpg",
+      "capture_date": "2021:02:02 14:07:21"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0022",
+      "filename": "15793.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/15793.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/15793.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/15793.jpg",
+      "capture_date": "2021:02:02 14:09:51"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0023",
+      "filename": "16361.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16361.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16361.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16361.jpg",
+      "capture_date": "2021:02:09 11:05:47"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0024",
+      "filename": "16362.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16362.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16362.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16362.jpg",
+      "capture_date": "2021:02:09 11:05:54"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0025",
+      "filename": "16363.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16363.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16363.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16363.jpg",
+      "capture_date": "2021:02:09 11:06:11"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0026",
+      "filename": "16364.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16364.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16364.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16364.jpg",
+      "capture_date": "2021:02:09 11:11:52"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0027",
+      "filename": "16366.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16366.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16366.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16366.jpg",
+      "capture_date": "2021:02:09 12:00:36"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0028",
+      "filename": "16367.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16367.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16367.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16367.jpg",
+      "capture_date": "2021:02:09 12:05:10"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0029",
+      "filename": "16369.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16369.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16369.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16369.jpg",
+      "capture_date": "2021:02:09 12:24:10"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0030",
+      "filename": "16370.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16370.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16370.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16370.jpg",
+      "capture_date": "2021:02:09 12:24:13"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0031",
+      "filename": "16375.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16375.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16375.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16375.jpg",
+      "capture_date": "2021:02:09 12:25:28"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0032",
+      "filename": "16376.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16376.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16376.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16376.jpg",
+      "capture_date": "2021:02:09 12:25:59"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0033",
+      "filename": "16377.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16377.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16377.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16377.jpg",
+      "capture_date": "2021:02:09 12:26:01"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0034",
+      "filename": "16378.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16378.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16378.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16378.jpg",
+      "capture_date": "2021:02:09 12:26:02"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0035",
+      "filename": "16380.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16380.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16380.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16380.jpg",
+      "capture_date": "2021:02:09 12:38:00"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0036",
+      "filename": "16381.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16381.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16381.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16381.jpg",
+      "capture_date": "2021:02:09 12:38:02"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0037",
+      "filename": "16382.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16382.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16382.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16382.jpg",
+      "capture_date": "2021:02:09 12:39:54"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0038",
+      "filename": "16383.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16383.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16383.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16383.jpg",
+      "capture_date": "2021:02:09 12:45:58"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0039",
+      "filename": "16384.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16384.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16384.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16384.jpg",
+      "capture_date": "2021:02:09 13:13:06"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0040",
+      "filename": "16385.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16385.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16385.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16385.jpg",
+      "capture_date": "2021:02:09 13:16:18"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0041",
+      "filename": "16386.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/16386.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/16386.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/16386.jpg",
+      "capture_date": "2021:02:09 13:17:13"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0042",
+      "filename": "18241.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/18241.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/18241.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/18241.jpg",
+      "capture_date": "2021:03:19 13:08:02"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0043",
+      "filename": "19391.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19391.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19391.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19391.jpg",
+      "capture_date": "2021:04:22 14:13:47"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0044",
+      "filename": "19395.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19395.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19395.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19395.jpg",
+      "capture_date": "2021:04:22 14:24:03"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0045",
+      "filename": "19396.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19396.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19396.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19396.jpg",
+      "capture_date": "2021:04:22 14:24:25"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0046",
+      "filename": "19398.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19398.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19398.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19398.jpg",
+      "capture_date": "2021:04:22 14:25:34"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0047",
+      "filename": "19399.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19399.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19399.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19399.jpg",
+      "capture_date": "2021:04:22 14:26:15"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0048",
+      "filename": "19400.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19400.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19400.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19400.jpg",
+      "capture_date": "2021:04:22 14:26:49"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0049",
+      "filename": "19401.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19401.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19401.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19401.jpg",
+      "capture_date": "2021:04:22 14:26:51"
+    },
+    {
+      "id": "south-florida-fort-lauderdale-2021-0050",
+      "filename": "19402.jpeg",
+      "year": 2021,
+      "source": "photo-archive/source/regions/south-florida/fort-lauderdale/2021/originals/19402.jpeg",
+      "large": "assets/images/south-florida/fort-lauderdale/2021/large/19402.jpg",
+      "thumb": "assets/images/south-florida/fort-lauderdale/2021/thumb/19402.jpg",
+      "capture_date": "2021:04:22 14:26:54"
+    }
+  ]
+}

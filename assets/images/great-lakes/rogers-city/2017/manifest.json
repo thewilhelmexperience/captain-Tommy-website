@@ -1,0 +1,17 @@
+{
+  "region": "great-lakes",
+  "placeId": "rogers-city",
+  "placeKey": "great-lakes/rogers-city",
+  "year": 2017,
+  "images": [
+    {
+      "id": "great-lakes-rogers-city-2017-0001",
+      "filename": "1391.jpeg",
+      "year": 2017,
+      "source": "photo-archive/source/regions/great-lakes/rogers-city/2017/originals/1391.jpeg",
+      "large": "assets/images/great-lakes/rogers-city/2017/large/1391.jpg",
+      "thumb": "assets/images/great-lakes/rogers-city/2017/thumb/1391.jpg",
+      "capture_date": "2017:10:13 16:43:31"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "region": "south-florida",
+  "placeId": "marathon-middle-keys",
+  "placeKey": "south-florida/marathon-middle-keys",
+  "year": 2025,
+  "images": [
+    {
+      "id": "south-florida-marathon-middle-keys-2025-0001",
+      "filename": "IMG_4620.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/marathon-middle-keys/2025/originals/IMG_4620.JPEG",
+      "large": "assets/images/south-florida/marathon-middle-keys/2025/large/img-4620.jpg",
+      "thumb": "assets/images/south-florida/marathon-middle-keys/2025/thumb/img-4620.jpg",
+      "capture_date": "2025:04:16 15:41:40"
+    },
+    {
+      "id": "south-florida-marathon-middle-keys-2025-0002",
+      "filename": "IMG_4621.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/marathon-middle-keys/2025/originals/IMG_4621.JPEG",
+      "large": "assets/images/south-florida/marathon-middle-keys/2025/large/img-4621.jpg",
+      "thumb": "assets/images/south-florida/marathon-middle-keys/2025/thumb/img-4621.jpg",
+      "capture_date": "2025:04:16 15:41:43"
+    },
+    {
+      "id": "south-florida-marathon-middle-keys-2025-0003",
+      "filename": "IMG_4622.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/marathon-middle-keys/2025/originals/IMG_4622.JPEG",
+      "large": "assets/images/south-florida/marathon-middle-keys/2025/large/img-4622.jpg",
+      "thumb": "assets/images/south-florida/marathon-middle-keys/2025/thumb/img-4622.jpg",
+      "capture_date": "2025:04:16 15:41:44"
+    },
+    {
+      "id": "south-florida-marathon-middle-keys-2025-0004",
+      "filename": "IMG_4625.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/marathon-middle-keys/2025/originals/IMG_4625.JPEG",
+      "large": "assets/images/south-florida/marathon-middle-keys/2025/large/img-4625.jpg",
+      "thumb": "assets/images/south-florida/marathon-middle-keys/2025/thumb/img-4625.jpg",
+      "capture_date": "2025:04:16 18:01:54"
+    }
+  ]
+}

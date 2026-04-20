@@ -1,0 +1,35 @@
+{
+  "region": "great-lakes",
+  "placeId": "manistee",
+  "placeKey": "great-lakes/manistee",
+  "year": 2024,
+  "images": [
+    {
+      "id": "great-lakes-manistee-2024-0001",
+      "filename": "IMG_2755.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/great-lakes/manistee/2024/originals/IMG_2755.JPEG",
+      "large": "assets/images/great-lakes/manistee/2024/large/img-2755.jpg",
+      "thumb": "assets/images/great-lakes/manistee/2024/thumb/img-2755.jpg",
+      "capture_date": "2024:05:24 11:00:11"
+    },
+    {
+      "id": "great-lakes-manistee-2024-0002",
+      "filename": "IMG_2756-1.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/great-lakes/manistee/2024/originals/IMG_2756-1.JPEG",
+      "large": "assets/images/great-lakes/manistee/2024/large/img-2756-1.jpg",
+      "thumb": "assets/images/great-lakes/manistee/2024/thumb/img-2756-1.jpg",
+      "capture_date": "2024:05:24 11:39:01"
+    },
+    {
+      "id": "great-lakes-manistee-2024-0003",
+      "filename": "IMG_2757.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/great-lakes/manistee/2024/originals/IMG_2757.JPEG",
+      "large": "assets/images/great-lakes/manistee/2024/large/img-2757.jpg",
+      "thumb": "assets/images/great-lakes/manistee/2024/thumb/img-2757.jpg",
+      "capture_date": "2024:05:24 11:39:03"
+    }
+  ]
+}

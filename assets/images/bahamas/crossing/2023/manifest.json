@@ -1,0 +1,98 @@
+{
+  "region": "bahamas",
+  "placeId": "crossing",
+  "placeKey": "bahamas/crossing",
+  "year": 2023,
+  "images": [
+    {
+      "id": "bahamas-crossing-2023-0001",
+      "filename": "IMG_0451.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0451.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0451.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0451.jpg",
+      "capture_date": "2023:02:21 11:52:27"
+    },
+    {
+      "id": "bahamas-crossing-2023-0002",
+      "filename": "IMG_0452.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0452.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0452.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0452.jpg",
+      "capture_date": "2023:02:21 11:52:29"
+    },
+    {
+      "id": "bahamas-crossing-2023-0003",
+      "filename": "IMG_0453.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0453.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0453.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0453.jpg",
+      "capture_date": "2023:02:21 11:52:30"
+    },
+    {
+      "id": "bahamas-crossing-2023-0004",
+      "filename": "IMG_0454.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0454.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0454.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0454.jpg",
+      "capture_date": "2023:02:21 11:57:21"
+    },
+    {
+      "id": "bahamas-crossing-2023-0005",
+      "filename": "IMG_0455.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0455.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0455.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0455.jpg",
+      "capture_date": "2023:02:21 11:57:21"
+    },
+    {
+      "id": "bahamas-crossing-2023-0006",
+      "filename": "IMG_0456.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0456.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0456.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0456.jpg",
+      "capture_date": "2023:02:21 11:57:23"
+    },
+    {
+      "id": "bahamas-crossing-2023-0007",
+      "filename": "IMG_0457.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0457.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0457.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0457.jpg",
+      "capture_date": "2023:02:21 11:57:25"
+    },
+    {
+      "id": "bahamas-crossing-2023-0008",
+      "filename": "IMG_0458.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0458.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0458.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0458.jpg",
+      "capture_date": "2023:02:21 11:57:27"
+    },
+    {
+      "id": "bahamas-crossing-2023-0009",
+      "filename": "IMG_0460.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0460.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0460.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0460.jpg",
+      "capture_date": "2023:02:21 13:29:05"
+    },
+    {
+      "id": "bahamas-crossing-2023-0010",
+      "filename": "IMG_0461.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/crossing/2023/originals/IMG_0461.JPEG",
+      "large": "assets/images/bahamas/crossing/2023/large/img-0461.jpg",
+      "thumb": "assets/images/bahamas/crossing/2023/thumb/img-0461.jpg",
+      "capture_date": "2023:02:21 13:29:10"
+    }
+  ]
+}

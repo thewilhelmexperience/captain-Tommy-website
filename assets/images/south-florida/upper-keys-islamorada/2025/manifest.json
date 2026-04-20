@@ -1,0 +1,44 @@
+{
+  "region": "south-florida",
+  "placeId": "upper-keys-islamorada",
+  "placeKey": "south-florida/upper-keys-islamorada",
+  "year": 2025,
+  "images": [
+    {
+      "id": "south-florida-upper-keys-islamorada-2025-0001",
+      "filename": "IMG_4615.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/upper-keys-islamorada/2025/originals/IMG_4615.JPEG",
+      "large": "assets/images/south-florida/upper-keys-islamorada/2025/large/img-4615.jpg",
+      "thumb": "assets/images/south-florida/upper-keys-islamorada/2025/thumb/img-4615.jpg",
+      "capture_date": "2025:04:16 12:31:22"
+    },
+    {
+      "id": "south-florida-upper-keys-islamorada-2025-0002",
+      "filename": "IMG_4616.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/upper-keys-islamorada/2025/originals/IMG_4616.JPEG",
+      "large": "assets/images/south-florida/upper-keys-islamorada/2025/large/img-4616.jpg",
+      "thumb": "assets/images/south-florida/upper-keys-islamorada/2025/thumb/img-4616.jpg",
+      "capture_date": "2025:04:16 12:31:25"
+    },
+    {
+      "id": "south-florida-upper-keys-islamorada-2025-0003",
+      "filename": "IMG_4617.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/upper-keys-islamorada/2025/originals/IMG_4617.JPEG",
+      "large": "assets/images/south-florida/upper-keys-islamorada/2025/large/img-4617.jpg",
+      "thumb": "assets/images/south-florida/upper-keys-islamorada/2025/thumb/img-4617.jpg",
+      "capture_date": "2025:04:16 12:31:27"
+    },
+    {
+      "id": "south-florida-upper-keys-islamorada-2025-0004",
+      "filename": "IMG_4618.JPEG",
+      "year": 2025,
+      "source": "photo-archive/source/regions/south-florida/upper-keys-islamorada/2025/originals/IMG_4618.JPEG",
+      "large": "assets/images/south-florida/upper-keys-islamorada/2025/large/img-4618.jpg",
+      "thumb": "assets/images/south-florida/upper-keys-islamorada/2025/thumb/img-4618.jpg",
+      "capture_date": "2025:04:16 12:31:29"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "region": "east-coast-icw",
+  "placeId": "hilton-head",
+  "placeKey": "east-coast-icw/hilton-head",
+  "year": 2021,
+  "images": [
+    {
+      "id": "east-coast-icw-hilton-head-2021-0001",
+      "filename": "IMG_6495.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/east-coast-icw/hilton-head/2021/originals/IMG_6495.JPEG",
+      "large": "assets/images/east-coast-icw/hilton-head/2021/large/img-6495.jpg",
+      "thumb": "assets/images/east-coast-icw/hilton-head/2021/thumb/img-6495.jpg",
+      "capture_date": "2021:05:19 20:53:47"
+    }
+  ]
+}

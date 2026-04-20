@@ -1,0 +1,260 @@
+{
+  "region": "erie-canal",
+  "placeId": "oneida-lake-oswego",
+  "placeKey": "erie-canal/oneida-lake-oswego",
+  "year": 2021,
+  "images": [
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0001",
+      "filename": "IMG_6600.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_6600.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-6600.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-6600.jpg",
+      "capture_date": "2021:06:03 11:40:19"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0002",
+      "filename": "IMG_6601.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_6601.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-6601.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-6601.jpg",
+      "capture_date": "2021:06:03 11:40:20"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0003",
+      "filename": "IMG_6602.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_6602.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-6602.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-6602.jpg",
+      "capture_date": "2021:06:03 12:08:20"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0004",
+      "filename": "IMG_6603.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_6603.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-6603.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-6603.jpg",
+      "capture_date": "2021:06:03 12:08:20"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0005",
+      "filename": "IMG_7109.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7109.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7109.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7109.jpg",
+      "capture_date": "2021:09:22 12:14:00"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0006",
+      "filename": "IMG_7110.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7110.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7110.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7110.jpg",
+      "capture_date": "2021:09:22 12:14:02"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0007",
+      "filename": "IMG_7111.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7111.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7111.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7111.jpg",
+      "capture_date": "2021:09:22 12:21:51"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0008",
+      "filename": "IMG_7112.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7112.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7112.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7112.jpg",
+      "capture_date": "2021:09:22 12:21:52"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0009",
+      "filename": "IMG_7114.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7114.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7114.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7114.jpg",
+      "capture_date": "2021:09:22 13:18:44"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0010",
+      "filename": "IMG_7115.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7115.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7115.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7115.jpg",
+      "capture_date": "2021:09:22 13:56:05"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0011",
+      "filename": "IMG_7116.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7116.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7116.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7116.jpg",
+      "capture_date": "2021:09:22 13:56:06"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0012",
+      "filename": "IMG_7117.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7117.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7117.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7117.jpg",
+      "capture_date": "2021:09:22 16:06:00"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0013",
+      "filename": "IMG_7118.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7118.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7118.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7118.jpg",
+      "capture_date": "2021:09:22 17:11:12"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0014",
+      "filename": "IMG_7119.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7119.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7119.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7119.jpg",
+      "capture_date": "2021:09:22 18:11:40"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0015",
+      "filename": "IMG_7120.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7120.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7120.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7120.jpg",
+      "capture_date": "2021:09:22 18:14:15"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0016",
+      "filename": "IMG_7121.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7121.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7121.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7121.jpg",
+      "capture_date": "2021:09:22 18:14:19"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0017",
+      "filename": "IMG_7122.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7122.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7122.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7122.jpg",
+      "capture_date": "2021:09:22 18:15:23"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0018",
+      "filename": "IMG_7123.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7123.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7123.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7123.jpg",
+      "capture_date": "2021:09:23 06:39:01"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0019",
+      "filename": "IMG_7124.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7124.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7124.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7124.jpg",
+      "capture_date": "2021:09:23 06:39:03"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0020",
+      "filename": "IMG_7125.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7125.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7125.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7125.jpg",
+      "capture_date": "2021:09:23 06:39:51"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0021",
+      "filename": "IMG_7126.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7126.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7126.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7126.jpg",
+      "capture_date": "2021:09:23 07:12:30"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0022",
+      "filename": "IMG_7127.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7127.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7127.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7127.jpg",
+      "capture_date": "2021:09:23 07:55:32"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0023",
+      "filename": "IMG_7128.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7128.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7128.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7128.jpg",
+      "capture_date": "2021:09:23 07:55:32"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0024",
+      "filename": "IMG_7129.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7129.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7129.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7129.jpg",
+      "capture_date": "2021:09:23 07:55:35"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0025",
+      "filename": "IMG_7130.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7130.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7130.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7130.jpg",
+      "capture_date": "2021:09:23 07:55:36"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0026",
+      "filename": "IMG_7131.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7131.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7131.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7131.jpg",
+      "capture_date": "2021:09:23 07:55:39"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0027",
+      "filename": "IMG_7132.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7132.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7132.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7132.jpg",
+      "capture_date": "2021:09:23 07:55:40"
+    },
+    {
+      "id": "erie-canal-oneida-lake-oswego-2021-0028",
+      "filename": "IMG_7133.JPEG",
+      "year": 2021,
+      "source": "photo-archive/source/regions/erie-canal/oneida-lake-oswego/2021/originals/IMG_7133.JPEG",
+      "large": "assets/images/erie-canal/oneida-lake-oswego/2021/large/img-7133.jpg",
+      "thumb": "assets/images/erie-canal/oneida-lake-oswego/2021/thumb/img-7133.jpg",
+      "capture_date": "2021:09:23 07:55:41"
+    }
+  ]
+}

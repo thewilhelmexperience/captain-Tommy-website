@@ -1,0 +1,386 @@
+{
+  "region": "bahamas",
+  "placeId": "crossing",
+  "placeKey": "bahamas/crossing",
+  "year": 2024,
+  "images": [
+    {
+      "id": "bahamas-crossing-2024-0001",
+      "filename": "IMG_2080.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2080.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2080.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2080.jpg",
+      "capture_date": "2024:03:11 15:55:35"
+    },
+    {
+      "id": "bahamas-crossing-2024-0002",
+      "filename": "IMG_2081.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2081.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2081.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2081.jpg",
+      "capture_date": "2024:03:11 15:55:36"
+    },
+    {
+      "id": "bahamas-crossing-2024-0003",
+      "filename": "IMG_2082.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2082.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2082.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2082.jpg",
+      "capture_date": "2024:03:11 15:55:41"
+    },
+    {
+      "id": "bahamas-crossing-2024-0004",
+      "filename": "IMG_2083.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2083.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2083.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2083.jpg",
+      "capture_date": "2024:03:11 15:55:42"
+    },
+    {
+      "id": "bahamas-crossing-2024-0005",
+      "filename": "IMG_2084.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2084.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2084.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2084.jpg",
+      "capture_date": "2024:03:11 16:43:05"
+    },
+    {
+      "id": "bahamas-crossing-2024-0006",
+      "filename": "IMG_2085.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2085.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2085.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2085.jpg",
+      "capture_date": "2024:03:11 16:43:06"
+    },
+    {
+      "id": "bahamas-crossing-2024-0007",
+      "filename": "IMG_2089.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2089.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2089.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2089.jpg",
+      "capture_date": "2024:03:12 07:45:49"
+    },
+    {
+      "id": "bahamas-crossing-2024-0008",
+      "filename": "IMG_2090.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2090.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2090.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2090.jpg",
+      "capture_date": "2024:03:12 07:45:50"
+    },
+    {
+      "id": "bahamas-crossing-2024-0009",
+      "filename": "IMG_2091.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2091.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2091.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2091.jpg",
+      "capture_date": "2024:03:12 07:45:52"
+    },
+    {
+      "id": "bahamas-crossing-2024-0010",
+      "filename": "IMG_2092.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2092.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2092.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2092.jpg",
+      "capture_date": "2024:03:12 07:45:57"
+    },
+    {
+      "id": "bahamas-crossing-2024-0011",
+      "filename": "IMG_2093.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2093.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2093.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2093.jpg",
+      "capture_date": "2024:03:12 07:46:00"
+    },
+    {
+      "id": "bahamas-crossing-2024-0012",
+      "filename": "IMG_2094.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2094.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2094.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2094.jpg",
+      "capture_date": "2024:03:12 07:46:23"
+    },
+    {
+      "id": "bahamas-crossing-2024-0013",
+      "filename": "IMG_2095.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2095.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2095.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2095.jpg",
+      "capture_date": "2024:03:12 07:46:26"
+    },
+    {
+      "id": "bahamas-crossing-2024-0014",
+      "filename": "IMG_2099.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2099.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2099.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2099.jpg",
+      "capture_date": "2024:03:12 09:43:33"
+    },
+    {
+      "id": "bahamas-crossing-2024-0015",
+      "filename": "IMG_2100.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2100.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2100.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2100.jpg",
+      "capture_date": "2024:03:12 09:43:33"
+    },
+    {
+      "id": "bahamas-crossing-2024-0016",
+      "filename": "IMG_2101.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2101.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2101.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2101.jpg",
+      "capture_date": "2024:03:12 09:43:34"
+    },
+    {
+      "id": "bahamas-crossing-2024-0017",
+      "filename": "IMG_2102.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2102.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2102.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2102.jpg",
+      "capture_date": "2024:03:12 09:43:35"
+    },
+    {
+      "id": "bahamas-crossing-2024-0018",
+      "filename": "IMG_2103.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2103.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2103.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2103.jpg",
+      "capture_date": "2024:03:12 09:43:36"
+    },
+    {
+      "id": "bahamas-crossing-2024-0019",
+      "filename": "IMG_2104.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2104.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2104.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2104.jpg",
+      "capture_date": "2024:03:12 09:43:37"
+    },
+    {
+      "id": "bahamas-crossing-2024-0020",
+      "filename": "IMG_2105.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2105.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2105.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2105.jpg",
+      "capture_date": "2024:03:12 09:43:38"
+    },
+    {
+      "id": "bahamas-crossing-2024-0021",
+      "filename": "IMG_2107.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2107.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2107.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2107.jpg",
+      "capture_date": "2024:03:12 09:45:49"
+    },
+    {
+      "id": "bahamas-crossing-2024-0022",
+      "filename": "IMG_2110.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2110.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2110.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2110.jpg",
+      "capture_date": "2024:03:12 11:18:31"
+    },
+    {
+      "id": "bahamas-crossing-2024-0023",
+      "filename": "IMG_2141.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2141.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2141.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2141.jpg",
+      "capture_date": "2024:03:14 14:26:09"
+    },
+    {
+      "id": "bahamas-crossing-2024-0024",
+      "filename": "IMG_2142.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2142.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2142.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2142.jpg",
+      "capture_date": "2024:03:14 16:14:19"
+    },
+    {
+      "id": "bahamas-crossing-2024-0025",
+      "filename": "IMG_2143.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2143.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2143.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2143.jpg",
+      "capture_date": "2024:03:14 16:14:21"
+    },
+    {
+      "id": "bahamas-crossing-2024-0026",
+      "filename": "IMG_2144.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2144.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2144.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2144.jpg",
+      "capture_date": "2024:03:14 16:21:31"
+    },
+    {
+      "id": "bahamas-crossing-2024-0027",
+      "filename": "IMG_2145.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2145.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2145.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2145.jpg",
+      "capture_date": "2024:03:14 16:21:33"
+    },
+    {
+      "id": "bahamas-crossing-2024-0028",
+      "filename": "IMG_4831.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_4831.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-4831.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-4831.jpg",
+      "capture_date": "2024:03:15 09:57:09"
+    },
+    {
+      "id": "bahamas-crossing-2024-0029",
+      "filename": "IMG_2152.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2152.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2152.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2152.jpg",
+      "capture_date": "2024:03:15 20:06:42"
+    },
+    {
+      "id": "bahamas-crossing-2024-0030",
+      "filename": "IMG_2153.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2153.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2153.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2153.jpg",
+      "capture_date": "2024:03:15 20:06:47"
+    },
+    {
+      "id": "bahamas-crossing-2024-0031",
+      "filename": "IMG_2154.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2154.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2154.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2154.jpg",
+      "capture_date": "2024:03:15 20:06:51"
+    },
+    {
+      "id": "bahamas-crossing-2024-0032",
+      "filename": "IMG_2155.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2155.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2155.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2155.jpg",
+      "capture_date": "2024:03:15 20:07:04"
+    },
+    {
+      "id": "bahamas-crossing-2024-0033",
+      "filename": "IMG_0417.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_0417.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-0417.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-0417.jpg",
+      "capture_date": "2024:03:15 20:25:28"
+    },
+    {
+      "id": "bahamas-crossing-2024-0034",
+      "filename": "IMG_2156.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2156.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2156.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2156.jpg",
+      "capture_date": "2024:03:15 20:25:53"
+    },
+    {
+      "id": "bahamas-crossing-2024-0035",
+      "filename": "IMG_2157.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2157.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2157.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2157.jpg",
+      "capture_date": "2024:03:15 20:26:11"
+    },
+    {
+      "id": "bahamas-crossing-2024-0036",
+      "filename": "IMG_2158.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2158.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2158.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2158.jpg",
+      "capture_date": "2024:03:15 20:26:17"
+    },
+    {
+      "id": "bahamas-crossing-2024-0037",
+      "filename": "IMG_2161.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2161.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2161.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2161.jpg",
+      "capture_date": "2024:03:15 20:50:47"
+    },
+    {
+      "id": "bahamas-crossing-2024-0038",
+      "filename": "IMG_2350.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2350.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2350.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2350.jpg",
+      "capture_date": "2024:04:08 12:29:00"
+    },
+    {
+      "id": "bahamas-crossing-2024-0039",
+      "filename": "IMG_2351.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2351.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2351.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2351.jpg",
+      "capture_date": "2024:04:08 12:45:16"
+    },
+    {
+      "id": "bahamas-crossing-2024-0040",
+      "filename": "IMG_2352.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2352.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2352.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2352.jpg",
+      "capture_date": "2024:04:08 12:45:18"
+    },
+    {
+      "id": "bahamas-crossing-2024-0041",
+      "filename": "IMG_2353.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2353.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2353.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2353.jpg",
+      "capture_date": "2024:04:08 13:56:25"
+    },
+    {
+      "id": "bahamas-crossing-2024-0042",
+      "filename": "IMG_2354.JPEG",
+      "year": 2024,
+      "source": "photo-archive/source/regions/bahamas/crossing/2024/originals/IMG_2354.JPEG",
+      "large": "assets/images/bahamas/crossing/2024/large/img-2354.jpg",
+      "thumb": "assets/images/bahamas/crossing/2024/thumb/img-2354.jpg",
+      "capture_date": "2024:04:08 13:56:26"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "region": "bahamas",
+  "placeId": "chub-cay",
+  "placeKey": "bahamas/chub-cay",
+  "year": 2023,
+  "images": [
+    {
+      "id": "bahamas-chub-cay-2023-0001",
+      "filename": "IMG_0493.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0493.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0493.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0493.jpg",
+      "capture_date": "2023:02:24 08:45:29"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0002",
+      "filename": "IMG_0494.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0494.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0494.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0494.jpg",
+      "capture_date": "2023:02:24 08:48:37"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0003",
+      "filename": "IMG_0495.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0495.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0495.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0495.jpg",
+      "capture_date": "2023:02:24 08:48:46"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0004",
+      "filename": "IMG_0496.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0496.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0496.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0496.jpg",
+      "capture_date": "2023:02:24 08:48:49"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0005",
+      "filename": "IMG_0497.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0497.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0497.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0497.jpg",
+      "capture_date": "2023:02:24 08:50:03"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0006",
+      "filename": "IMG_0498.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0498.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0498.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0498.jpg",
+      "capture_date": "2023:02:24 08:50:53"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0007",
+      "filename": "IMG_0499.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0499.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0499.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0499.jpg",
+      "capture_date": "2023:02:24 08:50:58"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0008",
+      "filename": "IMG_0500.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0500.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0500.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0500.jpg",
+      "capture_date": "2023:02:24 08:53:15"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0009",
+      "filename": "IMG_0501.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0501.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0501.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0501.jpg",
+      "capture_date": "2023:02:24 09:03:03"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0010",
+      "filename": "IMG_0503.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0503.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0503.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0503.jpg",
+      "capture_date": "2023:02:24 11:55:38"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0011",
+      "filename": "IMG_0504.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0504.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0504.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0504.jpg",
+      "capture_date": "2023:02:24 11:55:39"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0012",
+      "filename": "IMG_0962.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0962.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0962.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0962.jpg",
+      "capture_date": "2023:03:27 14:26:35"
+    },
+    {
+      "id": "bahamas-chub-cay-2023-0013",
+      "filename": "IMG_0963.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/bahamas/chub-cay/2023/originals/IMG_0963.JPEG",
+      "large": "assets/images/bahamas/chub-cay/2023/large/img-0963.jpg",
+      "thumb": "assets/images/bahamas/chub-cay/2023/thumb/img-0963.jpg",
+      "capture_date": "2023:03:27 14:26:42"
+    }
+  ]
+}

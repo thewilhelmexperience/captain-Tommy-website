@@ -1,0 +1,62 @@
+{
+  "region": "south-florida",
+  "placeId": "miami",
+  "placeKey": "south-florida/miami",
+  "year": 2023,
+  "images": [
+    {
+      "id": "south-florida-miami-2023-0001",
+      "filename": "IMG_0224.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/south-florida/miami/2023/originals/IMG_0224.JPEG",
+      "large": "assets/images/south-florida/miami/2023/large/img-0224.jpg",
+      "thumb": "assets/images/south-florida/miami/2023/thumb/img-0224.jpg",
+      "capture_date": "2023:01:21 17:20:26"
+    },
+    {
+      "id": "south-florida-miami-2023-0002",
+      "filename": "IMG_0225.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/south-florida/miami/2023/originals/IMG_0225.JPEG",
+      "large": "assets/images/south-florida/miami/2023/large/img-0225.jpg",
+      "thumb": "assets/images/south-florida/miami/2023/thumb/img-0225.jpg",
+      "capture_date": "2023:01:21 17:20:37"
+    },
+    {
+      "id": "south-florida-miami-2023-0003",
+      "filename": "IMG_0226.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/south-florida/miami/2023/originals/IMG_0226.JPEG",
+      "large": "assets/images/south-florida/miami/2023/large/img-0226.jpg",
+      "thumb": "assets/images/south-florida/miami/2023/thumb/img-0226.jpg",
+      "capture_date": "2023:01:21 17:20:44"
+    },
+    {
+      "id": "south-florida-miami-2023-0004",
+      "filename": "IMG_1033.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/south-florida/miami/2023/originals/IMG_1033.JPEG",
+      "large": "assets/images/south-florida/miami/2023/large/img-1033.jpg",
+      "thumb": "assets/images/south-florida/miami/2023/thumb/img-1033.jpg",
+      "capture_date": "2023:03:30 16:02:44"
+    },
+    {
+      "id": "south-florida-miami-2023-0005",
+      "filename": "IMG_1034.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/south-florida/miami/2023/originals/IMG_1034.JPEG",
+      "large": "assets/images/south-florida/miami/2023/large/img-1034.jpg",
+      "thumb": "assets/images/south-florida/miami/2023/thumb/img-1034.jpg",
+      "capture_date": "2023:03:30 16:13:17"
+    },
+    {
+      "id": "south-florida-miami-2023-0006",
+      "filename": "IMG_1035.JPEG",
+      "year": 2023,
+      "source": "photo-archive/source/regions/south-florida/miami/2023/originals/IMG_1035.JPEG",
+      "large": "assets/images/south-florida/miami/2023/large/img-1035.jpg",
+      "thumb": "assets/images/south-florida/miami/2023/thumb/img-1035.jpg",
+      "capture_date": "2023:03:30 16:13:21"
+    }
+  ]
+}
