@@ -2057,6 +2057,7 @@
       const storyCount = filteredContent.filter(item => item.type === 'story').length;
       const logCount = filteredContent.filter(item => item.type === 'log').length;
       const noteCount = filteredContent.filter(item => item.type === 'note').length;
+      const previewStops = filteredStops.filter(s => (s.counts.photos || 0) > 0).slice(0, 3);
       return `<div class="corridor-body">
         <p class="corridor-desc">${c.desc}</p>
         <div class="count-bar">
@@ -2073,7 +2074,24 @@
         </div>
         <div class="stops-label">${filteredStops.length} places ${yearFilter ? `for ${yearFilter}` : 'along this corridor'}</div>
         <div class="stops-scroll">${filteredStops.map(s => renderStopCard(s, c.hex)).join('')}</div>
-        ${stopDetail ? renderStopDetail(stopDetail) : renderRunVideos(getRunVideos({ corridorId: c.id }), 'Watch the run', 'A few route timelapses that belong to this stretch of the trail.')}
+        ${stopDetail ? renderStopDetail(stopDetail) : `
+          ${previewStops.length ? `
+            <div class="place-visit-label" style="margin-top:0.8rem;">Preview places with photo depth</div>
+            <div class="stop-gallery">
+              ${previewStops.map(s => {
+                const images = (IMAGE_MANIFESTS[s.key] || []).slice(0, 1);
+                const image = images[0];
+                if (!image) return '';
+                return `
+                  <button class="stop-gallery-thumb" type="button" data-open-stop="${s.id}">
+                    <img src="${image.thumb}" alt="${s.name} preview" loading="lazy">
+                  </button>`;
+              }).join('')}
+            </div>
+            <div class="place-archive-note">Pick a stop to open its detail, photos, and anything else tied to that stretch.</div>
+          ` : ''}
+          ${renderRunVideos(getRunVideos({ corridorId: c.id }), 'Watch the run', 'A few route timelapses that belong to this stretch of the trail.')}
+        `}
       </div>`;
     }
 
