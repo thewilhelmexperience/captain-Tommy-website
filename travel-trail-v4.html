@@ -2057,8 +2057,7 @@
         </div>
         <div class="stops-label">${filteredStops.length} places ${yearFilter ? `for ${yearFilter}` : 'along this corridor'}</div>
         <div class="stops-scroll">${filteredStops.map(s => renderStopCard(s, c.hex)).join('')}</div>
-        ${stopDetail ? renderStopDetail(stopDetail) : ''}
-        ${renderRunVideos(getRunVideos({ corridorId: c.id }), 'Watch the run', 'A few route timelapses that belong to this stretch of the trail.')}
+        ${stopDetail ? renderStopDetail(stopDetail) : renderRunVideos(getRunVideos({ corridorId: c.id }), 'Watch the run', 'A few route timelapses that belong to this stretch of the trail.')}
       </div>`;
     }
 
@@ -2389,7 +2388,7 @@
                   <img src="${img.thumb}" alt="${p.name} photo ${idx + 1}" loading="lazy">
                 </button>`).join('')}
             </div>` : ''}
-          ${renderRunVideos(getRunVideos({ corridorId: p.corridor, placeId: p.id }), 'Watch this run', 'Route timelapses that fit this place or the larger water around it.')}
+          ${renderRunVideos(getRunVideos({ placeId: p.id }), 'Watch this run', 'Route timelapses that actually belong to this stop.')}
         </div>`;
     }
 
