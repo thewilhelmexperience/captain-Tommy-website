@@ -995,7 +995,7 @@
 
         .stop-cards {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, minmax(0, 1fr));
             gap: 1rem;
             padding-top: 1.2rem;
         }
@@ -1327,7 +1327,7 @@
             .gallery-strip,
             .polaroid-grid { grid-template-columns: 1fr 1fr; }
             .map-layout, .map-proto-inline { grid-template-columns: 1fr; }
-            .stop-cards { grid-template-columns: 1fr 1fr; }
+            .stop-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
             .info-panel { min-height: 320px; max-height: none; overflow: visible; position: static; top: auto; }
             .stats-grid { grid-template-columns: 1fr 1fr; }
             .stat-item:nth-child(2) { border-right: none; }
@@ -1738,6 +1738,7 @@
                     <p id="recent-log-summary">The homepage log section is now wired to generated content data instead of static placeholder copy.</p>
                     <p id="recent-log-body">As real logs get added, this card should update from the same underlying content records that also feed archive and navigation views elsewhere on the site.</p>
                     <div class="log-meta-row" id="recent-log-meta"></div>
+                    <div class="log-actions" id="recent-log-actions"></div>
                 </article>
 
                 <aside class="log-side card">
@@ -2029,12 +2030,15 @@
             const summaryEl = document.getElementById('recent-log-summary');
             const bodyEl = document.getElementById('recent-log-body');
             const metaEl = document.getElementById('recent-log-meta');
+            const actionsEl = document.getElementById('recent-log-actions');
             const listEl = document.getElementById('recent-log-list');
-            if (!feature || !dateEl || !titleEl || !summaryEl || !bodyEl || !metaEl || !listEl) return;
+            if (!feature || !dateEl || !titleEl || !summaryEl || !bodyEl || !metaEl || !actionsEl || !listEl) return;
 
             feature.dataset.loading = 'false';
             metaEl.innerHTML = '';
+            actionsEl.innerHTML = '';
             listEl.innerHTML = '';
+            feature.onclick = null;
 
             if (!Array.isArray(records) || !records.length) {
                 dateEl.textContent = 'No published logs yet';
@@ -2053,14 +2057,46 @@
             summaryEl.textContent = featured.summary || 'Recent log entry from the indexed content layer.';
             bodyEl.textContent = excerptBody(featured.body, 320) || 'This entry is live in the content index and ready to feed other views.';
 
-            const pills = [];
-            (featured.corridors || []).slice(0, 2).forEach(v => pills.push(`Corridor: ${prettyLabel(v)}`));
-            (featured.places || []).slice(0, 2).forEach(v => pills.push(`Place: ${prettyLabel(v)}`));
-            (featured.chapters || []).slice(0, 1).forEach(v => pills.push(`Chapter: ${prettyLabel(v)}`));
-            pills.forEach(text => {
-                const pill = document.createElement('span');
+            const buildTrailHref = (item, override = {}) => {
+                const corridor = override.corridor || (item.corridors || [])[0];
+                const place = override.place || (item.places || [])[0];
+                const chapter = override.chapter || (item.chapters || [])[0];
+                const year = override.year || (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
+                const parts = [];
+                if (corridor) parts.push(`corridor=${encodeURIComponent(corridor)}`);
+                if (place) parts.push(`place=${encodeURIComponent(place)}`);
+                if (chapter) parts.push(`chapter=${encodeURIComponent(chapter)}`);
+                if (year) parts.push(`year=${encodeURIComponent(year)}`);
+                if (item.id) parts.push(`entry=${encodeURIComponent(item.id)}`);
+                return `travel-trail-v4.html${parts.length ? `#${parts.join('&')}` : ''}`;
+            };
+
+            feature.onclick = (e) => {
+                const target = e.target;
+                if (target.closest('a') || target.closest('button')) return;
+                window.location.href = buildTrailHref(featured);
+            };
+            feature.style.cursor = 'pointer';
+
+            (featured.corridors || []).slice(0, 2).forEach(v => {
+                const pill = document.createElement('a');
                 pill.className = 'log-pill';
-                pill.textContent = text;
+                pill.textContent = `Corridor: ${prettyLabel(v)}`;
+                pill.href = buildTrailHref(featured, { corridor: v });
+                metaEl.appendChild(pill);
+            });
+            (featured.places || []).slice(0, 2).forEach(v => {
+                const pill = document.createElement('a');
+                pill.className = 'log-pill';
+                pill.textContent = `Place: ${prettyLabel(v)}`;
+                pill.href = buildTrailHref(featured, { place: v });
+                metaEl.appendChild(pill);
+            });
+            (featured.chapters || []).slice(0, 1).forEach(v => {
+                const pill = document.createElement('a');
+                pill.className = 'log-pill';
+                pill.textContent = `Chapter: ${prettyLabel(v)}`;
+                pill.href = buildTrailHref(featured, { chapter: v });
                 metaEl.appendChild(pill);
             });
 
@@ -2068,7 +2104,7 @@
                 const li = document.createElement('li');
                 li.className = 'log-side-item';
                 li.innerHTML = `
-                    <a class="log-side-link" href="#log">
+                    <a class="log-side-link" href="${buildTrailHref(item)}">
                         <div class="log-side-date">${formatLogDate(item)}</div>
                         <div class="log-side-title">${item.title || 'Untitled log entry'}</div>
                     </a>

@@ -628,6 +628,59 @@
     .content-drawer-body p + p {
       margin-top: 0.85rem;
     }
+    .content-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 140;
+      background: rgba(2, 9, 18, 0.82);
+      backdrop-filter: blur(12px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.1rem;
+    }
+    .content-modal.open {
+      display: flex;
+    }
+    .content-modal-panel {
+      width: min(920px, 100%);
+      max-height: 86vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(7,14,26,0.97);
+      box-shadow: 0 28px 80px rgba(0,0,0,0.5);
+    }
+    .content-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.95rem 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .content-modal-title {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text);
+    }
+    .content-modal-close {
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 0.38rem 0.74rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .content-modal-body {
+      padding: 1rem;
+      overflow: auto;
+    }
 
     .gallery-modal {
       position: fixed;
@@ -1073,6 +1126,16 @@
           <button class="gallery-modal-nav next" id="gallery-modal-next" type="button" aria-label="Next image">›</button>
         </div>
         <div class="gallery-modal-strip" id="gallery-modal-strip"></div>
+      </div>
+    </div>
+
+    <div class="content-modal" id="content-modal" aria-hidden="true">
+      <div class="content-modal-panel" role="dialog" aria-modal="true" aria-label="Written content viewer">
+        <div class="content-modal-header">
+          <div class="content-modal-title" id="content-modal-title">Written content</div>
+          <button class="content-modal-close" id="content-modal-close" type="button">Close</button>
+        </div>
+        <div class="content-modal-body" id="content-modal-body"></div>
       </div>
     </div>
 
@@ -1629,7 +1692,6 @@
       openCorridor: null,
       activeStop: null,
       activePlace: null,
-      activeContentContext: null,
       archiveContentType: 'all',
       corridorFilter: 'all',
       corridorYear: 'all',
@@ -1646,6 +1708,52 @@
       Object.assign(state, patch);
       renderChart();
       renderPanel();
+      syncHashFromState();
+    }
+
+    function syncHashFromState() {
+      const parts = [];
+      if (state.openCorridor) parts.push(`corridor=${encodeURIComponent(state.openCorridor)}`);
+      if (state.activeStop) parts.push(`place=${encodeURIComponent(state.activeStop)}`);
+      if (state.activePlace) parts.push(`place=${encodeURIComponent(state.activePlace)}`);
+      if (state.corridorYear && state.corridorYear !== 'all') parts.push(`year=${encodeURIComponent(state.corridorYear)}`);
+      const nextHash = parts.length ? `#${parts.join('&')}` : '';
+      if (window.location.hash !== nextHash) {
+        history.replaceState(null, '', `${window.location.pathname}${window.location.search}${nextHash}`);
+      }
+    }
+
+    function applyInitialRouteState() {
+      const raw = window.location.hash ? window.location.hash.slice(1) : '';
+      if (!raw) return;
+      const params = new URLSearchParams(raw);
+      const corridor = params.get('corridor');
+      const place = params.get('place');
+      const year = params.get('year');
+
+      if (place) {
+        const corridorId = corridor || (PLACES.find(p => p.id === place)?.corridor) || (CORRIDORS.find(c => c.stops.some(s => s.id === place))?.id) || null;
+        setState({
+          tab: 'corridor',
+          openCorridor: corridorId,
+          activeStop: place,
+          activePlace: null,
+              corridorFilter: 'all',
+          corridorYear: year || 'all',
+        });
+        return;
+      }
+
+      if (corridor) {
+        setState({
+          tab: 'corridor',
+          openCorridor: corridor,
+          activeStop: null,
+          activePlace: null,
+              corridorFilter: 'all',
+          corridorYear: year || 'all',
+        });
+      }
     }
 
     async function loadSourceData() {
@@ -1756,12 +1864,17 @@
       const filteredStops = yearFilter ? c.stops.filter(s => (s.eras || []).includes(yearFilter)) : c.stops;
       const stopDetail = state.activeStop ? filteredStops.find(s => s.id === state.activeStop) || c.stops.find(s => s.id === state.activeStop) : null;
       const filteredPhotoCount = filteredStops.reduce((sum, s) => sum + (s.filteredCounts?.photos ?? s.counts.photos ?? 0), 0);
+      const filteredContent = getRelatedContent({ corridorId: c.id, year: yearFilter || null });
+      const storyCount = filteredContent.filter(item => item.type === 'story').length;
+      const logCount = filteredContent.filter(item => item.type === 'log').length;
+      const noteCount = filteredContent.filter(item => item.type === 'note').length;
       return `<div class="corridor-body">
         <p class="corridor-desc">${c.desc}</p>
         <div class="count-bar">
-          <span class="count-pill photos">📷 ${filteredPhotoCount} photos</span>
-          <span class="count-pill stories">📖 ${c.counts.stories || 0} stories</span>
-          <span class="count-pill log">📋 ${c.counts.log} log entries</span>
+          <button class="count-pill photos" type="button" data-open-gallery-context="corridor" data-corridor-id="${c.id}">📷 ${filteredPhotoCount} photos</button>
+          <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="corridor" data-corridor-id="${c.id}">📖 ${storyCount} stories</button>
+          <button class="count-pill log" type="button" data-open-content-list="log" data-scope="corridor" data-corridor-id="${c.id}">📋 ${logCount} log entries</button>
+          <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="corridor" data-corridor-id="${c.id}">🗒️ ${noteCount} notes</button>
           <span class="count-pill routes">⚓ ${c.counts.routes} passages</span>
         </div>
         <div class="era-chips">
@@ -1844,6 +1957,38 @@
         </div>`;
     }
 
+    function openContentModal(title, items, emptyText) {
+      state.contentModal = {
+        open: true,
+        title,
+        items: items || [],
+        emptyText: emptyText || 'No written content matched this view yet.',
+      };
+      renderContentModal();
+    }
+
+    function closeContentModal() {
+      state.contentModal = {
+        open: false,
+        title: 'Written content',
+        items: [],
+        emptyText: 'No written content matched this view yet.',
+      };
+      renderContentModal();
+    }
+
+    function renderContentModal() {
+      const modal = document.getElementById('content-modal');
+      const title = document.getElementById('content-modal-title');
+      const body = document.getElementById('content-modal-body');
+      if (!modal || !title || !body) return;
+      const contentState = state.contentModal || { open: false, title: 'Written content', items: [], emptyText: 'No written content matched this view yet.' };
+      modal.classList.toggle('open', !!contentState.open);
+      modal.setAttribute('aria-hidden', contentState.open ? 'false' : 'true');
+      title.textContent = contentState.title || 'Written content';
+      body.innerHTML = contentState.open ? renderContentCards(contentState.items || [], contentState.emptyText) : '';
+    }
+
     function renderArchiveContentBrowser() {
       const activeType = state.archiveContentType === 'all' ? null : state.archiveContentType;
       const items = activeType ? CONTENT_INDEX.filter(item => item.type === activeType) : CONTENT_INDEX.slice();
@@ -1881,6 +2026,9 @@
       const contentItems = yearFilter
         ? (s.content || []).filter(item => (item.years || []).includes(Number(yearFilter)))
         : (s.content || []);
+      const storyCount = contentItems.filter(item => item.type === 'story').length;
+      const logCount = contentItems.filter(item => item.type === 'log').length;
+      const noteCount = contentItems.filter(item => item.type === 'note').length;
       return `
         <div class="stop-detail">
           <div class="stop-detail-head">
@@ -1893,18 +2041,13 @@
           <p class="stop-detail-body">${s.note}</p>
           <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;">
             <div class="count-bar" style="margin:0;">
-              ${(images.length || s.counts.photos) ? `<span class="count-pill photos">📷 ${images.length || s.counts.photos} photos</span>` : ''}
-              ${s.counts.stories ? `<span class="count-pill stories">📖 ${s.counts.stories} stories</span>` : ''}
-              ${s.counts.log     ? `<span class="count-pill log">📋 ${s.counts.log} log entries</span>` : ''}
-              ${s.counts.notes   ? `<span class="count-pill stories">🗒️ ${s.counts.notes} notes</span>` : ''}
+              ${(images.length || s.counts.photos) ? `<button class="count-pill photos" type="button" data-open-gallery-context="place" data-place-id="${s.id}">📷 ${images.length || s.counts.photos} photos</button>` : ''}
+              <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="place" data-place-id="${s.id}">📖 ${storyCount} stories</button>
+              <button class="count-pill log" type="button" data-open-content-list="log" data-scope="place" data-place-id="${s.id}">📋 ${logCount} log entries</button>
+              <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="place" data-place-id="${s.id}">🗒️ ${noteCount} notes</button>
             </div>
             <div class="stop-detail-gps">${coords}</div>
           </div>
-          ${renderContentDrawer({
-            label: yearFilter ? `${contentItems.length} entries tied to ${s.name} in ${yearFilter}` : `${contentItems.length} entries tied to ${s.name}`,
-            items: contentItems,
-            emptyText: `No written content matched this view yet.`,
-          })}
           ${images.length ? `
             <div class="place-visit-label" style="margin-top:0.8rem;">${yearFilter ? `${yearFilter} gallery preview` : 'Gallery preview'}</div>
             <div class="stop-gallery">
@@ -1969,6 +2112,7 @@
 
     function renderPlaceBody(p) {
       const images = IMAGE_MANIFESTS[p.key] || [];
+      const previewImages = images.slice(0, 12);
       return `
         <div class="place-card-body">
           <p class="place-note">${p.note}</p>
@@ -1977,20 +2121,15 @@
             ${p.visitYears.map(y => `<span class="place-visit-year">${y}</span>`).join('')}
           </div>
           <div class="place-detail-counts count-bar">
-            ${p.counts.photos  ? `<span class="count-pill photos">📷 ${p.counts.photos} photos</span>` : ''}
-            ${p.counts.stories ? `<span class="count-pill stories">📖 ${p.counts.stories} stories</span>` : ''}
-            ${p.counts.log     ? `<span class="count-pill log">📋 ${p.counts.log} log entries</span>` : ''}
-            ${p.counts.notes   ? `<span class="count-pill stories">🗒️ ${p.counts.notes} notes</span>` : ''}
+            ${p.counts.photos  ? `<button class="count-pill photos" type="button" data-open-gallery-context="place" data-place-id="${p.id}">📷 ${p.counts.photos} photos</button>` : ''}
+            <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="place" data-place-id="${p.id}">📖 ${p.counts.stories} stories</button>
+            <button class="count-pill log" type="button" data-open-content-list="log" data-scope="place" data-place-id="${p.id}">📋 ${p.counts.log} log entries</button>
+            <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="place" data-place-id="${p.id}">🗒️ ${p.counts.notes} notes</button>
           </div>
-          ${renderContentDrawer({
-            label: p.content?.length ? `${p.content.length} entries linked to ${p.name}` : `No written content linked to ${p.name} yet.`,
-            items: p.content || [],
-            emptyText: `No written content matched this place yet.`,
-          })}
           ${images.length ? `
             <div class="place-archive-note">Photo set available for this place</div>
             <div class="stop-gallery">
-              ${images.map((img, idx) => `
+              ${previewImages.map((img, idx) => `
                 <button class="stop-gallery-thumb" type="button" data-gallery-open="${p.id}" data-gallery-index="${idx}">
                   <img src="${img.thumb}" alt="${p.name} photo ${idx + 1}" loading="lazy">
                 </button>`).join('')}
@@ -2037,11 +2176,15 @@
             </div>
             ${(() => {
               const items = getRelatedContent({ chapterId: ch.id });
-              return renderContentDrawer({
-                label: `${items.length} entries linked to this chapter`,
-                items,
-                emptyText: `No written content matched this chapter yet.`,
-              });
+              const stories = items.filter(item => item.type === 'story').length;
+              const logs = items.filter(item => item.type === 'log').length;
+              const notes = items.filter(item => item.type === 'note').length;
+              return `
+                <div class="place-detail-counts count-bar" style="margin-top:0.8rem;">
+                  <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="chapter" data-chapter-id="${ch.id}">📖 ${stories} stories</button>
+                  <button class="count-pill log" type="button" data-open-content-list="log" data-scope="chapter" data-chapter-id="${ch.id}">📋 ${logs} log entries</button>
+                  <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="chapter" data-chapter-id="${ch.id}">🗒️ ${notes} notes</button>
+                </div>`;
             })()}
           </div>
         </div>`;
@@ -2080,8 +2223,7 @@
           setState({
             corridorYear: year,
             activeStop: null,
-            activeContentContext: null,
-          });
+                });
         });
       });
 
@@ -2091,8 +2233,7 @@
           setState({
             placeRegionFilter: el.dataset.placeRegion,
             activePlace: null,
-            activeContentContext: null,
-          });
+                });
         });
       });
 
@@ -2102,8 +2243,7 @@
           e.stopPropagation();
           setState({
             archiveContentType: el.dataset.archiveContentType || 'all',
-            activeContentContext: null,
-          });
+                });
         });
       });
 
@@ -2143,12 +2283,49 @@
         });
       });
 
+      document.querySelectorAll('[data-open-gallery-context]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          e.stopPropagation();
+          const images = getContextImages({ corridorId: el.dataset.corridorId || null, placeId: el.dataset.placeId || null });
+          const title = el.dataset.placeId ? (PLACES.find(p => p.id === el.dataset.placeId)?.name || 'Photo viewer') : (CORRIDORS.find(c => c.id === el.dataset.corridorId)?.name || 'Photo viewer');
+          openGallery(images, 0, title);
+        });
+      });
+
+      document.querySelectorAll('[data-open-content-list]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          e.stopPropagation();
+          const type = el.dataset.openContentList || null;
+          const scope = el.dataset.scope || 'corridor';
+          const items = getContextItems({
+            scope,
+            type,
+            corridorId: el.dataset.corridorId || state.openCorridor || null,
+            placeId: el.dataset.placeId || null,
+            chapterId: el.dataset.chapterId || null,
+          });
+          const labels = { story: 'Stories', log: 'Log entries', note: 'Notes' };
+          const typeLabel = labels[type] || 'Written content';
+          const subject = el.dataset.placeId
+            ? (PLACES.find(p => p.id === el.dataset.placeId)?.name || 'place')
+            : el.dataset.chapterId
+              ? (CHAPTERS.find(ch => ch.id === el.dataset.chapterId)?.name || 'chapter')
+              : (CORRIDORS.find(c => c.id === (el.dataset.corridorId || state.openCorridor))?.name || 'corridor');
+          const yearLabel = state.corridorYear && state.corridorYear !== 'all' ? `, ${state.corridorYear}` : '';
+          openContentModal(`${typeLabel} · ${subject}${yearLabel}`, items, `No ${typeLabel.toLowerCase()} matched this view yet.`);
+        });
+      });
+
       document.querySelectorAll('[data-open-content]').forEach(el => {
         el.addEventListener('click', e => {
           e.preventDefault();
           e.stopPropagation();
           const id = el.dataset.openContent;
-          setState({ activeContentContext: state.activeContentContext === id ? null : id });
+          const item = CONTENT_INDEX.find(entry => entry.id === id);
+          if (!item) return;
+          openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
         });
       });
 
@@ -2161,8 +2338,7 @@
           setState({
             activePlace: isToggling ? null : id,
             openCorridor: isToggling ? null : (place ? place.corridor : null),
-            activeContentContext: null,
-          });
+                });
         });
       });
 
@@ -2177,8 +2353,7 @@
             openCorridor: corridorId,
             activeStop: placeId,
             activePlace: null,
-            activeContentContext: null,
-          });
+                });
         });
       });
 
@@ -2202,6 +2377,32 @@
     function closeGallery() {
       state.gallery.open = false;
       renderGalleryModal();
+    }
+
+    function getContextItems({ scope, type, corridorId = null, placeId = null, chapterId = null }) {
+      const year = state.corridorYear === 'all' ? null : Number(state.corridorYear);
+      const types = type ? [type] : null;
+      if (scope === 'chapter') return getRelatedContent({ chapterId, year, types });
+      if (scope === 'place') return getRelatedContent({ placeId, corridorId, year, types });
+      return getRelatedContent({ corridorId, year, types });
+    }
+
+    function getContextImages({ corridorId = null, placeId = null }) {
+      const year = state.corridorYear === 'all' ? null : String(state.corridorYear);
+      if (placeId) {
+        const place = PLACES.find(p => p.id === placeId);
+        const images = place ? (IMAGE_MANIFESTS[place.key] || []) : [];
+        return year ? images.filter(img => String(img.year) === year) : images;
+      }
+      if (corridorId) {
+        const corridor = CORRIDORS.find(c => c.id === corridorId);
+        if (!corridor) return [];
+        return corridor.stops.flatMap(stop => {
+          const images = IMAGE_MANIFESTS[stop.key] || [];
+          return year ? images.filter(img => String(img.year) === year) : images;
+        });
+      }
+      return [];
     }
 
     function stepGallery(delta) {
@@ -2309,8 +2510,7 @@
             openCorridor: state.openCorridor === id ? null : id,
             activeStop: null,
             activePlace: null,
-            activeContentContext: null,
-          });
+                });
         });
       });
     }
@@ -2336,14 +2536,28 @@
       });
     }
 
+    function bindContentModalEvents() {
+      document.getElementById('content-modal-close')?.addEventListener('click', closeContentModal);
+      document.getElementById('content-modal')?.addEventListener('click', e => {
+        if (e.target.id === 'content-modal') closeContentModal();
+      });
+      document.addEventListener('keydown', e => {
+        if (!state.contentModal?.open) return;
+        if (e.key === 'Escape') closeContentModal();
+      });
+    }
+
     // ── Init ──────────────────────────────────────────────────────────
 
     bindTabEvents();
     bindLegendEvents();
     bindGalleryModalEvents();
+    bindContentModalEvents();
     loadSourceData().finally(() => {
+      applyInitialRouteState();
       renderPanel();
       renderGalleryModal();
+      renderContentModal();
       bindChartEvents();
     });
 
