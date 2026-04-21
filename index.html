@@ -2063,10 +2063,14 @@
                 const chapter = override.chapter || (item.chapters || [])[0];
                 const year = override.year || (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
                 const parts = [];
+                if (chapter) parts.push('tab=chapter');
+                else if (place) parts.push('tab=place');
+                else parts.push('tab=corridor');
                 if (corridor) parts.push(`corridor=${encodeURIComponent(corridor)}`);
                 if (place) parts.push(`place=${encodeURIComponent(place)}`);
                 if (chapter) parts.push(`chapter=${encodeURIComponent(chapter)}`);
                 if (year) parts.push(`year=${encodeURIComponent(year)}`);
+                if (item.type) parts.push(`type=${encodeURIComponent(item.type)}`);
                 if (item.id) parts.push(`entry=${encodeURIComponent(item.id)}`);
                 return `travel-trail-v4.html${parts.length ? `#${parts.join('&')}` : ''}`;
             };

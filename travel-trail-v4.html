@@ -1692,6 +1692,7 @@
       openCorridor: null,
       activeStop: null,
       activePlace: null,
+      activeChapter: null,
       archiveContentType: 'all',
       corridorFilter: 'all',
       corridorYear: 'all',
@@ -1713,9 +1714,11 @@
 
     function syncHashFromState() {
       const parts = [];
+      if (state.tab) parts.push(`tab=${encodeURIComponent(state.tab)}`);
       if (state.openCorridor) parts.push(`corridor=${encodeURIComponent(state.openCorridor)}`);
       if (state.activeStop) parts.push(`place=${encodeURIComponent(state.activeStop)}`);
       if (state.activePlace) parts.push(`place=${encodeURIComponent(state.activePlace)}`);
+      if (state.activeChapter) parts.push(`chapter=${encodeURIComponent(state.activeChapter)}`);
       if (state.corridorYear && state.corridorYear !== 'all') parts.push(`year=${encodeURIComponent(state.corridorYear)}`);
       const nextHash = parts.length ? `#${parts.join('&')}` : '';
       if (window.location.hash !== nextHash) {
@@ -1727,32 +1730,59 @@
       const raw = window.location.hash ? window.location.hash.slice(1) : '';
       if (!raw) return;
       const params = new URLSearchParams(raw);
+      const tab = params.get('tab');
       const corridor = params.get('corridor');
       const place = params.get('place');
+      const chapter = params.get('chapter');
       const year = params.get('year');
+      const entry = params.get('entry');
+      const type = params.get('type');
 
-      if (place) {
+      if (tab === 'place' && place) {
+        setState({
+          tab: 'place',
+          activePlace: place,
+          openCorridor: corridor || (PLACES.find(p => p.id === place)?.corridor) || null,
+          activeStop: null,
+          activeChapter: null,
+          corridorFilter: 'all',
+          corridorYear: year || 'all',
+        });
+      } else if (tab === 'chapter' && chapter) {
+        setState({
+          tab: 'chapter',
+          activeChapter: chapter,
+          activePlace: null,
+          activeStop: null,
+          openCorridor: corridor || null,
+          corridorFilter: 'all',
+          corridorYear: year || 'all',
+        });
+      } else if (place) {
         const corridorId = corridor || (PLACES.find(p => p.id === place)?.corridor) || (CORRIDORS.find(c => c.stops.some(s => s.id === place))?.id) || null;
         setState({
           tab: 'corridor',
           openCorridor: corridorId,
           activeStop: place,
           activePlace: null,
-              corridorFilter: 'all',
+          activeChapter: null,
+          corridorFilter: 'all',
           corridorYear: year || 'all',
         });
-        return;
-      }
-
-      if (corridor) {
+      } else if (corridor) {
         setState({
           tab: 'corridor',
           openCorridor: corridor,
           activeStop: null,
           activePlace: null,
-              corridorFilter: 'all',
+          activeChapter: null,
+          corridorFilter: 'all',
           corridorYear: year || 'all',
         });
+      }
+
+      if (entry) {
+        window.__initialContentIntent = { entry, type };
       }
     }
 
@@ -2011,7 +2041,34 @@
               `).join('')}
             </div>
           </div>
-          ${renderContentCards(items, `No ${activeType || 'written'} content is available in the archive yet.`)}
+          <div class="content-drawer-list">
+            ${items.map(item => {
+              const corridor = (item.corridors || [])[0] || '';
+              const place = (item.places || [])[0] || '';
+              const chapter = (item.chapters || [])[0] || '';
+              const year = (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
+              const detailHrefParts = [];
+              if (chapter) detailHrefParts.push('tab=chapter');
+              else if (place) detailHrefParts.push('tab=place');
+              else detailHrefParts.push('tab=corridor');
+              if (corridor) detailHrefParts.push(`corridor=${encodeURIComponent(corridor)}`);
+              if (place) detailHrefParts.push(`place=${encodeURIComponent(place)}`);
+              if (chapter) detailHrefParts.push(`chapter=${encodeURIComponent(chapter)}`);
+              if (year) detailHrefParts.push(`year=${encodeURIComponent(year)}`);
+              if (item.type) detailHrefParts.push(`type=${encodeURIComponent(item.type)}`);
+              if (item.id) detailHrefParts.push(`entry=${encodeURIComponent(item.id)}`);
+              const detailHref = `#${detailHrefParts.join('&')}`;
+              const meta = [item.date ? item.date : '', ...(item.places || []).slice(0, 2).map(v => prettyPlace(v))].filter(Boolean);
+              const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : '🗒️';
+              return `
+                <a class="content-drawer-card" href="${detailHref}" data-archive-entry-link>
+                  <div class="content-drawer-type">${icon} ${item.type}</div>
+                  <div class="content-drawer-title">${item.title}</div>
+                  <div class="content-drawer-summary">${item.summary || excerptText(item.body, 180)}</div>
+                  <div class="content-drawer-meta">${meta.join(' · ')}</div>
+                </a>`;
+            }).join('')}
+          </div>
         </div>`;
     }
 
@@ -2149,6 +2206,7 @@
     }
 
     function renderChapterRow(ch) {
+      const isOpen = state.activeChapter === ch.id;
       const colors = {
         'great-lakes': '#4fd1c5', 'erie-canal': '#a3c4f3',
         'east-coast': '#57c8ff', 'south-florida': '#68d391', 'bahamas': '#d4b176', 'new-england': '#9bc4ff'
@@ -2156,7 +2214,7 @@
       const dots = ch.corridors.map(id =>
         `<span class="ch-dot" style="background:${colors[id] || '#666'}"></span>`).join('');
       return `
-        <div class="timeline-chapter" data-chapter-id="${ch.id || ''}">
+        <div class="timeline-chapter ${isOpen ? 'chapter-open' : ''}" data-chapter-id="${ch.id || ''}">
           <div class="chapter-head" data-toggle-chapter="${ch.id || ch.year}">
             <div class="chapter-year">${ch.yearRange}</div>
             <div class="chapter-name-group">
@@ -2336,9 +2394,11 @@
           const place = PLACES.find(p => p.id === id);
           const isToggling = state.activePlace === id;
           setState({
+            tab: 'place',
             activePlace: isToggling ? null : id,
+            activeChapter: null,
             openCorridor: isToggling ? null : (place ? place.corridor : null),
-                });
+          });
         });
       });
 
@@ -2353,14 +2413,38 @@
             openCorridor: corridorId,
             activeStop: placeId,
             activePlace: null,
-                });
+            activeChapter: null,
+          });
         });
       });
 
       // Chapter toggles
       document.querySelectorAll('[data-toggle-chapter]').forEach(el => {
         el.addEventListener('click', () => {
-          el.closest('.timeline-chapter').classList.toggle('chapter-open');
+          const chapterId = el.dataset.toggleChapter;
+          setState({
+            tab: 'chapter',
+            activeChapter: state.activeChapter === chapterId ? null : chapterId,
+            activePlace: null,
+            activeStop: null,
+          });
+        });
+      });
+
+      document.querySelectorAll('[data-archive-entry-link]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          const href = el.getAttribute('href') || '';
+          if (!href.startsWith('#')) return;
+          window.location.hash = href;
+          applyInitialRouteState();
+          const intent = window.__initialContentIntent;
+          if (intent?.entry) {
+            const item = CONTENT_INDEX.find(entry => entry.id === intent.entry);
+            if (item) {
+              openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
+            }
+          }
         });
       });
     }
@@ -2553,12 +2637,24 @@
     bindLegendEvents();
     bindGalleryModalEvents();
     bindContentModalEvents();
+    window.addEventListener('hashchange', () => {
+      applyInitialRouteState();
+      renderPanel();
+    });
     loadSourceData().finally(() => {
       applyInitialRouteState();
       renderPanel();
       renderGalleryModal();
       renderContentModal();
       bindChartEvents();
+      const intent = window.__initialContentIntent;
+      if (intent?.entry) {
+        const item = CONTENT_INDEX.find(entry => entry.id === intent.entry);
+        if (item) {
+          openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
+        }
+        window.__initialContentIntent = null;
+      }
     });
 
   </script>
