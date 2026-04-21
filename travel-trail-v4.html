@@ -2600,6 +2600,11 @@
             activeEntryId: null,
             openCorridor: isToggling ? null : (place ? place.corridor : null),
           });
+          if (!isToggling) {
+            requestAnimationFrame(() => {
+              document.querySelector(`[data-open-place="${id}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+          }
         });
       });
 
