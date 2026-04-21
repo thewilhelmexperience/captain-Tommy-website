@@ -2090,7 +2090,7 @@
                 const pill = document.createElement('a');
                 pill.className = 'log-pill';
                 pill.textContent = `Corridor: ${prettyLabel(v)}`;
-                pill.href = buildTrailHref(featured, { corridor: v });
+                pill.href = buildTrailHref(featured, { tab: 'corridor', corridor: v, place: '', chapter: '' });
                 metaEl.appendChild(pill);
             });
             (featured.places || []).slice(0, 2).forEach(v => {
