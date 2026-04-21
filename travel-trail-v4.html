@@ -1093,9 +1093,14 @@
       background: rgba(9,20,36,0.6);
       border: 1px solid var(--line);
       cursor: pointer;
-      transition: border-color 0.15s, background 0.15s;
+      transition: border-color 0.15s, background 0.15s, transform 0.15s;
     }
-    .archive-card:hover { border-color: var(--line-strong); background: rgba(9,20,36,0.9); }
+    .archive-card:hover { border-color: var(--line-strong); background: rgba(9,20,36,0.9); transform: translateY(-1px); }
+    .archive-card.is-active {
+      border-color: rgba(87,200,255,0.3);
+      background: rgba(87,200,255,0.09);
+      box-shadow: inset 0 0 0 1px rgba(87,200,255,0.08);
+    }
     .archive-icon { font-size: 1.5rem; margin-bottom: 0.55rem; }
     .archive-type {
       font-size: 0.68rem;
@@ -1129,6 +1134,16 @@
       border: 1px solid rgba(255,255,255,0.07);
       border-radius: 18px;
       background: rgba(255,255,255,0.025);
+    }
+    .archive-empty-state {
+      margin-top: 1rem;
+      padding: 1.05rem 1.1rem;
+      border-radius: 18px;
+      border: 1px dashed rgba(255,255,255,0.08);
+      color: var(--soft);
+      font-size: 0.84rem;
+      line-height: 1.6;
+      background: rgba(255,255,255,0.02);
     }
     .archive-content-head {
       display: flex;
@@ -1812,6 +1827,7 @@
       stories:  { total: () => CONTENT_INDEX.filter(item => item.type === 'story').length, desc: 'Story pieces now pulled from the shared content index', icon: '📖' },
       log:      { total: () => CONTENT_INDEX.filter(item => item.type === 'log').length, desc: 'Captain\'s Log entries now pulled from the shared content index', icon: '📋' },
       notes:    { total: () => CONTENT_INDEX.filter(item => item.type === 'note').length, desc: 'Quick route truths, remembered fragments, and support notes', icon: '🗒️' },
+      videos:   { total: () => RUN_VIDEOS.length, desc: 'Route timelapses and future cleaned video evidence linked out through YouTube', icon: '🎬' },
       passages: { total: () => CORRIDORS.length, desc: 'Major route lines that keep showing up across the years', icon: '⚓' },
     };
 
@@ -1826,7 +1842,7 @@
       activePlace: null,
       activeChapter: null,
       activeEntryId: null,
-      archiveContentType: 'all',
+      archiveContentType: null,
       corridorFilter: 'all',
       corridorYear: 'all',
       placeRegionFilter: 'all',
@@ -2226,33 +2242,86 @@
     }
 
     function renderArchiveContentBrowser() {
-      const activeType = state.archiveContentType === 'all' ? null : state.archiveContentType;
-      const items = activeType ? CONTENT_INDEX.filter(item => item.type === activeType) : CONTENT_INDEX.slice();
-      const actions = [
-        { type: 'all', label: `All ${CONTENT_INDEX.length}` },
-        { type: 'log', label: `Logs ${CONTENT_INDEX.filter(item => item.type === 'log').length}` },
-        { type: 'story', label: `Stories ${CONTENT_INDEX.filter(item => item.type === 'story').length}` },
-        { type: 'note', label: `Notes ${CONTENT_INDEX.filter(item => item.type === 'note').length}` },
-      ].filter(action => action.type === 'all' || Number(action.label.split(' ').pop()) > 0);
+      if (!state.archiveContentType) {
+        return `
+          <div class="archive-empty-state">
+            Click one of the archive cards above to open that part of the library. Keep this lane quiet by default, then drill into photos, written pieces, videos, or passages when you actually want them.
+          </div>`;
+      }
+
+      if (state.archiveContentType === 'videos') {
+        return `
+          <div class="archive-content-browser">
+            <div class="archive-content-head">
+              <div>
+                <div class="place-visit-label">Video archive</div>
+                <div class="place-archive-note">A holding lane for route timelapses now, and for future cleaned video uploads from quarantine once they earn a public home.</div>
+              </div>
+            </div>
+            <div class="content-drawer-list">
+              ${RUN_VIDEOS.map(video => `
+                <article class="content-drawer-card">
+                  <div class="content-drawer-type">🎬 video</div>
+                  <div class="content-drawer-title">${video.title}</div>
+                  <div class="content-drawer-summary">${video.desc}</div>
+                  <div class="content-drawer-meta">${video.meta}</div>
+                  <div class="run-video-actions" style="margin-top:0.7rem;">
+                    <a class="run-video-link" href="${video.url}" target="_blank" rel="noopener noreferrer">▶ Watch on YouTube</a>
+                  </div>
+                </article>`).join('')}
+            </div>
+          </div>`;
+      }
+
+      if (state.archiveContentType === 'photos') {
+        return `
+          <div class="archive-content-browser">
+            <div class="archive-content-head">
+              <div>
+                <div class="place-visit-label">Photo archive</div>
+                <div class="place-archive-note">Photo browsing still lives best through corridor and place views, where the images stay tied to actual geography and years.</div>
+              </div>
+            </div>
+            <div class="archive-stub">
+              There are ${getArchiveStats().photos.toLocaleString()} photos in the live archive right now. Use the Corridor or Places lanes to browse them in context instead of dumping them flat here.
+            </div>
+          </div>`;
+      }
+
+      if (state.archiveContentType === 'passages') {
+        return `
+          <div class="archive-content-browser">
+            <div class="archive-content-head">
+              <div>
+                <div class="place-visit-label">Passage lines</div>
+                <div class="place-archive-note">The main route lines that hold the archive together.</div>
+              </div>
+            </div>
+            <div class="content-drawer-list">
+              ${CORRIDORS.map(corridor => `
+                <article class="content-drawer-card">
+                  <div class="content-drawer-type">⚓ corridor</div>
+                  <div class="content-drawer-title">${corridor.name}</div>
+                  <div class="content-drawer-summary">${corridor.desc}</div>
+                  <div class="content-drawer-meta">${corridor.counts.photos} photos · ${corridor.stops.length} places</div>
+                </article>`).join('')}
+            </div>
+          </div>`;
+      }
+
+      const typeMap = { stories: 'story', log: 'log', notes: 'note' };
+      const activeType = typeMap[state.archiveContentType] || null;
+      const items = activeType ? CONTENT_INDEX.filter(item => item.type === activeType) : [];
       return `
         <div class="archive-content-browser">
           <div class="archive-content-head">
             <div>
-              <div class="place-visit-label">Browse written archive</div>
-              <div class="place-archive-note">A global browse surface for logs, stories, and notes across the whole trail.</div>
-            </div>
-            <div class="content-drawer-actions">
-              ${actions.map(action => `
-                <button class="content-filter-chip ${state.archiveContentType === action.type ? 'is-active' : ''}" type="button" data-archive-content-type="${action.type}">${action.label}</button>
-              `).join('')}
+              <div class="place-visit-label">Browse ${state.archiveContentType}</div>
+              <div class="place-archive-note">A global browse surface for this slice of the written archive.</div>
             </div>
           </div>
           <div class="content-drawer-list">
             ${items.map(item => {
-              const corridor = (item.corridors || [])[0] || '';
-              const place = (item.places || [])[0] || '';
-              const chapter = (item.chapters || [])[0] || '';
-              const year = (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
               const detailHref = buildDetailHash(item);
               const meta = [item.date ? item.date : '', ...(item.places || []).slice(0, 2).map(v => prettyPlace(v))].filter(Boolean);
               const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : '🗒️';
@@ -2452,18 +2521,16 @@
     function renderArchiveTab() {
       const stats = getArchiveStats();
       const cards = Object.entries(ARCHIVE).map(([key, val]) => `
-        <div class="archive-card">
+        <button class="archive-card ${state.archiveContentType === key ? 'is-active' : ''}" type="button" data-archive-card="${key}">
           <div class="archive-icon">${val.icon}</div>
           <div class="archive-type">${key}</div>
           <div class="archive-count">${typeof val.total === 'function' ? val.total() : val.total}</div>
           <div class="archive-desc">${val.desc}</div>
-        </div>`).join('');
+        </button>`).join('');
       return `
         <div class="archive-grid">${cards}</div>
         <div class="archive-stub">
-          <strong>The archive browser is now tied to the cleaned live library.</strong> It currently includes ${stats.photos.toLocaleString()} images, ${stats.places} places, ${stats.corridorCount} corridors, and ${stats.contentCount} written entries.
-          <br><br>
-          The structure is in good shape now. What comes next is the human layer, stories, notes, and the details that make the route feel lived instead of merely mapped.
+          <strong>The archive browser is now tied to the cleaned live library.</strong> It currently includes ${stats.photos.toLocaleString()} images, ${stats.places} places, ${stats.corridorCount} corridors, ${stats.contentCount} written entries, and a small linked video shelf that can grow as quarantine footage gets reviewed and uploaded properly.
         </div>
         ${renderArchiveContentBrowser()}`;
     }
@@ -2494,12 +2561,13 @@
         });
       });
 
-      document.querySelectorAll('[data-archive-content-type]').forEach(el => {
+      document.querySelectorAll('[data-archive-card]').forEach(el => {
         el.addEventListener('click', e => {
           e.preventDefault();
           e.stopPropagation();
+          const next = el.dataset.archiveCard || null;
           setState({
-            archiveContentType: el.dataset.archiveContentType || 'all',
+            archiveContentType: state.archiveContentType === next ? null : next,
                 });
         });
       });
