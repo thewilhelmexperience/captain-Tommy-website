@@ -2144,11 +2144,12 @@
         </div>`;
     }
 
-    function getRunVideos({ corridorId = null, placeId = null, chapterId = null } = {}) {
+    function getRunVideos({ corridorId = null, placeId = null, chapterId = null, strictPlace = false } = {}) {
       return RUN_VIDEOS.filter(video => {
-        if (placeId && (video.places || []).includes(placeId)) return true;
-        if (chapterId && (video.chapters || []).includes(chapterId)) return true;
-        if (corridorId && (video.corridors || []).includes(corridorId)) return true;
+        if (placeId) return (video.places || []).includes(placeId);
+        if (chapterId) return (video.chapters || []).includes(chapterId);
+        if (strictPlace) return false;
+        if (corridorId) return (video.corridors || []).includes(corridorId);
         return false;
       });
     }
@@ -2380,7 +2381,7 @@
             </div>
             ${images.length > previewImages.length ? `<div class="place-archive-note">Showing ${previewImages.length} of ${images.length} images, open the gallery to browse the full set.</div>` : ''}
           ` : ''}
-          ${renderRunVideos(getRunVideos({ corridorId: state.openCorridor, placeId: s.id }), 'Watch this stretch', 'Route footage that lines up with this stop or the water around it.')}
+          ${renderRunVideos(getRunVideos({ placeId: s.id, strictPlace: true }), 'Watch this stretch', 'Route footage that lines up with this stop or the water around it.')}
         </div>`;
     }
 
