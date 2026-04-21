@@ -2436,14 +2436,16 @@
           e.preventDefault();
           const href = el.getAttribute('href') || '';
           if (!href.startsWith('#')) return;
-          window.location.hash = href;
+          history.replaceState(null, '', `${window.location.pathname}${window.location.search}${href}`);
           applyInitialRouteState();
+          renderPanel();
           const intent = window.__initialContentIntent;
           if (intent?.entry) {
             const item = CONTENT_INDEX.find(entry => entry.id === intent.entry);
             if (item) {
               openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
             }
+            window.__initialContentIntent = null;
           }
         });
       });

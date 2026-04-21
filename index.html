@@ -2063,7 +2063,10 @@
                 const chapter = override.chapter || (item.chapters || [])[0];
                 const year = override.year || (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
                 const parts = [];
-                if (chapter) parts.push('tab=chapter');
+                if (override.chapter) parts.push('tab=chapter');
+                else if (override.place) parts.push('tab=place');
+                else if (override.corridor) parts.push('tab=corridor');
+                else if (chapter) parts.push('tab=chapter');
                 else if (place) parts.push('tab=place');
                 else parts.push('tab=corridor');
                 if (corridor) parts.push(`corridor=${encodeURIComponent(corridor)}`);
