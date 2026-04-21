@@ -1076,16 +1076,6 @@
       </div>
     </div>
 
-    <div class="content-modal" id="content-modal" aria-hidden="true">
-      <div class="content-modal-panel" role="dialog" aria-modal="true" aria-label="Written content viewer">
-        <div class="content-modal-topbar">
-          <div class="content-modal-title" id="content-modal-title">Written archive</div>
-          <button class="content-modal-close" id="content-modal-close" type="button">Close</button>
-        </div>
-        <div id="content-modal-body"></div>
-      </div>
-    </div>
-
     <!-- Left: schematic chart -->
     <aside class="chart-pane" aria-label="Waterway chart">
       <div class="chart-wrap">
@@ -1644,11 +1634,6 @@
       corridorFilter: 'all',
       corridorYear: 'all',
       placeRegionFilter: 'hudson-river-nyc',
-      contentModal: {
-        open: false,
-        title: '',
-        items: [],
-      },
       gallery: {
         images: [],
         title: '',
@@ -1774,9 +1759,9 @@
       return `<div class="corridor-body">
         <p class="corridor-desc">${c.desc}</p>
         <div class="count-bar">
-          <button class="count-pill photos actionable" type="button" data-open-gallery-context="corridor" data-corridor-id="${c.id}">📷 ${filteredPhotoCount} photos</button>
-          <button class="count-pill stories actionable" type="button" data-open-content-list="story" data-context-scope="corridor" data-corridor-id="${c.id}">📖 ${c.counts.stories || 0} stories</button>
-          <button class="count-pill log actionable" type="button" data-open-content-list="log" data-context-scope="corridor" data-corridor-id="${c.id}">📋 ${c.counts.log} log entries</button>
+          <span class="count-pill photos">📷 ${filteredPhotoCount} photos</span>
+          <span class="count-pill stories">📖 ${c.counts.stories || 0} stories</span>
+          <span class="count-pill log">📋 ${c.counts.log} log entries</span>
           <span class="count-pill routes">⚓ ${c.counts.routes} passages</span>
         </div>
         <div class="era-chips">
@@ -1908,10 +1893,10 @@
           <p class="stop-detail-body">${s.note}</p>
           <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;">
             <div class="count-bar" style="margin:0;">
-              ${(images.length || s.counts.photos) ? `<button class="count-pill photos actionable" type="button" data-open-gallery-context="stop" data-stop-id="${s.id}">📷 ${images.length || s.counts.photos} photos</button>` : ''}
-              ${s.counts.stories ? `<button class="count-pill stories actionable" type="button" data-open-content-list="story" data-context-scope="stop" data-stop-id="${s.id}">📖 ${s.counts.stories} stories</button>` : ''}
-              ${s.counts.log     ? `<button class="count-pill log actionable" type="button" data-open-content-list="log" data-context-scope="stop" data-stop-id="${s.id}">📋 ${s.counts.log} log entries</button>` : ''}
-              ${s.counts.notes   ? `<button class="count-pill stories actionable" type="button" data-open-content-list="note" data-context-scope="stop" data-stop-id="${s.id}">🗒️ ${s.counts.notes} notes</button>` : ''}
+              ${(images.length || s.counts.photos) ? `<span class="count-pill photos">📷 ${images.length || s.counts.photos} photos</span>` : ''}
+              ${s.counts.stories ? `<span class="count-pill stories">📖 ${s.counts.stories} stories</span>` : ''}
+              ${s.counts.log     ? `<span class="count-pill log">📋 ${s.counts.log} log entries</span>` : ''}
+              ${s.counts.notes   ? `<span class="count-pill stories">🗒️ ${s.counts.notes} notes</span>` : ''}
             </div>
             <div class="stop-detail-gps">${coords}</div>
           </div>
@@ -1992,10 +1977,10 @@
             ${p.visitYears.map(y => `<span class="place-visit-year">${y}</span>`).join('')}
           </div>
           <div class="place-detail-counts count-bar">
-            ${p.counts.photos  ? `<button class="count-pill photos actionable" type="button" data-open-gallery-context="place" data-place-id="${p.id}">📷 ${p.counts.photos} photos</button>` : ''}
-            ${p.counts.stories ? `<button class="count-pill stories actionable" type="button" data-open-content-list="story" data-context-scope="place" data-place-id="${p.id}">📖 ${p.counts.stories} stories</button>` : ''}
-            ${p.counts.log     ? `<button class="count-pill log actionable" type="button" data-open-content-list="log" data-context-scope="place" data-place-id="${p.id}">📋 ${p.counts.log} log entries</button>` : ''}
-            ${p.counts.notes   ? `<button class="count-pill stories actionable" type="button" data-open-content-list="note" data-context-scope="place" data-place-id="${p.id}">🗒️ ${p.counts.notes} notes</button>` : ''}
+            ${p.counts.photos  ? `<span class="count-pill photos">📷 ${p.counts.photos} photos</span>` : ''}
+            ${p.counts.stories ? `<span class="count-pill stories">📖 ${p.counts.stories} stories</span>` : ''}
+            ${p.counts.log     ? `<span class="count-pill log">📋 ${p.counts.log} log entries</span>` : ''}
+            ${p.counts.notes   ? `<span class="count-pill stories">🗒️ ${p.counts.notes} notes</span>` : ''}
           </div>
           ${renderContentDrawer({
             label: p.content?.length ? `${p.content.length} entries linked to ${p.name}` : `No written content linked to ${p.name} yet.`,
@@ -2212,77 +2197,11 @@
       state.gallery.index = Math.max(0, Math.min(index, images.length - 1));
       state.gallery.open = true;
       renderGalleryModal();
-      renderContentModal();
     }
 
     function closeGallery() {
       state.gallery.open = false;
       renderGalleryModal();
-      renderContentModal();
-    }
-
-    function closeContentModal() {
-      state.contentModal = { open: false, title: '', items: [] };
-      renderContentModal();
-    }
-
-    function openContentModal(title, items) {
-      state.contentModal = { open: true, title, items: items || [] };
-      state.activeContentContext = null;
-      renderContentModal();
-    }
-
-    function getContextItems(scope, ids = {}) {
-      const yearFilter = state.corridorYear === 'all' ? null : Number(state.corridorYear);
-      let items = CONTENT_INDEX.slice();
-      if (scope === 'corridor' && ids.corridorId) {
-        items = items.filter(item => (item.corridors || []).includes(ids.corridorId));
-      } else if (scope === 'stop' && ids.stopId) {
-        const stop = CORRIDORS.flatMap(c => c.stops).find(s => s.id === ids.stopId);
-        if (stop) items = items.filter(item => (item.places || []).includes(stop.id) || (item.corridors || []).includes(stop.corridor));
-      } else if (scope === 'place' && ids.placeId) {
-        items = items.filter(item => (item.places || []).includes(ids.placeId));
-      } else if (scope === 'chapter' && ids.chapterId) {
-        items = items.filter(item => (item.chapters || []).includes(ids.chapterId));
-      }
-      if (yearFilter) items = items.filter(item => (item.years || []).includes(yearFilter));
-      return items;
-    }
-
-    function getContextImages(scope, ids = {}) {
-      const yearFilter = state.corridorYear === 'all' ? null : String(state.corridorYear);
-      let images = [];
-      if (scope === 'corridor' && ids.corridorId) {
-        images = (CORRIDORS.find(c => c.id === ids.corridorId)?.stops || []).flatMap(stop => IMAGE_MANIFESTS[stop.key] || []);
-      } else if (scope === 'stop' && ids.stopId) {
-        const stop = CORRIDORS.flatMap(c => c.stops).find(s => s.id === ids.stopId);
-        images = stop ? (IMAGE_MANIFESTS[stop.key] || []) : [];
-      } else if (scope === 'place' && ids.placeId) {
-        const place = PLACES.find(p => p.id === ids.placeId);
-        images = place ? (IMAGE_MANIFESTS[place.key] || []) : [];
-      }
-      if (yearFilter) images = images.filter(img => String(img.year) === yearFilter);
-      return images;
-    }
-
-    function renderContentModal() {
-      const modal = document.getElementById('content-modal');
-      const title = document.getElementById('content-modal-title');
-      const body = document.getElementById('content-modal-body');
-      if (!modal || !title || !body) return;
-      modal.classList.toggle('open', !!state.contentModal.open);
-      modal.setAttribute('aria-hidden', state.contentModal.open ? 'false' : 'true');
-      title.textContent = state.contentModal.title || 'Written archive';
-      body.innerHTML = renderContentCards(state.contentModal.items || [], 'No matching written content for this view yet.');
-      body.querySelectorAll('[data-open-content]').forEach(el => {
-        el.addEventListener('click', e => {
-          e.preventDefault();
-          e.stopPropagation();
-          const id = el.dataset.openContent;
-          state.activeContentContext = state.activeContentContext === id ? null : id;
-          renderContentModal();
-        });
-      });
     }
 
     function stepGallery(delta) {
@@ -2290,7 +2209,6 @@
       const total = state.gallery.images.length;
       state.gallery.index = (state.gallery.index + delta + total) % total;
       renderGalleryModal();
-      renderContentModal();
     }
 
     function renderGalleryModal() {
@@ -2404,42 +2322,6 @@
     }
 
     function bindGalleryModalEvents() {
-      document.querySelectorAll('[data-open-content-list]').forEach(el => {
-        el.addEventListener('click', e => {
-          e.preventDefault();
-          e.stopPropagation();
-          const type = el.dataset.openContentList;
-          const scope = el.dataset.contextScope;
-          const items = getContextItems(scope, {
-            corridorId: el.dataset.corridorId,
-            stopId: el.dataset.stopId,
-            placeId: el.dataset.placeId,
-            chapterId: el.dataset.chapterId,
-          }).filter(item => item.type === type);
-          const label = type === 'log' ? 'Logbook' : type === 'story' ? 'Stories' : 'Notes';
-          openContentModal(label, items);
-        });
-      });
-
-      document.querySelectorAll('[data-open-gallery-context]').forEach(el => {
-        el.addEventListener('click', e => {
-          e.preventDefault();
-          e.stopPropagation();
-          const scope = el.dataset.openGalleryContext;
-          const images = getContextImages(scope, {
-            corridorId: el.dataset.corridorId,
-            stopId: el.dataset.stopId,
-            placeId: el.dataset.placeId,
-          });
-          const title = scope === 'corridor' ? 'Filtered corridor gallery' : scope === 'stop' ? 'Filtered place gallery' : 'Filtered gallery';
-          openGallery(images, 0, title);
-        });
-      });
-
-      document.getElementById('content-modal-close')?.addEventListener('click', closeContentModal);
-      document.getElementById('content-modal')?.addEventListener('click', e => {
-        if (e.target.id === 'content-modal') closeContentModal();
-      });
       document.getElementById('gallery-modal-close')?.addEventListener('click', closeGallery);
       document.getElementById('gallery-modal-prev')?.addEventListener('click', () => stepGallery(-1));
       document.getElementById('gallery-modal-next')?.addEventListener('click', () => stepGallery(1));
