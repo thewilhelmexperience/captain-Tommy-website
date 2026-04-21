@@ -2063,7 +2063,8 @@
                 const chapter = override.chapter || (item.chapters || [])[0];
                 const year = override.year || (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
                 const parts = [];
-                if (override.chapter) parts.push('tab=chapter');
+                if (override.tab) parts.push(`tab=${encodeURIComponent(override.tab)}`);
+                else if (override.chapter) parts.push('tab=chapter');
                 else if (override.place) parts.push('tab=place');
                 else if (override.corridor) parts.push('tab=corridor');
                 else if (chapter) parts.push('tab=chapter');
@@ -2096,14 +2097,14 @@
                 const pill = document.createElement('a');
                 pill.className = 'log-pill';
                 pill.textContent = `Place: ${prettyLabel(v)}`;
-                pill.href = buildTrailHref(featured, { place: v });
+                pill.href = buildTrailHref(featured, { tab: 'place', place: v });
                 metaEl.appendChild(pill);
             });
             (featured.chapters || []).slice(0, 1).forEach(v => {
                 const pill = document.createElement('a');
                 pill.className = 'log-pill';
                 pill.textContent = `Chapter: ${prettyLabel(v)}`;
-                pill.href = buildTrailHref(featured, { chapter: v });
+                pill.href = buildTrailHref(featured, { tab: 'chapter', chapter: v });
                 metaEl.appendChild(pill);
             });
 

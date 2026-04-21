@@ -1693,6 +1693,7 @@
       activeStop: null,
       activePlace: null,
       activeChapter: null,
+      activeEntryId: null,
       archiveContentType: 'all',
       corridorFilter: 'all',
       corridorYear: 'all',
@@ -1719,6 +1720,7 @@
       if (state.activeStop) parts.push(`place=${encodeURIComponent(state.activeStop)}`);
       if (state.activePlace) parts.push(`place=${encodeURIComponent(state.activePlace)}`);
       if (state.activeChapter) parts.push(`chapter=${encodeURIComponent(state.activeChapter)}`);
+      if (state.activeEntryId) parts.push(`entry=${encodeURIComponent(state.activeEntryId)}`);
       if (state.corridorYear && state.corridorYear !== 'all') parts.push(`year=${encodeURIComponent(state.corridorYear)}`);
       const nextHash = parts.length ? `#${parts.join('&')}` : '';
       if (window.location.hash !== nextHash) {
@@ -1739,12 +1741,15 @@
       const type = params.get('type');
 
       if (tab === 'place' && place) {
+        const matchedPlace = PLACES.find(p => p.id === place);
         setState({
           tab: 'place',
           activePlace: place,
-          openCorridor: corridor || (PLACES.find(p => p.id === place)?.corridor) || null,
+          openCorridor: corridor || matchedPlace?.corridor || null,
           activeStop: null,
           activeChapter: null,
+          activeEntryId: entry || null,
+          placeRegionFilter: matchedPlace?.region || state.placeRegionFilter,
           corridorFilter: 'all',
           corridorYear: year || 'all',
         });
@@ -1755,6 +1760,7 @@
           activePlace: null,
           activeStop: null,
           openCorridor: corridor || null,
+          activeEntryId: entry || null,
           corridorFilter: 'all',
           corridorYear: year || 'all',
         });
@@ -1766,6 +1772,7 @@
           activeStop: place,
           activePlace: null,
           activeChapter: null,
+          activeEntryId: entry || null,
           corridorFilter: 'all',
           corridorYear: year || 'all',
         });
@@ -1776,6 +1783,7 @@
           activeStop: null,
           activePlace: null,
           activeChapter: null,
+          activeEntryId: entry || null,
           corridorFilter: 'all',
           corridorYear: year || 'all',
         });
@@ -1783,6 +1791,9 @@
 
       if (entry) {
         window.__initialContentIntent = { entry, type };
+        state.activeEntryId = entry;
+      } else {
+        state.activeEntryId = null;
       }
     }
 
@@ -1937,6 +1948,25 @@
         </div>`;
     }
 
+    function buildDetailHash(item, override = {}) {
+      const corridor = override.corridor || (item?.corridors || [])[0] || '';
+      const place = override.place || (item?.places || [])[0] || '';
+      const chapter = override.chapter || (item?.chapters || [])[0] || '';
+      const year = override.year || (item?.years || [])[0] || (item?.date ? String(item.date).slice(0, 4) : '');
+      const parts = [];
+      if (override.tab) parts.push(`tab=${encodeURIComponent(override.tab)}`);
+      else if (chapter) parts.push('tab=chapter');
+      else if (place) parts.push('tab=place');
+      else parts.push('tab=corridor');
+      if (corridor) parts.push(`corridor=${encodeURIComponent(corridor)}`);
+      if (place) parts.push(`place=${encodeURIComponent(place)}`);
+      if (chapter) parts.push(`chapter=${encodeURIComponent(chapter)}`);
+      if (year) parts.push(`year=${encodeURIComponent(year)}`);
+      if (item?.type) parts.push(`type=${encodeURIComponent(item.type)}`);
+      if (item?.id) parts.push(`entry=${encodeURIComponent(item.id)}`);
+      return `#${parts.join('&')}`;
+    }
+
     function renderContentCards(items, emptyText = 'No written content tied here yet.') {
       if (!items.length) return `<div class="place-archive-note">${emptyText}</div>`;
       return `
@@ -2007,6 +2037,16 @@
       renderContentModal();
     }
 
+    function openEntryInContext(item, override = {}) {
+      if (!item) return;
+      const hash = buildDetailHash(item, override);
+      history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`);
+      applyInitialRouteState();
+      renderPanel();
+      openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
+      window.__initialContentIntent = null;
+    }
+
     function renderContentModal() {
       const modal = document.getElementById('content-modal');
       const title = document.getElementById('content-modal-title');
@@ -2047,17 +2087,7 @@
               const place = (item.places || [])[0] || '';
               const chapter = (item.chapters || [])[0] || '';
               const year = (item.years || [])[0] || (item.date ? String(item.date).slice(0,4) : '');
-              const detailHrefParts = [];
-              if (chapter) detailHrefParts.push('tab=chapter');
-              else if (place) detailHrefParts.push('tab=place');
-              else detailHrefParts.push('tab=corridor');
-              if (corridor) detailHrefParts.push(`corridor=${encodeURIComponent(corridor)}`);
-              if (place) detailHrefParts.push(`place=${encodeURIComponent(place)}`);
-              if (chapter) detailHrefParts.push(`chapter=${encodeURIComponent(chapter)}`);
-              if (year) detailHrefParts.push(`year=${encodeURIComponent(year)}`);
-              if (item.type) detailHrefParts.push(`type=${encodeURIComponent(item.type)}`);
-              if (item.id) detailHrefParts.push(`entry=${encodeURIComponent(item.id)}`);
-              const detailHref = `#${detailHrefParts.join('&')}`;
+              const detailHref = buildDetailHash(item);
               const meta = [item.date ? item.date : '', ...(item.places || []).slice(0, 2).map(v => prettyPlace(v))].filter(Boolean);
               const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : '🗒️';
               return `
@@ -2383,7 +2413,7 @@
           const id = el.dataset.openContent;
           const item = CONTENT_INDEX.find(entry => entry.id === id);
           if (!item) return;
-          openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
+          openEntryInContext(item);
         });
       });
 
@@ -2397,6 +2427,7 @@
             tab: 'place',
             activePlace: isToggling ? null : id,
             activeChapter: null,
+            activeEntryId: null,
             openCorridor: isToggling ? null : (place ? place.corridor : null),
           });
         });
@@ -2427,6 +2458,7 @@
             activeChapter: state.activeChapter === chapterId ? null : chapterId,
             activePlace: null,
             activeStop: null,
+            activeEntryId: null,
           });
         });
       });
@@ -2443,7 +2475,7 @@
           if (intent?.entry) {
             const item = CONTENT_INDEX.find(entry => entry.id === intent.entry);
             if (item) {
-              openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
+              openEntryInContext(item);
             }
             window.__initialContentIntent = null;
           }
@@ -2653,7 +2685,7 @@
       if (intent?.entry) {
         const item = CONTENT_INDEX.find(entry => entry.id === intent.entry);
         if (item) {
-          openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
+          openEntryInContext(item);
         }
         window.__initialContentIntent = null;
       }
