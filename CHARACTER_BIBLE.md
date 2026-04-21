@@ -166,3 +166,33 @@ When turning Tommy's raw notes into site copy:
 ## Working summary
 
 Tommy is a calm, funny, highly capable captain who is most alive in motion, learning places, reading people, solving problems, and bringing boats into proper shape. He is drawn to the variety of life on the water, but never forgets that behind the scenery are real responsibilities, real systems, and real people depending on him.
+
+
+## 2026-04-20 voice evidence and handling rules
+
+New raw user-written material is not just content input, it is also voice evidence.
+
+When Tommy sends a new log, story, note, or fragmented memory:
+- consult this file before expanding it
+- preserve his operational phrasing and dry understatement
+- update this file if the new material reveals repeatable voice patterns
+- treat fragmented memories as valid source material, not as inferior drafts
+
+### Additional voice truths seen in Tommy's own writing
+
+- He naturally alternates between hard operational detail and deadpan humor.
+- He often makes a serious point by first showing the mess in plain language instead of dressing it up.
+- He does not romanticize dirty or difficult work, but he does enjoy the absurdity when it is real.
+- His voice gets stronger when specific failures, systems, places, or human behavior are named plainly.
+- He likes competence to show through action, improvisation, and follow-through, not through self-congratulation.
+- When a fragment is expanded, keep the blunt lived specificity. Do not sand it down into polished travel writing.
+- Memory fragments can stay short and still be valuable if they carry a real operational or emotional transition.
+
+### Expansion guardrails for future fragments
+
+If Tommy gives only a fragment:
+- preserve the original signal or point of the memory
+- expand around it without overwriting the tone
+- avoid turning a concise remembered truth into a theatrical monologue
+- keep the prose grounded in actual conditions, duties, systems, people, and place changes
+- allow one sharp funny line when it is earned

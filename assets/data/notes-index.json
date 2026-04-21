@@ -1,5 +1,45 @@
 [
   {
+    "id": "memory-gulf-stream-color-change",
+    "type": "note",
+    "title": "The Water Color Change Crossing into the Bahamas",
+    "slug": "gulf-stream-color-change",
+    "date": "2024-01-01",
+    "dateEnd": null,
+    "summary": "The water color change on the crossing is the signal that operations, pace, and guest service are about to change, and it is even better when the dolphins show up.",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "corridors": [
+      "south-florida",
+      "bahamas"
+    ],
+    "places": [
+      "crossing",
+      "chub-cay"
+    ],
+    "chapters": [
+      "bahamas-crossings"
+    ],
+    "years": [
+      2024
+    ],
+    "seasonYears": [],
+    "tags": [
+      "memory",
+      "crossing",
+      "bahamas",
+      "dolphins"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": null,
+    "relatedContent": [],
+    "sourcePath": "content/memories/bahamas/gulf-stream-color-change.md",
+    "body": "The color change of the water as you cross the Gulf Stream and finally arrive in the Bahamas is a signal that operations are changing and we're transitioning to visual navigation, a slower pace, and full press guest service. It's even better when the dolphins show up to greet us."
+  },
+  {
     "id": "note-gulf-stream-window-rule",
     "type": "note",
     "title": "Gulf Stream Window Rule",
@@ -43,5 +83,43 @@
     ],
     "sourcePath": "content/notes/passage/gulf-stream-window-rule.md",
     "body": "This is a seed example note entry.\n\nA note like this exists for the kind of truth that is too useful to lose and too small to force into a full story. The crossing never cares what the calendar says. What matters is whether the day feels right, whether the window is real, and whether the sea state matches the optimistic story people tell themselves at the dock.\n\nIn the archive model, a note like this should be able to sit under the crossing place, connect to a log entry, and attach to one or more supporting images. That makes it useful both as a piece of seamanship memory and as part of the broader narrative graph."
+  },
+  {
+    "id": "note-check-the-whole-interior-before-departure",
+    "type": "note",
+    "title": "Check the Whole Interior Before Casting Off",
+    "slug": "check-the-whole-interior-before-departure",
+    "date": "2024-01-01",
+    "dateEnd": null,
+    "summary": "Never depart the dock, no matter how short the run, without checking the full interior, even if you know you were the last person through those spaces.",
+    "status": "published",
+    "featured": true,
+    "visibility": "public",
+    "corridors": [
+      "south-florida"
+    ],
+    "places": [
+      "fort-lauderdale"
+    ],
+    "chapters": [
+      "seamanship-rules"
+    ],
+    "years": [
+      2024
+    ],
+    "seasonYears": [],
+    "tags": [
+      "seamanship",
+      "tender",
+      "owner-ops",
+      "hard-lessons"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": null,
+    "relatedContent": [],
+    "sourcePath": "content/notes/seamanship/check-the-whole-interior-before-departure.md",
+    "body": "Never depart the dock, no matter how short the trip is, without checking the entire interior, even if you know you were the last person in those spaces.\n\nAn owner bought a new tender and it was at the dealership's service slip, and I was sent to move it to the owner's house. It was just a short smooth water run in a new boat. I went through all my mechanical checks, did a quick deck sweep, and staged lines and fenders for a quick landing on arrival.\n\nApparently the owner's kids had put together a congratulations gift in the V berth, a serving tray on the foot of the bed with several bottles of red wine and crystal stemware. None of it made sense as something the kids would ever actually use or probably ever even see in the tender V berth, but they did it anyway. The surprise was found by the crew smashed on the floor with red wine painting the lower sections of the walls and shards of high end wine glass everywhere.\n\nSo I never cast off without checking the whole interior."
   }
 ]
