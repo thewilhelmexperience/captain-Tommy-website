@@ -1546,7 +1546,11 @@
     const PLACES = [];
 
     function prettyRegion(regionId) {
-      return regionId.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+      return regionId.split('-').map(part => {
+        if (part === 'nyc') return 'NYC';
+        if (part === 'icw') return 'ICW';
+        return part.charAt(0).toUpperCase() + part.slice(1);
+      }).join(' ');
     }
 
     function prettyPlace(placeId) {
@@ -1697,7 +1701,7 @@
       archiveContentType: 'all',
       corridorFilter: 'all',
       corridorYear: 'all',
-      placeRegionFilter: 'hudson-river-nyc',
+      placeRegionFilter: 'all',
       gallery: {
         images: [],
         title: '',
