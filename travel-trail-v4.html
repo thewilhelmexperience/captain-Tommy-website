@@ -798,6 +798,98 @@
       display: block;
     }
 
+    .run-video-block {
+      margin-top: 1rem;
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+    }
+    .run-video-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .run-video-label {
+      color: var(--accent);
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      margin-bottom: 0.3rem;
+    }
+    .run-video-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+    .run-video-note {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .run-video-toggle {
+      border: 1px solid rgba(87,200,255,0.24);
+      background: rgba(87,200,255,0.08);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .run-video-items {
+      display: grid;
+      gap: 0.75rem;
+    }
+    .run-video-item {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 0.85rem;
+      background: rgba(4,16,29,0.45);
+    }
+    .run-video-item-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .run-video-item-meta {
+      color: var(--soft);
+      font-size: 0.78rem;
+      margin-bottom: 0.45rem;
+    }
+    .run-video-item-desc {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-bottom: 0.65rem;
+    }
+    .run-video-actions {
+      display: flex;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+    }
+    .run-video-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      text-decoration: none;
+      border-radius: 999px;
+      padding: 0.48rem 0.82rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: 1px solid rgba(87,200,255,0.24);
+      color: var(--text);
+      background: rgba(87,200,255,0.08);
+    }
+    .run-video-link.secondary {
+      background: transparent;
+      color: var(--muted);
+      border-color: var(--line);
+    }
+
     .stop-detail-gps {
 
       font-size: 0.66rem;
@@ -1462,6 +1554,42 @@
       'new-england': ['greenport','shelter-island','sag-harbor','sag-harbor-bay','shinnecock-bay','three-mile-harbor','mystic-stonington','old-saybrook'],
     };
 
+    const RUN_VIDEOS = [
+      {
+        id: 'erie-canal-main',
+        title: 'Erie Canal Time lapse',
+        youtubeId: '2bhJwE21XIA',
+        url: 'https://www.youtube.com/watch?v=2bhJwE21XIA',
+        corridors: ['erie-canal'],
+        places: ['oneida-lake-oswego', 'utica-rome', 'schenectady-amsterdam'],
+        chapters: [],
+        meta: 'Uploaded April 8, 2023',
+        desc: 'A broad timelapse pass through the canal, useful as the bigger-picture inland connector run.'
+      },
+      {
+        id: 'erie-lock-8-troy',
+        title: 'Erie Canal - Lock 8 to Troy Timelapse',
+        youtubeId: 'jDZy81Cwvx4',
+        url: 'https://www.youtube.com/watch?v=jDZy81Cwvx4',
+        corridors: ['erie-canal'],
+        places: ['albany-troy', 'schenectady-amsterdam'],
+        chapters: [],
+        meta: 'Uploaded April 8, 2023',
+        desc: 'A tighter downstream segment, especially useful near the Albany and Troy handoff where the canal shifts character again.'
+      },
+      {
+        id: 'hudson-troy-nyc',
+        title: 'Hudson River Timelapse - Troy to (almost) NYC',
+        youtubeId: 'DYiws4bxKCk',
+        url: 'https://www.youtube.com/watch?v=DYiws4bxKCk',
+        corridors: ['east-coast'],
+        places: ['yonkers-westchester', 'upper-manhattan-bronx', 'jersey-city-manhattan', 'lower-nyc-harbor'],
+        chapters: ['city-water-and-east-end-runs'],
+        meta: 'Uploaded April 8, 2023',
+        desc: 'The Hudson stretch southbound toward the city, good for showing how that run actually feels instead of just naming the route.'
+      }
+    ];
+
     const CHAPTERS = [
       {
         id: 'home-waters-runs',
@@ -1930,6 +2058,7 @@
         <div class="stops-label">${filteredStops.length} places ${yearFilter ? `for ${yearFilter}` : 'along this corridor'}</div>
         <div class="stops-scroll">${filteredStops.map(s => renderStopCard(s, c.hex)).join('')}</div>
         ${stopDetail ? renderStopDetail(stopDetail) : ''}
+        ${renderRunVideos(getRunVideos({ corridorId: c.id }), 'Watch the run', 'A few route timelapses that belong to this stretch of the trail.')}
       </div>`;
     }
 
@@ -1997,6 +2126,41 @@
                 ${isOpen ? `<div class="content-drawer-body">${bodyHtml}</div>` : ''}
               </article>`;
           }).join('')}
+        </div>`;
+    }
+
+    function getRunVideos({ corridorId = null, placeId = null, chapterId = null } = {}) {
+      return RUN_VIDEOS.filter(video => {
+        if (placeId && (video.places || []).includes(placeId)) return true;
+        if (chapterId && (video.chapters || []).includes(chapterId)) return true;
+        if (corridorId && (video.corridors || []).includes(corridorId)) return true;
+        return false;
+      });
+    }
+
+    function renderRunVideos(videos, title = 'Watch the run', note = 'A few route timelapses that fit this stretch of the trail.') {
+      if (!videos || !videos.length) return '';
+      return `
+        <div class="run-video-block">
+          <div class="run-video-head">
+            <div>
+              <div class="run-video-label">Route timelapses</div>
+              <div class="run-video-title">${title}</div>
+              <div class="run-video-note">${note}</div>
+            </div>
+          </div>
+          <div class="run-video-items">
+            ${videos.map(video => `
+              <div class="run-video-item">
+                <div class="run-video-item-title">${video.title}</div>
+                <div class="run-video-item-meta">${video.meta}</div>
+                <div class="run-video-item-desc">${video.desc}</div>
+                <div class="run-video-actions">
+                  <a class="run-video-link" href="${video.url}" target="_blank" rel="noopener noreferrer">▶ Watch on YouTube</a>
+                  <a class="run-video-link secondary" href="https://www.youtube.com/embed/${video.youtubeId}" target="_blank" rel="noopener noreferrer">Open embed</a>
+                </div>
+              </div>`).join('')}
+          </div>
         </div>`;
     }
 
@@ -2149,6 +2313,7 @@
             </div>
             ${images.length > previewImages.length ? `<div class="place-archive-note">Showing ${previewImages.length} of ${images.length} images, open the gallery to browse the full set.</div>` : ''}
           ` : ''}
+          ${renderRunVideos(getRunVideos({ corridorId: state.openCorridor, placeId: s.id }), 'Watch this stretch', 'Route footage that lines up with this stop or the water around it.')}
         </div>`;
     }
 
@@ -2225,6 +2390,7 @@
                   <img src="${img.thumb}" alt="${p.name} photo ${idx + 1}" loading="lazy">
                 </button>`).join('')}
             </div>` : ''}
+          ${renderRunVideos(getRunVideos({ corridorId: p.corridor, placeId: p.id }), 'Watch this run', 'Route timelapses that fit this place or the larger water around it.')}
         </div>`;
     }
 
@@ -2278,6 +2444,7 @@
                   <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="chapter" data-chapter-id="${ch.id}">🗒️ ${notes} notes</button>
                 </div>`;
             })()}
+            ${renderRunVideos(getRunVideos({ chapterId: ch.id }), 'Watch the run', 'A small set of route timelapses that belong to this chapter of the trail.')}
           </div>
         </div>`;
     }
