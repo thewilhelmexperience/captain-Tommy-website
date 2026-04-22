@@ -2050,6 +2050,7 @@
     function renderCorridorCard(c, idx, openIndex) {
       const isOpen = state.openCorridor === c.id;
       const posClass = openIndex < 0 ? '' : (idx < openIndex ? 'before-open' : idx > openIndex ? 'after-open' : '');
+      const liveWrittenCount = getContextItems({ scope: 'corridor', corridorId: c.id }).length;
       return `
         <div class="corridor-card ${isOpen ? 'open' : ''} ${posClass}" data-card="${c.id}">
           <div class="corridor-header" data-open-corridor="${c.id}">
@@ -2060,7 +2061,7 @@
             </div>
             <div class="corridor-counts">
               <span class="count-chip">📷<span>${c.counts.photos}</span></span>
-              <span class="count-chip">📋<span>${c.counts.log}</span></span>
+              <span class="count-chip">🗒️<span>${liveWrittenCount}</span></span>
             </div>
             <span class="corridor-chevron">▾</span>
           </div>
@@ -2664,6 +2665,26 @@
 
     // ── Archive tab ───────────────────────────────────────────────────
 
+    function renderArchiveSummary() {
+      const items = getArchiveItems();
+      const grouped = groupContentByType(items);
+      if (!items.length) return '<div class="place-archive-note">No written entries match this archive filter yet.</div>';
+      return `
+        <div class="content-drawer-shell" style="margin-top:1rem;">
+          <div class="content-drawer-header-row">
+            <div>
+              <div class="place-visit-label">Filtered archive overview</div>
+              <div class="place-archive-note">Read straight through here, or open a single entry without losing your archive place.</div>
+            </div>
+          </div>
+          ${grouped.map(group => `
+            <section class="content-drawer-group">
+              <div class="content-drawer-group-title">${group.label} · ${group.items.length}</div>
+              ${renderContentCards(group.items, 'No entries in this group.')}
+            </section>`).join('')}
+        </div>`;
+    }
+
     function renderArchiveTab() {
       const stats = getArchiveStats();
       const cards = Object.entries(ARCHIVE).map(([key, val]) => `
@@ -2678,6 +2699,7 @@
         <div class="archive-stub">
           <strong>The archive browser is now tied to the cleaned live library.</strong> It currently includes ${stats.photos.toLocaleString()} images, ${stats.places} places, ${stats.corridorCount} corridors, ${stats.contentCount} written entries, and a small linked video shelf that can grow as quarantine footage gets reviewed and uploaded properly.
         </div>
+        ${renderArchiveSummary()}
         ${renderArchiveContentBrowser()}`;
     }
 
