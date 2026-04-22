@@ -3,7 +3,7 @@
 
 This is an initial scaffold, not the finished production builder.
 It establishes the folder conventions, metadata expectations, and output targets
-for logs, stories, notes, and intake-backed promotion later.
+for logs, stories, notes, memories, and intake-backed promotion later.
 """
 
 from __future__ import annotations
@@ -19,7 +19,14 @@ CONTENT_DIR = ROOT / 'content'
 OUTPUT_DIR = ROOT / 'assets' / 'data'
 DB_PATH = ROOT / 'data' / 'content-index.sqlite3'
 
-VALID_TYPES = {'log', 'story', 'note'}
+VALID_TYPES = {'log', 'story', 'note', 'memory'}
+
+FOLDER_TYPE_MAP = {
+    'logs': 'log',
+    'stories': 'story',
+    'notes': 'note',
+    'memories': 'memory',
+}
 
 
 @dataclass
@@ -92,7 +99,8 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 
 def normalize_record(path: Path) -> ContentRecord:
     meta, body = parse_frontmatter(path.read_text())
-    record_type = meta.get('type') or path.parts[-3].rstrip('s')
+    parent_dir = path.parent.parts[0] if path.is_relative_to(CONTENT_DIR) else path.parts[-3]
+    record_type = meta.get('type') or FOLDER_TYPE_MAP.get(parent_dir, parent_dir.rstrip('s'))
     if record_type not in VALID_TYPES:
         raise ValueError(f'{path}: invalid type {record_type!r}')
     title = meta.get('title') or path.stem.replace('-', ' ').title()
@@ -140,6 +148,7 @@ def write_json(records: list[ContentRecord]) -> None:
     (OUTPUT_DIR / 'logs-recent.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'log'], indent=2) + '\n')
     (OUTPUT_DIR / 'stories-index.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'story'], indent=2) + '\n')
     (OUTPUT_DIR / 'notes-index.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'note'], indent=2) + '\n')
+    (OUTPUT_DIR / 'memories-index.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'memory'], indent=2) + '\n')
 
 
 def rebuild_sqlite(records: list[ContentRecord]) -> None:
