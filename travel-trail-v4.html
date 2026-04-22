@@ -1712,6 +1712,7 @@
         log: content.filter(item => item.type === 'log').length,
         routes: 0,
         notes: content.filter(item => item.type === 'note').length,
+        memories: content.filter(item => item.type === 'memory').length,
       };
     }
 
@@ -2064,6 +2065,7 @@
       const storyCount = filteredContent.filter(item => item.type === 'story').length;
       const logCount = filteredContent.filter(item => item.type === 'log').length;
       const noteCount = filteredContent.filter(item => item.type === 'note').length;
+      const memoryCount = filteredContent.filter(item => item.type === 'memory').length;
       const previewStops = filteredStops.filter(s => (s.counts.photos || 0) > 0).slice(0, 3);
       return `<div class="corridor-body">
         <p class="corridor-desc">${c.desc}</p>
@@ -2072,6 +2074,7 @@
           <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="corridor" data-corridor-id="${c.id}">📖 ${storyCount} stories</button>
           <button class="count-pill log" type="button" data-open-content-list="log" data-scope="corridor" data-corridor-id="${c.id}">📋 ${logCount} log entries</button>
           <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="corridor" data-corridor-id="${c.id}">🗒️ ${noteCount} notes</button>
+          <button class="count-pill stories" type="button" data-open-content-list="memory" data-scope="corridor" data-corridor-id="${c.id}">🧭 ${memoryCount} memories</button>
           <span class="count-pill routes">⚓ ${c.counts.routes} passages</span>
         </div>
         <div class="era-chips">
@@ -2105,10 +2108,11 @@
     function renderStopCard(s, hex) {
       const isActive = state.activeStop === s.id;
       const chips = [
-        s.counts.photos  ? `📷 ${s.counts.photos}` : '',
-        s.counts.log     ? `📋 ${s.counts.log}`     : '',
-        s.counts.stories ? `📖 ${s.counts.stories}` : '',
-        s.counts.notes   ? `🗒️ ${s.counts.notes}`   : '',
+        s.counts.photos   ? `📷 ${s.counts.photos}`   : '',
+        s.counts.log      ? `📋 ${s.counts.log}`      : '',
+        s.counts.stories  ? `📖 ${s.counts.stories}`  : '',
+        s.counts.notes    ? `🗒️ ${s.counts.notes}`    : '',
+        s.counts.memories ? `🧭 ${s.counts.memories}` : '',
       ].filter(Boolean);
       return `
         <div class="stop-card ${isActive ? 'active' : ''}" data-open-stop="${s.id}">
@@ -2149,7 +2153,7 @@
               item.date ? item.date : '',
               ...(item.places || []).slice(0, 2).map(v => prettyPlace(v)),
             ].filter(Boolean);
-            const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : '🗒️';
+            const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : item.type === 'memory' ? '🧭' : '🗒️';
             const isOpen = state.activeContentContext === item.id;
             const bodyHtml = String(item.body || '')
               .split(/\n\n+/)
@@ -2377,6 +2381,7 @@
       const storyCount = contentItems.filter(item => item.type === 'story').length;
       const logCount = contentItems.filter(item => item.type === 'log').length;
       const noteCount = contentItems.filter(item => item.type === 'note').length;
+      const memoryCount = contentItems.filter(item => item.type === 'memory').length;
       return `
         <div class="stop-detail">
           <div class="stop-detail-head">
@@ -2393,6 +2398,7 @@
               <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="place" data-place-id="${s.id}">📖 ${storyCount} stories</button>
               <button class="count-pill log" type="button" data-open-content-list="log" data-scope="place" data-place-id="${s.id}">📋 ${logCount} log entries</button>
               <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="place" data-place-id="${s.id}">🗒️ ${noteCount} notes</button>
+              <button class="count-pill stories" type="button" data-open-content-list="memory" data-scope="place" data-place-id="${s.id}">🧭 ${memoryCount} memories</button>
             </div>
             <div class="stop-detail-gps">${coords}</div>
           </div>
@@ -2435,10 +2441,11 @@
       const previewYears = p.visitYears.slice(0, 5);
       const hasMore = p.visitYears.length > 5;
       const chips = [
-        p.counts.photos  ? `📷 ${p.counts.photos}` : '',
-        p.counts.log     ? `📋 ${p.counts.log}`     : '',
-        p.counts.stories ? `📖 ${p.counts.stories}` : '',
-        p.counts.notes   ? `🗒️ ${p.counts.notes}`   : '',
+        p.counts.photos   ? `📷 ${p.counts.photos}`   : '',
+        p.counts.log      ? `📋 ${p.counts.log}`      : '',
+        p.counts.stories  ? `📖 ${p.counts.stories}`  : '',
+        p.counts.notes    ? `🗒️ ${p.counts.notes}`    : '',
+        p.counts.memories ? `🧭 ${p.counts.memories}` : '',
       ].filter(Boolean);
 
       return `
@@ -2474,6 +2481,7 @@
             <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="place" data-place-id="${p.id}">📖 ${p.counts.stories} stories</button>
             <button class="count-pill log" type="button" data-open-content-list="log" data-scope="place" data-place-id="${p.id}">📋 ${p.counts.log} log entries</button>
             <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="place" data-place-id="${p.id}">🗒️ ${p.counts.notes} notes</button>
+            <button class="count-pill stories" type="button" data-open-content-list="memory" data-scope="place" data-place-id="${p.id}">🧭 ${p.counts.memories} memories</button>
           </div>
           ${images.length ? `
             <div class="place-archive-note">Photo set available for this place</div>
@@ -2530,11 +2538,13 @@
               const stories = items.filter(item => item.type === 'story').length;
               const logs = items.filter(item => item.type === 'log').length;
               const notes = items.filter(item => item.type === 'note').length;
+              const memories = items.filter(item => item.type === 'memory').length;
               return `
                 <div class="place-detail-counts count-bar" style="margin-top:0.8rem;">
                   <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="chapter" data-chapter-id="${ch.id}">📖 ${stories} stories</button>
                   <button class="count-pill log" type="button" data-open-content-list="log" data-scope="chapter" data-chapter-id="${ch.id}">📋 ${logs} log entries</button>
                   <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="chapter" data-chapter-id="${ch.id}">🗒️ ${notes} notes</button>
+                  <button class="count-pill stories" type="button" data-open-content-list="memory" data-scope="chapter" data-chapter-id="${ch.id}">🧭 ${memories} memories</button>
                 </div>`;
             })()}
             ${renderRunVideos(getRunVideos({ chapterId: ch.id }), 'Watch the run', 'A small set of route timelapses that belong to this chapter of the trail.')}
@@ -2657,7 +2667,7 @@
             placeId: el.dataset.placeId || null,
             chapterId: el.dataset.chapterId || null,
           });
-          const labels = { story: 'Stories', log: 'Log entries', note: 'Notes' };
+          const labels = { story: 'Stories', log: 'Log entries', note: 'Notes', memory: 'Memories' };
           const typeLabel = labels[type] || 'Written content';
           const subject = el.dataset.placeId
             ? (PLACES.find(p => p.id === el.dataset.placeId)?.name || 'place')
