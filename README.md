@@ -2,6 +2,12 @@
 
 ⚓ Professional Yacht Captain Website
 
+## Mission directives
+
+- `MISSION_DIRECTIVE_NORTH_STAR.md` - overarching purpose, autobiographical north star, intake-first priority, and voice/experience guardrails
+- `MISSION_DIRECTIVE_2026-04-15.md` - earlier site direction and framing
+- `MISSION_DIRECTIVE_2026-04-20_PUBLISH_RECOVERY.md` - publish-recovery priorities and near-term sequencing
+
 ## Status
 
 🚧 **Coming Soon** — Full website under development
