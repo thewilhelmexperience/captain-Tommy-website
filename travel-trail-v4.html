@@ -2073,11 +2073,10 @@
       const filteredStops = yearFilter ? c.stops.filter(s => (s.eras || []).includes(yearFilter)) : c.stops;
       const stopDetail = state.activeStop ? filteredStops.find(s => s.id === state.activeStop) || c.stops.find(s => s.id === state.activeStop) : null;
       const filteredPhotoCount = filteredStops.reduce((sum, s) => sum + (s.filteredCounts?.photos ?? s.counts.photos ?? 0), 0);
-      const filteredContent = getRelatedContent({ corridorId: c.id, year: yearFilter || null });
-      const storyCount = filteredContent.filter(item => item.type === 'story').length;
-      const logCount = filteredContent.filter(item => item.type === 'log').length;
-      const noteCount = filteredContent.filter(item => item.type === 'note').length;
-      const memoryCount = filteredContent.filter(item => item.type === 'memory').length;
+      const storyCount = getContextItems({ scope: 'corridor', type: 'story', corridorId: c.id }).length;
+      const logCount = getContextItems({ scope: 'corridor', type: 'log', corridorId: c.id }).length;
+      const noteCount = getContextItems({ scope: 'corridor', type: 'note', corridorId: c.id }).length;
+      const memoryCount = getContextItems({ scope: 'corridor', type: 'memory', corridorId: c.id }).length;
       const previewStops = filteredStops.filter(s => (s.counts.photos || 0) > 0).slice(0, 3);
       return `<div class="corridor-body">
         <p class="corridor-desc">${c.desc}</p>
@@ -2119,12 +2118,16 @@
 
     function renderStopCard(s, hex) {
       const isActive = state.activeStop === s.id;
+      const liveLogCount = getRelatedContent({ placeId: s.id, types: ['log'] }).length;
+      const liveStoryCount = getRelatedContent({ placeId: s.id, types: ['story'] }).length;
+      const liveNoteCount = getRelatedContent({ placeId: s.id, types: ['note'] }).length;
+      const liveMemoryCount = getRelatedContent({ placeId: s.id, types: ['memory'] }).length;
       const chips = [
         s.counts.photos   ? `📷 ${s.counts.photos}`   : '',
-        s.counts.log      ? `📋 ${s.counts.log}`      : '',
-        s.counts.stories  ? `📖 ${s.counts.stories}`  : '',
-        s.counts.notes    ? `🗒️ ${s.counts.notes}`    : '',
-        s.counts.memories ? `🧭 ${s.counts.memories}` : '',
+        liveLogCount      ? `📋 ${liveLogCount}`      : '',
+        liveStoryCount    ? `📖 ${liveStoryCount}`    : '',
+        liveNoteCount     ? `🗒️ ${liveNoteCount}`     : '',
+        liveMemoryCount   ? `🧭 ${liveMemoryCount}`   : '',
       ].filter(Boolean);
       return `
         <div class="stop-card ${isActive ? 'active' : ''}" data-open-stop="${s.id}">
@@ -2144,6 +2147,7 @@
       const year = override.year || (item?.years || [])[0] || (item?.date ? String(item.date).slice(0, 4) : '');
       const parts = [];
       if (override.tab) parts.push(`tab=${encodeURIComponent(override.tab)}`);
+      else if (state.tab === 'archive') parts.push('tab=archive');
       else if (chapter) parts.push('tab=chapter');
       else if (place) parts.push('tab=place');
       else parts.push('tab=corridor');
@@ -2531,12 +2535,16 @@
       // Show first 4 year pips in collapsed state, all in expanded
       const previewYears = p.visitYears.slice(0, 5);
       const hasMore = p.visitYears.length > 5;
+      const liveLogCount = getContextItems({ scope: 'place', type: 'log', placeId: p.id }).length;
+      const liveStoryCount = getContextItems({ scope: 'place', type: 'story', placeId: p.id }).length;
+      const liveNoteCount = getContextItems({ scope: 'place', type: 'note', placeId: p.id }).length;
+      const liveMemoryCount = getContextItems({ scope: 'place', type: 'memory', placeId: p.id }).length;
       const chips = [
         p.counts.photos   ? `📷 ${p.counts.photos}`   : '',
-        p.counts.log      ? `📋 ${p.counts.log}`      : '',
-        p.counts.stories  ? `📖 ${p.counts.stories}`  : '',
-        p.counts.notes    ? `🗒️ ${p.counts.notes}`    : '',
-        p.counts.memories ? `🧭 ${p.counts.memories}` : '',
+        liveLogCount      ? `📋 ${liveLogCount}`      : '',
+        liveStoryCount    ? `📖 ${liveStoryCount}`    : '',
+        liveNoteCount     ? `🗒️ ${liveNoteCount}`     : '',
+        liveMemoryCount   ? `🧭 ${liveMemoryCount}`   : '',
       ].filter(Boolean);
 
       return `
@@ -2561,6 +2569,10 @@
       const images = IMAGE_MANIFESTS[p.key] || [];
       const previewImages = images.slice(0, 12);
       const mixedItems = getContextItems({ scope: 'place', placeId: p.id });
+      const storyCount = getContextItems({ scope: 'place', type: 'story', placeId: p.id }).length;
+      const logCount = getContextItems({ scope: 'place', type: 'log', placeId: p.id }).length;
+      const noteCount = getContextItems({ scope: 'place', type: 'note', placeId: p.id }).length;
+      const memoryCount = getContextItems({ scope: 'place', type: 'memory', placeId: p.id }).length;
       return `
         <div class="place-card-body">
           <p class="place-note">${p.note}</p>
@@ -2570,10 +2582,10 @@
           </div>
           <div class="place-detail-counts count-bar">
             ${p.counts.photos  ? `<button class="count-pill photos" type="button" data-open-gallery-context="place" data-place-id="${p.id}">📷 ${p.counts.photos} photos</button>` : ''}
-            <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="place" data-place-id="${p.id}">📖 ${p.counts.stories} stories</button>
-            <button class="count-pill log" type="button" data-open-content-list="log" data-scope="place" data-place-id="${p.id}">📋 ${p.counts.log} log entries</button>
-            <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="place" data-place-id="${p.id}">🗒️ ${p.counts.notes} notes</button>
-            <button class="count-pill stories" type="button" data-open-content-list="memory" data-scope="place" data-place-id="${p.id}">🧭 ${p.counts.memories} memories</button>
+            <button class="count-pill stories" type="button" data-open-content-list="story" data-scope="place" data-place-id="${p.id}">📖 ${storyCount} stories</button>
+            <button class="count-pill log" type="button" data-open-content-list="log" data-scope="place" data-place-id="${p.id}">📋 ${logCount} log entries</button>
+            <button class="count-pill stories" type="button" data-open-content-list="note" data-scope="place" data-place-id="${p.id}">🗒️ ${noteCount} notes</button>
+            <button class="count-pill stories" type="button" data-open-content-list="memory" data-scope="place" data-place-id="${p.id}">🧭 ${memoryCount} memories</button>
           </div>
           ${images.length ? `
             <div class="place-archive-note">Photo set available for this place</div>
