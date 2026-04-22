@@ -85,6 +85,44 @@
     "body": "This is a seed example note entry.\n\nA note like this exists for the kind of truth that is too useful to lose and too small to force into a full story. The crossing never cares what the calendar says. What matters is whether the day feels right, whether the window is real, and whether the sea state matches the optimistic story people tell themselves at the dock.\n\nIn the archive model, a note like this should be able to sit under the crossing place, connect to a log entry, and attach to one or more supporting images. That makes it useful both as a piece of seamanship memory and as part of the broader narrative graph."
   },
   {
+    "id": "note-a-boat-can-be-beautiful-and-still-be-sick",
+    "type": "note",
+    "title": "A Boat Can Be Beautiful and Still Be Sick",
+    "slug": "a-boat-can-be-beautiful-and-still-be-sick",
+    "date": "2026-04-22",
+    "dateEnd": null,
+    "summary": "Cosmetic presentation can hide tired systems, normalized dysfunction, and warning signs that only look normal to people who do not yet know better.",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "corridors": [],
+    "places": [],
+    "chapters": [
+      "system-truths",
+      "owner-education"
+    ],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "yachts",
+      "maintenance",
+      "system-failures",
+      "normalized-dysfunction",
+      "owner-education"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": null,
+    "relatedContent": [],
+    "sourcePath": "content/notes/seamanship/a-boat-can-be-beautiful-and-still-be-sick.md",
+    "body": "Exterior presentation tells you something about a program, but it does not tell you everything. A neglected exterior often does foreshadow what you are about to find inside, but even that is not always reliable. Sometimes a rough-looking boat surprises you. And sometimes a perfectly manicured yacht tied up at the dock, polished and shining and giving every outward sign of competence, is already trying to tell you something is wrong the moment you step aboard.\n\nUsually it starts with smell.\n\nIf the interior smells like mold, blackwater, stale humidity, or some other version of trapped system failure, that is the first sign. Then you start hearing things. A pump laboring. A fan motor struggling. An air handler that sounds tired. Lights dimming when they should not. A toilet flush that drags voltage down like the boat is negotiating with itself.\n\nTo owners and guests, that world is often completely foreign. They may assume all boats smell that way. They may assume everybody gets bronchitis after spending a week aboard. They may assume pumps, air conditioners, and heads all sound like they are barely hanging on because they have no better reference point. Even crew can fall into the same trap if all they have known is less-than-stellar boats. Once dysfunction becomes familiar, people start calling it normal.\n\nIt is not normal.\n\nThat is one of the harder parts of experience. You stop hearing just noise and start hearing symptoms. You stop seeing a beautiful boat and start noticing the signs that the systems underneath it are tired, neglected, or already in decline. That is also when the captain\u2019s life gets more difficult, because eventually you have to tell an owner that something major needs to be addressed, and the answer you often get back is, \u201cIt\u2019s always worked that way.\u201d\n\nUntil it doesn\u2019t.\n\nA lot of expensive surprises aboard yachts are only surprising to the people who got used to the warnings."
+  },
+  {
     "id": "note-check-the-whole-interior-before-departure",
     "type": "note",
     "title": "Check the Whole Interior Before Casting Off",
@@ -121,5 +159,123 @@
     "relatedContent": [],
     "sourcePath": "content/notes/seamanship/check-the-whole-interior-before-departure.md",
     "body": "Never depart the dock, no matter how short the trip is, without checking the entire interior, even if you know you were the last person in those spaces.\n\nAn owner bought a new tender and it was at the dealership's service slip, and I was sent to move it to the owner's house. It was just a short smooth water run in a new boat. I went through all my mechanical checks, did a quick deck sweep, and staged lines and fenders for a quick landing on arrival.\n\nApparently the owner's kids had put together a congratulations gift in the V berth, a serving tray on the foot of the bed with several bottles of red wine and crystal stemware. None of it made sense as something the kids would ever actually use or probably ever even see in the tender V berth, but they did it anyway. The surprise was found by the crew smashed on the floor with red wine painting the lower sections of the walls and shards of high end wine glass everywhere.\n\nSo I never cast off without checking the whole interior."
+  },
+  {
+    "id": "note-checklists-exist-to-replace-assumption-with-knowledge",
+    "type": "note",
+    "title": "Checklists Exist to Replace Assumption with Knowledge",
+    "slug": "checklists-exist-to-replace-assumption-with-knowledge",
+    "date": "2026-04-22",
+    "dateEnd": null,
+    "summary": "The value of a checklist is not paperwork but verified reality, and lifejackets make the point better than most systems do.",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "corridors": [],
+    "places": [],
+    "chapters": [
+      "seamanship",
+      "operational-discipline"
+    ],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "checklists",
+      "safety-gear",
+      "lifejackets",
+      "accountability",
+      "procedure"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": null,
+    "relatedContent": [],
+    "sourcePath": "content/notes/seamanship/checklists-exist-to-replace-assumption-with-knowledge.md",
+    "body": "Checklists matter because they replace assumption with accountability.\n\nHaving procedures means we get to operate knowing something is ready, not just hoping it probably is. That distinction sounds small right up until it isn\u2019t.\n\nThat is true across the boat, but safety gear makes the point especially well. Lifejacket checks become repetitive, and because they are repetitive, people start treating them as automatic. The assumption becomes that the number of lifejackets in the locker has not changed because nobody has used one, moved one, borrowed one, or left one in some other compartment. But that is still just an assumption.\n\nActually opening the locker, visually checking them, and counting them does something important. It turns \u201cthey should be there\u201d into \u201cwe know they are there.\u201d It also confirms they are not tangled up, buried, damaged, or otherwise not ready to use when the time comes.\n\nThat is the real value of a checklist.\n\nIt is not there to create paperwork. It is there to force someone to verify reality before reality gets a vote. In a real emergency, you do not want to be untangling lifejackets, discovering one is missing, or deciding in real time who does not get one. By then the checklist has already failed, and so have the people responsible for it.\n\nGood procedures are not about looking organized. They are about removing guesswork from the moments when guesswork becomes expensive."
+  },
+  {
+    "id": "note-do-not-trust-the-blackwater-system-just-because-someone-logged-it",
+    "type": "note",
+    "title": "Do Not Trust the Blackwater System Just Because Someone Logged It",
+    "slug": "do-not-trust-the-blackwater-system-just-because-someone-logged-it",
+    "date": "2026-04-22",
+    "dateEnd": null,
+    "summary": "Blackwater systems are often the first neglected system on a new boat, which is exactly why they need immediate eyes-on verification regardless of what the service logs claim.",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "corridors": [],
+    "places": [],
+    "chapters": [
+      "system-truths",
+      "new-boat-checks"
+    ],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "blackwater",
+      "msd",
+      "new-boat",
+      "service-logs",
+      "maintenance",
+      "seamanship"
+    ],
+    "boats": [
+      "lady-b",
+      "lady-victory"
+    ],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": null,
+    "relatedContent": [],
+    "sourcePath": "content/notes/seamanship/do-not-trust-the-blackwater-system-just-because-someone-logged-it.md",
+    "body": "MSD and blackwater systems are some of the first things I worry about when joining a new boat, because they are also some of the first things previous crews tend to avoid until avoidance is no longer an option.\n\nThat pattern has repeated itself often enough that I no longer treat service logs as proof that the system is healthy. On both *Lady B* and *Lady Victory*, the blackwater system ended up giving me a very direct education in what these systems actually need in order to function properly, how quickly small neglect turns into a disgusting operational problem, and how often people convince themselves that if the toilets still sort of work, the system must be fine.\n\nIt usually is not.\n\nNobody likes dealing with human waste. That is exactly why these systems get neglected. They are unpleasant, out of sight when they are behaving, and easy to postpone in favor of more visible jobs. But ignoring the system that handles waste is not a strategy. It is just a delayed emergency.\n\nAt this point, when I join a boat, blackwater is one of the systems I want eyes on early, no matter what the paperwork says. The first things I want checked are the transfer pump, the hoses, and the chemical pump and reservoir. I also want a proper dose of the correct tank treatment to make sure the biology is balanced from the start. Those are first-step items every time.\n\nI want to know what has actually been serviced, what has only been claimed, what is close to failure, and what bad habits have been normalized around it. If you wait until the boat is full, the guests are aboard, or the tank is at capacity, you are already late.\n\nThe lesson is simple: if the waste system looks like something nobody wants to think about, that is probably because nobody has been thinking about it."
+  },
+  {
+    "id": "note-weather-does-not-care-who-your-dinner-guests-are",
+    "type": "note",
+    "title": "Weather Does Not Care Who Your Dinner Guests Are",
+    "slug": "weather-does-not-care-who-your-dinner-guests-are",
+    "date": "2026-04-22",
+    "dateEnd": null,
+    "summary": "Part of the captain's job is standing up to owner pressure when the weather answer is no, because schedule pressure does not change conditions.",
+    "status": "published",
+    "featured": false,
+    "visibility": "public",
+    "corridors": [],
+    "places": [],
+    "chapters": [
+      "weather-judgment",
+      "owner-management"
+    ],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "weather",
+      "decision-making",
+      "owner-pressure",
+      "seamanship",
+      "authority"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": null,
+    "relatedContent": [],
+    "sourcePath": "content/notes/weather/weather-does-not-care-who-your-dinner-guests-are.md",
+    "body": "Sometimes part of the job is standing up to the boss.\n\nThere is a reason they need you, and one of those reasons is that somebody on board has to care more about reality than about the owner\u2019s preferred outcome. Weather is one of the clearest examples.\n\nWeather windows are not a formality. They are not a suggestion, and they are not something you get to negotiate with because the schedule became inconvenient. If a major system is moving through, if the conditions are unsafe, or if the risk has crossed the line from manageable to foolish, then that is the answer. Not the beginning of a debate.\n\nOwners can try every tactic in the book when they do not like that answer. Schedule pressure, guest pressure, sunk-cost pressure, irritation, status, guilt, confidence, the belief that money should be able to bend circumstances, all of it shows up sooner or later. None of it changes the weather.\n\nMother Nature does not care that dinner guests are only in town for one more night. She does not care what was promised, what was planned, or how badly somebody wants the evening to go a certain way. She is not involved in the negotiation.\n\nAnd neither should you be, once the answer is clear.\n\nIf you are the person responsible for the boat and the people aboard, then sometimes your job is to disappoint somebody on purpose. Better that than pretending conditions are acceptable just because the boss is not in the mood to hear otherwise.\n\nWe are not going out in a named storm."
   }
 ]

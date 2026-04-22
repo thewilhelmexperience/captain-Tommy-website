@@ -5,7 +5,7 @@ title: Do Not Trust the Blackwater System Just Because Someone Logged It
 slug: do-not-trust-the-blackwater-system-just-because-someone-logged-it
 date: 2026-04-22
 summary: Blackwater systems are often the first neglected system on a new boat, which is exactly why they need immediate eyes-on verification regardless of what the service logs claim.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

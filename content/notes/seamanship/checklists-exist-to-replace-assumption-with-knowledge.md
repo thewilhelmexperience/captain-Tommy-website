@@ -5,7 +5,7 @@ title: Checklists Exist to Replace Assumption with Knowledge
 slug: checklists-exist-to-replace-assumption-with-knowledge
 date: 2026-04-22
 summary: The value of a checklist is not paperwork but verified reality, and lifejackets make the point better than most systems do.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

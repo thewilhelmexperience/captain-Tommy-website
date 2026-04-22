@@ -5,7 +5,7 @@ title: The Night Door County Claimed Me Back
 slug: the-night-door-county-claimed-me-back
 date: 2026-04-22
 summary: A private sendoff at a Door County restaurant turned a seasonal stop into proof that the place and its people had become part of Tommy's life for real.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

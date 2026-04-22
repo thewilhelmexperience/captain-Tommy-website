@@ -6,7 +6,7 @@ slug: the-day-lake-michigan-pretended-to-be-a-millpond
 date: 2024-04-01
 dateEnd:
 summary: After decades of making the Bay Harbor to Holland run, Tommy got the rarest version of Lake Michigan, over a hundred miles of early-spring water so flat it made the Manitou Passage lighthouse reflection look unreal.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

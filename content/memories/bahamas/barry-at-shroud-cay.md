@@ -5,7 +5,7 @@ title: Barry at Shroud Cay
 slug: barry-at-shroud-cay
 date: 2026-04-22
 summary: Night watch on the ball at Shroud Cay became one of the most peaceful parts of the trip, with a resident barracuda in the lights and a silence that made the world feel older again.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

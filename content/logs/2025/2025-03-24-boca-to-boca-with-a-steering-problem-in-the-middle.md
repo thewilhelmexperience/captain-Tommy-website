@@ -5,7 +5,7 @@ title: Boca to Boca, With a Steering Problem in the Middle
 slug: boca-to-boca-with-a-steering-problem-in-the-middle
 date: 2025-03-24
 summary: What should have been a simple owner cruise out of Boca turned into a quiet steering-management exercise, with the problem contained underway and repaired the same afternoon.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

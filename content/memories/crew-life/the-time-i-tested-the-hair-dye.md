@@ -5,7 +5,7 @@ title: The Time I Tested the Hair Dye
 slug: the-time-i-tested-the-hair-dye
 date: 2026-04-22
 summary: A volunteer hair-dye test to calm the boss before her boyfriend arrived solved the problem and left Tommy looking accidentally presidential for far longer than expected.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

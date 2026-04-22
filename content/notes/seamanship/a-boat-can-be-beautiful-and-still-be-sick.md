@@ -5,7 +5,7 @@ title: A Boat Can Be Beautiful and Still Be Sick
 slug: a-boat-can-be-beautiful-and-still-be-sick
 date: 2026-04-22
 summary: Cosmetic presentation can hide tired systems, normalized dysfunction, and warning signs that only look normal to people who do not yet know better.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

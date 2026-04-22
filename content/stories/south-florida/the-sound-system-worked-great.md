@@ -6,7 +6,7 @@ slug: the-sound-system-worked-great
 date: 2024-01-01
 dateEnd:
 summary: A first move on a newly purchased yacht revealed everything backwards at once: stereo upgrades before assessment, dead controls, harbor-arrest insurance restrictions, and a chapter defined by good bones buried under neglect and bad priorities.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

@@ -6,7 +6,7 @@ slug: flying-fish-marina-to-staniel-cay
 date: 2023-03-20
 departureTime: "08:06"
 summary: A long calm run from Long Island back toward Staniel Cay got Lady B back on schedule, with whales on departure and an improvised trolling session at the cut while waiting for the slip to open.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

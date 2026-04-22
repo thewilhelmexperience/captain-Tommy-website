@@ -6,7 +6,7 @@ slug: erie-canal-lock-23-to-lock-8
 date: 2021-09-23
 departureTime: "06:48"
 summary: Flood-stage canal conditions turned what should have been part of the home stretch into an extra day on the wall, but standard bridge-clearance procedure prevented an expensive mistake.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

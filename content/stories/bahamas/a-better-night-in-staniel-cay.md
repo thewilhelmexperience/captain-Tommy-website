@@ -6,7 +6,7 @@ slug: a-better-night-in-staniel-cay
 date: 2021-03-15
 dateEnd:
 summary: What started as one more charter-season night beside a burned-out neighboring crew turned into a real Staniel Cay memory when a local Junkanoo wedding procession transformed the Yacht Club and revealed the island's living culture.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

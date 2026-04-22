@@ -6,7 +6,7 @@ slug: new-york-to-portsmouth-instead-of-virginia-beach
 date: 2025-10-07
 departureTime: "21:00"
 summary: A southbound delivery left New York aiming for Virginia Beach, but building seas, worsening forecast, and a sketchy inlet made Portsmouth the better answer while there was still time to choose it.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

@@ -5,7 +5,7 @@ title: Welcome Home at Compass Cay
 slug: welcome-home-at-compass-cay
 date: 2026-04-22
 summary: The weathered hand-painted sign on the final turn into Compass Cay harbor still hits like a genuine welcome from people who mean it.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

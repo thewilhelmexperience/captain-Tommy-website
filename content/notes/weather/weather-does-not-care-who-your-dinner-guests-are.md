@@ -5,7 +5,7 @@ title: Weather Does Not Care Who Your Dinner Guests Are
 slug: weather-does-not-care-who-your-dinner-guests-are
 date: 2026-04-22
 summary: Part of the captain's job is standing up to owner pressure when the weather answer is no, because schedule pressure does not change conditions.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99

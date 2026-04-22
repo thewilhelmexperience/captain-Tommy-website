@@ -6,7 +6,7 @@ slug: fourth-of-july-sag-harbor-because-apparently-that-was-the-plan
 date: 2025-07-03
 dateEnd: 2025-07-04
 summary: A last-minute owner request turned a Chelsea Piers standby into a holiday sprint to Sag Harbor, a dressed-out mooring-ball hosting operation, and a full run back to Manhattan by the next evening.
-status: draft
+status: published
 featured: false
 visibility: public
 sourcePriority: 99
