@@ -2666,7 +2666,10 @@
     // ── Archive tab ───────────────────────────────────────────────────
 
     function renderArchiveSummary() {
-      const items = getArchiveItems();
+      const typeMap = { stories: 'story', log: 'log', notes: 'note' };
+      const activeType = typeMap[state.archiveContentType] || null;
+      if (!activeType) return '';
+      const items = CONTENT_INDEX.filter(item => item.type === activeType);
       const grouped = groupContentByType(items);
       if (!items.length) return '<div class="place-archive-note">No written entries match this archive filter yet.</div>';
       return `
