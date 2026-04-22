@@ -2708,8 +2708,7 @@
         <div class="archive-stub">
           <strong>The archive browser is now tied to the cleaned live library.</strong> It currently includes ${stats.photos.toLocaleString()} images, ${stats.places} places, ${stats.corridorCount} corridors, ${stats.contentCount} written entries, and a small linked video shelf that can grow as quarantine footage gets reviewed and uploaded properly.
         </div>
-        ${renderArchiveSummary()}
-        ${renderArchiveContentBrowser()}`;
+        ${['stories', 'log', 'notes'].includes(state.archiveContentType) ? renderArchiveSummary() : renderArchiveContentBrowser()}`;
     }
 
     // ════════════════════════════════════════════════════════════════════

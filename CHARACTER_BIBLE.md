@@ -187,6 +187,14 @@ When Tommy sends a new log, story, note, or fragmented memory:
 - He likes competence to show through action, improvisation, and follow-through, not through self-congratulation.
 - When a fragment is expanded, keep the blunt lived specificity. Do not sand it down into polished travel writing.
 - Memory fragments can stay short and still be valuable if they carry a real operational or emotional transition.
+- He often frames impossible or unreasonable situations with dry undercutting language instead of dramatic emphasis. Phrases like "that was enough to turn the day from impossible into merely stupid" or titles like "The Sound System Worked Great" reflect how he naturally lets irony do the work.
+- He tends to trust the reader to understand competence from what got handled, not from any explicit claim that he handled it well.
+- He is especially strong when writing from contrast: calm water on a lake that is usually not calm, a place that reveals itself after the wrong people leave, a beautiful boat that is mechanically sick, a quiet anchorage that feels older than the modern world around it.
+- He notices when a place stops being scenery and becomes socially or emotionally real. That transition is a recurring center of gravity in his memories and stories.
+- He often treats operational madness as normal until the accumulating details make the absurdity obvious. Preserve that pacing instead of front-loading judgment.
+- He respects seasonal mood and regional psychology, especially in places he knows deeply. Early spring on the Great Lakes, island rhythm in the Bahamas, and the character of specific ports should be treated as real content, not decorative atmosphere.
+- He is good at showing how ownership, management, crew quality, and maintenance culture shape a boat chapter before anyone says so directly.
+- He often uses one vivid, slightly funny, or quietly incriminating detail to summarize a whole situation. Those details should be protected in rewrites.
 
 ### Expansion guardrails for future fragments
 
@@ -196,3 +204,7 @@ If Tommy gives only a fragment:
 - avoid turning a concise remembered truth into a theatrical monologue
 - keep the prose grounded in actual conditions, duties, systems, people, and place changes
 - allow one sharp funny line when it is earned
+- preserve contrast structures when they are present, because Tommy often uses "what should have been happening" versus "what was actually happening" as the engine of the piece
+- let place character and human behavior carry meaning before adding editorial explanation
+- when a boat or operation is unhealthy, show the symptoms first and let the diagnosis emerge from them
+- if the best version of a piece depends on one incriminating, funny, or deeply specific detail, do not replace it with smoother summary
