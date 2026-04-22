@@ -2227,6 +2227,16 @@
       return `${cleaned.slice(0, maxLength).trim()}…`;
     }
 
+    function scorePlaceContent(item) {
+      let score = 0;
+      if ((item.places || []).length) score += 5;
+      if ((item.imageIds || []).length) score += 3;
+      if (item.date) score += 2;
+      if ((item.years || []).length) score += 1;
+      if (item.summary) score += 1;
+      return score;
+    }
+
     function groupContentByType(items = []) {
       const order = ['story', 'memory', 'log', 'note'];
       const labels = {
@@ -2236,7 +2246,17 @@
         note: 'Notes',
       };
       return order
-        .map(type => ({ type, label: labels[type], items: items.filter(item => item.type === type) }))
+        .map(type => ({
+          type,
+          label: labels[type],
+          items: items
+            .filter(item => item.type === type)
+            .sort((a, b) => {
+              const scoreDelta = scorePlaceContent(b) - scorePlaceContent(a);
+              if (scoreDelta !== 0) return scoreDelta;
+              return String(b.date || '').localeCompare(String(a.date || ''));
+            })
+        }))
         .filter(group => group.items.length);
     }
 
@@ -2248,6 +2268,7 @@
             <div>
               <div class="place-visit-label" style="margin-top:1rem;">Related material</div>
               <div class="place-archive-note">${context.label}</div>
+              <div class="place-archive-note">Within each lane, the strongest place-linked pieces rise first.</div>
             </div>
           </div>
           ${groups.length ? groups.map(group => `
