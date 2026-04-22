@@ -2314,12 +2314,34 @@
       renderContentModal();
     }
 
+    function renderFullEntry(item) {
+      if (!item) return '<div class="place-archive-note">Entry unavailable.</div>';
+      const meta = [
+        item.date ? item.date : '',
+        ...(item.places || []).slice(0, 3).map(v => prettyPlace(v)),
+      ].filter(Boolean);
+      const icon = item.type === 'story' ? '📖' : item.type === 'log' ? '📋' : item.type === 'memory' ? '🧭' : '🗒️';
+      const bodyHtml = String(item.body || '')
+        .split(/\n\n+/)
+        .filter(Boolean)
+        .map(p => `<p>${p}</p>`)
+        .join('');
+      return `
+        <article class="content-drawer-card open">
+          <div class="content-drawer-type">${icon} ${item.type}</div>
+          <div class="content-drawer-title">${item.title || 'Untitled entry'}</div>
+          <div class="content-drawer-meta">${meta.join(' · ')}</div>
+          <div class="content-drawer-body">${bodyHtml || `<p>${item.summary || 'Entry unavailable.'}</p>`}</div>
+        </article>`;
+    }
+
     function openEntryInContext(item, override = {}) {
       if (!item) return;
       const hash = buildDetailHash(item, override);
       history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`);
       applyInitialRouteState();
       renderPanel();
+      state.activeContentContext = item.id;
       openContentModal(item.title || 'Written content', [item], 'Entry unavailable.');
       window.__initialContentIntent = null;
     }
@@ -2333,7 +2355,11 @@
       modal.classList.toggle('open', !!contentState.open);
       modal.setAttribute('aria-hidden', contentState.open ? 'false' : 'true');
       title.textContent = contentState.title || 'Written content';
-      body.innerHTML = contentState.open ? renderContentCards(contentState.items || [], contentState.emptyText) : '';
+      body.innerHTML = contentState.open
+        ? (contentState.items?.length === 1
+            ? renderFullEntry(contentState.items[0])
+            : renderContentCards(contentState.items || [], contentState.emptyText))
+        : '';
     }
 
     function renderArchiveContentBrowser() {
