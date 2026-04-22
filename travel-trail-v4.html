@@ -1901,7 +1901,19 @@
       const entry = params.get('entry');
       const type = params.get('type');
 
-      if (tab === 'place' && place) {
+      if (tab === 'archive') {
+        setState({
+          tab: 'archive',
+          openCorridor: corridor || null,
+          activeStop: null,
+          activePlace: null,
+          activeChapter: null,
+          activeEntryId: entry || null,
+          archiveContentType: type === 'story' ? 'stories' : type || state.archiveContentType || null,
+          corridorFilter: 'all',
+          corridorYear: year || 'all',
+        });
+      } else if (tab === 'place' && place) {
         const matchedPlace = PLACES.find(p => p.id === place);
         setState({
           tab: 'place',
@@ -2145,7 +2157,9 @@
       const corridor = override.corridor || (item?.corridors || [])[0] || '';
       const place = override.place || (item?.places || [])[0] || '';
       const chapter = override.chapter || (item?.chapters || [])[0] || '';
-      const year = override.year || (item?.years || [])[0] || (item?.date ? String(item.date).slice(0, 4) : '');
+      const year = Object.prototype.hasOwnProperty.call(override, 'year')
+        ? override.year
+        : ((item?.years || [])[0] || (item?.date ? String(item.date).slice(0, 4) : ''));
       const parts = [];
       if (override.tab) parts.push(`tab=${encodeURIComponent(override.tab)}`);
       else if (state.tab === 'archive') parts.push('tab=archive');
@@ -2316,6 +2330,11 @@
         items: [],
         emptyText: 'No written content matched this view yet.',
       };
+      state.activeContentContext = null;
+      if (state.activeEntryId) {
+        state.activeEntryId = null;
+        syncHashFromState();
+      }
       renderContentModal();
     }
 
@@ -2348,6 +2367,9 @@
       if (!contextOverride.place && state.activePlace) contextOverride.place = state.activePlace;
       if (!contextOverride.place && state.activeStop) contextOverride.place = state.activeStop;
       if (!contextOverride.chapter && state.activeChapter) contextOverride.chapter = state.activeChapter;
+      if (!Object.prototype.hasOwnProperty.call(contextOverride, 'year')) {
+        contextOverride.year = state.corridorYear && state.corridorYear !== 'all' ? state.corridorYear : '';
+      }
       const hash = buildDetailHash(item, contextOverride);
       history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`);
       applyInitialRouteState();
@@ -2371,6 +2393,7 @@
             ? renderFullEntry(contentState.items[0])
             : renderContentCards(contentState.items || [], contentState.emptyText))
         : '';
+      if (contentState.open) bindPanelEvents();
     }
 
     function renderArchiveContentBrowser() {
@@ -2826,6 +2849,11 @@
           const id = el.dataset.openContent;
           const item = CONTENT_INDEX.find(entry => entry.id === id);
           if (!item) return;
+          if (state.activeContentContext === id && state.contentModal?.open && (state.contentModal.items || []).length > 1) {
+            state.activeContentContext = null;
+            renderContentModal();
+            return;
+          }
           openEntryInContext(item);
         });
       });
