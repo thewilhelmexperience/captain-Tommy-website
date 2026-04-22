@@ -2342,7 +2342,13 @@
 
     function openEntryInContext(item, override = {}) {
       if (!item) return;
-      const hash = buildDetailHash(item, override);
+      const contextOverride = { ...override };
+      if (!contextOverride.tab && state.tab) contextOverride.tab = state.tab;
+      if (!contextOverride.corridor && state.openCorridor) contextOverride.corridor = state.openCorridor;
+      if (!contextOverride.place && state.activePlace) contextOverride.place = state.activePlace;
+      if (!contextOverride.place && state.activeStop) contextOverride.place = state.activeStop;
+      if (!contextOverride.chapter && state.activeChapter) contextOverride.chapter = state.activeChapter;
+      const hash = buildDetailHash(item, contextOverride);
       history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`);
       applyInitialRouteState();
       renderPanel();
@@ -2888,7 +2894,7 @@
           if (intent?.entry) {
             const item = CONTENT_INDEX.find(entry => entry.id === intent.entry);
             if (item) {
-              openEntryInContext(item);
+              openEntryInContext(item, { tab: 'archive' });
             }
             window.__initialContentIntent = null;
           }
