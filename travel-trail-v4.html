@@ -1945,11 +1945,18 @@
       }
     }
 
+    function getContentIndexPath() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('drafts') === '1'
+        ? 'assets/data/content-index.test.json'
+        : 'assets/data/content-index.json';
+    }
+
     async function loadSourceData() {
       try {
         const [manifestsRes, contentRes] = await Promise.all([
           fetch('assets/images/image-manifests.json', { cache: 'no-store' }),
-          fetch('assets/data/content-index.json', { cache: 'no-store' }),
+          fetch(getContentIndexPath(), { cache: 'no-store' }),
         ]);
         if (!manifestsRes.ok) throw new Error(`manifests HTTP ${manifestsRes.status}`);
         if (!contentRes.ok) throw new Error(`content HTTP ${contentRes.status}`);

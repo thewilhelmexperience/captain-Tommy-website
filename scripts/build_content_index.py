@@ -144,7 +144,9 @@ def load_content() -> list[ContentRecord]:
 def write_json(records: list[ContentRecord]) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     published = [r for r in records if r.status == 'published']
+    visible_for_test = [r for r in records if r.status in {'published', 'draft'}]
     (OUTPUT_DIR / 'content-index.json').write_text(json.dumps([asdict(r) for r in published], indent=2) + '\n')
+    (OUTPUT_DIR / 'content-index.test.json').write_text(json.dumps([asdict(r) for r in visible_for_test], indent=2) + '\n')
     (OUTPUT_DIR / 'logs-recent.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'log'], indent=2) + '\n')
     (OUTPUT_DIR / 'stories-index.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'story'], indent=2) + '\n')
     (OUTPUT_DIR / 'notes-index.json').write_text(json.dumps([asdict(r) for r in published if r.type == 'note'], indent=2) + '\n')
