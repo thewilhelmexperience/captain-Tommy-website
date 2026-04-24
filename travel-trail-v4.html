@@ -2256,6 +2256,16 @@
       return score;
     }
 
+    function scoreCurrentVoyagePriority(item) {
+      let score = 0;
+      if (item.type === 'log') score += 8;
+      if (item.featured) score += 10;
+      if ((item.imageIds || []).length) score += 4;
+      if ((item.tags || []).includes('sunrise-departure')) score += 3;
+      if ((item.tags || []).includes('delivery')) score += 2;
+      return score;
+    }
+
     function groupContentByType(items = []) {
       const order = ['story', 'memory', 'log', 'note'];
       const labels = {
@@ -2271,6 +2281,8 @@
           items: items
             .filter(item => item.type === type)
             .sort((a, b) => {
+              const voyageDelta = scoreCurrentVoyagePriority(b) - scoreCurrentVoyagePriority(a);
+              if (voyageDelta !== 0) return voyageDelta;
               const scoreDelta = scorePlaceContent(b) - scorePlaceContent(a);
               if (scoreDelta !== 0) return scoreDelta;
               return String(b.date || '').localeCompare(String(a.date || ''));
@@ -2287,7 +2299,7 @@
             <div>
               <div class="place-visit-label" style="margin-top:1rem;">Related material</div>
               <div class="place-archive-note">${context.label}</div>
-              <div class="place-archive-note">Within each lane, the strongest place-linked pieces rise first.</div>
+              <div class="place-archive-note">Within each lane, the current voyage can rise first when a fresh, featured, image-backed log anchors the stop.</div>
             </div>
           </div>
           ${groups.length ? groups.map(group => `
