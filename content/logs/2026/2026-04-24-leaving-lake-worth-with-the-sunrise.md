@@ -64,3 +64,7 @@ That part of the day had a good look to it, even if it was not exactly a dramati
 It has been an easy ride so far. The sky has stayed dull, but the following seas have kept things smooth, which is a trade I will take every time. There is not much to complain about when the boat is moving well, the inlet is behind you, and the day opens up in front of you one clean leg at a time.
 
 For now this is the start of another northbound string, with today aimed at St. Augustine and the rest of the trip to follow from there.
+
+By the time I was passing Cape Canaveral, the day had improved properly. The sea state had laid right down into flat calm, the sky had gone full blue, and the boat was moving at 18.5 knots with 84 nautical miles left to St. Augustine. Those are the sort of conditions that make it hard to complain about anything. I would happily run in weather like that all the time.
+
+The day finished cleanly. We made St. Augustine at 6:38 and came to the Bridge of Lions right on 7:00 for the 7 p.m. opening. We were docked at St. Augustine Municipal Marina by 7:15, which made it 12 and a quarter hours dock to dock. By 8:00 the boat was rinsed down and fueled up, and that was good enough for the day. Now it is dinner, sleep, and a 6 a.m. departure tomorrow heading for Charleston.
