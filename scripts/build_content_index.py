@@ -52,6 +52,7 @@ class ContentRecord:
     imageIds: list[str]
     coverImageId: str | None
     relatedContent: list[str]
+    tripId: str | None
     sourcePath: str
     body: str
 
@@ -127,6 +128,7 @@ def normalize_record(path: Path) -> ContentRecord:
         imageIds=list(meta.get('imageIds') or []),
         coverImageId=meta.get('coverImageId'),
         relatedContent=list(meta.get('relatedContent') or []),
+        tripId=meta.get('tripId'),
         sourcePath=str(path.relative_to(ROOT)),
         body=body,
     )

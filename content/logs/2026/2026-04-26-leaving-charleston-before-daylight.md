@@ -44,7 +44,9 @@ tags:
   - weather-watch
 imageIds: []
 coverImageId: null
-relatedContent: []
+tripId: 2026-northbound-delivery-april
+relatedContent:
+  - log-2026-04-25-leaving-st-augustine-at-sunrise
 sourceLinks: []
 draftNotes: Built from same-day raw updates sent from aboard and finalized after safe arrival in Southport.
 intake:

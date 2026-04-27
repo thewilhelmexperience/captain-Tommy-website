@@ -50,7 +50,9 @@ imageIds:
   - south-florida-palm-beach-west-palm-2026-0002
   - south-florida-palm-beach-west-palm-2026-0003
 coverImageId: south-florida-palm-beach-west-palm-2026-0002
-relatedContent: []
+tripId: 2026-northbound-delivery-april
+relatedContent:
+  - log-2026-04-25-leaving-st-augustine-at-sunrise
 sourceLinks: []
 draftNotes: Built from same-day raw field note sent from aboard during the run, intended as both trip-opening log and candidate homepage sample. Uses the 2026 departure images sent from the boat that morning.
 intake:

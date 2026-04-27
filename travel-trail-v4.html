@@ -640,6 +640,52 @@
     .content-drawer-body p + p {
       margin-top: 0.85rem;
     }
+    .trip-nav {
+      margin-top: 1.1rem;
+      padding-top: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: grid;
+      gap: 0.7rem;
+    }
+    .trip-nav-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--soft);
+    }
+    .trip-nav-links {
+      display: grid;
+      gap: 0.65rem;
+    }
+    .trip-nav-link {
+      border: 1px solid rgba(87,200,255,0.18);
+      background: rgba(87,200,255,0.06);
+      border-radius: 16px;
+      padding: 0.75rem 0.9rem;
+      text-align: left;
+      color: inherit;
+      cursor: pointer;
+    }
+    .trip-nav-link:hover {
+      background: rgba(87,200,255,0.11);
+    }
+    .trip-nav-direction {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--soft);
+      margin-bottom: 0.2rem;
+    }
+    .trip-nav-title {
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .trip-nav-meta {
+      margin-top: 0.18rem;
+      font-size: 0.74rem;
+      color: var(--muted);
+    }
     .content-modal {
       position: fixed;
       inset: 0;
@@ -2350,6 +2396,52 @@
       renderContentModal();
     }
 
+    function getTripNavigation(item) {
+      if (!item || item.type !== 'log') return { previous: null, next: null };
+      const relatedIds = Array.isArray(item.relatedContent) ? item.relatedContent : [];
+      const relatedItems = relatedIds
+        .map(id => CONTENT.find(entry => entry.id === id))
+        .filter(Boolean)
+        .filter(entry => entry.type === 'log');
+      if (!relatedItems.length) return { previous: null, next: null };
+      const currentDate = String(item.date || '');
+      const sorted = relatedItems.sort((a, b) => String(a.date || '').localeCompare(String(b.date || '')));
+      let previous = null;
+      let next = null;
+      sorted.forEach(entry => {
+        const entryDate = String(entry.date || '');
+        if (entryDate <= currentDate && (!previous || entryDate > String(previous.date || ''))) previous = entry;
+        if (entryDate >= currentDate && (!next || entryDate < String(next.date || ''))) next = entry;
+      });
+      if (previous?.id === item.id) previous = null;
+      if (next?.id === item.id) next = null;
+      return { previous, next };
+    }
+
+    function renderTripNavigation(item) {
+      const nav = getTripNavigation(item);
+      const links = [
+        nav.previous ? `
+          <button class="trip-nav-link" type="button" data-open-content="${nav.previous.id}">
+            <div class="trip-nav-direction">← Previous trip entry</div>
+            <div class="trip-nav-title">${nav.previous.title}</div>
+            <div class="trip-nav-meta">${[nav.previous.date, ...(nav.previous.places || []).slice(0, 2).map(v => prettyPlace(v))].filter(Boolean).join(' · ')}</div>
+          </button>` : '',
+        nav.next ? `
+          <button class="trip-nav-link" type="button" data-open-content="${nav.next.id}">
+            <div class="trip-nav-direction">Next trip entry →</div>
+            <div class="trip-nav-title">${nav.next.title}</div>
+            <div class="trip-nav-meta">${[nav.next.date, ...(nav.next.places || []).slice(0, 2).map(v => prettyPlace(v))].filter(Boolean).join(' · ')}</div>
+          </button>` : '',
+      ].filter(Boolean).join('');
+      if (!links) return '';
+      return `
+        <div class="trip-nav">
+          <div class="trip-nav-label">Trip navigation</div>
+          <div class="trip-nav-links">${links}</div>
+        </div>`;
+    }
+
     function renderFullEntry(item) {
       if (!item) return '<div class="place-archive-note">Entry unavailable.</div>';
       const meta = [
@@ -2368,6 +2460,7 @@
           <div class="content-drawer-title">${item.title || 'Untitled entry'}</div>
           <div class="content-drawer-meta">${meta.join(' · ')}</div>
           <div class="content-drawer-body">${bodyHtml || `<p>${item.summary || 'Entry unavailable.'}</p>`}</div>
+          ${renderTripNavigation(item)}
         </article>`;
     }
 

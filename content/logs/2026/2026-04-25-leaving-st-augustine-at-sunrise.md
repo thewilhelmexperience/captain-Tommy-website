@@ -45,7 +45,10 @@ tags:
   - fair-weather
 imageIds: []
 coverImageId: null
-relatedContent: []
+tripId: 2026-northbound-delivery-april
+relatedContent:
+  - log-2026-04-24-leaving-lake-worth-with-the-sunrise
+  - log-2026-04-26-leaving-charleston-before-daylight
 sourceLinks: []
 draftNotes: Built from same-day raw underway updates sent from aboard, then published after arrival in Charleston.
 intake:
