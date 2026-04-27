@@ -5,7 +5,7 @@ title: Leaving Charleston Before Daylight
 slug: leaving-charleston-before-daylight
 date: 2026-04-26
 summary: Fired up in Charleston before daylight, slipped out around 6, and started the Beaufort run with one eye on the weather.
-status: draft
+status: published
 featured: true
 visibility: public
 sourcePriority: 100
@@ -46,7 +46,7 @@ imageIds: []
 coverImageId: null
 relatedContent: []
 sourceLinks: []
-draftNotes: Built from same-day raw updates sent from aboard. Hold as a living day-three log and append updates through the run before publishing.
+draftNotes: Built from same-day raw updates sent from aboard and finalized after safe arrival in Southport.
 intake:
   source: user-chat
   capturedAt: 2026-04-26T06:23:00-04:00
