@@ -2400,7 +2400,7 @@
       if (!item || item.type !== 'log') return { previous: null, next: null };
       const relatedIds = Array.isArray(item.relatedContent) ? item.relatedContent : [];
       const relatedItems = relatedIds
-        .map(id => CONTENT.find(entry => entry.id === id))
+        .map(id => CONTENT_INDEX.find(entry => entry.id === id))
         .filter(Boolean)
         .filter(entry => entry.type === 'log');
       if (!relatedItems.length) return { previous: null, next: null };
