@@ -425,6 +425,54 @@
     "body": "We were firing up the motors in Charleston at 5:36 this morning and getting ready to pull off the dock for Beaufort, North Carolina.\n\nBy 6:00 we were leaving the harbor in that early grey light, with one eye on the weather and the boat already settling into the day\u2019s run.\n\nOnce properly underway, the next decision point came into focus. We were showing a 1:06 p.m. ETA to Frying Pan, and that was going to be the place where we checked the weather again and decided whether we were going to get forced inside from Cape Fear up to Beaufort.\n\nThe hope was that the forecast would slip a little and hold the stronger winds off until later in the afternoon. If it did, we could stay out on the ocean and make Beaufort at a reasonable hour instead of turning the day into an inside-route salvage job.\n\nBy early afternoon that question answered itself. We made the call to divert into Morningstar in Southport, North Carolina after a squall came through and brought 50-knot gusts, along with a free freshwater rinse-down whether we wanted one or not.\n\nOn the other side of it, the sea state had turned into the kind of mess that makes the decision for you: three feet of southbound chop stacked against three feet of northbound swell. Not horrible yet, but clearly deteriorating, and there was no point in pressing on toward Wrightsville Beach Inlet just to prove we could still be uncomfortable for longer.\n\nIn the end we landed safely at Morningstar Marina in Southport. We topped off the fuel, rinsed the boat down, and then used the extra time earned by stopping earlier than normal to catch up on engine-room housekeeping and get ready for tomorrow\u2019s long push to Coinjock."
   },
   {
+    "id": "log-2026-04-27-leaving-morningstar-for-the-icw",
+    "type": "log",
+    "title": "Leaving Morningstar for the ICW",
+    "slug": "leaving-morningstar-for-the-icw",
+    "date": "2026-04-27",
+    "dateEnd": null,
+    "summary": "Sharp weather change on departure with 55-degree air and a 15-knot northeast wind as the trip shifted inland up the Cape Fear River toward the ICW.",
+    "status": "published",
+    "featured": true,
+    "visibility": "public",
+    "corridors": [
+      "east-coast-icw"
+    ],
+    "places": [
+      "southport-nc",
+      "cape-fear-river",
+      "intracoastal-waterway",
+      "beaufort-nc"
+    ],
+    "chapters": [],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "delivery",
+      "east-coast",
+      "southport",
+      "cape-fear-river",
+      "icw",
+      "beaufort-nc",
+      "mechanical-issue",
+      "morning-departure"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": "null",
+    "relatedContent": [
+      "log-2026-04-26-leaving-charleston-before-daylight"
+    ],
+    "tripId": "2026-northbound-delivery-april",
+    "sourcePath": "content/logs/2026/2026-04-27-leaving-morningstar-for-the-icw.md",
+    "body": "We were off the dock from Morningstar at 6:00 this morning and started up the Cape Fear River to begin the ICW portion of the trip.\n\nBy 6:30 we were heading up the river properly, with yesterday's offshore plan now behind us and the run shifting inland instead.\n\nThe main thing worth noting at departure was how dramatically the weather had changed. It was 55 degrees with a 15-knot northeast wind, which gave the morning a very different feel from the recent South Florida starts.\n\nThat changes the feel of the day. After the weather forced the stop in Southport, this morning starts as a more deliberate inside leg, pointed north again and back to the practical work of moving the boat up the line.\n\nSome days do not go exactly according to plan, and this one turned into that kind of day. A mechanical issue slowed us down and forced us to stop in Beaufort, North Carolina instead of making the longer push we had in mind.\n\nOnce that happened, the focus shifted away from keeping up with the log and onto finding the quickest clean resolution. Between local recommendations and some internet digging, we were able to get the problem diagnosed and the failed parts removed before the end of the day, which was about as good an outcome as we could have hoped for once things started going sideways.\n\nService is lined up for first thing in the morning, so the delay looks manageable instead of open-ended. That is the part worth appreciating. Mechanical problems are part of being at sea, and in a different place this could easily have turned into a much longer and more frustrating layover.\n\nInstead, Beaufort turned out to be a pretty good place to get stuck for a day. The interruption was unexpected, but it looks like we should be able to get moving again quickly, and there are worse places to spend an extra day while the boat gets put back in order.\n\nThat extra day alongside gives us room to handle repairs properly, catch up on systems maintenance, and do some cleaning so the rest of the run goes more smoothly once we are moving again."
+  },
+  {
     "id": "memory-barry-at-shroud-cay",
     "type": "memory",
     "title": "Barry at Shroud Cay",
