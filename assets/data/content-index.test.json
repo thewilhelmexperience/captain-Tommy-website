@@ -473,6 +473,57 @@
     "body": "We were off the dock from Morningstar at 6:00 this morning and started up the Cape Fear River to begin the ICW portion of the trip.\n\nBy 6:30 we were heading up the river properly, with yesterday's offshore plan now behind us and the run shifting inland instead.\n\nThe main thing worth noting at departure was how dramatically the weather had changed. It was 55 degrees with a 15-knot northeast wind, which gave the morning a very different feel from the recent South Florida starts.\n\nThat changes the feel of the day. After the weather forced the stop in Southport, this morning starts as a more deliberate inside leg, pointed north again and back to the practical work of moving the boat up the line.\n\nSome days do not go exactly according to plan, and this one turned into that kind of day. A mechanical issue slowed us down and forced us to stop in Beaufort, North Carolina instead of making the longer push we had in mind.\n\nOnce that happened, the focus shifted away from keeping up with the log and onto finding the quickest clean resolution. Between local recommendations and some internet digging, we were able to get the problem diagnosed and the failed parts removed before the end of the day, which was about as good an outcome as we could have hoped for once things started going sideways.\n\nService is lined up for first thing in the morning, so the delay looks manageable instead of open-ended. That is the part worth appreciating. Mechanical problems are part of being at sea, and in a different place this could easily have turned into a much longer and more frustrating layover.\n\nInstead, Beaufort turned out to be a pretty good place to get stuck for a day. The interruption was unexpected, but it looks like we should be able to get moving again quickly, and there are worse places to spend an extra day while the boat gets put back in order.\n\nThat extra day alongside gives us room to handle repairs properly, catch up on systems maintenance, and do some cleaning so the rest of the run goes more smoothly once we are moving again."
   },
   {
+    "id": "log-2026-05-06-delayed-leaving-beaufort-bound-for-coinjock",
+    "type": "log",
+    "title": "Delayed Leaving Beaufort, Bound for Coinjock",
+    "slug": "delayed-leaving-beaufort-bound-for-coinjock",
+    "date": "2026-05-06",
+    "dateEnd": null,
+    "summary": "70 degrees with light south winds and a rising tide on departure, then sunny and 80 degrees by early afternoon with 20 knots of wind directly behind us on the Pungo River.",
+    "status": "published",
+    "featured": true,
+    "visibility": "public",
+    "corridors": [
+      "east-coast-icw"
+    ],
+    "places": [
+      "beaufort-nc",
+      "intracoastal-waterway",
+      "pungo-river",
+      "alligator-river",
+      "alligator-river-bridge",
+      "coinjock-nc"
+    ],
+    "chapters": [],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "delivery",
+      "east-coast",
+      "beaufort-nc",
+      "coinjock-nc",
+      "sunrise-departure",
+      "mechanical-issue",
+      "fuel-system",
+      "icw",
+      "pungo-river"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": "null",
+    "relatedContent": [
+      "log-2026-04-27-leaving-morningstar-for-the-icw"
+    ],
+    "tripId": "2026-northbound-delivery-april",
+    "sourcePath": "content/logs/2026/2026-05-06-delayed-leaving-beaufort-bound-for-coinjock.md",
+    "body": "We were set up for a 6:15 departure out of Beaufort this morning to catch the sunrise and get an early start on the run to Coinjock.\n\nRight as we were ready to drop lines, the port engine stalled.\n\nI checked the primary fuel filter and found it a little fouled, but not especially bad. Still, there was no point in arguing with the engine. I changed the filters, re-primed the motor, and let it run for about half an hour before trusting it enough to leave the dock.\n\nSo instead of a clean sunrise departure, we finally got underway at 7:25.\n\nOnce we were moving, the morning looked a lot better. It was 70 degrees, with light south winds and a rising tide, which is a nice enough way to point the boat north after an irritating delay at the dock.\n\nThat is how these mornings go sometimes. The plan was simple, the boat had one small objection, and the job became handling it before it had a chance to become a bigger one.\n\nBy 1:00 this afternoon we were running smoothly on the Pungo River. The wind had built to 20 knots, but it was directly behind us, so it felt more like a favor than a problem. Sunny, 80 degrees, and finally one of those easy stretches where the boat just settles in and does her job.\n\nAfter being stuck waiting on repairs for a week, that felt especially good.\n\nSometimes the best part of the day is simply being back in motion.\n\nBy 4:15 we were a few miles south of the Alligator River Bridge and still running smoothly, which is exactly the kind of uneventful progress you appreciate after losing a week to repairs.\n\nWe landed in Coinjock at 7:00, and it turned into a good day after all."
+  },
+  {
     "id": "memory-barry-at-shroud-cay",
     "type": "memory",
     "title": "Barry at Shroud Cay",
