@@ -524,6 +524,56 @@
     "body": "We were set up for a 6:15 departure out of Beaufort this morning to catch the sunrise and get an early start on the run to Coinjock.\n\nRight as we were ready to drop lines, the port engine stalled.\n\nI checked the primary fuel filter and found it a little fouled, but not especially bad. Still, there was no point in arguing with the engine. I changed the filters, re-primed the motor, and let it run for about half an hour before trusting it enough to leave the dock.\n\nSo instead of a clean sunrise departure, we finally got underway at 7:25.\n\nOnce we were moving, the morning looked a lot better. It was 70 degrees, with light south winds and a rising tide, which is a nice enough way to point the boat north after an irritating delay at the dock.\n\nThat is how these mornings go sometimes. The plan was simple, the boat had one small objection, and the job became handling it before it had a chance to become a bigger one.\n\nBy 1:00 this afternoon we were running smoothly on the Pungo River. The wind had built to 20 knots, but it was directly behind us, so it felt more like a favor than a problem. Sunny, 80 degrees, and finally one of those easy stretches where the boat just settles in and does her job.\n\nAfter being stuck waiting on repairs for a week, that felt especially good.\n\nSometimes the best part of the day is simply being back in motion.\n\nBy 4:15 we were a few miles south of the Alligator River Bridge and still running smoothly, which is exactly the kind of uneventful progress you appreciate after losing a week to repairs.\n\nWe landed in Coinjock at 7:00, and it turned into a good day after all."
   },
   {
+    "id": "log-2026-05-07-coinjock-to-portsmouth-in-the-rain",
+    "type": "log",
+    "title": "Coinjock to Portsmouth in the Rain",
+    "slug": "coinjock-to-portsmouth-in-the-rain",
+    "date": "2026-05-07",
+    "dateEnd": null,
+    "summary": "Rain all day, cooling steadily into a raw 55-degree arrival, with visibility limited enough that keeping the windshield clear became part of the job.",
+    "status": "published",
+    "featured": true,
+    "visibility": "public",
+    "corridors": [
+      "east-coast-icw"
+    ],
+    "places": [
+      "coinjock-nc",
+      "intracoastal-waterway",
+      "portsmouth-virginia",
+      "tidewater-yacht-marina"
+    ],
+    "chapters": [],
+    "years": [
+      2026
+    ],
+    "seasonYears": [
+      "2026-spring"
+    ],
+    "tags": [
+      "delivery",
+      "east-coast",
+      "coinjock-nc",
+      "portsmouth",
+      "tidewater-yacht-marina",
+      "icw",
+      "rain",
+      "great-dismal-swamp",
+      "bridge-delay",
+      "weather-judgment"
+    ],
+    "boats": [],
+    "people": [],
+    "imageIds": [],
+    "coverImageId": "null",
+    "relatedContent": [
+      "log-2026-05-06-delayed-leaving-beaufort-bound-for-coinjock"
+    ],
+    "tripId": "2026-northbound-delivery-april",
+    "sourcePath": "content/logs/2026/2026-05-07-coinjock-to-portsmouth-in-the-rain.md",
+    "body": "We left Coinjock at 7:30 this morning after waiting a little while for the tide to flood.\n\nAs it turned out, we probably could have left earlier. We carried about 10 feet of water under the boat through the first skinny section, which is always a nice confirmation after you have already spent the extra time waiting.\n\nFrom there it turned into one of those days that was mostly uneventful, but not especially comfortable.\n\nIt rained the entire run.\n\nNot a full downpour, just the steady kind of rain that limits visibility all day and never gives you a real break from it. Running through the Great Dismal Swamp in that kind of weather actually felt pretty appropriate. If there is a place that can carry a gray, wet mood without seeming offended by it, that is probably it.\n\nThe temperature kept dropping as the day went on, which made defogging the windshield a constant battle. We kept the hairdryer close by and put it to work often enough that it basically earned a crew position.\n\nWhile we were waiting at Great Bridge, we heard something rattle. It turned out to be an alignment screw for the center windshield wiper. The wiper kept working, but I was immediately more interested in the second screw than the first one. If that other one had gone missing too, I would have been mostly blind at the helm in a cold rain, which is not an arrangement I recommend. It held together long enough to get us in, and I will fix it tonight.\n\nThe other annoyance was timing. Both of the automated railroad bridges dropped right as we got to them, so between the two of them we probably burned about 45 minutes waiting on trains to pass and the bridges to open back up.\n\nNone of it was dramatic. Just one of those travel days where the work is less about heroics and more about staying patient, staying dry enough, and keeping the view out the front of the boat functional.\n\nGiven the small craft advisory shaping up offshore later today, Portsmouth made a lot more sense than trying to force the next leg. We tied up at Tidewater Yacht Marina this evening and called it there.\n\nIt is 55 degrees, raining, and pretty uncomfortable outside, but the boat is warm, so no real complaints. Now we wait and hope the ocean lays down enough to make the final push to New Jersey in decent conditions."
+  },
+  {
     "id": "memory-barry-at-shroud-cay",
     "type": "memory",
     "title": "Barry at Shroud Cay",
